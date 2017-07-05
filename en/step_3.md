@@ -2,14 +2,9 @@
 
 ## Create a Pie Chart
 
-
-
-
 Pie Charts are are useful way of showing data. Let's do a survey of favourite pets in your Code Club and then present the data as a Pie Chart.
 
-
-
-+ Ask your volunteer to help organise a survey. You could record the results on a computer connected to a projector or a whiteboard that everyone can see.
++ Ask your club leader to help organise a survey. You could record the results on a computer connected to a projector or a whiteboard that everyone can see.
 
     Write a list of pets and make sure everyone's favourite is included.
 

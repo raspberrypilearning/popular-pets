@@ -11,7 +11,7 @@ In this project you create pie charts and bar graphs from data that you collect 
 
 ### Additional information for club leaders
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/popular-pets/print).
+If you need to print this project, please use the [Printer friendly version](https://projects.raspberry-pi.org/en/projects/popular-pets/print).
 
 
 --- collapse ---

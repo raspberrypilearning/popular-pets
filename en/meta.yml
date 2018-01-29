@@ -1,18 +1,18 @@
----
-title: Popular Pets
 hero_image: images/banner.png
-description: Create pie charts and bar graphs from data you collect.
-original_url: https://codeclubprojects.org/en-GB/scratch/rock-band
-theme: cc-prototype
-listed: false
-ingredient: false
+theme: yellow
 duration: 2
+listed: true
+ingredient: false
 copyedit: false
+curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+title: Popular Pets
+description: Create pie charts and bar graphs from data you collect.
+original_url: https://codeclubprojects.org/en-GB/python/popular-pets
 interests: ''
-technology: python
+technologies: python
+site_areas: codeclub, python
 steps:
 - title: Introduction
-- title: What you will need
 - title: Create a Pie Chart
 - title: 'Challenge: Create your own bar chart'
 - title: Read data from a file

@@ -13,6 +13,7 @@ technologies: python
 site_areas: codeclub, python
 steps:
 - title: Introduction
+- title: What you will need
 - title: Create a Pie Chart
 - title: 'Challenge: Create your own bar chart'
 - title: Read data from a file

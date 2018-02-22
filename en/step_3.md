@@ -1,5 +1,3 @@
-
-
 ## Create a Pie Chart
 
 Pie Charts are are useful way of showing data. Let's do a survey of favourite pets in your Code Club and then present the data as a Pie Chart.
@@ -45,8 +43,3 @@ Pie Charts are are useful way of showing data. Let's do a survey of favourite pe
 + And to finish off your chart, add a title:
 
     ![screenshot](images/pets-title.png)
-
-
-
-
-

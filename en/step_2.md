@@ -4,8 +4,3 @@
 
 + Trinket online editor
 
-### Additional Resources
-
-
-
-   

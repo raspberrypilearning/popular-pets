@@ -1,55 +1,25 @@
-## Read data from a file
+--- challenge ---
+## Challenge: Create your own bar chart
 
-It's useful to be able to store data in a file rather than having to include it in your code.
+You can create bar charts in a similar way. Just use `barchart = pygal.Bar()` to create a new barchart, and then add data and render in the same way as for a pie chart.
 
+Collect data from your Code Club members to create your own bar graph.
 
+Make sure that you choose a topic that everyone will know about!
 
-+ Add a new file to your project and call it `pets.txt`:
+Here are some ideas:
 
-  ![screenshot](images/pets-file.png)
++ What is your favourite sport?
++ What is your favourite ice cream flavour?
++ How do you get to school?
++ What month is your birthday?
++ Do you play Minecraft? (yes/no)
 
-+ Now add data to the file. You can use the favourite pets data that you collected or the example data.
+Don't ask questions that give personal data such as where people live. Ask your club leader if you're not sure.
 
-  ![screenshot](images/pets-data.png)
+Examples:
 
-+ Switch back to `main.py` and comment out the lines that render (display) charts and graphs (so that they aren't displayed):
+![screenshot](images/pets-bar-examples.png)
 
-  ![screenshot](images/pets-comment.png)
-
-+ Now let's read the data from the file.
-
-  ![screenshot](images/pets-read.png)
-
-  The `for` loop will loop over the lines in the file. `splitlines()` removes the newline character from the end of the line as you don't want that.
-
-+ Each line needs to be separated into a label and a value:
-
-  ![screenshot](images/pets-split.png)
-
-  This will split the line at the spaces so don't include spaces in the labels. (You can add support for spaces in labels later.)
-
-+ You might get an error like this:
-
-  ![screenshot](images/pets-error.png)
-
-  This happens if you have an empty line at the end of your file.
-
-  You can fix the error by only getting the label and value if the line isn't empty.
-
-  To do this, indent the code inside your `for` loop and add the code `if line:` above it:
-
-  ![screenshot](images/pets-fix.png)
-
-+ You can remove the `print(label, value)` line now everything is working.
-
-+ Now let's add the label and value to a new Pie Chart and render it:
-
-  ![screenshot](images/pets-pie2.png)
-
-  Note that `add` expects the value to be a number, `int(value)` turns the value from a string into an integer.
-
-  If you wanted to use decimals such as 3.5 (floating point numbers) you could use `float(value)` instead.
-
-
-
+--- /challenge ---
 

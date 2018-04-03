@@ -1,14 +1,11 @@
+
 --- challenge ---
-## Challenge: More charts and graphs!
+## Challenge: Create a new chart from a file
 
-Can you create a pie chart and a bar chart from the same file? You can either use the data you collected earlier or collect some new data.
+Can you create a new bar graph or pie chart from data in a file? You'll need to create a new .txt file.
 
-![screenshot](images/pets-pn-bar.png)
+Tip: If you want to have spaces in the labels then use `line.split(': ')` and add colons to your data file, e.g. 'Red Admiral: 6'
 
-![screenshot](images/pets-pn.png)
-
-
-
-
+![screenshot](images/pets-butterflies.png)
 
 --- /challenge ---

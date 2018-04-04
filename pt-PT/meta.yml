@@ -1,33 +1,33 @@
 ---
-hero_image: images/popular-pets.png
-theme: yellow
+hero_image: images / popular-pets.png
+theme: amarelo
 duration: 2
 listed: true
 ingredient: false
 copyedit: false
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Popular Pets
-description: Create pie charts and bar graphs from data you collect.
+curriculum: 1, design-0, programação-1, phys-comp-0, fabricação-0, comunidade-0
+title: Animais de estimação populares
+description: Crie gráficos de pizza e gráficos de barra a partir dos dados coletados.
 original_url: https://codeclubprojects.org/en-GB/python/popular-pets
-interests: animals
+interests: animais
 technologies: python
-site_areas: projects
+site_areas: projetos
 hardware: ''
 software: python
 version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: Introdução
   - 
-    title: What you will need
+    title: O que você precisará
   - 
-    title: Create a Pie Chart
+    title: Crie um gráfico de pizza
   - 
-    title: 'Challenge: Create your own bar chart'
+    title: 'Desafio: crie seu próprio gráfico de barras'
   - 
-    title: Read data from a file
+    title: Ler dados de um arquivo
   - 
-    title: 'Challenge: Create a new chart from a file'
+    title: 'Desafio: crie um novo gráfico a partir de um arquivo'
   - 
-    title: 'Challenge: More charts and graphs!'
+    title: 'Desafio: Mais gráficos e tabelas!'

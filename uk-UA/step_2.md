@@ -1,5 +1,5 @@
-## What you will need
+## Що вам знадобиться
 
-### Software
+### Програмне забезпечення
 
-+ Trinket online editor
++ Інтернет-редактор Trinket

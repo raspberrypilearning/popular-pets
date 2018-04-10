@@ -1,11 +1,11 @@
-\--- challenge \---
+\--- wyzwanie \---
 
-## Challenge: More charts and graphs!
+## Wyzwanie: więcej wykresów i wykresów!
 
-Can you create a pie chart and a bar chart from the same file? You can either use the data you collected earlier or collect some new data.
+Czy możesz utworzyć wykres kołowy i wykres słupkowy z tego samego pliku? Możesz użyć danych zebranych wcześniej lub zebrać nowe dane.
 
-![screenshot](images/pets-pn-bar.png)
+![zrzut ekranu](images/pets-pn-bar.png)
 
-![screenshot](images/pets-pn.png)
+![zrzut ekranu](images/pets-pn.png)
 
-\--- /challenge \---
+\--- / wyzwanie \---

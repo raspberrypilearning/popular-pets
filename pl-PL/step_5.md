@@ -1,49 +1,49 @@
-## Read data from a file
+## Czytaj dane z pliku
 
-It's useful to be able to store data in a file rather than having to include it in your code.
+Warto przechowywać dane w pliku, zamiast umieszczać je w kodzie.
 
-+ Add a new file to your project and call it `pets.txt`:
++ Dodaj nowy plik do swojego projektu i zadzwoń do niego `pets.txt`:
     
-    ![screenshot](images/pets-file.png)
+    ![zrzut ekranu](images/pets-file.png)
 
-+ Now add data to the file. You can use the favourite pets data that you collected or the example data.
++ Teraz dodaj dane do pliku. Możesz użyć zebranych danych ulubionych zwierząt lub danych przykładowych.
     
-    ![screenshot](images/pets-data.png)
+    ![zrzut ekranu](images/pets-data.png)
 
-+ Switch back to `main.py` and comment out the lines that render (display) charts and graphs (so that they aren't displayed):
++ Przejdź z powrotem na `main.py` i skomentuj linie renderujące (wyświetlaj) wykresy (tak, aby nie były wyświetlane):
     
-    ![screenshot](images/pets-comment.png)
+    ![zrzut ekranu](images/pets-comment.png)
 
-+ Now let's read the data from the file.
++ Teraz odczytajmy dane z pliku.
     
-    ![screenshot](images/pets-read.png)
+    ![zrzut ekranu](images/pets-read.png)
     
-    The `for` loop will loop over the lines in the file. `splitlines()` removes the newline character from the end of the line as you don't want that.
+    Cyfra `dla` będzie pętla nad wierszami w pliku. `splitlines ()` usuwa znak nowego wiersza od końca wiersza, ponieważ tego nie chcesz.
 
-+ Each line needs to be separated into a label and a value:
++ Każda linia musi być podzielona na etykietę i wartość:
     
-    ![screenshot](images/pets-split.png)
+    ![zrzut ekranu](images/pets-split.png)
     
-    This will split the line at the spaces so don't include spaces in the labels. (You can add support for spaces in labels later.)
+    Spowoduje to podzielenie linii na spacje, więc nie umieszczaj spacji na etykietach. (Możesz później dodać obsługę spacji w etykietach.)
 
-+ You might get an error like this:
++ Może pojawić się błąd podobny do tego:
     
-    ![screenshot](images/pets-error.png)
+    ![zrzut ekranu](images/pets-error.png)
     
-    This happens if you have an empty line at the end of your file.
+    Dzieje się tak, jeśli masz pusty wiersz na końcu pliku.
     
-    You can fix the error by only getting the label and value if the line isn't empty.
+    Możesz naprawić błąd, pobierając etykietę i wartość tylko wtedy, gdy linia nie jest pusta.
     
-    To do this, indent the code inside your `for` loop and add the code `if line:` above it:
+    Aby to zrobić, wprowadź wcięcie kodu wewnątrz `dla ciągu` i dodaj kod `, jeśli linia:` znajduje się powyżej:
     
-    ![screenshot](images/pets-fix.png)
+    ![zrzut ekranu](images/pets-fix.png)
 
 + You can remove the `print(label, value)` line now everything is working.
 
-+ Now let's add the label and value to a new Pie Chart and render it:
++ Teraz dodajmy etykietę i wartość do nowego wykresu kołowego i wyrenderujmy go:
     
-    ![screenshot](images/pets-pie2.png)
+    ![zrzut ekranu](images/pets-pie2.png)
     
-    Note that `add` expects the value to be a number, `int(value)` turns the value from a string into an integer.
+    Zauważ, że `dodaje` oczekuje, że wartość będzie liczbą, `int (wartość)` zamienia wartość z ciągu na liczbę całkowitą.
     
-    If you wanted to use decimals such as 3.5 (floating point numbers) you could use `float(value)` instead.
+    Jeśli chciałbyś używać liczb dziesiętnych, takich jak 3,5 (liczba zmiennoprzecinkowa), możesz zamiast tego użyć `float (wartość)`.

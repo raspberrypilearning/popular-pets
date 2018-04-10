@@ -2,8 +2,6 @@
 
 Los gráficos de sectores son un modo muy útil de mostrar datos. Realicemos una encuesta sobre las mascotas favoritas en tu Code Club y, a continuación, mostremos los datos como un gráfico de sectores. 
 
-## Lista de comprobación de actividades { .check}
-
 + Solicita a un voluntario que te ayude a organizar tu encuesta. Puedes registrar los resultados en un ordenador conectado a un proyector o en una pizarra para que todos puedan verlos. 
 
   Escribe una lista de mascotas y asegúrate de que todos hayan incluido sus favoritas. 

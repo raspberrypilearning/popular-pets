@@ -1,49 +1,49 @@
-## Read data from a file
+## Ler dados de um arquivo
 
-It's useful to be able to store data in a file rather than having to include it in your code.
+É útil poder armazenar dados em um arquivo em vez de incluí-lo em seu código.
 
-+ Add a new file to your project and call it `pets.txt`:
++ Adicione um novo arquivo ao seu projeto e chame-o de `pets.txt`:
     
-    ![screenshot](images/pets-file.png)
+    ![captura de tela](images/pets-file.png)
 
-+ Now add data to the file. You can use the favourite pets data that you collected or the example data.
++ Agora adicione dados ao arquivo. Você pode usar os dados favoritos de animais de estimação coletados ou os dados de exemplo.
     
-    ![screenshot](images/pets-data.png)
+    ![captura de tela](images/pets-data.png)
 
-+ Switch back to `main.py` and comment out the lines that render (display) charts and graphs (so that they aren't displayed):
++ Volte para `main.py` e comente as linhas que renderizam (exibem) gráficos e gráficos (para que não sejam exibidos):
     
-    ![screenshot](images/pets-comment.png)
+    ![captura de tela](images/pets-comment.png)
 
-+ Now let's read the data from the file.
++ Agora vamos ler os dados do arquivo.
     
-    ![screenshot](images/pets-read.png)
+    ![captura de tela](images/pets-read.png)
     
-    The `for` loop will loop over the lines in the file. `splitlines()` removes the newline character from the end of the line as you don't want that.
+    O loop `para` fará um loop pelas linhas no arquivo. `splitlines ()` remove o caractere de nova linha do final da linha, pois você não quer isso.
 
-+ Each line needs to be separated into a label and a value:
++ Cada linha precisa ser separada em um rótulo e um valor:
     
-    ![screenshot](images/pets-split.png)
+    ![captura de tela](images/pets-split.png)
     
-    This will split the line at the spaces so don't include spaces in the labels. (You can add support for spaces in labels later.)
+    Isso dividirá a linha nos espaços, portanto, não inclua espaços nos rótulos. (Você pode adicionar suporte para espaços em rótulos posteriormente.)
 
-+ You might get an error like this:
++ Você pode receber um erro como este:
     
-    ![screenshot](images/pets-error.png)
+    ![captura de tela](images/pets-error.png)
     
-    This happens if you have an empty line at the end of your file.
+    Isso acontece se você tiver uma linha vazia no final do seu arquivo.
     
-    You can fix the error by only getting the label and value if the line isn't empty.
+    Você pode corrigir o erro obtendo apenas o rótulo e o valor se a linha não estiver vazia.
     
-    To do this, indent the code inside your `for` loop and add the code `if line:` above it:
+    Para fazer isso, indente o código dentro do seu loop `para` e adicione o código `se a linha:` acima:
     
-    ![screenshot](images/pets-fix.png)
+    ![captura de tela](images/pets-fix.png)
 
-+ You can remove the `print(label, value)` line now everything is working.
++ Você pode remover a `linha de impressão (rótulo, valor)` agora está tudo funcionando.
 
-+ Now let's add the label and value to a new Pie Chart and render it:
++ Agora vamos adicionar o rótulo e o valor a um novo gráfico de pizza e renderizá-lo:
     
-    ![screenshot](images/pets-pie2.png)
+    ![captura de tela](images/pets-pie2.png)
     
-    Note that `add` expects the value to be a number, `int(value)` turns the value from a string into an integer.
+    Note que `add` espera que o valor seja um número, `int (value)` transforma o valor de uma string em um inteiro.
     
-    If you wanted to use decimals such as 3.5 (floating point numbers) you could use `float(value)` instead.
+    Se você quisesse usar decimais como 3.5 (números de ponto flutuante) você poderia usar `float (value)`.

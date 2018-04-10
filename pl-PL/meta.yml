@@ -1,33 +1,33 @@
 ---
-hero_image: images/popular-pets.png
-theme: yellow
+hero_image: images / popular-pets.png
+theme: żółty
 duration: 2
 listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Popular Pets
-description: Create pie charts and bar graphs from data you collect.
+title: Popularne zwierzęta domowe
+description: Twórz wykresy kołowe i wykresy słupkowe z gromadzonych danych.
 original_url: https://codeclubprojects.org/en-GB/python/popular-pets
-interests: animals
-technologies: python
-site_areas: projects
+interests: Zwierząt
+technologies: pyton
+site_areas: projektowanie
 hardware: ''
-software: python
+software: pyton
 version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: Wprowadzenie
   - 
-    title: What you will need
+    title: Co będzie potrzebne
   - 
-    title: Create a Pie Chart
+    title: Utwórz wykres kołowy
   - 
-    title: 'Challenge: Create your own bar chart'
+    title: 'Wyzwanie: Stwórz własny wykres słupkowy'
   - 
-    title: Read data from a file
+    title: Czytaj dane z pliku
   - 
-    title: 'Challenge: Create a new chart from a file'
+    title: 'Wyzwanie: Utwórz nowy wykres z pliku'
   - 
-    title: 'Challenge: More charts and graphs!'
+    title: 'Wyzwanie: więcej wykresów i wykresów!'

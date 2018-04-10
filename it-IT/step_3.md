@@ -1,45 +1,25 @@
-## Crea un Grafico Circolare
+--- challenge ---
+## Sfida: Crea il tuo grafico a barre 
 
-I Grafici a Torta sono un metodo utile per mostrare i tuoi dati. Facciamo un sondaggio degli animali preferiti nel tuo Code Club e poi presentiamo i dati con un grafico circolare.
+Puoi creare grafici a barre in un modo simile. Semplicemente usa `barchart = pygal.Bar()` per creare un nuovo grafico a barre, e poi aggiungi i dati e visualizzali allo stesso modo in cui hai fatto con il grafico circolare.
 
-+ Chiedi al tuo volontario di aiutare ad organizzare un sondaggio. Puoi registrare i risultati in un computer collegato a un proiettore o a una lavagna bianca che tutti possono vedere.
+Raccogli i dati dai soci del tuo Code Club per creare il tuo grafico a barre.
 
-  Scrivi una lista di animali e assicurati che venga incluso il preferito di ciascun socio.
+Assicurati di scegliere un argomento che tutti conoscono!
 
-  Poi chiedi a tutti di votare per il loro preferito alzando la mano quando viene chiamato. Si vota solo un animale!
+Ecco alcune idee:
 
-  Ad esempio:
++ Qual è il tuo sport preferito?
++ Qual è il gusto di gelato che preferisci?
++ Con quale mezzo vai a scuola?
++ In quale mese compi gli anni?
++ Giochi a Minecraft? (sì/no)
 
-  ![screenshot](images/pets-favourite.png)
+Non fare domande che diano dati personali, come per esempio l'indirizzo delle persone. Se sei in dubbio, chiedi al leader del tuo club.
 
-+ Apri il modello vuoto di Python Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
+Esempi:
 
-+ Creiamo un grafico circolare per mostrare i risultati del tuo sondaggio. Userai la libreria PyGal per eseguire il lavoro più difficile.
+![screenshot](images/pets-bar-examples.png)
 
-  Innanzitutto, importa la libreria Pygal:
+--- /challenge ---
 
-  ![screenshot](images/pets-pygal.png)
-
-
-+ Ora crea un grafico circolare e rappresentalo (visualizzalo):
-
-  ![screenshot](images/pets-pie.png)
-
-  Non preoccuparti, diventa più interessante man mano che aggiungerai dati!
-
-
-+ Aggiungiamo i dati per uno degli animali. Usa i dati che hai raccolto.
-
-  ![screenshot](images/pets-add.png)
-
-  C'è solo un dato, per cui coprirà l'intero grafico.
-
-+ Ora aggiungiamo gli altri dati allo stesso modo.
-
-  Ad esempio:
-
-  ![screenshot](images/pets-add-all.png)
-
-+ E per completare il tuo grafico, aggiungi un titolo:
-
-  ![screenshot](images/pets-title.png)

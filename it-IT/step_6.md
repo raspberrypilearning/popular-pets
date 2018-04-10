@@ -1,11 +1,12 @@
-
 --- challenge ---
-## Sfida: Crea un nuovo grafico da un file 
+## Sfida: Altri grafici e tabelle! 
+Puoi creare dallo stesso file un grafico circolare e uno a barre? Puoi sia raccogliere i dati che hai raccolto prima o raccogliere dei nuovi dati.
 
-Puoi creare un nuovo grafico circolare o a barre dai dati di un file? Dovrai creare un nuovo file .txt.
+![screenshot](images/pets-pn-bar.png)
 
-Suggerimento: Se vuoi avere degli spazi nelle etichette, allora usa 'line.split(': ')` e aggiungi i due punti al file dei tuoi dati, per esempio 'Red Admiral: 6'
-
-![screenshot](images/pets-butterflies.png)
+![screenshot](images/pets-pn.png)
 
 --- /challenge ---
+
+
+

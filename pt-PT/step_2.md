@@ -1,5 +1,5 @@
-## What you will need
+## O que você precisará
 
-### Software
+### Programas
 
-+ Trinket online editor
++ Editor on-line do trinket

@@ -1,25 +1,25 @@
-\--- challenge \---
+\--- wyzwanie \---
 
-## Challenge: Create your own bar chart
+## Wyzwanie: Stwórz własny wykres słupkowy
 
-You can create bar charts in a similar way. Just use `barchart = pygal.Bar()` to create a new barchart, and then add data and render in the same way as for a pie chart.
+Możesz tworzyć wykresy słupkowe w podobny sposób. Po prostu użyj `barchart = pygal.Bar ()` , aby utworzyć nową tabelę, a następnie dodaj dane i wyrenderuj w taki sam sposób, jak w przypadku wykresu kołowego.
 
-Collect data from your Code Club members to create your own bar graph.
+Zbieraj dane od członków Code Club, aby stworzyć własny wykres słupkowy.
 
-Make sure that you choose a topic that everyone will know about!
+Upewnij się, że wybierasz temat, o którym wszyscy będą wiedzieć!
 
-Here are some ideas:
+Oto kilka pomysłów:
 
-+ What is your favourite sport?
-+ What is your favourite ice cream flavour?
-+ How do you get to school?
-+ What month is your birthday?
-+ Do you play Minecraft? (yes/no)
++ Jaki jest Twój ulubiony sport?
++ Jaki jest twój ulubiony smak lodów?
++ Jak dostajesz się do szkoły?
++ W którym miesiącu są Twoje urodziny?
++ Czy grasz w Minecraft? (tak nie)
 
-Don't ask questions that give personal data such as where people live. Ask your club leader if you're not sure.
+Nie zadawaj pytań, które dają dane osobowe, takie jak miejsce zamieszkania ludzi. Zapytaj swojego lidera klubu, jeśli nie jesteś tego pewien.
 
-Examples:
+Przykłady:
 
-![screenshot](images/pets-bar-examples.png)
+![zrzut ekranu](images/pets-bar-examples.png)
 
-\--- /challenge \---
+\--- / wyzwanie \---

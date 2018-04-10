@@ -1,11 +1,11 @@
-\--- challenge \---
+\--- wyzwanie \---
 
-## Challenge: Create a new chart from a file
+## Wyzwanie: Utwórz nowy wykres z pliku
 
-Can you create a new bar graph or pie chart from data in a file? You'll need to create a new .txt file.
+Czy możesz utworzyć nowy wykres słupkowy lub wykres kołowy z danych w pliku? Musisz utworzyć nowy plik .txt.
 
-Tip: If you want to have spaces in the labels then use `line.split(': ')` and add colons to your data file, e.g. 'Red Admiral: 6'
+Wskazówka: jeśli chcesz mieć spacje w etykietach, użyj `linii.split (":")` i dodaj dwukropki do pliku danych, np. "Red Admiral: 6"
 
-![screenshot](images/pets-butterflies.png)
+![zrzut ekranu](images/pets-butterflies.png)
 
-\--- /challenge \---
+\--- / wyzwanie \---

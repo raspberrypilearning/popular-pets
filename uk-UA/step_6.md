@@ -1,11 +1,11 @@
-\--- challenge \---
+\--- завдання \---
 
-## Challenge: Create a new chart from a file
+## Виклик: створити нову діаграму з файлу
 
-Can you create a new bar graph or pie chart from data in a file? You'll need to create a new .txt file.
+Чи можете ви створити нову гістограму або діаграму з даних у файлі? Вам потрібно буде створити новий файл .txt.
 
-Tip: If you want to have spaces in the labels then use `line.split(': ')` and add colons to your data file, e.g. 'Red Admiral: 6'
+Порада: якщо ви хочете мати пробіли на етикетках, скористайтеся `line.split (':')` і додайте двокрапки у ваш файл даних, наприклад "Red Admiral: 6"
 
-![screenshot](images/pets-butterflies.png)
+![скріншот](images/pets-butterflies.png)
 
-\--- /challenge \---
+\--- / виклик \---

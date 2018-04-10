@@ -1,11 +1,11 @@
-\--- challenge \---
+\--- завдання \---
 
-## Challenge: More charts and graphs!
+## Виклик: більше діаграм та графіків!
 
-Can you create a pie chart and a bar chart from the same file? You can either use the data you collected earlier or collect some new data.
+Чи можете ви створити кругову діаграму та стрічкову діаграму з одного файлу? Ви можете використовувати дані, які ви вже зібрали раніше, або збирати нові дані.
 
-![screenshot](images/pets-pn-bar.png)
+![скріншот](images/pets-pn-bar.png)
 
-![screenshot](images/pets-pn.png)
+![скріншот](images/pets-pn.png)
 
-\--- /challenge \---
+\--- / виклик \---

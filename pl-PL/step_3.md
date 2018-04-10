@@ -1,43 +1,43 @@
-## Create a Pie Chart
+## Utwórz wykres kołowy
 
-Pie Charts are are useful way of showing data. Let's do a survey of favourite pets in your Code Club and then present the data as a Pie Chart.
+Wykresy kołowe to użyteczny sposób wyświetlania danych. Zróbmy ankietę ulubionych zwierzaków w twoim Code Clubie, a następnie przedstaw dane jako wykres kołowy.
 
-+ Ask your club leader to help organise a survey. You could record the results on a computer connected to a projector or a whiteboard that everyone can see.
++ Poproś lidera klubu, aby pomógł zorganizować ankietę. Możesz nagrywać wyniki na komputerze podłączonym do projektora lub tablicy, którą każdy może zobaczyć.
     
-    Write a list of pets and make sure everyone's favourite is included.
+    Napisz listę zwierząt domowych i upewnij się, że wszyscy ulubieńcy są uwzględnieni.
     
-    Then get everyone to vote for their favourite by putting their hand up when it gets called out. Only one vote each!
+    Następnie każ wszystkim głosować na swoich faworytów, podnosząc rękę, gdy zostanie wywołana. Tylko jeden głos każdy!
     
-    For example:
+    Na przykład:
     
-    ![screenshot](images/pets-favourite.png)
+    ![zrzut ekranu](images/pets-favourite.png)
 
-+ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ Otwórz pusty szablon Pythona Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ Let's create a pie chart to show the results of your survey. You'll be using the PyGal library to do some of the hard work.
++ Stwórzmy wykres kołowy, aby pokazać wyniki Twojej ankiety. Będziesz używał biblioteki PyGal do wykonania ciężkiej pracy.
     
-    First import the Pygal library:
+    Najpierw zaimportuj bibliotekę Pygal:
     
-    ![screenshot](images/pets-pygal.png)
+    ![zrzut ekranu](images/pets-pygal.png)
 
-+ Now let's create a Pie chart and render (display) it:
++ Teraz utwórzmy wykres kołowy i wyrenderujmy (wyświetlmy):
     
-    ![screenshot](images/pets-pie.png)
+    ![zrzut ekranu](images/pets-pie.png)
     
-    Don't worry, it gets more interesting when you add data!
+    Nie martw się, robi się ciekawiej, gdy dodajesz dane!
 
-+ Let's add in the data for one of the pets. Use the data that you collected.
++ Dodajmy dane dla jednego ze zwierząt. Wykorzystaj zebrane dane.
     
-    ![screenshot](images/pets-add.png)
+    ![zrzut ekranu](images/pets-add.png)
     
-    There's only one piece of data so it takes up the whole pie chart.
+    Jest tylko jeden element danych, więc zajmuje cały wykres kołowy.
 
-+ Now add the rest of the data in the same way.
++ Teraz dodaj pozostałe dane w ten sam sposób.
     
-    For example:
+    Na przykład:
     
-    ![screenshot](images/pets-add-all.png)
+    ![zrzut ekranu](images/pets-add-all.png)
 
-+ And to finish off your chart, add a title:
++ Aby ukończyć wykres, dodaj tytuł:
     
-    ![screenshot](images/pets-title.png)
+    ![zrzut ekranu](images/pets-title.png)

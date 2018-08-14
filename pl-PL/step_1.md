@@ -1,6 +1,6 @@
 ## Wprowadzenie
 
-W tym projekcie tworzysz wykresy kołowe i wykresy słupkowe na podstawie danych zbieranych od członków Twojego Code Club.
+W tym projekcie tworzysz wykresy kołowe i wykresy słupkowe na podstawie danych zbieranych od członków Twojego Code Club. ldjlsdjbcbcbc
 
 ### Instrukcje
 
@@ -20,6 +20,6 @@ Ten projekt obejmuje elementy z następujących wątków [Curriculum Digital Mak
 
 ### Dodatkowe informacje dla nauczycieli
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/about-me/print){:target="_blank"}.
+Jeśli chcesz wydrukować ten projekt, użyj [wersji do druku](https://projects.raspberrypi.org/en/projects/about-me/print){:target="_blank"}.
 
 Użyj odnośnika w stopce, aby uzyskać dostęp do repozytorium GitHub dla tego projektu, który zawiera wszystkie zasoby (w tym przykładowy gotowy projekt) w folderze "en / resources".

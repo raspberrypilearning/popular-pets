@@ -1,13 +1,13 @@
 ---
-title: Popular Pets
-description: Create pie charts and bar graphs from data you collect.
-notes: "Popular Pets - notes.md"
+title: Populaire huisdieren
+description: Maak taart- en staafdiagrammen van gegevens die je verzamelt.
+notes: "Populaire huisdieren - notes.md"
 layout: project
-new: true
+new: waar
 ---
-# Introduction {.intro}
+# Inleiding {.intro}
 
-In this project you create pie charts and bar graphs from data that you collect from members of your Code Club.
+In dit project maak je taartdiagrammen en staafdiagrammen van gegevens die je van de leden van je Code Club verzamelt.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/70d24d92b8?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -15,152 +15,152 @@ In this project you create pie charts and bar graphs from data that you collect 
   <img src="images/pets-finished.png">
 </div>
 
-# Step 1: Create a Pie Chart {.activity}
+# Stap 1: Maak een taartdiagram {.activity}
 
-Pie Charts are are useful way of showing data. Let's do a survey of favourite pets in your Code Club and then present the data as a Pie Chart.
+Taartdiagrammen (ook wel cirkeldiagrammen genoemd) zijn een handige manier om gegevens weer te geven. Laten we een onderzoek doen naar de favoriete huisdieren in je Code Club om die gegevens daarna in een taartdiagram te laten zien.
 
-## Activity Checklist {.check}
+## Activiteitenlijst {.check}
 
-+ Ask your volunteer to help organise a survey. You could record the results on a computer connected to a projector or a whiteboard that everyone can see.
++ Vraag je vrijwilliger om een ​​enquête te houden. Je kunt de resultaten verzamelen op een computer die is aangesloten op een projector, of op een een whiteboard, zodat iedereen ze kan zien.
     
-    Write a list of pets and make sure everyone's favourite is included.
+    Maak een lijst met huisdieren en zorg ervoor dat ieders favoriet erop staat.
     
-    Then get everyone to vote for their favourite by putting their hand up when it gets called out. Only one vote each!
+    Laat dan iedereen stemmen op zijn favoriet door zijn hand op te steken als deze wordt genoemd. Slechts één stem per persoon!
     
-    For example:
+    Bijvoorbeeld:
     
     ![screenshot](images/pets-favourite.png)
 
-+ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ Open de lege Python-sjabloon Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ Let's create a pie chart to show the results of your survey. You'll be using the PyGal library to do some of the hard work.
++ Laten we een taartdiagram maken om de resultaten van je enquête te tonen. Je zult de PyGal-bibliotheek gebruiken die een gedeelte van het moeilijke werk doet.
     
-    First import the Pygal library:
+    Importeer eerst de Pygal-bibliotheek:
     
     ![screenshot](images/pets-pygal.png)
 
-+ Now let's create a Pie chart and render (display) it:
++ Laten we nu een taartdiagram maken en die renderen (weergeven):
     
     ![screenshot](images/pets-pie.png)
     
-    Don't worry, it gets more interesting when you add data!
+    Maak je geen zorgen, het wordt interessanter als je de gegevens toevoegt!
 
-+ Let's add in the data for one of the pets. Use the data that you collected.
++ Laten we de gegevens voor een van de huisdieren toevoegen. Gebruik de gegevens die je hebt verzameld.
     
     ![screenshot](images/pets-add.png)
     
-    There's only one piece of data so it takes up the whole pie chart.
+    Er is slechts één gegeven, dus dat neemt het hele taartdiagram in beslag.
 
-+ Now add the rest of the data in the same way.
++ Voeg nu de rest van de gegevens op dezelfde manier toe.
     
-    For example:
+    Bijvoorbeeld:
     
     ![screenshot](images/pets-add-all.png)
 
-+ And to finish off your chart, add a title:
++ En om de ​​grafiek af te maken, voeg je een titel toe:
     
     ![screenshot](images/pets-title.png)
 
-## Save Your Project {.save}
+## Sla je project op {.save}
 
-## Challenge: Create your own bar chart {.challenge}
+## Uitdaging: maak je eigen staafdiagram {.challenge}
 
-You can create bar charts in a similar way. Just use `barchart = pygal.Bar()` to create a new barchart, and then add data and render in the same way as for a pie chart.
+Je kunt op dezelfde manier staafdiagrammen maken. Gebruik `staafdiagram = pygal.Bar()` om een ​​nieuw staafdiagram te maken, voeg vervolgens de gegevens toe en render deze op dezelfde manier als voor een taartdiagram.
 
-Collect data from your Code Club members to create your own bar graph.
+Verzamel gegevens van je Code Club-leden om je eigen staafdiagram te maken.
 
-Make sure that you choose a topic that everyone will know about!
+Zorg ervoor dat je een onderwerp kiest dat bij iedereen bekend is!
 
-Here are some ideas:
+Hier zijn enkele ideeën:
 
-+ What is your favourite sport?
++ Wat is jouw favoriete sport?
 
-+ What is your favourite ice cream flavour?
++ Wat is je favoriete ijssmaak?
 
-+ How do you get to school?
++ Hoe kom je op school?
 
-+ What month is your birthday?
++ Wanneer ben je jarig?
 
-+ Do you play Minecraft? (yes/no)
++ Speel jij Minecraft? (Ja/nee)
 
-Don't ask questions that give personal data such as where people live. Ask your club leader if you're not sure.
+Stel geen vragen die persoonlijke gegevens bevatten, zoals waar mensen wonen. Vraag je clubleider als je het niet zeker weet.
 
-Examples:
+Voorbeelden:
 
 ![screenshot](images/pets-bar-examples.png)
 
-## Save Your Project {.save}
+## Sla je project op {.save}
 
-# Step 2: Read data from a file {.activity}
+# Stap 2: lees gegevens uit een bestand {.activity}
 
-It's useful to be able to store data in a file rather than having to include it in your code.
+Het is handig om gegevens in een bestand op te slaan in plaats van het in je code te moeten opnemen.
 
-## Activity Checklist {.check}
+## Activiteitenlijst {.check}
 
-+ Add a new file to your project and call it `pets.txt`:
++ Voeg een nieuw bestand toe aan je project en noem het `huisdieren.txt`:
     
     ![screenshot](images/pets-file.png)
 
-+ Now add data to the file. You can use the favourite pets data that you collected or the example data.
++ Voeg nu gegevens toe aan het bestand. Je kunt de favoriete huisdiergegevens gebruiken die je hebt verzameld of de voorbeeldgegevens.
     
     ![screenshot](images/pets-data.png)
 
-+ Switch back to `main.py` and comment out the lines that render (display) charts and graphs (so that they aren't displayed):
++ Schakel terug naar `main.py` en zet een hekje voor de regels die de diagrammen en grafieken renderen (weergeven) zodat ze niet worden weergegeven:
     
     ![screenshot](images/pets-comment.png)
 
-+ Now let's read the data from the file.
++ Nu kun je de gegevens uit het bestand lezen.
     
     ![screenshot](images/pets-read.png)
     
-    The `for` loop will loop over the lines in the file. `splitlines()` removes the newline character from the end of the line as you don't want that.
+    De `for` lus loopt door de regels in het bestand. `splitlines ()` verwijdert het teken voor de volgende regel aan het einde van de regel, omdat je dat niet nodig hebt.
 
-+ Each line needs to be separated into a label and a value:
++ Elke regel moet worden gesplitst in een naam en een waarde:
     
     ![screenshot](images/pets-split.png)
     
-    This will split the line at the spaces so don't include spaces in the labels. (You can add support for spaces in labels later.)
+    Hiermee wordt de regel op de spaties gesplitst, dus zet geen spaties in de naam. (Later kun je ondersteuning voor spaties in namen toevoegen.)
 
-+ You might get an error like this:
++ Je krijgt mogelijk de volgende foutmelding:
     
     ![screenshot](images/pets-error.png)
     
-    This happens if you have an empty line at the end of your file.
+    Dit gebeurt als er een lege regel aan het einde van je bestand staat.
     
-    You can fix the error by only getting the label and value if the line isn't empty.
+    Je kunt de fout oplossen door alleen de naam en de waarde op te halen als de regel niet leeg is.
     
-    To do this, indent the code inside your `for` loop and add the code `if line:` above it:
+    Daarvoor spring je binnen de `for` lus in en voeg je de code `if regel:` toe:
     
     ![screenshot](images/pets-fix.png)
 
-+ You can remove the `print(label, value)` line now everything is working.
++ Je kunt, nu alles werkt, de regel `print(label, value)` verwijderen.
 
-+ Now let's add the label and value to a new Pie Chart and render it:
++ Laten we nu de naam en waarde toevoegen aan een nieuw taartdiagram en het renderen:
     
     ![screenshot](images/pets-pie2.png)
     
-    Note that `add` expects the value to be a number, `int(value)` turns the value from a string into an integer.
+    Merk op dat `add` (toevoegen) verwacht dat de waarde een getal is, `int(waarde)` verandert de waarde van een string in een geheel getal.
     
-    If you wanted to use decimals such as 3.5 (floating point numbers) you could use `float(value)` instead.
+    Als je decimalen zoals 3,5 (drijvendekommagetallen) wilt gebruiken, kun je in plaats daarvan `float(waarde)` gebruiken.
 
-## Save Your Project {.save}
+## Sla je project op {.save}
 
-## Challenge: Create a new chart from a file {.challenge}
+## Uitdaging: maak een nieuw diagram vanuit een bestand {.challenge}
 
-Can you create a new bar graph or pie chart from data in a file? You'll need to create a new .txt file.
+Kun je een nieuw staaf- of taartdiagram maken op basis van gegevens in een bestand? Je moet een nieuw .txt-bestand maken.
 
-Tip: If you want to have spaces in the labels then use `line.split(': ')` and add colons to your data file, e.g. 'Red Admiral: 6'
+Tip: als je spaties in de namen wilt hebben, gebruik je `regel.split(': ')` en voeg je dubbele punten toe aan je gegevensbestand, bijvoorbeeld 'Oranje Zandoogje': 6
 
 ![screenshot](images/pets-butterflies.png)
 
-## Save Your Project {.save}
+## Sla je project op {.save}
 
-## Challenge: More charts and graphs! {.challenge}
+## Uitdaging: meer taart- en staafdiagrammen! {.challenge}
 
-Can you create a pie chart and a bar chart from the same file? You can either use the data you collected earlier or collect some new data.
+Kun je van hetzelfde bestand een taartdiagram en een staafdiagram maken? Je kunt de eerder verzamelde gegevens gebruiken of nieuwe gegevens verzamelen.
 
 ![screenshot](images/pets-pn-bar.png)
 
 ![screenshot](images/pets-pn.png)
 
-## Save Your Project {.save}
+## Sla je project op {.save}

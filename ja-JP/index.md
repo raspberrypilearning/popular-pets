@@ -1,13 +1,13 @@
 ---
-title: Popular Pets
-description: Create pie charts and bar graphs from data you collect.
-notes: "Popular Pets - notes.md"
-layout: project
+title: 人気のあるペット
+description: 集めたデータをもとにして円グラフと棒グラフを作ります。
+notes: "人気のあるペット -  notes.md"
+layout: プロジェクト
 new: true
 ---
-# Introduction {.intro}
+# はじめに {.intro}
 
-In this project you create pie charts and bar graphs from data that you collect from members of your Code Club.
+このプロジェクトではコードクラブメンバーから集めたデータをもとにして円グラフと棒グラフを作ります。
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/70d24d92b8?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -15,152 +15,152 @@ In this project you create pie charts and bar graphs from data that you collect 
   <img src="images/pets-finished.png">
 </div>
 
-# Step 1: Create a Pie Chart {.activity}
+# ステップ１:円グラフを作る {.activity}
 
-Pie Charts are are useful way of showing data. Let's do a survey of favourite pets in your Code Club and then present the data as a Pie Chart.
+円グラフはデータを示すのに役立ちます。 コードクラブで大好きなペットについて調査してデータを円グラフにしましょう。
 
-## Activity Checklist {.check}
+## チェックリスト {.check}
 
-+ Ask your volunteer to help organise a survey. You could record the results on a computer connected to a projector or a whiteboard that everyone can see.
++ コードクラブ指導者のひとに頼んで調査を行いましょう。みんなに見えるように、プロジェクターやホワイトボードに接続されたコンピュータに結果を入力しましょう。
     
-    Write a list of pets and make sure everyone's favourite is included.
+    ペットのリストを書き、みんなの大好きなペットが含まれているか確かめましょう。
     
-    Then get everyone to vote for their favourite by putting their hand up when it gets called out. Only one vote each!
+    好きなペットが呼ばれたら、手をあげてもらって全員に投票してもらいましょう。
     
-    For example:
+    例えば：
     
-    ![screenshot](images/pets-favourite.png)
+    ![スクリーンショット](images/pets-favourite.png)
 
-+ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ 白紙のPythonテンプレートTrinketを開きます： <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>
 
-+ Let's create a pie chart to show the results of your survey. You'll be using the PyGal library to do some of the hard work.
++ 調査結果を示す円グラフをつくりましょう。PyGalライブラリーを使って大変な作業のいくつかを行います。
     
-    First import the Pygal library:
+    最初にPygalライブラリーをインポートします。
     
-    ![screenshot](images/pets-pygal.png)
+    ![スクリーンショット](images/pets-pygal.png)
 
-+ Now let's create a Pie chart and render (display) it:
++ 次に円グラフを作って表示しましょう。
     
-    ![screenshot](images/pets-pie.png)
+    ![スクリーンショット](images/pets-pie.png)
     
-    Don't worry, it gets more interesting when you add data!
+    心配いりません。データを加えればもっと面白くなりますよ！
 
-+ Let's add in the data for one of the pets. Use the data that you collected.
++ ペットの種類の一つにデータを加えてみましょう。受け取ったデータを使います。
     
-    ![screenshot](images/pets-add.png)
+    ![スクリーンショット](images/pets-add.png)
     
-    There's only one piece of data so it takes up the whole pie chart.
+    データが一つしかないので、円グラフには一色しかありません。
 
-+ Now add the rest of the data in the same way.
++ 次に残りのデータを同じように加えます。
     
-    For example:
+    例えば：
     
-    ![screenshot](images/pets-add-all.png)
+    ![スクリーンショット](images/pets-add-all.png)
 
-+ And to finish off your chart, add a title:
++ グラフの名前を付けて完成です。
     
-    ![screenshot](images/pets-title.png)
+    ![スクリーンショット](images/pets-title.png)
 
-## Save Your Project {.save}
+## プロジェクトを保存する {.save}
 
-## Challenge: Create your own bar chart {.challenge}
+## チャレンジ：棒グラフを作りましょう {.challenge}
 
-You can create bar charts in a similar way. Just use `barchart = pygal.Bar()` to create a new barchart, and then add data and render in the same way as for a pie chart.
+同じようにして棒グラフを作れます。`barchart = pygal.Bar()` を使い、円グラフのときと同じようにデータを加えます。
 
-Collect data from your Code Club members to create your own bar graph.
+コードクラブのメンバーからデータを集めて棒グラフを作ります。
 
-Make sure that you choose a topic that everyone will know about!
+みんなが知っているトピックを選びましょう！
 
-Here are some ideas:
+例えば：
 
-+ What is your favourite sport?
++ 好きなスポーツは？
 
-+ What is your favourite ice cream flavour?
++ 好きなアイスクリームの味は？
 
-+ How do you get to school?
++ 学校への交通手段は？
 
-+ What month is your birthday?
++ 何月生まれ？
 
-+ Do you play Minecraft? (yes/no)
++ あなたはMinecraftをプレーしてますか？（はい・いいえ）
 
-Don't ask questions that give personal data such as where people live. Ask your club leader if you're not sure.
+どこに住んでいるかといった個人情報に関する質問はしませんように。わからない場合、クラブリーダーに聞いてみましょう。
 
-Examples:
+例えば：
 
-![screenshot](images/pets-bar-examples.png)
+![スクリーンショット](images/pets-bar-examples.png)
 
-## Save Your Project {.save}
+## プロジェクトを保存する {.save}
 
-# Step 2: Read data from a file {.activity}
+# ファイルからデータを読み込む {.activity}
 
-It's useful to be able to store data in a file rather than having to include it in your code.
+データをコードに含むよりも、ファイルに保存する方が便利です。
 
-## Activity Checklist {.check}
+## チェックリスト {.check}
 
-+ Add a new file to your project and call it `pets.txt`:
++ 新規ファイルを追加し、名前を`pets.txt`とします。
     
-    ![screenshot](images/pets-file.png)
+    ![スクリーンショット](images/pets-file.png)
 
-+ Now add data to the file. You can use the favourite pets data that you collected or the example data.
++ 大好きなペットのデータやデータ例を使います。
     
-    ![screenshot](images/pets-data.png)
+    ![スクリーンショット](images/pets-data.png)
 
-+ Switch back to `main.py` and comment out the lines that render (display) charts and graphs (so that they aren't displayed):
++ `main.py`に切り替えて、グラフ表示に関するプログラムのソースファイルをコメントに変更して、実行されないようにします（グラフが表示されないように）。
     
-    ![screenshot](images/pets-comment.png)
+    ![スクリーンショット](images/pets-comment.png)
 
-+ Now let's read the data from the file.
++ ファイルからデータを読み込みましょう。
     
-    ![screenshot](images/pets-read.png)
+    ![スクリーンショット](images/pets-read.png)
     
-    The `for` loop will loop over the lines in the file. `splitlines()` removes the newline character from the end of the line as you don't want that.
+    `for`の繰り返しはファイル内の行に繰り返し適用されます。`splitlines()`は新しい行に改行して表示します。 
 
-+ Each line needs to be separated into a label and a value:
++ 各行はラベルとバリューに分けられます。
     
-    ![screenshot](images/pets-split.png)
+    ![スクリーンショット](images/pets-split.png)
     
-    This will split the line at the spaces so don't include spaces in the labels. (You can add support for spaces in labels later.)
+    スペースがあるところで改行しますからラベルにはスペースを入れないでください。（ラベルにスペースが必要な場合、後で追加できます。）
 
-+ You might get an error like this:
++ つぎのようなエラーが出るかもしれません。
     
-    ![screenshot](images/pets-error.png)
+    ![スクリーンショット](images/pets-error.png)
     
-    This happens if you have an empty line at the end of your file.
+    これは、ファイルの最後の行に何も入力されていない場合に出てきます。
     
-    You can fix the error by only getting the label and value if the line isn't empty.
+    最後の行に入れるデータがある場合、ラベルとバリューを追加入力すればエラーは解決します。
     
-    To do this, indent the code inside your `for` loop and add the code `if line:` above it:
+    そのために、`for`の繰り返しのコードの中でインデントしてその上に`if line:`を追加します。
     
-    ![screenshot](images/pets-fix.png)
+    ![スクリーンショット](images/pets-fix.png)
 
-+ You can remove the `print(label, value)` line now everything is working.
++ `print(label, value)`は削除します。
 
-+ Now let's add the label and value to a new Pie Chart and render it:
++ 円グラフにラベルとバリューを追加して表示してみましょう。
     
-    ![screenshot](images/pets-pie2.png)
+    ![スクリーンショット](images/pets-pie2.png)
     
-    Note that `add` expects the value to be a number, `int(value)` turns the value from a string into an integer.
+    `add`ではバリューは数値であることは必要です。`int(value)`はバリューを文字列から数値に変換します。
     
-    If you wanted to use decimals such as 3.5 (floating point numbers) you could use `float(value)` instead.
+    3.5などの少数を使いたい場合、`float(value)`を使います。
 
-## Save Your Project {.save}
+## プロジェクトを保存する {.save}
 
-## Challenge: Create a new chart from a file {.challenge}
+## チャレンジ：ファイルから新規グラフをつくろう {.challenge}
 
-Can you create a new bar graph or pie chart from data in a file? You'll need to create a new .txt file.
+ファイルの中のデータを使って新規棒グラフか円グラフを作れますか？新規の.txtファイルを作りましょう。
 
-Tip: If you want to have spaces in the labels then use `line.split(': ')` and add colons to your data file, e.g. 'Red Admiral: 6'
+ヒント：ラベル内」にスペースが必要なら、`line.split(': ')`を使い、Red Admiral: 6というように、コロンをデータファイル内に追加します。
 
-![screenshot](images/pets-butterflies.png)
+![スクリーンショット](images/pets-butterflies.png)
 
-## Save Your Project {.save}
+## プロジェクトを保存する {.save}
 
-## Challenge: More charts and graphs! {.challenge}
+## チャレンジ：さらにグラフをつくろう！ {.challenge}
 
-Can you create a pie chart and a bar chart from the same file? You can either use the data you collected earlier or collect some new data.
+円グラフと棒グラフを同じファイルから作成できましたか？以前からあるデータを使っても、新しいデータを集めてもよいです。
 
-![screenshot](images/pets-pn-bar.png)
+![スクリーンショット](images/pets-pn-bar.png)
 
-![screenshot](images/pets-pn.png)
+![スクリーンショット](images/pets-pn.png)
 
-## Save Your Project {.save}
+## プロジェクトを保存する {.save}

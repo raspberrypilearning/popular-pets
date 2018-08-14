@@ -1,5 +1,5 @@
-## What you will need
+## 必要なもの
 
-### Software
+### ソフトウェア
 
-+ Trinket online editor
++ Trinket　オンライン・エディター

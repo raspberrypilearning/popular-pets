@@ -1,28 +1,28 @@
 ---
-hero_image: images / populaire pets.png
-theme: geel
+hero_image: images/popular-pets.png
+theme: yellow
 duration: 2
 listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 title: Populaire huisdieren
-description: Maak cirkeldiagrammen en staafdiagrammen van gegevens die u verzamelt.
+description: Maak cirkel- en staafdiagrammen van gegevens die je verzamelt.
 original_url: https://codeclubprojects.org/en-GB/python/popular-pets
-interests: dieren
-technologies: Python
-site_areas: projecten
+interests: animals
+technologies: python
+site_areas: projects
 hardware: ''
-software: Python
+software: python
 version: 3
-last_tested: 2017/01/01
+last_tested: 2017-01-01
 steps:
   - 
-    title: Invoering
+    title: Inleiding
   - 
-    title: Wat je nodig zult hebben
+    title: Wat heb je nodig
   - 
-    title: Maak een cirkeldiagram
+    title: Maak een taartdiagram
   - 
     title: 'Uitdaging: maak je eigen staafdiagram'
   - 
@@ -30,4 +30,4 @@ steps:
   - 
     title: 'Uitdaging: maak een nieuw diagram vanuit een bestand'
   - 
-    title: 'Uitdaging: meer grafieken en grafieken!'
+    title: 'Uitdaging: meer taart- en staafdiagrammen!'

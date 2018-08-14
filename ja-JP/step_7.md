@@ -1,11 +1,11 @@
 \--- challenge \---
 
-## Challenge: More charts and graphs!
+## チャレンジ：さらにグラフをつくろう！
 
-Can you create a pie chart and a bar chart from the same file? You can either use the data you collected earlier or collect some new data.
+円グラフと棒グラフを同じファイルから作成できましたか？ 以前からあるデータを使っても、新しいデータを集めてもよいです。
 
-![screenshot](images/pets-pn-bar.png)
+![スクリーンショット](images/pets-pn-bar.png)
 
-![screenshot](images/pets-pn.png)
+![スクリーンショット](images/pets-pn.png)
 
 \--- /challenge \---

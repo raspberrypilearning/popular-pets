@@ -1,16 +1,16 @@
 ## Gegevens uit een bestand lezen
 
-Het is handig om gegevens in een bestand op te slaan in plaats van het in uw code te moeten opnemen.
+Het is handig om gegevens in een bestand op te slaan in plaats van het in je code te moeten opnemen.
 
-+ Voeg een nieuw bestand toe aan uw project en noem het `pets.txt`:
++ Voeg een nieuw bestand toe aan je project en noem het `huisdieren.txt`:
     
     ![screenshot](images/pets-file.png)
 
-+ Voeg nu gegevens toe aan het bestand. U kunt de favoriete huisdiergegevens gebruiken die u hebt verzameld of de voorbeeldgegevens.
++ Voeg nu gegevens toe aan het bestand. Je kunt de favoriete huisdiergegevens gebruiken die je hebt verzameld of de voorbeeldgegevens.
     
     ![screenshot](images/pets-data.png)
 
-+ Schakel terug naar `main.py` en geef commentaar op de lijnen die diagrammen en grafieken weergeven (weergeven) (zodat ze niet worden weergegeven):
++ Schakel terug naar `main.py` en zet een hekje voor de regels die de diagrammen en grafieken renderen (weergeven) zodat ze niet worden weergegeven:
     
     ![screenshot](images/pets-comment.png)
 
@@ -18,32 +18,32 @@ Het is handig om gegevens in een bestand op te slaan in plaats van het in uw cod
     
     ![screenshot](images/pets-read.png)
     
-    De lus `voor` loopt over de regels in het bestand. `splitlines ()` verwijdert het nieuwelijnteken vanaf het einde van de regel, omdat u dat niet wilt.
+    De `for` lus doorloopt de regels in het bestand. `splitlines ()` verwijdert het teken voor de volgende regel aan het einde van de regel, omdat je dat niet nodig hebt.
 
-+ Elke regel moet worden gescheiden in een label en een waarde:
++ Elke regel moet worden verdeeld in een naam (label) en een waarde:
     
     ![screenshot](images/pets-split.png)
     
-    Hiermee wordt de lijn op de spaties gesplitst, dus geen spaties in de labels. (Later kunt u ondersteuning voor spaties in labels toevoegen.)
+    Hiermee wordt de regel op de spaties gesplitst, dus zet geen spaties in de naam. (Later kun je ondersteuning voor spaties in namen toevoegen.)
 
-+ U krijgt mogelijk de volgende foutmelding:
++ Je krijgt mogelijk de volgende foutmelding:
     
     ![screenshot](images/pets-error.png)
     
-    Dit gebeurt als u een lege regel aan het einde van uw bestand hebt.
+    Dit gebeurt als er een lege regel aan het einde van je bestand staat.
     
-    U kunt de fout oplossen door alleen het label en de waarde te krijgen als de regel niet leeg is.
+    Je kunt de fout oplossen door alleen de naam en de waarde op te halen als de regel niet leeg is.
     
-    Hiertoe typt u de code in uw `voor` lus en voegt u de code `toe als regel:` erboven:
+    Daarvoor spring je binnen de `for` lus in en voeg je de code `if regel:` toe:
     
     ![screenshot](images/pets-fix.png)
 
-+ U kunt de `print (label, waarde)` regel verwijderen nu alles werkt.
++ Je kunt, nu alles werkt, de regel `print(naam, waarde)` verwijderen.
 
-+ Laten we nu het label en de waarde toevoegen aan een nieuw cirkeldiagram en het renderen:
++ Laten we nu de naam en waarde toevoegen aan een nieuw taartdiagram en het renderen:
     
     ![screenshot](images/pets-pie2.png)
     
-    Merk op dat `toevoegen` verwacht dat de waarde een getal is, `int (waarde)` verandert de waarde van een string in een geheel getal.
+    Merk op dat `add` (toevoegen) verwacht dat de waarde een getal is, `int(waarde)` verandert de waarde van een string in een geheel getal.
     
-    Als u decimalen zoals 3,5 (drijvende-kommagetallen) wilt gebruiken, kunt u `float (waarde)` gebruiken.
+    Als je decimalen zoals 3,5 (drijvendekommagetallen) wilt gebruiken, kun je in plaats daarvan `float(waarde)` gebruiken.

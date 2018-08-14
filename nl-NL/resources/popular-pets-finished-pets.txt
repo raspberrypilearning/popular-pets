@@ -1,0 +1,7 @@
+Hond 6
+Kat 4
+Hamster 3
+Vissen 2
+Slang 1
+
+

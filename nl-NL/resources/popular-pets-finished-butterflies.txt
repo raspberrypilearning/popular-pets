@@ -1,0 +1,5 @@
+Atalanta: 4
+Oranje Zandoogje: 4
+Klein Koolwitje: 3
+Boomblauwtje: 3
+Bruin Zandoogje: 5

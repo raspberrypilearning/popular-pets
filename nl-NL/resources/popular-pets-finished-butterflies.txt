@@ -1,5 +1,5 @@
-Red Admiral: 6
-Gatekeeper: 4
-Small White: 3
-Holly Blue: 3
-Meadow Brown: 5
+Atalanta: 4
+Oranje Zandoogje: 4
+Klein Koolwitje: 3
+Boomblauwtje: 3
+Bruin Zandoogje: 5

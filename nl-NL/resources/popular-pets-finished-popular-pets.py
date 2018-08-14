@@ -2,62 +2,62 @@
 
 import pygal
 
-piechart = pygal.Pie()
-piechart.title = 'Favourite Pet'
-piechart.add('Dog', 6)
-piechart.add('Cat', 4)
-piechart.add('Hamster', 3)
-piechart.add('Fish', 2)
-piechart.add('Snake', 1)
-piechart.render()
+taartdiagram = pygal.Pie()
+taartdiagram.title = 'Favoriete huisdieren' 
+taartdiagram.add('Hond', 6)
+taartdiagram.add('Kat', 4)
+taartdiagram.add('Hamster', 3)
+taartdiagram.add('Vis', 2)
+taartdiagram.add('Slang', 1)
+taartdiagram.render()
 
-barchart = pygal.Bar()
-barchart.title = 'Favourite Pet'
-barchart.add('Dog', 6)
-barchart.add('Cat', 4)
-barchart.add('Hamster', 3)
-barchart.add('Fish', 2)
-barchart.add('Snake', 1)
-barchart.render()
+staafdiagram = pygal.Bar()
+staafdiagram.title = 'Favoriete huisdieren' 
+staafdiagram.add('Hond', 6)
+staafdiagram.add('Kat', 4)
+staafdiagram.add('Hamster', 3)
+staafdiagram.add('Vis', 2)
+staafdiagram.add('Slang', 1)
+staafdiagram.render()
   
-piechart2 = pygal.Pie()
-barchart2 = pygal.Bar()
+taartdiagram2 = pygal.Pie()
+staafdiagram2 = pygal.Bar()
 
-file = open('pets.txt', 'r')
+bestand = open('huisdieren.txt', 'r')
 
-for line in file.read().splitlines():
-  if line:
-    label, value = line.split(' ')
-    piechart2.add(label, int(value))
-    barchart2.add(label, int(value))
+for regel in bestand.read().splitlines():
+  if regel:
+    naam, waarde = regel.split(' ')
+    taartdiagram2.add(naam,int(waarde))
+    staafdiagram2.add(naam,int(waarde))
     
-file.close()
+bestand.close()
 
-#piechart2.render()
-#barchart2.render()
+#taartdiagram2.render()
+#staafdiagram2.render()
 
-butterflies = pygal.Bar()
-butterflies.title = 'Butterfly Count'
+vlinders = pygal. Bar()
+vlinders.title = 'Vlinder telling'
 
-file = open('butterflies.txt', 'r')
+bestand = open('vlinders.txt', 'r')
 
-for line in file.read().splitlines():
-  if line:
-    label, value = line.split(': ')
-    butterflies.add(label, int(value))
-file.close()
+for regel in bestand.read().splitlines():
+  if regel:
+    naam, waarde = regel.split(' ')
+    vlinders.add(naam, int(waarde))
+bestand.close()
 
-butterflies.render()
+vlinders.render()
 
 pn = pygal.Bar()
-pn.title = 'Pirates vs Ninjas'
+pn.title = 'Piraten tegen Ninjas'
 
-file = open('piratesninjas.txt', 'r')
+bestand = open('piratenninjas.txt', 'r')
 
-for line in file.read().splitlines():
-  if line:
-    label, value = line.split(' ')
-    pn.add(label, int(value))
-file.close()
+for regel in bestand.read().splitlines():
+  if regel:
+    naam, waarde = regel.split(' ')
+    pn.add(naam,int(waarde))
+bestand.close()
 
 pn.render()

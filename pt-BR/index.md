@@ -1,13 +1,13 @@
 ---
-title: Popular Pets
-description: Create pie charts and bar graphs from data you collect.
-notes: "Popular Pets - notes.md"
-layout: project
-new: true
+title: Animais de estimação populares
+description: Crie gráficos de pizza e gráficos de barra dos dados que você coletar.
+notes: "Animais de estimação populares - notes.md"
+layout: projeto
+new: verdadeiro
 ---
-# Introduction {.intro}
+# Introdução {.intro}
 
-In this project you create pie charts and bar graphs from data that you collect from members of your Code Club.
+Neste projeto, você cria gráficos de pizza e gráficos de barras a partir dos dados coletados dos membros do seu Code Club.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/70d24d92b8?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -15,55 +15,55 @@ In this project you create pie charts and bar graphs from data that you collect 
   <img src="images/pets-finished.png">
 </div>
 
-# Step 1: Create a Pie Chart {.activity}
+# Passo 1: Criar um gráfico de pizza {.activity}
 
-Pie Charts are are useful way of showing data. Let's do a survey of favourite pets in your Code Club and then present the data as a Pie Chart.
+Gráficos de pizza são uma forma útil de mostrar dados. Vamos fazer uma pesquisa com os animais favoritos no seu Code Club e então apresentar os dados como um gráfico de pizza.
 
-## Activity Checklist {.check}
+## Lista de atividades {.check}
 
-+ Ask your volunteer to help organise a survey. You could record the results on a computer connected to a projector or a whiteboard that everyone can see.
++ Peça ao seu voluntário para ajudar a organizar uma pesquisa. Você pode gravar os resultados em um computador conectado a um projetor ou quadro branco que todos possam ver.
     
-    Write a list of pets and make sure everyone's favourite is included.
+    Escreva uma lista de animais de estimação e certifique-se de que os favoritos de todos estejam incluídos.
     
-    Then get everyone to vote for their favourite by putting their hand up when it gets called out. Only one vote each!
+    Então faça com que todos votem em seu favorito, colocando a mão para cima quando for chamado. Apenas um voto cada!
     
-    For example:
+    Por exemplo:
     
     ![screenshot](images/pets-favourite.png)
 
-+ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ Abra o modelo Trinket em branco do Python: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ Let's create a pie chart to show the results of your survey. You'll be using the PyGal library to do some of the hard work.
++ Vamos criar um gráfico de pizza para mostrar os resultados da sua pesquisa. Você estará usando a biblioteca PyGal para fazer um pouco do trabalho pesado.
     
-    First import the Pygal library:
+    Primeiro importe a biblioteca Pygal:
     
     ![screenshot](images/pets-pygal.png)
 
-+ Now let's create a Pie chart and render (display) it:
++ Agora vamos criar um gráfico de pizza e renderizar (exibir):
     
     ![screenshot](images/pets-pie.png)
     
-    Don't worry, it gets more interesting when you add data!
+    Não se preocupe, fica mais interessante quando você adiciona dados!
 
-+ Let's add in the data for one of the pets. Use the data that you collected.
++ Vamos adicionar os dados de um dos animais de estimação. Use os dados que você coletou.
     
     ![screenshot](images/pets-add.png)
     
-    There's only one piece of data so it takes up the whole pie chart.
+    Há apenas um dado, então ele ocupa todo o gráfico de pizza.
 
-+ Now add the rest of the data in the same way.
++ Agora adicione o restante dos dados da mesma maneira.
     
-    For example:
+    Por exemplo:
     
     ![screenshot](images/pets-add-all.png)
 
-+ And to finish off your chart, add a title:
++ E para finalizar seu gráfico, adicione um título:
     
     ![screenshot](images/pets-title.png)
 
-## Save Your Project {.save}
+## Salve seu projeto {.save}
 
-## Challenge: Create your own bar chart {.challenge}
+## Desafio: crie seu próprio gráfico de barras {.challenge}
 
 You can create bar charts in a similar way. Just use `barchart = pygal.Bar()` to create a new barchart, and then add data and render in the same way as for a pie chart.
 

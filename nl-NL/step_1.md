@@ -20,6 +20,6 @@ Dit project behandelt elementen uit de volgende onderdelen van het [Raspberry Pi
 
 ### Aanvullende informatie voor clubleiders
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/popular-pets/print){:target="_blank"}.
+Als je dit project wilt afdrukken, gebruik dan de [ printvriendelijke versie ](https://projects.raspberrypi.org/en/projects/popular-pets/print) {:target="_ blank"}.
 
 Gebruik de link in de voettekst voor toegang tot de GitHub opslagplaats voor dit project, met daarin alle bronnen (inclusief een voorbeeld van een voltooid project) in de map ' nl/bronnen'.

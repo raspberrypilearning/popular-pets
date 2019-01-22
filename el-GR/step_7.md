@@ -1,8 +1,8 @@
 \--- challenge \---
 
-## Challenge: More charts and graphs!
+## Πρόκληση: Περισσότερα διαγράμματα!
 
-Can you create a pie chart and a bar chart from the same file? You can either use the data you collected earlier or collect some new data.
+Μπορείς να δημιουργήσεις ένα διάγραμμα πίτας και ένα γράφημα ράβδων από το ίδιο αρχείο; Μπορείς είτε να χρησιμοποιήσεις τα δεδομένα που συνέλεξες νωρίτερα είτε να συλλέξεις νέα δεδομένα.
 
 ![screenshot](images/pets-pn-bar.png)
 

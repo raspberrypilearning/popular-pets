@@ -2,62 +2,62 @@
 
 import pygal
 
-piechart = pygal.Pie()
-piechart.title = 'Favourite Pet'
-piechart.add('Dog', 6)
-piechart.add('Cat', 4)
-piechart.add('Hamster', 3)
-piechart.add('Fish', 2)
-piechart.add('Snake', 1)
-piechart.render()
+grafico_circular = pygal.Pie()
+grafico_circular.title= 'Animal Favorito'
+grafico_circular.add('Cachorro', 6)
+grafico_circular.add('Gato', 4)
+grafico_circular.add('Hamster', 3)
+grafico_circular.add('Peixe', 2)
+grafico_circular.add('Cobra', 1)
+grafico_circular.render()
 
-barchart = pygal.Bar()
-barchart.title = 'Favourite Pet'
-barchart.add('Dog', 6)
-barchart.add('Cat', 4)
-barchart.add('Hamster', 3)
-barchart.add('Fish', 2)
-barchart.add('Snake', 1)
-barchart.render()
+grafico_barra = pygal.Bar()
+grafico_barra.title = 'Animal Favorito'
+grafico_barra.add('Cachorro', 6)
+grafico_barra.add('Gato', 4)
+grafico_barra.add('Hamster', 3)
+grafico_barra.add('Peixe', 2)
+grafico_barra.add('Cobra', 1)
+grafico_barra.render()
   
-piechart2 = pygal.Pie()
-barchart2 = pygal.Bar()
+grafico_circular2 = pygal.Pie()
+grafico_barra2 = pygal.Bar()
 
-file = open('pets.txt', 'r')
+arquivo = open('pets.txt', 'r')
 
-for line in file.read().splitlines():
-  if line:
-    label, value = line.split(' ')
-    piechart2.add(label, int(value))
-    barchart2.add(label, int(value))
+for linha in arquivo.read().splitlines():
+  if linha:
+    rotulo, valor = linha.split(' ')
+    grafico_circular2.add(rotulo, int(valor))
+    grafico_barra2.add(rotulo, int(valor))
     
-file.close()
+arquivo.close()
 
-#piechart2.render()
-#barchart2.render()
+#grafico_circular2.render()
+#grafico_barra2.render()
 
-butterflies = pygal.Bar()
-butterflies.title = 'Butterfly Count'
+borboletas = pygal.Bar()
+borboletas.title = 'Contagem de Borboletas'
 
-file = open('butterflies.txt', 'r')
+arquivo = open('butterflies.txt', 'r')
 
-for line in file.read().splitlines():
-  if line:
-    label, value = line.split(': ')
-    butterflies.add(label, int(value))
-file.close()
+for linha in arquivo.read().splitlines():
+  if linha:
+    rotulo, valor = linha.split(' ')
+    borboletas.add(rotulo, int(valor))
+arquivo.close()
 
-butterflies.render()
+borboletas.render()
 
 pn = pygal.Bar()
-pn.title = 'Pirates vs Ninjas'
+pn.title = 'Piratas vs Ninjas'
 
-file = open('piratesninjas.txt', 'r')
+arquivo = open('piratesninjas.txt', 'r')
 
-for line in file.read().splitlines():
-  if line:
-    label, value = line.split(' ')
-    pn.add(label, int(value))
-file.close()
+for linha in arquivo.read().splitlines():
+  if linha:
+    rotulo, valor = linha.split(' ')
+    pn.add(rotulo, int(valor))
+arquivo.close()
 
 pn.render()

@@ -1,49 +1,49 @@
-## Read data from a file
+## Čitaj podatke iz datoteke
 
-It's useful to be able to store data in a file rather than having to include it in your code.
+Umjesto da upisuješ podatke u svoj kôd, korisnije je da ih smjestiš u datoteku.
 
-+ Add a new file to your project and call it `pets.txt`:
++ Dodaj novu datoteku u svoj projekat i nazovi je `ljubimci.txt`:
     
     ![screenshot](images/pets-file.png)
 
-+ Now add data to the file. You can use the favourite pets data that you collected or the example data.
++ Sada upiši podatke u datoteku. Možeš da koristiš podatke o omiljenim ljubimcima koje si prikupio/prikupila ili podatke iz primjera.
     
     ![screenshot](images/pets-data.png)
 
-+ Switch back to `main.py` and comment out the lines that render (display) charts and graphs (so that they aren't displayed):
++ Pređi na `main.py` i komentariši redove koji vizuelizuju (prikazuju) grafikone (tako da ne budu prikazani):
     
     ![screenshot](images/pets-comment.png)
 
-+ Now let's read the data from the file.
++ Sada učitajmo podatke iz datoteke.
     
     ![screenshot](images/pets-read.png)
     
-    The `for` loop will loop over the lines in the file. `splitlines()` removes the newline character from the end of the line as you don't want that.
+    Petlja `for` će prolaziti kroz sve redove u datoteci. Funkcija `splitlines()` uklanja znak za novi red sa kraja reda, pošto to ne želimo.
 
-+ Each line needs to be separated into a label and a value:
++ Svaki red mora biti podijeljen na naziv i vrijednost:
     
     ![screenshot](images/pets-split.png)
     
-    This will split the line at the spaces so don't include spaces in the labels. (You can add support for spaces in labels later.)
+    Ovo će podijeliti red tamo gdje su razmaci, pa nemoj unositi razmake u nazive. (Kasnije možeš da dodaš opciju za razmake u nazivima.)
 
-+ You might get an error like this:
++ Možda ćeš dobiti poruku o grešci kao što je ova:
     
     ![screenshot](images/pets-error.png)
     
-    This happens if you have an empty line at the end of your file.
+    To se dešava ako na kraju svoje datoteke imaš prazan red.
     
-    You can fix the error by only getting the label and value if the line isn't empty.
+    Grešku možeš ispraviti tako da se naziv i vrijednost ispisuju samo ako red nije prazan.
     
-    To do this, indent the code inside your `for` loop and add the code `if line:` above it:
+    Da to napraviš, uvuci kôd unutar svoje `for` petlje i dodaj kôd `if red:` iznad njega:
     
     ![screenshot](images/pets-fix.png)
 
-+ You can remove the `print(label, value)` line now everything is working.
++ Sada kada sve funkcioniše, možeš da ukloniš red `print(naziv, vrijednost)`.
 
-+ Now let's add the label and value to a new Pie Chart and render it:
++ Sada dodajmo naziv i vrijednost novom stubičastom grafikonu i prikažimo ga:
     
     ![screenshot](images/pets-pie2.png)
     
-    Note that `add` expects the value to be a number, `int(value)` turns the value from a string into an integer.
+    Imaj u vidu da `add` očekuje da vrijednost bude broj, a `int(vrijednost)` pretvara vrijednost iz znakovnog niza u integer.
     
-    If you wanted to use decimals such as 3.5 (floating point numbers) you could use `float(value)` instead.
+    Ako želiš da koristiš decimalne brojeve kao što je 3.5 (broj sa pokretnom tačkom), možeš da koristiš `float(vrijednost)`.

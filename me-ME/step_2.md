@@ -4,4 +4,4 @@
 
 + Trinket online editor
 
-Napomena - ovaj projekat koristi pygal modul u trinketu i funkcionisaće samo u trinketu.
+Napomena - ovaj projekat koristi trinketov pygal modul i funkcionisaće samo u trinketu.

@@ -1,5 +1,5 @@
-Red Admiral: 6
-Gatekeeper: 4
-Small White: 3
-Holly Blue: 3
-Meadow Brown: 5
+Almirante Vermelho: 6
+Guarda-portões: 4
+Borboleta-pequena-das-couves: 3
+Azul-celeste: 3
+Borboleta-loba: 5

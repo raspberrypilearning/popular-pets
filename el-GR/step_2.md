@@ -1,5 +1,7 @@
-## What you will need
+## Τι θα χρειαστείς
 
-### Software
+### Λογισμικό
 
-+ Trinket online editor
++ Online επεξεργαστής Trinket
+
+Note - this project uses trinkets pygal module and will only work with trinket.

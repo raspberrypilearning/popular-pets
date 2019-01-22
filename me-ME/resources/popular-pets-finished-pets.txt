@@ -1,7 +1,7 @@
-Dog 6
-Cat 4
-Hamster 3
-Fish 2
-Snake 1
+Pas 6
+Mačka 4
+Hrčak 3
+Riba 2
+Zmija 1
 
 

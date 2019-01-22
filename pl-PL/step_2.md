@@ -2,4 +2,6 @@
 
 ### Oprogramowanie
 
-+ Edytor internetowy Trinket
++ Trinket edytor online
+
+Note - this project uses trinkets pygal module and will only work with trinket.

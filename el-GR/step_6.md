@@ -1,10 +1,10 @@
 \--- challenge \---
 
-## Challenge: Create a new chart from a file
+## Πρόκληση: Δημιούργησε ένα νέο διάγραμμα από ένα αρχείο
 
-Can you create a new bar graph or pie chart from data in a file? You'll need to create a new .txt file.
+Μπορείς να δημιουργήσεις ένα νέο γράφημα ράβδων ή διάγραμμα πίτας από τα δεδομένα ενός αρχείου; Θα χρειαστεί να δημιουργήσεις ένα νέο αρχείο .txt.
 
-Tip: If you want to have spaces in the labels then use `line.split(': ')` and add colons to your data file, e.g. 'Red Admiral: 6'
+Συμβουλή: Εάν θέλεις να υπάρχουν κενά στις ετικέτες, χρησιμοποιείς το `line.split(': ')` και προσθέτεις άνω κάτω τέλεια στο αρχείο δεδομένων σου, π.χ. 'Red Admiral: 6'
 
 ![screenshot](images/pets-butterflies.png)
 

@@ -1,6 +1,6 @@
-\--- wyzwanie \---
+\--- challenge \---
 
-## Wyzwanie: więcej wykresów i wykresów!
+## Wyzwanie: więcej wykresów i grafów!
 
 Czy możesz utworzyć wykres kołowy i wykres słupkowy z tego samego pliku? Możesz użyć danych zebranych wcześniej lub zebrać nowe dane.
 
@@ -8,4 +8,4 @@ Czy możesz utworzyć wykres kołowy i wykres słupkowy z tego samego pliku? Mo�
 
 ![zrzut ekranu](images/pets-pn.png)
 
-\--- / wyzwanie \---
+\--- /challenge \---

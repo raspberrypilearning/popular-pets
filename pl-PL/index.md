@@ -1,13 +1,13 @@
 ---
-title: Popular Pets
-description: Create pie charts and bar graphs from data you collect.
+title: Popularne zwierzątka domowe
+description: Twórz wykresy kołowe i grafy słupkowe z gromadzonych danych.
 notes: "Popular Pets - notes.md"
-layout: project
+layout: projekt
 new: true
 ---
-# Introduction {.intro}
+# Wprowadzenie {.intro}
 
-In this project you create pie charts and bar graphs from data that you collect from members of your Code Club.
+W tym projekcie tworzysz wykresy kołowe i wykresy słupkowe na podstawie danych zbieranych od członków Twojego Code Club.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/70d24d92b8?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -15,152 +15,152 @@ In this project you create pie charts and bar graphs from data that you collect 
   <img src="images/pets-finished.png">
 </div>
 
-# Step 1: Create a Pie Chart {.activity}
+# Krok 1: Utwórz wykres kołowy {.activity}
 
-Pie Charts are are useful way of showing data. Let's do a survey of favourite pets in your Code Club and then present the data as a Pie Chart.
+Wykresy kołowe są użytecznym sposobem przedstawiania danych. Zróbmy ankietę ulubionych zwierzątek w twoim Code Club, a następnie przestaw je w postaci wykresu kołowego.
 
-## Activity Checklist {.check}
+## Lista kontrolna aktywności {.check}
 
-+ Ask your volunteer to help organise a survey. You could record the results on a computer connected to a projector or a whiteboard that everyone can see.
++ Poproś swojego wolontariusza o pomoc w zorganizowaniu ankiety. Możesz zapisywać wyniki na komputerze podłączonym do projektora lub na tablicy, którą każdy może zobaczyć.
     
-    Write a list of pets and make sure everyone's favourite is included.
+    Napisz listę zwierzątek i upewnij się, że każdego ulubieńcy są uwzględnieni.
     
-    Then get everyone to vote for their favourite by putting their hand up when it gets called out. Only one vote each!
+    Następnie niech każdy zagłosuje na swojego ulubieńca, podnosząc rękę jak zwierzątko będzie wyczytane. Ale każdy może zagłosować tylko raz!
     
-    For example:
+    Na przykład:
     
-    ![screenshot](images/pets-favourite.png)
+    ![zrzut ekranu](images/pets-favourite.png)
 
-+ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ Otwórz pusty szablon dla języka Python w edytorze Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ Let's create a pie chart to show the results of your survey. You'll be using the PyGal library to do some of the hard work.
++ Stwórzmy wykres kołowy, aby pokazać wyniki Twojej ankiety. Będziesz używał biblioteki PyGal do wykonania ciężkiej pracy.
     
-    First import the Pygal library:
+    Najpierw zaimportuj bibliotekę Pygal:
     
-    ![screenshot](images/pets-pygal.png)
+    ![zrzut ekranu](images/pets-pygal.png)
 
-+ Now let's create a Pie chart and render (display) it:
++ Teraz utwórzmy wykres kołowy i wyrenderujmy (wyświetlmy) go:
     
-    ![screenshot](images/pets-pie.png)
+    ![zrzut ekranu](images/pets-pie.png)
     
-    Don't worry, it gets more interesting when you add data!
+    Nie martw się, zrobi się ciekawiej, gdy dodasz dane!
 
-+ Let's add in the data for one of the pets. Use the data that you collected.
++ Dodajmy dane dla jednego ze zwierzątek. Wykorzystaj zebrane dane.
     
-    ![screenshot](images/pets-add.png)
+    ![zrzut ekranu](images/pets-add.png)
     
-    There's only one piece of data so it takes up the whole pie chart.
+    Jest tylko jeden element danych, więc zajmuje cały wykres kołowy.
 
-+ Now add the rest of the data in the same way.
++ Teraz dodaj pozostałe dane w ten sam sposób.
     
-    For example:
+    Na przykład:
     
-    ![screenshot](images/pets-add-all.png)
+    ![zrzut ekranu](images/pets-add-all.png)
 
-+ And to finish off your chart, add a title:
++ Aby ukończyć wykres, dodaj tytuł:
     
-    ![screenshot](images/pets-title.png)
+    ![zrzut ekranu](images/pets-title.png)
 
-## Save Your Project {.save}
+## Zapisz swój projekt {.save}
 
-## Challenge: Create your own bar chart {.challenge}
+## Wyzwanie: Stwórz własny wykres słupkowy {.challenge}
 
-You can create bar charts in a similar way. Just use `barchart = pygal.Bar()` to create a new barchart, and then add data and render in the same way as for a pie chart.
+Możesz tworzyć wykresy słupkowe w podobny sposób. Wystarczy użyć `wykresSlupokwy = pygal.Bar()` aby utworzyć nowy wykres słupkowy, a następnie dodać dane i renderować w taki sam sposób, jak w przypadku wykresu kołowego.
 
-Collect data from your Code Club members to create your own bar graph.
+Zbierz dane od członków Code Club, aby stworzyć własny wykres słupkowy.
 
-Make sure that you choose a topic that everyone will know about!
+Upewnij się, że wybierasz temat, o którym wszyscy będą wiedzieć!
 
-Here are some ideas:
+Oto kilka pomysłów:
 
-+ What is your favourite sport?
++ Jaki jest Twój ulubiony sport?
 
-+ What is your favourite ice cream flavour?
++ Jaki jest twój ulubiony smak lodów?
 
-+ How do you get to school?
++ Jak dostajesz się do szkoły?
 
-+ What month is your birthday?
++ W jakim miesiącu masz urodziny?
 
-+ Do you play Minecraft? (yes/no)
++ Czy grasz w Minecraft? (tak/nie)
 
-Don't ask questions that give personal data such as where people live. Ask your club leader if you're not sure.
+Nie zadawaj pytań, które dają dane osobowe, takie jak miejsce zamieszkania innych. Zapytaj swojego lidera klubu, jeśli nie jesteś tego pewien.
 
-Examples:
+Przykłady:
 
-![screenshot](images/pets-bar-examples.png)
+![zrzut ekranu](images/pets-bar-examples.png)
 
-## Save Your Project {.save}
+## Zapisz swój projekt {.save}
 
-# Step 2: Read data from a file {.activity}
+# Krok 2: Wczytaj dane z pliku {.activity}
 
-It's useful to be able to store data in a file rather than having to include it in your code.
+Warto przechowywać dane w pliku, zamiast umieszczać je w kodzie.
 
-## Activity Checklist {.check}
+## Lista kontrolna aktywności {.check}
 
-+ Add a new file to your project and call it `pets.txt`:
++ Dodaj nowy plik do projektu i nazwij go `pets.txt`:
     
-    ![screenshot](images/pets-file.png)
+    ![zrzut ekranu](images/pets-file.png)
 
-+ Now add data to the file. You can use the favourite pets data that you collected or the example data.
++ Teraz dodaj dane do pliku. Możesz użyć dane ulubionych zwierzątek, które zebrałeś, albo przykładowych danych.
     
-    ![screenshot](images/pets-data.png)
+    ![zrzut ekranu](images/pets-data.png)
 
-+ Switch back to `main.py` and comment out the lines that render (display) charts and graphs (so that they aren't displayed):
++ Przełącz z powrotem na `main.py` i zakomentuj linie renderujące (wyświetlające) wykresy (tak, aby nie były wyświetlane):
     
-    ![screenshot](images/pets-comment.png)
+    ![zrzut ekranu](images/pets-comment.png)
 
-+ Now let's read the data from the file.
++ Teraz odczytajmy dane z pliku.
     
-    ![screenshot](images/pets-read.png)
+    ![zrzut ekranu](images/pets-read.png)
     
-    The `for` loop will loop over the lines in the file. `splitlines()` removes the newline character from the end of the line as you don't want that.
+    Pętla `for` będzie powtarzać linie w pliku. `splitlines()` usuwa znak nowej linii z końca linii, ponieważ tego nie chcesz.
 
-+ Each line needs to be separated into a label and a value:
++ Każda linia musi być podzielona na etykietę(label) i wartość(value):
     
-    ![screenshot](images/pets-split.png)
+    ![zrzut ekranu](images/pets-split.png)
     
-    This will split the line at the spaces so don't include spaces in the labels. (You can add support for spaces in labels later.)
+    Spowoduje to podzielenie linii w miejscach spacji, więc nie używaj spacji w etykietach. (Możesz dodać wspieranie spacji w etykietach później.)
 
-+ You might get an error like this:
++ Może pojawić się błąd podobny do tego:
     
-    ![screenshot](images/pets-error.png)
+    ![zrzut ekranu](images/pets-error.png)
     
-    This happens if you have an empty line at the end of your file.
+    Dzieje się tak, jeśli masz pusty wiersz na końcu pliku.
     
-    You can fix the error by only getting the label and value if the line isn't empty.
+    Możesz naprawić błąd, pobierając etykietę i wartość tylko wtedy, gdy linia nie jest pusta.
     
-    To do this, indent the code inside your `for` loop and add the code `if line:` above it:
+    Aby to zrobić, wprowadź wcięcie kodu wewnątrz pętli `for` i dodaj kod, `if line:` powyżej niego:
     
-    ![screenshot](images/pets-fix.png)
+    ![zrzut ekranu](images/pets-fix.png)
 
-+ You can remove the `print(label, value)` line now everything is working.
++ Możesz usunąć linię `print(label, value)`, teraz wszystko działa.
 
-+ Now let's add the label and value to a new Pie Chart and render it:
++ Teraz dodajmy etykietę i wartość do nowego wykresu kołowego i wyrenderujmy go:
     
-    ![screenshot](images/pets-pie2.png)
+    ![zrzut ekranu](images/pets-pie2.png)
     
-    Note that `add` expects the value to be a number, `int(value)` turns the value from a string into an integer.
+    Zauważ, że `add` oczekuje, że wartość będzie liczbą, `int (wartość)` zamienia wartość z ciągu znaków na liczbę całkowitą- integer.
     
-    If you wanted to use decimals such as 3.5 (floating point numbers) you could use `float(value)` instead.
+    Jeśli chciałbyś używać liczb dziesiętnych, takich jak 3.5 (liczba zmiennoprzecinkowa), możesz zamiast tego użyć `float(wartość)`.
 
-## Save Your Project {.save}
+## Zapisz swój projekt {.save}
 
-## Challenge: Create a new chart from a file {.challenge}
+## Wyzwanie: Utwórz nowy wykres z pliku {.challenge}
 
-Can you create a new bar graph or pie chart from data in a file? You'll need to create a new .txt file.
+Czy możesz utworzyć nowy wykres słupkowy lub wykres kołowy z danych w pliku? Musisz utworzyć nowy plik .txt.
 
-Tip: If you want to have spaces in the labels then use `line.split(': ')` and add colons to your data file, e.g. 'Red Admiral: 6'
+Wskazówka: jeśli chcesz mieć spacje w etykietach, użyj `linii.split (":")` i dodaj dwukropki do pliku danych, np. "Rusałka admirał: 6"
 
-![screenshot](images/pets-butterflies.png)
+![zrzut ekranu](images/pets-butterflies.png)
 
-## Save Your Project {.save}
+## Zapisz swój projekt {.save}
 
-## Challenge: More charts and graphs! {.challenge}
+## Wyzwanie: więcej wykresów i grafów! {.challenge}
 
-Can you create a pie chart and a bar chart from the same file? You can either use the data you collected earlier or collect some new data.
+Czy możesz utworzyć wykres kołowy i wykres słupkowy z tego samego pliku? Możesz użyć danych zebranych wcześniej lub zebrać nowe dane.
 
-![screenshot](images/pets-pn-bar.png)
+![zrzut ekranu](images/pets-pn-bar.png)
 
-![screenshot](images/pets-pn.png)
+![zrzut ekranu](images/pets-pn.png)
 
-## Save Your Project {.save}
+## Zapisz swój projekt {.save}

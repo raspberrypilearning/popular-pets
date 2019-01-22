@@ -1,5 +1,5 @@
-Red Admiral: 6
-Gatekeeper: 4
-Small White: 3
-Holly Blue: 3
-Meadow Brown: 5
+Rusałka admirał: 6
+Przestrojnik titonus: 4
+Bielinek rzepnik: 3
+Modraszek wieszczek: 3
+Przestrojnik jurtina: 5

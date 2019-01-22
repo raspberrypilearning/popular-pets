@@ -2,7 +2,7 @@
 
 ## Wyzwanie: Stwórz własny wykres słupkowy
 
-Możesz tworzyć wykresy słupkowe w podobny sposób. Po prostu użyj `barchart = pygal.Bar ()` , aby utworzyć nową tabelę, a następnie dodaj dane i wyrenderuj w taki sam sposób, jak w przypadku wykresu kołowego.
+Możesz tworzyć wykresy słupkowe w podobny sposób. Po prostu użyj `wykresSlupkowy = pygal.Bar ()`, aby utworzyć nową tabelę, a następnie dodaj dane i wyrenderuj w taki sam sposób, jak w przypadku wykresu kołowego.
 
 Zbieraj dane od członków Code Club, aby stworzyć własny wykres słupkowy.
 

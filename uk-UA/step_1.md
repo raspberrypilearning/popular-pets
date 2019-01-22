@@ -20,6 +20,6 @@
 
 ### Додаткова інформація для вихователів
 
-Якщо вам потрібно надрукувати цей проект, скористайтеся [версія для друку](https://projects.raspberrypi.org/en/projects/about-me/print)(: target = "_ blank").
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/popular-pets/print){:target="_blank"}.
 
 Скористайтеся посиланням у нижньому колонтитулі, щоб отримати доступ до сховища GitHub для даного проекту, який містить усі ресурси (включаючи приклад готового проекту) в папці en / resources.

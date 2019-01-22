@@ -1,43 +1,43 @@
-## Create a Pie Chart
+## Δημιούργησε ένα διάγραμμα πίτας
 
-Pie Charts are are useful way of showing data. Let's do a survey of favourite pets in your Code Club and then present the data as a Pie Chart.
+Τα διαγράμματα πίτας είναι χρήσιμος τρόπος για την εμφάνιση δεδομένων. Ας κάνουμε μια έρευνα για τα αγαπημένα κατοικίδια ζώα στο Code Club Code σου και στη συνέχεια ας παρουσιάσουμε τα δεδομένα ως ένα διάγραμμα πίτας.
 
-+ Ask your club leader to help organise a survey. You could record the results on a computer connected to a projector or a whiteboard that everyone can see.
++ Ζήτησε από το συντονιστή της ομάδας σου να σε βοηθήσεις να οργανώσεις μία έρευνα. Θα μπορούσες να καταγράψεις τα αποτελέσματα σε έναν υπολογιστή συνδεδεμένο σε προβολέα ή σε πίνακα που όλοι μπορούν να δουν.
     
-    Write a list of pets and make sure everyone's favourite is included.
+    Γράψε μια λίστα με κατοικίδια ζώα και βεβαιώσου ότι το αγαπημένο κατοικίδιο όλων συμπεριλαμβάνεται.
     
-    Then get everyone to vote for their favourite by putting their hand up when it gets called out. Only one vote each!
+    Στη συνέχεια, κάλεσε όλους να ψηφίσουν το αγαπημένο τους, σηκώνοντας το χέρι τους όταν το ακούσουν. Μόνο μία ψήφος επιτρέπεται για τον καθένα!
     
-    For example:
+    Για παράδειγμα:
     
     ![screenshot](images/pets-favourite.png)
 
-+ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ Άνοιξε το κενό πρότυπο Python Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ Let's create a pie chart to show the results of your survey. You'll be using the PyGal library to do some of the hard work.
++ Ας δημιουργήσουμε ένα διάγραμμα πίτας για να δούμε τα αποτελέσματα της έρευνας σου. Η βιβλιοθήκη PyGal θα σου λύσει τα χέρια.
     
-    First import the Pygal library:
+    Πρώτα εισάγεις τη βιβλιοθήκη Pygal:
     
     ![screenshot](images/pets-pygal.png)
 
-+ Now let's create a Pie chart and render (display) it:
++ Τώρα ας δημιουργήσουμε ένα διάγραμμα πίτας και ας το απεικονίσουμε (εμφανίσουμε):
     
     ![screenshot](images/pets-pie.png)
     
-    Don't worry, it gets more interesting when you add data!
+    Μην ανησυχείς, θα γίνει πιο ενδιαφέρον όταν θα προσθέσεις δεδομένα!
 
-+ Let's add in the data for one of the pets. Use the data that you collected.
++ Ας προσθέσουμε τα δεδομένα για ένα από τα κατοικίδια ζώα. Χρησιμοποίησε τα δεδομένα που σύλλεξες.
     
     ![screenshot](images/pets-add.png)
     
-    There's only one piece of data so it takes up the whole pie chart.
+    Αυτό είναι μόνο ένα μέρος των δεδομένων, οπότε προς το παρόν καταλαμβάνει ολόκληρο το διάγραμμα πίτας.
 
-+ Now add the rest of the data in the same way.
++ Τώρα πρόσθεσε τα υπόλοιπα δεδομένα με τον ίδιο τρόπο.
     
-    For example:
+    Για παράδειγμα:
     
     ![screenshot](images/pets-add-all.png)
 
-+ And to finish off your chart, add a title:
++ Και για να ολοκληρώσεις το γράφημά σου, πρόσθεσε έναν τίτλο:
     
     ![screenshot](images/pets-title.png)

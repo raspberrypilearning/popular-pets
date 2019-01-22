@@ -1,10 +1,10 @@
-## Introduction
+## Εισαγωγή
 
-In this project you create pie charts and bar graphs from data that you collect from members of your Code Club.
+Σε αυτό το έργο δημιουργείς διαγράμματα πίτας και ράβδων από δεδομένα που συλλέγεις από μέλη του Code Club σου.
 
-### Instructions
+### Οδηγίες
 
-When you click Run the charts are generated from data using the PyGal python module.
+Όταν κάνεις κλικ στο κουμπί Run, τα διαγράμματα δημιουργούνται από δεδομένα χρησιμοποιώντας τη βιβλιοθήκη PyGal.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/70d24d92b8?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -12,14 +12,14 @@ When you click Run the charts are generated from data using the PyGal python mod
   <img src="images/pets-finished.png">
 </div>
 
-### What you will learn
+### Τι θα μάθεις
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Αυτό το έργο καλύπτει στοιχεία από τις ακόλουθες πτυχές του [Προγράμματος Μαθημάτων Ψηφιακής Δημιουργίας του Raspberry Pi](http://rpf.io/curriculum):
 
-+ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder/)
++ [Συνδύασε δομές προγραμματισμού για να λύσεις ένα πρόβλημα.](https://www.raspberrypi.org/curriculum/programming/builder/)
 
-### Additional information for educators
+### Πρόσθετες πληροφορίες για εκπαιδευτικούς
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/about-me/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/popular-pets/print){:target="_blank"}.
 
-Use the link in the footer to access the GitHub repository for this project, which contains all resources (including an example finished project) in the 'en/resources' folder.
+Χρησιμοποίησε το σύνδεσμο στο υποσέλιδο για να αποκτήσεις πρόσβαση στο αποθετήριο GitHub για αυτό το έργο, το οποίο περιέχει όλους τους πόρους (συμπεριλαμβανομένου ενός έργου που έχει ολοκληρωθεί στο παράδειγμα) στο φάκελο 'en/resources'.

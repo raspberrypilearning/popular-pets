@@ -1,6 +1,6 @@
 ---
 title: Animais de estimação populares
-description: Crie gráficos de pizza e gráficos de barra dos dados que você coletar.
+description: Crie gráficos de pizza e gráficos de barra a partir dos dados que você coletar.
 notes: "Animais de estimação populares - notes.md"
 layout: projeto
 new: verdadeiro
@@ -25,7 +25,7 @@ Gráficos de pizza são uma forma útil de mostrar dados. Vamos fazer uma pesqui
     
     Escreva uma lista de animais de estimação e certifique-se de que os favoritos de todos estejam incluídos.
     
-    Então faça com que todos votem em seu favorito, colocando a mão para cima quando for chamado. Apenas um voto cada!
+    Então faça com que todos votem em seu favorito colocando a mão para cima quando for chamado. Apenas um voto cada!
     
     Por exemplo:
     
@@ -65,102 +65,102 @@ Gráficos de pizza são uma forma útil de mostrar dados. Vamos fazer uma pesqui
 
 ## Desafio: crie seu próprio gráfico de barras {.challenge}
 
-You can create bar charts in a similar way. Just use `barchart = pygal.Bar()` to create a new barchart, and then add data and render in the same way as for a pie chart.
+Você pode criar gráficos de barras de maneira semelhante. Apenas use, `grafico_barra = pygal.Bar()` para criar um novo gráfico de barras, e então adicione os dados e renderize do mesmo jeito que para um gráfico de pizza.
 
-Collect data from your Code Club members to create your own bar graph.
+Colete dados de seus membros do Code Club para criar seu próprio gráfico de barras.
 
-Make sure that you choose a topic that everyone will know about!
+Certifique-se de escolher um tópico que todos saibam!
 
-Here are some ideas:
+Aqui estão algumas idéias:
 
-+ What is your favourite sport?
++ Qual é o seu esporte favorito?
 
-+ What is your favourite ice cream flavour?
++ Qual é o seu sabor favorito de sorvete?
 
-+ How do you get to school?
++ Como você chega na escola?
 
-+ What month is your birthday?
++ Qual é o mês do seu aniversário?
 
-+ Do you play Minecraft? (yes/no)
++ Você joga Minecraft? (sim/não)
 
-Don't ask questions that give personal data such as where people live. Ask your club leader if you're not sure.
+Não faça perguntas que forneçam dados pessoais, como o endereço das pessoas. Pergunte ao líder do seu clube se não tiver certeza.
 
-Examples:
+Exemplos:
 
 ![screenshot](images/pets-bar-examples.png)
 
-## Save Your Project {.save}
+## Salve seu projeto {.save}
 
-# Step 2: Read data from a file {.activity}
+# Passo 2: Ler dados de um arquivo {.activity}
 
-It's useful to be able to store data in a file rather than having to include it in your code.
+É útil poder armazenar dados em um arquivo em vez de ter que incluí-los em seu código.
 
-## Activity Checklist {.check}
+## Lista de atividades {.check}
 
-+ Add a new file to your project and call it `pets.txt`:
++ Adicione um novo arquivo ao seu projeto e chame-o de `pets.txt`:
     
     ![screenshot](images/pets-file.png)
 
-+ Now add data to the file. You can use the favourite pets data that you collected or the example data.
++ Agora adicione dados ao arquivo. Você pode usar os dados de animais de estimação favoritos que você coletou ou os dados de exemplo.
     
     ![screenshot](images/pets-data.png)
 
-+ Switch back to `main.py` and comment out the lines that render (display) charts and graphs (so that they aren't displayed):
++ Volte para `main.py` e comente as linhas que renderizam (exibem) gráficos (para que não sejam exibidos):
     
     ![screenshot](images/pets-comment.png)
 
-+ Now let's read the data from the file.
++ Agora vamos ler os dados do arquivo.
     
     ![screenshot](images/pets-read.png)
     
-    The `for` loop will loop over the lines in the file. `splitlines()` removes the newline character from the end of the line as you don't want that.
+    O loop `for` fará um laço nas linhas do arquivo. `splitlines()` remove o caractere de nova linha ao final da linha, já que você não quer isso.
 
-+ Each line needs to be separated into a label and a value:
++ Cada linha precisa ser separada em um rótulo e um valor:
     
     ![screenshot](images/pets-split.png)
     
-    This will split the line at the spaces so don't include spaces in the labels. (You can add support for spaces in labels later.)
+    Isso dividirá a linha nos espaços, portanto, não inclua espaços nos rótulos. (Você pode adicionar suporte para espaços em rótulos depois.)
 
-+ You might get an error like this:
++ Você pode receber um erro como este:
     
     ![screenshot](images/pets-error.png)
     
-    This happens if you have an empty line at the end of your file.
+    Isso acontece se você tiver uma linha vazia no final do seu arquivo.
     
-    You can fix the error by only getting the label and value if the line isn't empty.
+    Você pode corrigir o erro obtendo o rótulo e o valor apenas se a linha não estiver vazia.
     
-    To do this, indent the code inside your `for` loop and add the code `if line:` above it:
+    Para fazer isso, indente o código dentro do seu loop `for` e adicione o código `if linha:` acima:
     
     ![screenshot](images/pets-fix.png)
 
-+ You can remove the `print(label, value)` line now everything is working.
++ Você pode remover a linha `print(rotulo, valor)` agora que está tudo funcionando.
 
-+ Now let's add the label and value to a new Pie Chart and render it:
++ Agora vamos adicionar o rótulo e o valor a um novo gráfico de pizza e renderizá-lo:
     
     ![screenshot](images/pets-pie2.png)
     
-    Note that `add` expects the value to be a number, `int(value)` turns the value from a string into an integer.
+    Note que `add` espera que o valor seja um número, `int (valor)` transforma o valor de uma string em um inteiro.
     
-    If you wanted to use decimals such as 3.5 (floating point numbers) you could use `float(value)` instead.
+    Se você quisesse usar decimais como 3.5 (números de ponto flutuante) você poderia usar `float (valor)`.
 
-## Save Your Project {.save}
+## Salve seu projeto {.save}
 
-## Challenge: Create a new chart from a file {.challenge}
+## Desafio: crie um novo gráfico a partir de um arquivo {.challenge}
 
-Can you create a new bar graph or pie chart from data in a file? You'll need to create a new .txt file.
+Você consegue criar um gráfico de barras ou um gráfico de pizza a partir de dados em um arquivo? Você precisará criar um novo arquivo .txt.
 
-Tip: If you want to have spaces in the labels then use `line.split(': ')` and add colons to your data file, e.g. 'Red Admiral: 6'
+Dica: Se você quiser espaços nos rótulos, use `linha.split (':')` e adicione dois pontos ao seu arquivo de dados, por exemplo, 'Almirante Vermelho: 6'
 
 ![screenshot](images/pets-butterflies.png)
 
-## Save Your Project {.save}
+## Salve seu projeto {.save}
 
-## Challenge: More charts and graphs! {.challenge}
+## Desafio: Mais gráficos e tabelas! {.challenge}
 
-Can you create a pie chart and a bar chart from the same file? You can either use the data you collected earlier or collect some new data.
+Você consegue criar um gráfico de pizza e um gráfico de barras a partir do mesmo arquivo? Você pode usar os dados coletados anteriormente ou coletar novos dados.
 
 ![screenshot](images/pets-pn-bar.png)
 
 ![screenshot](images/pets-pn.png)
 
-## Save Your Project {.save}
+## Salve seu projeto {.save}

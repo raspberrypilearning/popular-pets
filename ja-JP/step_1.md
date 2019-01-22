@@ -20,6 +20,6 @@ RUNをクリックすると、PyGal Python モジュールを使って、デー�
 
 ### 教育者への追加情報
 
-このプロジェクトを印刷する必要がある場合は、 [印刷用バージョン](https://projects.raspberrypi.org/en/projects/about-me/print){：target = "_ blank"}を使用してください。
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/popular-pets/print){:target="_blank"}.
 
 フッターのあるリンクから、本プロジェクトのGitHubリポジトリ内の（過去の完成したプロジェクトの例を含む）全ての資料を含む'en/resources'フォルダにアクセスできます。

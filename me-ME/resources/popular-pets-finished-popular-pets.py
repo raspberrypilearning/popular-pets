@@ -2,62 +2,62 @@
 
 import pygal
 
-piechart = pygal.Pie()
-piechart.title = 'Favourite Pet'
-piechart.add('Dog', 6)
-piechart.add('Cat', 4)
-piechart.add('Hamster', 3)
-piechart.add('Fish', 2)
-piechart.add('Snake', 1)
-piechart.render()
+kruznigraf = pygal.Pie()
+kruznigraf.title = 'Omiljeni ljubimac'
+kruznigraf.add('Pas', 6)
+kruznigraf.add('Mačka', 4)
+kruznigraf.add('Hrčak', 3)
+kruznigraf.add('Riba', 2)
+kruznigraf.add('Zmija', 1)
+kruznigraf.render()
 
-barchart = pygal.Bar()
-barchart.title = 'Favourite Pet'
-barchart.add('Dog', 6)
-barchart.add('Cat', 4)
-barchart.add('Hamster', 3)
-barchart.add('Fish', 2)
-barchart.add('Snake', 1)
-barchart.render()
+stubicastigraf = pygal.Bar()
+stubicastigraf.title = 'Omiljeni ljubimac'
+stubicastigraf.add('Pas', 6)
+stubicastigraf.add('Mačka', 4)
+stubicastigraf.add('Hrčak', 3)
+stubicastigraf.add('Riba', 2)
+stubicastigraf.add('Zmija', 1)
+stubicastigraf.render()
   
-piechart2 = pygal.Pie()
-barchart2 = pygal.Bar()
+kruznigraf2 = pygal.Pie()
+stubicastigraf2 = pygal.Bar()
 
-file = open('pets.txt', 'r')
+datoteka = open('ljubimci.txt', 'r')
 
-for line in file.read().splitlines():
-  if line:
-    label, value = line.split(' ')
-    piechart2.add(label, int(value))
-    barchart2.add(label, int(value))
+for red in datoteka.read().splitlines():
+  if red:
+    naziv, vrijednost = red.split(' ')
+    kruznigraf2.add(naziv, int(vrijednost))
+    stubicastigraf2.add(naziv, int(vrijednost))
     
-file.close()
+datoteka.close()
 
-#piechart2.render()
-#barchart2.render()
+#kruznigraf2.render()
+#stubicastigraf2.render()
 
-butterflies = pygal.Bar()
-butterflies.title = 'Butterfly Count'
+leptiri = pygal.Bar()
+leptiri.title = 'Broj leptira'
 
-file = open('butterflies.txt', 'r')
+datoteka = open('leptiri.txt', 'r')
 
-for line in file.read().splitlines():
-  if line:
-    label, value = line.split(': ')
-    butterflies.add(label, int(value))
-file.close()
+for red in datoteka.read().splitlines():
+  if red:
+    naziv, vrijednost = red.split(': ')
+    leptiri.add(naziv, int(vrijednost))
+datoteka.close()
 
-butterflies.render()
+leptiri.render()
 
-pn = pygal.Bar()
-pn.title = 'Pirates vs Ninjas'
+gn = pygal.Bar()
+gn.title = 'Gusari protiv Nindži'
 
-file = open('piratesninjas.txt', 'r')
+datoteka = open('gusarinindze.txt', 'r')
 
-for line in file.read().splitlines():
-  if line:
-    label, value = line.split(' ')
-    pn.add(label, int(value))
-file.close()
+for red in datoteka.read().splitlines():
+  if red:
+    naziv, vrijednost = red.split(' ')
+    gn.add(naziv, int(vrijednost))
+datoteka.close()
 
-pn.render()
+gn.render()

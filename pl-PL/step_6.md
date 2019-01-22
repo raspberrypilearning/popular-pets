@@ -1,4 +1,4 @@
-\--- wyzwanie \---
+\--- challenge \---
 
 ## Wyzwanie: Utwórz nowy wykres z pliku
 
@@ -8,4 +8,4 @@ Wskazówka: jeśli chcesz mieć spacje w etykietach, użyj `linii.split (":")` i
 
 ![zrzut ekranu](images/pets-butterflies.png)
 
-\--- / wyzwanie \---
+\--- /challenge \---

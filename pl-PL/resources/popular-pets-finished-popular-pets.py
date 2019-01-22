@@ -2,62 +2,62 @@
 
 import pygal
 
-piechart = pygal.Pie()
-piechart.title = 'Favourite Pet'
-piechart.add('Dog', 6)
-piechart.add('Cat', 4)
-piechart.add('Hamster', 3)
-piechart.add('Fish', 2)
-piechart.add('Snake', 1)
-piechart.render()
+wykresKolowy = pygal.Pie()
+wykresKolowy.title = 'Ulubione zwierzę'
+wykresKolowy.add('Pies', 6)
+wykresKolowy.add('Kot', 4)
+wykresKolowy.add ('Chomik', 3)
+wykresKolowy.add ('Ryba', 2)
+wykresKolowy.add ('Wąż', 1)
+wykresKolowy.render()
 
-barchart = pygal.Bar()
-barchart.title = 'Favourite Pet'
-barchart.add('Dog', 6)
-barchart.add('Cat', 4)
-barchart.add('Hamster', 3)
-barchart.add('Fish', 2)
-barchart.add('Snake', 1)
-barchart.render()
+wykresSlupokwy = pygal.Bar()
+wykresSlupokwy.title = 'Ulubione zwierzę'
+wykresSlupokwy.add('Pies', 6)
+wykresSlupokwy.add('Kot', 4)
+wykresSlupokwy.add ('Chomik', 3)
+wykresSlupokwy.add('Ryba', 2)
+wykresSlupokwy.add ('Wąż', 1)
+wykresSlupokwy.render()
   
-piechart2 = pygal.Pie()
-barchart2 = pygal.Bar()
+wykresKolowy2 = pygal.Pie()
+wykresSlupkowy2 = pygal.Bar()
 
-file = open('pets.txt', 'r')
+plik = open('pets.txt', 'r')
 
-for line in file.read().splitlines():
-  if line:
-    label, value = line.split(' ')
-    piechart2.add(label, int(value))
-    barchart2.add(label, int(value))
+for linia in plik.read().splitlines():
+  if linia:
+    etykieta, wartosc = linia.split(' ')
+    wykresKolowy2.add(etykieta, int(wartosc))
+    wykresSlupkowy2.add(etykieta, int(wartosc))
     
-file.close()
+plik.close()
 
-#piechart2.render()
-#barchart2.render()
+#wykresKolowy2.render()
+#wykresSlupkowy2.render()
 
-butterflies = pygal.Bar()
-butterflies.title = 'Butterfly Count'
+motyle=pygal.Bar()
+motyle.title = 'Liczba Motyli'
 
-file = open('butterflies.txt', 'r')
+plik = open('butterflies.txt', 'r')
 
-for line in file.read().splitlines():
-  if line:
-    label, value = line.split(': ')
-    butterflies.add(label, int(value))
-file.close()
+for linia in plik.read().splitlines():
+  if linia:
+    etykieta, wartosc = linia.split(': ')
+    motyle.add(etykieta, int(wartosc))
+plik.close()
 
-butterflies.render()
+motyle.render()
 
 pn = pygal.Bar()
-pn.title = 'Pirates vs Ninjas'
+pn.title = 'Piraci vs Ninja'
 
-file = open('piratesninjas.txt', 'r')
+plik = open('piratesninjas.txt', 'r')
 
-for line in file.read().splitlines():
-  if line:
-    label, value = line.split(' ')
-    pn.add(label, int(value))
-file.close()
+for linia in plik.read().splitlines():
+  if linia:
+    etykieta, wartosc = linia.split(' ')
+    pn.add(etykieta, int(wartosc))
+plik.close()
 
 pn.render()

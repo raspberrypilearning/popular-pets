@@ -1,17 +1,17 @@
 ---
-hero_image: images / popular-pets.png
-theme: amarelo
+hero_image: images/popular-pets.png
+theme: yellow
 duration: 2
 listed: true
 ingredient: false
 copyedit: false
-curriculum: 1, design-0, programação-1, phys-comp-0, fabricação-0, comunidade-0
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 title: Animais de estimação populares
-description: Crie gráficos de pizza e gráficos de barra a partir dos dados coletados.
+description: Crie gráficos de pizza e gráficos de barra a partir dos dados coletados por você.
 original_url: https://codeclubprojects.org/en-GB/python/popular-pets
-interests: animais
+interests: animals
 technologies: python
-site_areas: projetos
+site_areas: projects
 hardware: ''
 software: python
 version: 3
@@ -20,7 +20,7 @@ steps:
   - 
     title: Introdução
   - 
-    title: O que você precisará
+    title: O que você vai precisar
   - 
     title: Crie um gráfico de pizza
   - 

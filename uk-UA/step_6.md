@@ -8,4 +8,4 @@
 
 ![скріншот](images/pets-butterflies.png)
 
-\--- / виклик \---
+\--- /challenge \---

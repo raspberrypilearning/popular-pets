@@ -16,10 +16,10 @@ Quando você clica em "Run" (executar, em inglês), os gráficos são gerados a 
 
 Este projeto abrange elementos das seguintes vertentes do [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-+ [Combinar construções de programação para resolver um problema.](https://www.raspberrypi.org/curriculum/programming/builder/)
++ [Combinar as estruturas de programação para resolver um problema.](https://www.raspberrypi.org/curriculum/programming/builder/)
 
 ### Informações adicionais para educadores
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/popular-pets/print){:target="_blank"}.
+Se você precisar imprimir este projeto, por favor, use a [versão para impressão](https://projects.raspberrypi.org/en/projects/popular-pets/print){:target="_blank"}.
 
 Use o link no rodapé para acessar o repositório do GitHub para este projeto, que contém todos os recursos (incluindo um exemplo de projeto concluído) na pasta 'en/resources'.

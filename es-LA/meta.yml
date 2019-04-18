@@ -9,18 +9,18 @@ curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 title: Popular Pets
 description: Create pie charts and bar graphs from data you collect.
 original_url: https://codeclubprojects.org/en-GB/python/popular-pets
-interests: animals
-technologies: python
-site_areas: projects
+interests: animales
+technologies: pitón
+site_areas: proyectos
 hardware: ''
-software: python
+software: pitón
 version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: Robot parlanchín
   - 
-    title: What you will need
+    title: Lo que necesitarás
   - 
     title: Create a Pie Chart
   - 

@@ -22,7 +22,7 @@
 
 + Cada linha precisa ser separada em um rótulo e um valor:
     
-    ![screenshot](images/pets-split.png)
+    ![captura](images/pets-split.png)
     
     Isso dividirá a linha nos espaços, portanto, não inclua espaços nos rótulos. (Você pode adicionar suporte para espaços em rótulos depois.)
 

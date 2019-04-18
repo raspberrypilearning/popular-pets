@@ -5,11 +5,11 @@ duration: 2
 listed: true
 ingredient: false
 copyedit: false
-curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 title: الحيوانات الأليفة المفضلة
 description: أنشئ مخططات دائرية ورسومات بيانية على شكل أعمدة من البيانات التي تجمعها.
 original_url: https://codeclubprojects.org/en-GB/python/popular-pets
-interests: animals
+interests: الحيوانات
 technologies: python
 site_areas: codeclub, python
 hardware: ''
@@ -20,7 +20,7 @@ steps:
   - 
     title: المقدمة
   - 
-    title: إنشاء مخطط دائري
+    title: ما ستحتاج إليه
   - 
     title: 'التحدي: أنشئ مخططًا على شكل أعمدة'
   - 

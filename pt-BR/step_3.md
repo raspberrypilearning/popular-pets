@@ -28,7 +28,7 @@ Gráficos de pizza são uma forma útil de mostrar dados. Vamos fazer uma pesqui
 
 + Vamos adicionar os dados de um dos animais de estimação. Use os dados que você coletou.
     
-    ![screenshot](images/pets-add.png)
+    ![captura](images/pets-add.png)
     
     Há apenas um dado, então ele ocupa todo o gráfico de pizza.
 
@@ -36,7 +36,7 @@ Gráficos de pizza são uma forma útil de mostrar dados. Vamos fazer uma pesqui
     
     Por exemplo:
     
-    ![screenshot](images/pets-add-all.png)
+    ![capturas de tela](images/pets-add-all.png)
 
 + E para finalizar seu gráfico, adicione um título:
     

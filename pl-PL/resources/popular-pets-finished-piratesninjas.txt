@@ -1,0 +1,2 @@
+piraci 50
+ninja 50

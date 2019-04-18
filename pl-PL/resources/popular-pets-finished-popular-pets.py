@@ -11,14 +11,14 @@ wykresKolowy.add ('Ryba', 2)
 wykresKolowy.add ('Wąż', 1)
 wykresKolowy.render()
 
-wykresSlupokwy = pygal.Bar()
-wykresSlupokwy.title = 'Ulubione zwierzę'
-wykresSlupokwy.add('Pies', 6)
-wykresSlupokwy.add('Kot', 4)
-wykresSlupokwy.add ('Chomik', 3)
-wykresSlupokwy.add('Ryba', 2)
-wykresSlupokwy.add ('Wąż', 1)
-wykresSlupokwy.render()
+wykresSlupkowy = pygal.Bar()
+wykresSlupkowy.title = 'Ulubione zwierzę'
+wykresSlupkowy.add('Pies', 6)
+wykresSlupkowy.add('Kot', 4)
+wykresSlupkowy.add ('Chomik', 3)
+wykresSlupkowy.add('Ryba', 2)
+wykresSlupkowy.add ('Wąż', 1)
+wykresSlupkowy.render()
   
 wykresKolowy2 = pygal.Pie()
 wykresSlupkowy2 = pygal.Bar()

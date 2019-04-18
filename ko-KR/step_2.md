@@ -1,6 +1,6 @@
-## What you will need
+## 준비물
 
-### Software
+### 소프트웨어
 
 + Trinket online editor
 

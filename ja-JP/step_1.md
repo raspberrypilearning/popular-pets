@@ -12,14 +12,14 @@ RUNをクリックすると、PyGal Python モジュールを使って、デー�
   <img src="images/pets-finished.png">
 </div>
 
-### 学習内容
+### あなたが学ぶもの
 
 このプロジェクトは[Raspberry Piのデジタル作成カリキュラム](http://rpf.io/curriculum)における以下の部分を含みます。
 
-+ [問題解決のためにプログラミング要素を組み合わせる](https://www.raspberrypi.org/curriculum/programming/builder/)
++ [プログラミング構造を組み合わせて問題を解決する。](https://www.raspberrypi.org/curriculum/programming/builder/)
 
-### 教育者への追加情報
+### 教育者のための追加情報
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/popular-pets/print){:target="_blank"}.
+このプロジェクトを印刷する必要がある場合は、 [印刷用バージョン](https://projects.raspberrypi.org/en/projects/popular-pets/print){:target="_ blank"}を使用してください。
 
-フッターのあるリンクから、本プロジェクトのGitHubリポジトリ内の（過去の完成したプロジェクトの例を含む）全ての資料を含む'en/resources'フォルダにアクセスできます。
+フッターのリンクを使用して、このプロジェクトのGitHubリポジトリにアクセスします。このリポジトリには、 'en / resources'フォルダ内のすべてのリソース（完成プロジェクトの例を含む）が含まれています。

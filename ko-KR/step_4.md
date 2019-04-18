@@ -1,4 +1,4 @@
-\--- challenge \---
+\--- 도전 \---
 
 ## Challenge: Create your own bar chart
 
@@ -20,6 +20,6 @@ Don't ask questions that give personal data such as where people live. Ask your 
 
 Examples:
 
-![screenshot](images/pets-bar-examples.png)
+![스크린샷](images/pets-bar-examples.png)
 
 \--- /challenge \---

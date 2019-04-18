@@ -1,6 +1,6 @@
-\--- challenge \---
+\--- desafío \---
 
-## Challenge: Create your own bar chart
+## Lee los datos desde un archivo
 
 You can create bar charts in a similar way. Just use `barchart = pygal.Bar()` to create a new barchart, and then add data and render in the same way as for a pie chart.
 
@@ -8,7 +8,7 @@ Collect data from your Code Club members to create your own bar graph.
 
 Make sure that you choose a topic that everyone will know about!
 
-Here are some ideas:
+Aquí tienes algunas sugerencias:
 
 + What is your favourite sport?
 + What is your favourite ice cream flavour?
@@ -20,6 +20,6 @@ Don't ask questions that give personal data such as where people live. Ask your 
 
 Examples:
 
-![screenshot](images/pets-bar-examples.png)
+![captura de pantalla](images/pets-bar-examples.png)
 
 \--- /challenge \---

@@ -14,12 +14,12 @@ Po kliknięciu przycisku Uruchom wykresy są generowane z danych przy użyciu mo
 
 ### Czego się nauczysz
 
-Ten projekt obejmuje elementy z następujących wątków [Curriculum Digital Making Raspberry Pi](http://rpf.io/curriculum):
+Projekt ten obejmuje następujące elementy [Cyfrowego programu nauczania Raspberry Pi](http://rpf.io/curriculum):
 
 + [Połącz konstrukcje programistyczne, aby rozwiązać problem.](https://www.raspberrypi.org/curriculum/programming/builder/)
 
 ### Dodatkowe informacje dla nauczycieli
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/popular-pets/print){:target="_blank"}.
+Jeśli chcesz wydrukować ten projekt, użyj [wersji do druku](https://projects.raspberrypi.org/en/projects/popular-pets/print){:target="_blank"}.
 
 Użyj odnośnika w stopce, aby uzyskać dostęp do repozytorium GitHub dla tego projektu, który zawiera wszystkie zasoby (w tym przykładowy gotowy projekt) w folderze "en / resources".

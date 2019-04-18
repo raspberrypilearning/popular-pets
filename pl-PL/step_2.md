@@ -1,4 +1,4 @@
-## Co będzie potrzebne ksdhfkshd
+## Co będzie potrzebne
 
 ### Oprogramowanie
 

@@ -1,6 +1,6 @@
 ## Wprowadzenie
 
-W tym projekcie tworzysz wykresy kołowe i wykresy słupkowe na podstawie danych zbieranych od członków Twojego Code Club. ldjlsdjbcbcbc
+W tym projekcie tworzysz wykresy kołowe i wykresy słupkowe na podstawie danych zbieranych od członków Twojego Code Club.
 
 ### Instrukcje
 

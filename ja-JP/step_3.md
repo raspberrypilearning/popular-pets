@@ -12,7 +12,7 @@
     
     ![スクリーンショット](images/pets-favourite.png)
 
-+ 白紙のPythonテンプレートTrinketを開きます： <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>
++ Pythonの空白テンプレートを開き：<a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>
 
 + 調査結果を示す円グラフをつくりましょう。 PyGalライブラリーを使って大変な作業のいくつかを行います。
     
@@ -34,7 +34,7 @@
 
 + 次に残りのデータを同じように加えます。
     
-    例えば：
+    例えば:
     
     ![スクリーンショット](images/pets-add-all.png)
 

@@ -8,4 +8,4 @@ Tip: If you want to have spaces in the labels then use `line.split(': ')` and ad
 
 ![screenshot](images/pets-butterflies.png)
 
-\--- /challenge \---
+\--- challenge \---

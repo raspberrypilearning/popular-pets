@@ -18,9 +18,9 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: はじめに
+    title: 前書き
   - 
-    title: 必要なもの
+    title: あなたが必要とするもの
   - 
     title: 円グラフを作る
   - 

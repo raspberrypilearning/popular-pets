@@ -20,6 +20,6 @@
 
 Приклади:
 
-![скріншот](images/pets-bar-examples.png)
+![Знімок екрану](images/pets-bar-examples.png)
 
-\--- / виклик \---
+\--- /challenge \---

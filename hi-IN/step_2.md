@@ -1,6 +1,6 @@
-## What you will need
+## आपको किन चीज़ों की आवश्यकता होगी
 
-### Software
+### सॉफ्टवेयर
 
 + Trinket online editor
 

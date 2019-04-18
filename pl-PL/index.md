@@ -17,7 +17,7 @@ W tym projekcie tworzysz wykresy kołowe i wykresy słupkowe na podstawie danych
 
 # Krok 1: Utwórz wykres kołowy {.activity}
 
-Wykresy kołowe są użytecznym sposobem przedstawiania danych. Zróbmy ankietę ulubionych zwierzątek w twoim Code Club, a następnie przestaw je w postaci wykresu kołowego.
+Wykresy kołowe są użytecznym sposobem przedstawiania danych. Zróbmy ankietę ulubionych zwierzątek w twoim Code Club, a następnie przedstawmy je w postaci wykresu kołowego.
 
 ## Lista kontrolna aktywności {.check}
 

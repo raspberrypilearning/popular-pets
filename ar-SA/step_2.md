@@ -1,6 +1,6 @@
-## What you will need
+## ما ستحتاج اليه
 
-### Software
+### البرمجيات
 
 + Trinket online editor
 

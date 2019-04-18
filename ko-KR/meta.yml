@@ -1,15 +1,15 @@
 ---
 hero_image: images/popular-pets.png
-theme: yellow
+theme: 노란
 duration: 2
 listed: true
 ingredient: false
 copyedit: false
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+curriculum: 1, 디자인 -0, 프로그래밍 -1, phys-comp-0, 제조 -0, 커뮤니티 -0
 title: Popular Pets
 description: Create pie charts and bar graphs from data you collect.
 original_url: https://codeclubprojects.org/en-GB/python/popular-pets
-interests: animals
+interests: 동물
 technologies: python
 site_areas: projects
 hardware: ''
@@ -18,9 +18,9 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: 소개
   - 
-    title: What you will need
+    title: 준비물
   - 
     title: Create a Pie Chart
   - 

@@ -4,7 +4,7 @@
 
 Você consegue criar um novo gráfico de barras ou gráfico de pizza a partir de dados em um arquivo? Você precisará criar um novo arquivo .txt.
 
-Dica: Se você quiser espaços nos rótulos, use `linha.split (':')` e adicione dois pontos ao seu arquivo de dados, por exemplo, 'Red Admiral: 6'
+Dica: Se você quiser espaços nos rótulos, use `linha.split (':')` e adicione dois pontos ao seu arquivo de dados, por exemplo, 'Almirante Vermelho: 6'
 
 ![screenshot](images/pets-butterflies.png)
 

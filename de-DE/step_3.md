@@ -1,4 +1,4 @@
-## Create a Pie Chart
+## Aufgabe: Erstelle dein eigenes Balkendiagramm
 
 Pie Charts are are useful way of showing data. Let's do a survey of favourite pets in your Code Club and then present the data as a Pie Chart.
 
@@ -8,17 +8,17 @@ Pie Charts are are useful way of showing data. Let's do a survey of favourite pe
     
     Then get everyone to vote for their favourite by putting their hand up when it gets called out. Only one vote each!
     
-    For example:
+    Zum Beispiel:
     
-    ![screenshot](images/pets-favourite.png)
+    ![Screenshot](images/pets-favourite.png)
 
-+ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ Öffne das leere Python-Vorlage-Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
 + Let's create a pie chart to show the results of your survey. You'll be using the PyGal library to do some of the hard work.
     
     First import the Pygal library:
     
-    ![screenshot](images/pets-pygal.png)
+    ![Screenshot](images/pets-pygal.png)
 
 + Now let's create a Pie chart and render (display) it:
     
@@ -34,10 +34,10 @@ Pie Charts are are useful way of showing data. Let's do a survey of favourite pe
 
 + Now add the rest of the data in the same way.
     
-    For example:
+    Zum Beispiel:
     
-    ![screenshot](images/pets-add-all.png)
+    ![Screenshot](images/pets-add-all.png)
 
 + And to finish off your chart, add a title:
     
-    ![screenshot](images/pets-title.png)
+    ![Screenshot](images/pets-title.png)

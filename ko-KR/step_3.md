@@ -8,35 +8,35 @@ Pie Charts are are useful way of showing data. Let's do a survey of favourite pe
     
     Then get everyone to vote for their favourite by putting their hand up when it gets called out. Only one vote each!
     
-    For example:
+    예를 들면:
     
-    ![screenshot](images/pets-favourite.png)
+    ![스크린샷](images/pets-favourite.png)
 
-+ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ 공백의 파이썬 Trinket 템플릿을 엽니다. <a href="http://jumpto.cc/python-new" target="_blank"> jumpto.cc/python-new </a>
 
 + Let's create a pie chart to show the results of your survey. You'll be using the PyGal library to do some of the hard work.
     
     First import the Pygal library:
     
-    ![screenshot](images/pets-pygal.png)
+    ![스크린샷](images/pets-pygal.png)
 
 + Now let's create a Pie chart and render (display) it:
     
-    ![screenshot](images/pets-pie.png)
+    ![스크린샷](images/pets-pie.png)
     
     Don't worry, it gets more interesting when you add data!
 
 + Let's add in the data for one of the pets. Use the data that you collected.
     
-    ![screenshot](images/pets-add.png)
+    ![스크린샷](images/pets-add.png)
     
     There's only one piece of data so it takes up the whole pie chart.
 
 + Now add the rest of the data in the same way.
     
-    For example:
+    예를 들면:
     
-    ![screenshot](images/pets-add-all.png)
+    ![스크린샷](images/pets-add-all.png)
 
 + And to finish off your chart, add a title:
     

@@ -1,0 +1,7 @@
+Pies 6
+Kot 4
+Chomik 3
+Ryba 2
+Wąż 1
+
+

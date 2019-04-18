@@ -1,0 +1,26 @@
+---
+hero_image: images/popular-pets.png
+theme: yellow
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+title: Popularne zwierzęta domowe
+description: Twórz wykresy kołowe i wykresy słupkowe z gromadzonych danych.
+original_url: https://codeclubprojects.org/en-GB/python/popular-pets
+interests: animals
+technologies: python
+site_areas: projects
+hardware: ''
+software: python
+version: 3
+last_tested: 2017-01-01
+steps:
+  - title: Wprowadzenie
+  - title: Co będzie potrzebne
+  - title: Utwórz wykres kołowy
+  - title: 'Wyzwanie: Stwórz własny wykres słupkowy'
+  - title: Wczytaj dane z pliku
+  - title: 'Wyzwanie: Utwórz nowy wykres z pliku'
+  - title: 'Wyzwanie: więcej wykresów i grafów!'

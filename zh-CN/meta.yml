@@ -1,0 +1,33 @@
+---
+hero_image: images/popular-pets.png
+theme: yellow
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+title: 热门宠物
+description: 利用你收集的数据创建饼图和条形图。
+original_url: https://codeclubprojects.org/en-GB/python/popular-pets
+interests: animals
+technologies: python
+site_areas: codeclub, python
+hardware: ''
+software: python
+version: 3
+last_tested: 2017-01-01
+steps:
+  - 
+    title: 介绍
+  - 
+    title: 创建一个饼图
+  - 
+    title: 挑战：创建你自己的条形图
+  - 
+    title: '从文件读取数据'
+  - 
+    title: 挑战：从文件中创建新图表
+  - 
+    title: '挑战：更多图表和图形！'
+  - 
+    title: 'Challenge: More charts and graphs!'

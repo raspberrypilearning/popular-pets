@@ -1,6 +1,6 @@
 ---
 title: Animais de estimação populares
-description: Crie gráficos de pizza e gráficos de barra a partir dos dados que você coletar.
+description: Crie gráficos de pizza e gráficos de barra a partir dos dados coletados por você.
 notes: "Animais de estimação populares - notes.md"
 layout: projeto
 new: verdadeiro
@@ -41,13 +41,13 @@ Gráficos de pizza são uma forma útil de mostrar dados. Vamos fazer uma pesqui
 
 + Agora vamos criar um gráfico de pizza e renderizar (exibir):
     
-    ![screenshot](images/pets-pie.png)
+    ![captura de tela](images/pets-pie.png)
     
     Não se preocupe, fica mais interessante quando você adiciona dados!
 
 + Vamos adicionar os dados de um dos animais de estimação. Use os dados que você coletou.
     
-    ![screenshot](images/pets-add.png)
+    ![captura](images/pets-add.png)
     
     Há apenas um dado, então ele ocupa todo o gráfico de pizza.
 
@@ -55,7 +55,7 @@ Gráficos de pizza são uma forma útil de mostrar dados. Vamos fazer uma pesqui
     
     Por exemplo:
     
-    ![screenshot](images/pets-add-all.png)
+    ![capturas de tela](images/pets-add-all.png)
 
 + E para finalizar seu gráfico, adicione um título:
     
@@ -105,7 +105,7 @@ Exemplos:
     
     ![screenshot](images/pets-data.png)
 
-+ Volte para `main.py` e comente as linhas que renderizam (exibem) gráficos (para que não sejam exibidos):
++ Volte para `main.py` e comente as linhas que renderizam (exibem) gráficos e gráficos (para que não sejam exibidos):
     
     ![screenshot](images/pets-comment.png)
 
@@ -149,7 +149,7 @@ Exemplos:
 
 Você consegue criar um gráfico de barras ou um gráfico de pizza a partir de dados em um arquivo? Você precisará criar um novo arquivo .txt.
 
-Dica: Se você quiser espaços nos rótulos, use `linha.split (':')` e adicione dois pontos ao seu arquivo de dados, por exemplo, 'Almirante Vermelho: 6'
+Dica: Se você quiser espaços nos rótulos, use `linha.split (':')` e adicione dois pontos ao seu arquivo de dados, por exemplo, 'Red Admiral: 6'
 
 ![screenshot](images/pets-butterflies.png)
 

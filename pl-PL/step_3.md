@@ -1,12 +1,12 @@
 ## Utwórz wykres kołowy
 
-Wykresy kołowe to użyteczny sposób wyświetlania danych. Zróbmy ankietę ulubionych zwierzaków w twoim Code Clubie, a następnie przedstaw dane jako wykres kołowy.
+Wykresy kołowe to użyteczny sposób wyświetlania danych. Zrób ankietę ulubionych zwierzaków w twoim Code Clubie, a następnie przedstaw dane jako wykres kołowy.
 
 + Poproś lidera klubu, aby pomógł zorganizować ankietę. Możesz nagrywać wyniki na komputerze podłączonym do projektora lub tablicy, którą każdy może zobaczyć.
     
     Napisz listę zwierząt domowych i upewnij się, że wszyscy ulubieńcy są uwzględnieni.
     
-    Następnie każ wszystkim głosować na swoich faworytów, podnosząc rękę, gdy zostanie wywołana. Tylko jeden głos każdy!
+    Następnie każ wszystkim głosować na swoich faworytów, podnosząc rękę, gdy zostanie wywołany. Tylko jeden głos każdy!
     
     Na przykład:
     
@@ -20,7 +20,7 @@ Wykresy kołowe to użyteczny sposób wyświetlania danych. Zróbmy ankietę ulu
     
     ![zrzut ekranu](images/pets-pygal.png)
 
-+ Teraz utwórzmy wykres kołowy i wyrenderujmy (wyświetlmy):
++ Teraz utwórz wykres kołowy i wyrenderuj (wyświetl) go:
     
     ![zrzut ekranu](images/pets-pie.png)
     

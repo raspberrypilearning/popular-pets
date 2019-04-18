@@ -8,11 +8,11 @@ Pie Charts are are useful way of showing data. Let's do a survey of favourite pe
     
     Then get everyone to vote for their favourite by putting their hand up when it gets called out. Only one vote each!
     
-    For example:
+    Na primjer:
     
     ![screenshot](images/pets-favourite.png)
 
-+ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ Otvori prazan Python predložak u Trinketu: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
 + Let's create a pie chart to show the results of your survey. You'll be using the PyGal library to do some of the hard work.
     
@@ -34,7 +34,7 @@ Pie Charts are are useful way of showing data. Let's do a survey of favourite pe
 
 + Now add the rest of the data in the same way.
     
-    For example:
+    Na primjer:
     
     ![screenshot](images/pets-add-all.png)
 

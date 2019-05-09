@@ -1,10 +1,10 @@
 ## 들어가며
 
-In this project you create pie charts and bar graphs from data that you collect from members of your Code Club.
+이 프로젝트에서는 Code Club의 회원들에게 수집한 데이터를 기반으로 원형 차트와 막대 차트를 만듭니다.
 
 ### 설명
 
-When you click Run the charts are generated from data using the PyGal python module.
+Run을 클릭하면 PyGal python 모듈을 기반으로 차트가 생성됩니다.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/70d24d92b8?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>

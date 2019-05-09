@@ -1,13 +1,14 @@
 ---
-title: Popular Pets
-description: Create pie charts and bar graphs from data you collect.
-notes: "Popular Pets - notes.md"
-layout: project
-new: true
+title: 인기있는 동물 차트
+description: 원형 차트와 막대 그래프로 인기있는 동물들의 차트를 만들어 봅시다.
+notes: "인기있는 동물 차트 - notes.md"
+layout: 프로젝트
+new: O
 ---
+
 # 소개 {.intro}
 
-In this project you create pie charts and bar graphs from data that you collect from members of your Code Club.
+이 프로젝트에서는 Code Club의 회원들에게 수집한 데이터를 기반으로 원형 차트와 막대 차트를 만듭니다.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/70d24d92b8?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -15,152 +16,152 @@ In this project you create pie charts and bar graphs from data that you collect 
   <img src="images/pets-finished.png">
 </div>
 
-# Step 1: Create a Pie Chart {.activity}
+# 1단계: 원형 차트 만들기 {.activity}
 
-Pie Charts are are useful way of showing data. Let's do a survey of favourite pets in your Code Club and then present the data as a Pie Chart.
+원형 차트는 데이터를 보여줄 수 있는 유용한 방법입니다. Code Club에서 좋아하는 애완동물을 대상으로 설문 조사를 한 후 데이터를 원형 차트로 표현하세요.
 
-## Activity Checklist {.check}
+## 활동 체크리스트 {.check}
 
-+ Ask your volunteer to help organise a survey. You could record the results on a computer connected to a projector or a whiteboard that everyone can see.
++ 자원 봉사자에게 설문 조사를 도와달라고 요청하십시오. 누구나 볼 수있는 프로젝터 또는 화이트 보드에 연결된 컴퓨터에 결과를 기록 할 수 있습니다.
     
-    Write a list of pets and make sure everyone's favourite is included.
+    애완 동물의 목록을 작성하고 모두의 마음에 드는 애완동물을 리스트에 기록하세요.
     
-    Then get everyone to vote for their favourite by putting their hand up when it gets called out. Only one vote each!
+    그런 다음 모든 사람들이 각 한표씩 자신이 좋아하는 애완 동물에게 투표하세요. 한 표만!
     
     예를 들면:
     
     ![스크린샷](images/pets-favourite.png)
 
-+ 공백의 파이썬 Trinket 템플릿을 엽니다. <a href="http://jumpto.cc/python-new" target="_blank"> jumpto.cc/python-new </a>
++ 빈 파이썬 템플릿을 엽니다. <a href="http://jumpto.cc/python-new" target="_blank"> jumpto.cc/python-new</a>.
 
-+ Let's create a pie chart to show the results of your survey. You'll be using the PyGal library to do some of the hard work.
++ 설문 조사 결과를 보여주기 위해 원형 차트를 만듭니다. PyGal 라이브러리를 사용하여 개발하면 됩니다.
     
-    First import the Pygal library:
+    먼저, Pygal 라이브러리를 import하세요:
     
     ![스크린샷](images/pets-pygal.png)
 
-+ Now let's create a Pie chart and render (display) it:
++ 이제 원형 차트를 만들어 렌더링 (표시)합시다:
     
     ![스크린샷](images/pets-pie.png)
     
-    Don't worry, it gets more interesting when you add data!
+    데이터를 추가할 때 차트가 더 재미있어 질 것입니다!
 
-+ Let's add in the data for one of the pets. Use the data that you collected.
++ 이제 애완 동물 중 하나에게 데이터를 추가합시다. 수집한 데이터를 사용하세요.
     
     ![스크린샷](images/pets-add.png)
     
-    There's only one piece of data so it takes up the whole pie chart.
+    데이터가 하나뿐이므로 전체 원형 차트를 사용합니다.
 
-+ Now add the rest of the data in the same way.
++ 이제 나머지 데이터를 같은 방식으로 추가하십시오.
     
     예를 들면:
     
     ![스크린샷](images/pets-add-all.png)
 
-+ And to finish off your chart, add a title:
++ 차트를 완성한 이후에는 title을 추가하세요:
     
-    ![screenshot](images/pets-title.png)
+    ![스크린샷](images/pets-title.png)
 
-## Save Your Project {.save}
+## 프로젝트 저장하기 {.save}
 
-## Challenge: Create your own bar chart {.challenge}
+## 과제: 자신만의 막대 차트 만들기 {.challenge}
 
-You can create bar charts in a similar way. Just use `barchart = pygal.Bar()` to create a new barchart, and then add data and render in the same way as for a pie chart.
+비슷한 방식으로 막대형 차트를 만들 수 있습니다. `barchart = pygal.Bar()` 을 사용하여 새 barchart를 만든 다음 데이터를 추가하고 원형 차트와 같은 방식으로 렌더링합니다.
 
-Collect data from your Code Club members to create your own bar graph.
+Code Club 회원의 데이터를 수집하여 자신만의 막대 그래프를 만드십시오.
 
-Make sure that you choose a topic that everyone will know about!
+모두가 알 만한 주제를 선택하십시오!
 
-Here are some ideas:
+아래와 같은 아이디어를 제시할 수 있습니다:
 
-+ What is your favourite sport?
++ 좋아하는 스포츠는 무엇입니까?
 
-+ What is your favourite ice cream flavour?
++ 좋아하는 아이스크림 맛은 무엇입니까?
 
-+ How do you get to school?
++ 학교에 어떻게 갑니까?
 
-+ What month is your birthday?
++ 몇월달이 생일인가요?
 
-+ Do you play Minecraft? (yes/no)
++ 마인크래프트를 플레이하나요? (네/아니오)
 
-Don't ask questions that give personal data such as where people live. Ask your club leader if you're not sure.
+사람들이 사는 곳과 같은 개인정보를 요구하는 질문을 하지 마세요. 잘 모르는 경우 클럽 리더에게 문의하십시오.
 
-Examples:
+예시:
 
 ![스크린샷](images/pets-bar-examples.png)
 
-## Save Your Project {.save}
+## 프로젝트 저장하기 {.save}
 
-# Step 2: Read data from a file {.activity}
+# 2단계: 파일에서 데이터 읽기 {.activity}
 
-It's useful to be able to store data in a file rather than having to include it in your code.
+데이터를 코드에 포함하지 않고 파일에 데이터를 저장하는 것이 유용할 것입니다.
 
-## Activity Checklist {.check}
+## 활동 체크리스트 {.check}
 
-+ Add a new file to your project and call it `pets.txt`:
++ `pets.txt` 파일을 추가하세요:
     
     ![스크린샷](images/pets-file.png)
 
-+ Now add data to the file. You can use the favourite pets data that you collected or the example data.
++ 파일에 데이터를 추가하세요. 수집한 애완동물 데이터 또는 예제 데이터를 사용할 수 있습니다.
     
     ![스크린샷](images/pets-data.png)
 
-+ Switch back to `main.py` and comment out the lines that render (display) charts and graphs (so that they aren't displayed):
++ `main.py` 로 돌아와서 차트와 그래프를 렌더링(표시) 하는 라인을 주석 처리하세요. (표시되지 않도록):
     
     ![스크린샷](images/pets-comment.png)
 
-+ Now let's read the data from the file.
++ 이제 파일에서 데이터를 읽도록 합니다.
     
     ![스크린샷](images/pets-read.png)
     
-    The `for` loop will loop over the lines in the file. `splitlines()` removes the newline character from the end of the line as you don't want that.
+    `for` 루프는 파일의 행을 반복합니다. `splitlines()` 은 줄의 끝에서 개행 문자를 제거합니다.
 
-+ Each line needs to be separated into a label and a value:
++ 각 줄은 레이블과 값으로 구분해야합니다:
     
     ![스크린샷](images/pets-split.png)
     
-    This will split the line at the spaces so don't include spaces in the labels. (You can add support for spaces in labels later.)
+    공백이 있는 곳에서 줄바꿈하기 때문에 labels에 공백을 넣지 마십시오. (labels에 공백이 필요한 경우 나중에 추가 할 수 있습니다.)
 
-+ You might get an error like this:
++ 아래와 같은 에러가 발생할 수 있습니다:
     
     ![스크린샷](images/pets-error.png)
     
-    This happens if you have an empty line at the end of your file.
+    파일 끝에 빈 줄이 있으면 이런 일이 발생합니다.
     
-    You can fix the error by only getting the label and value if the line isn't empty.
+    이 오류는 label과 value에 빈 데이터가 들어가지 않도록 하면 해결할 수 있습니다.
     
-    To do this, indent the code inside your `for` loop and add the code `if line:` above it:
+    오류를 해결하기 위해서, `for` 반복문 안에 `if line:` 코드를 추가하세요:
     
     ![스크린샷](images/pets-fix.png)
 
-+ You can remove the `print(label, value)` line now everything is working.
++ 이제 `print(label, value)` 을 삭제하셔도 됩니다.
 
-+ Now let's add the label and value to a new Pie Chart and render it:
++ 이제 label과 value를 새로운 원형 차트에 추가하고 렌더링 해 봅시다.
     
     ![스크린샷](images/pets-pie2.png)
     
-    Note that `add` expects the value to be a number, `int(value)` turns the value from a string into an integer.
+    참고로 `add`에 삽입되는 변수는 숫자로 입력받으므로, `int(value)` 를 사용해서 문자열을 숫자로 변환할 수 있습니다.
     
-    If you wanted to use decimals such as 3.5 (floating point numbers) you could use `float(value)` instead.
+    만약에 3.5와 같은 소수를 사용하고 싶다면 `float(value)`를 사용하시면 됩니다.
 
-## Save Your Project {.save}
+## 프로젝트 저장하기 {.save}
 
-## Challenge: Create a new chart from a file {.challenge}
+## 과제: 파일에서 새 차트 만들기 {.challenge}
 
-Can you create a new bar graph or pie chart from data in a file? You'll need to create a new .txt file.
+파일의 데이터로 새로운 막대 그래프 또는 원형 차트를 만들 수 있습니까? 새로운 .txt 파일을 만들어야합니다.
 
-Tip: If you want to have spaces in the labels then use `line.split(': ')` and add colons to your data file, e.g. 'Red Admiral: 6'
+팁: labels에 공백을 넣으려면 `line.split(': ')`로 데이터 파일에 콜론을 추가할 수 있습니다. (예시: 'Red Admiral : 6').
 
 ![스크린샷](images/pets-butterflies.png)
 
-## Save Your Project {.save}
+## 프로젝트 저장하기 {.save}
 
-## Challenge: More charts and graphs! {.challenge}
+## 과제: 더 많은 차트와 그래프! {.challenge}
 
-Can you create a pie chart and a bar chart from the same file? You can either use the data you collected earlier or collect some new data.
+같은 파일에서 파이 차트와 막대 차트를 만들 수 있습니까? 이전에 수집 한 데이터를 사용하거나 새로운 데이터를 수집 할 수 있습니다.
 
 ![스크린샷](images/pets-pn-bar.png)
 
 ![스크린샷](images/pets-pn.png)
 
-## Save Your Project {.save}
+## 프로젝트 저장하기 {.save}

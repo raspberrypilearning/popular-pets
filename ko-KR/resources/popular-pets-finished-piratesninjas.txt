@@ -1,2 +1,2 @@
-pirates 50
-ninjas 50
+해적 50
+닌자 50

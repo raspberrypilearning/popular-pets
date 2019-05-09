@@ -1,12 +1,12 @@
-## Create a Pie Chart
+## 원형 차트 만들기
 
-Pie Charts are are useful way of showing data. Let's do a survey of favourite pets in your Code Club and then present the data as a Pie Chart.
+원형 차트는 데이터를 보여주는 유용한 방법입니다. Code Club에서 좋아하는 애완동물을 대상으로 설문 조사를 한 후 데이터를 원형 차트로 표현하세요.
 
-+ Ask your club leader to help organise a survey. You could record the results on a computer connected to a projector or a whiteboard that everyone can see.
++ 자원 봉사자에게 설문 조사를 도와달라고 요청하십시오. 누구나 볼 수있는 프로젝터 또는 화이트 보드에 연결된 컴퓨터에 결과를 기록 할 수 있습니다.
     
-    Write a list of pets and make sure everyone's favourite is included.
+    애완 동물의 목록을 작성하고 모두의 마음에 드는 애완동물을 리스트에 기록하세요.
     
-    Then get everyone to vote for their favourite by putting their hand up when it gets called out. Only one vote each!
+    그런 다음 모든 사람들이 각 한표씩 자신이 좋아하는 애완 동물에게 투표하세요. 한 표만!
     
     예를 들면:
     
@@ -14,30 +14,30 @@ Pie Charts are are useful way of showing data. Let's do a survey of favourite pe
 
 + 공백의 파이썬 Trinket 템플릿을 엽니다. <a href="http://jumpto.cc/python-new" target="_blank"> jumpto.cc/python-new </a>
 
-+ Let's create a pie chart to show the results of your survey. You'll be using the PyGal library to do some of the hard work.
++ 설문 조사 결과를 보여주기 위해 원형 차트를 만듭니다. PyGal 라이브러리를 사용하여 개발하면 됩니다.
     
-    First import the Pygal library:
+    먼저, Pygal 라이브러리를 import하세요:
     
     ![스크린샷](images/pets-pygal.png)
 
-+ Now let's create a Pie chart and render (display) it:
++ 이제 원형 차트를 만들어 렌더링 (표시)합시다:
     
     ![스크린샷](images/pets-pie.png)
     
-    Don't worry, it gets more interesting when you add data!
+    데이터를 추가할 때 차트가 더 재미있어 질 것입니다!
 
-+ Let's add in the data for one of the pets. Use the data that you collected.
++ 이제 애완 동물 중 하나에게 데이터를 추가합시다. 수집한 데이터를 사용하세요.
     
     ![스크린샷](images/pets-add.png)
     
-    There's only one piece of data so it takes up the whole pie chart.
+    데이터가 하나뿐이므로 전체 원형 차트를 사용합니다.
 
-+ Now add the rest of the data in the same way.
++ 이제 나머지 데이터를 같은 방식으로 추가하십시오.
     
     예를 들면:
     
     ![스크린샷](images/pets-add-all.png)
 
-+ And to finish off your chart, add a title:
++ 차트를 완성한 이후에는 title을 추가하세요:
     
-    ![screenshot](images/pets-title.png)
+    ![스크린샷](images/pets-title.png)

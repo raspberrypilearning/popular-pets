@@ -1,11 +1,11 @@
-\--- 도전 \---
+\--- challenge \---
 
-## Challenge: Create a new chart from a file
+## 과제: 파일에서 새 차트 만들기
 
-Can you create a new bar graph or pie chart from data in a file? You'll need to create a new .txt file.
+파일의 데이터로 새로운 막대 그래프 또는 원형 차트를 만들 수 있습니까? 새로운 .txt 파일을 만들어야합니다.
 
-Tip: If you want to have spaces in the labels then use `line.split(': ')` and add colons to your data file, e.g. 'Red Admiral: 6'
+팁: labels에 공백을 넣으려면 `line.split(': ')`로 데이터 파일에 콜론을 추가할 수 있습니다. (예시: 'Red Admiral : 6').
 
 ![스크린샷](images/pets-butterflies.png)
 
-<0>for</0>, <0>forward()</0>, <0>penup()</0> and <0>pendown()</0>를 사용해 보세요.
+\--- /challenge \---

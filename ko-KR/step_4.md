@@ -1,24 +1,24 @@
-\--- 도전 \---
+\--- challenge \---
 
-## Challenge: Create your own bar chart
+## 과제: 자신만의 막대 차트 만들기
 
-You can create bar charts in a similar way. Just use `barchart = pygal.Bar()` to create a new barchart, and then add data and render in the same way as for a pie chart.
+비슷한 방식으로 막대형 차트를 만들 수 있습니다. `barchart = pygal.Bar()` 을 사용하여 새 barchart를 만든 다음 데이터를 추가하고 원형 차트와 같은 방식으로 렌더링합니다.
 
-Collect data from your Code Club members to create your own bar graph.
+Code Club 회원의 데이터를 수집하여 자신만의 막대 그래프를 만드십시오.
 
-Make sure that you choose a topic that everyone will know about!
+모두가 알 만한 주제를 선택하십시오!
 
-Here are some ideas:
+아래와 같은 아이디어를 제시할 수 있습니다:
 
-+ What is your favourite sport?
-+ What is your favourite ice cream flavour?
-+ How do you get to school?
-+ What month is your birthday?
-+ Do you play Minecraft? (yes/no)
++ 좋아하는 스포츠는 무엇입니까?
++ 좋아하는 아이스크림 맛은 무엇입니까?
++ 학교에 어떻게 갑니까?
++ 몇월달이 생일인가요?
++ 마인크래프트를 플레이하나요? (네/아니오)
 
-Don't ask questions that give personal data such as where people live. Ask your club leader if you're not sure.
+사람들이 사는 곳과 같은 개인정보를 요구하는 질문을 하지 마세요. 잘 모르는 경우 클럽 리더에게 문의하십시오.
 
-Examples:
+예시:
 
 ![스크린샷](images/pets-bar-examples.png)
 

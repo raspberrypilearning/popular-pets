@@ -1,11 +1,11 @@
-\--- 도전 \---
+\--- challenge \---
 
-## Challenge: More charts and graphs!
+## 과제: 더 많은 차트와 그래프!
 
-Can you create a pie chart and a bar chart from the same file? You can either use the data you collected earlier or collect some new data.
+같은 파일에서 파이 차트와 막대 차트를 만들 수 있습니까? 이전에 수집 한 데이터를 사용하거나 새로운 데이터를 수집 할 수 있습니다.
 
 ![스크린샷](images/pets-pn-bar.png)
 
 ![스크린샷](images/pets-pn.png)
 
-<0>for</0>, <0>forward()</0>, <0>penup()</0> and <0>pendown()</0>를 사용해 보세요.
+\--- /challenge \---

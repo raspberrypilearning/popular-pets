@@ -1,49 +1,49 @@
-## Read data from a file
+## 파일에서 데이터 읽기
 
-It's useful to be able to store data in a file rather than having to include it in your code.
+데이터를 코드에 포함하지 않고 파일에 데이터를 저장하는 것이 유용할 것입니다.
 
-+ Add a new file to your project and call it `pets.txt`:
++ `pets.txt` 파일을 추가하세요:
     
     ![스크린샷](images/pets-file.png)
 
-+ Now add data to the file. You can use the favourite pets data that you collected or the example data.
++ 파일에 데이터를 추가하세요. 수집한 애완동물 데이터 또는 예제 데이터를 사용할 수 있습니다.
     
     ![스크린샷](images/pets-data.png)
 
-+ Switch back to `main.py` and comment out the lines that render (display) charts and graphs (so that they aren't displayed):
++ `main.py` 로 돌아와서 차트와 그래프를 렌더링(표시) 하는 라인을 주석 처리하세요. (표시되지 않도록):
     
     ![스크린샷](images/pets-comment.png)
 
-+ Now let's read the data from the file.
++ 이제 파일에서 데이터를 읽도록 합니다.
     
     ![스크린샷](images/pets-read.png)
     
-    The `for` loop will loop over the lines in the file. `splitlines()` removes the newline character from the end of the line as you don't want that.
+    `for` 루프는 파일의 행을 반복합니다. `splitlines()` 은 줄의 끝에서 개행 문자를 제거합니다.
 
-+ Each line needs to be separated into a label and a value:
++ 각 줄은 레이블과 값으로 구분해야합니다:
     
     ![스크린샷](images/pets-split.png)
     
-    This will split the line at the spaces so don't include spaces in the labels. (You can add support for spaces in labels later.)
+    공백이 있는 곳에서 줄바꿈하기 때문에 labels에 공백을 넣지 마십시오. (labels에 공백이 필요한 경우 나중에 추가 할 수 있습니다.)
 
-+ You might get an error like this:
++ 아래와 같은 에러가 발생할 수 있습니다:
     
     ![스크린샷](images/pets-error.png)
     
-    This happens if you have an empty line at the end of your file.
+    파일 끝에 빈 줄이 있으면 이런 일이 발생합니다.
     
-    You can fix the error by only getting the label and value if the line isn't empty.
+    이 오류는 label과 value에 빈 데이터가 들어가지 않도록 하면 해결할 수 있습니다.
     
-    To do this, indent the code inside your `for` loop and add the code `if line:` above it:
+    오류를 해결하기 위해서, `for` 반복문 안에 `if line:` 코드를 추가하세요:
     
     ![스크린샷](images/pets-fix.png)
 
-+ You can remove the `print(label, value)` line now everything is working.
++ 이제 `print(label, value)` 을 삭제하셔도 됩니다.
 
-+ Now let's add the label and value to a new Pie Chart and render it:
++ 이제 label과 value를 새로운 원형 차트에 추가하고 렌더링 해 봅시다.
     
     ![스크린샷](images/pets-pie2.png)
     
-    Note that `add` expects the value to be a number, `int(value)` turns the value from a string into an integer.
+    참고로 `add`에 삽입되는 변수는 숫자로 입력받으므로, `int(value)` 를 사용해서 문자열을 숫자로 변환할 수 있습니다.
     
-    If you wanted to use decimals such as 3.5 (floating point numbers) you could use `float(value)` instead.
+    만약에 3.5와 같은 소수를 사용하고 싶다면 `float(value)`를 사용하시면 됩니다.

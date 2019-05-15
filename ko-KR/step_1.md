@@ -1,4 +1,4 @@
-## 들어가며
+## 소개
 
 이 프로젝트에서는 Code Club의 회원들에게 수집한 데이터를 기반으로 원형 차트와 막대 차트를 만듭니다.
 
@@ -14,7 +14,7 @@ Run을 클릭하면 PyGal python 모듈을 기반으로 차트가 생성됩니�
 
 ### 배울 지식
 
-이 프로젝트는 [라즈베리파이 디지털 메이킹 커리큘럼](http://rpf.io/curriculum) 중 아래의 과정에 있는 요소들을 다룹니다.
+이 프로젝트는 [라즈베리파이 디지털 만들기 커리큘럼](http://rpf.io/curriculum) 중 아래의 과정에 있는 요소들을 다룹니다.
 
 + [프로그래밍 구조를 결합하여 문제 해결하기](https://www.raspberrypi.org/curriculum/programming/builder/)
 

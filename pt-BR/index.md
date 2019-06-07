@@ -5,6 +5,7 @@ notes: "Animais de estimação populares - notes.md"
 layout: projeto
 new: verdadeiro
 ---
+
 # Introdução {.intro}
 
 Neste projeto, você cria gráficos de pizza e gráficos de barras a partir dos dados coletados dos membros do seu Code Club.

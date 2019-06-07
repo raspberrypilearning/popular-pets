@@ -5,6 +5,7 @@ notes: "Popular Pets - notes.md"
 layout: projekt
 new: true
 ---
+
 # Wprowadzenie {.intro}
 
 W tym projekcie tworzysz wykresy kołowe i wykresy słupkowe na podstawie danych zbieranych od członków Twojego Code Club.

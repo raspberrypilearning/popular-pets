@@ -5,6 +5,7 @@ notes: "Popularni ljubimci - notes.md"
 layout: project
 new: true
 ---
+
 # Uvod {.intro}
 
 U ovom projektu izradićeš kružne i stubičaste grafikone od podataka koje prikupiš od članova svog Code Cluba.

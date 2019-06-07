@@ -7,7 +7,7 @@ In dit project maak je taart- en staafdiagrammen van gegevens die je verzamelt v
 Wanneer je op Run klikt, worden de diagrammen gegenereerd op basis van gegevens en met behulp van de PyGal python-module.
 
 <div class="trinket">
-  <iframe src="https://trinket.io/embed/python/70d24d92b8?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  <iframe src="https://trinket.io/embed/python/1db951f513?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
   <img src="images/pets-finished.png">
 </div>

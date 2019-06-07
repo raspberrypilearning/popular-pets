@@ -7,7 +7,7 @@ U ovom projektu izradićeš kružne i stubičaste grafikone od podataka koje pri
 Kada klikneš na Run, grafikoni se generišu od podataka koristeći python modul PyGal.
 
 <div class="trinket">
-  <iframe src="https://trinket.io/embed/python/70d24d92b8?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  <iframe src="https://trinket.io/embed/python/1db951f513?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
   <img src="images/pets-finished.png">
 </div>

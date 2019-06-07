@@ -1,4 +1,4 @@
-\--- challenge \---
+--- challenge ---
 
 ## 도전 과제: 파일에서 새 차트 만들기
 
@@ -8,4 +8,4 @@
 
 ![스크린샷](images/pets-butterflies.png)
 
-\--- /challenge \---
+--- /challenge ---

@@ -1,4 +1,4 @@
-\--- challenge \---
+--- challenge ---
 
 ## 도전 과제: 자신만의 막대 차트 만들기
 
@@ -22,4 +22,4 @@ Code Club 회원의 데이터를 수집하여 자신만의 막대 그래프를 �
 
 ![스크린샷](images/pets-bar-examples.png)
 
-\--- /challenge \---
+--- /challenge ---

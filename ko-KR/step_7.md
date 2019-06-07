@@ -1,4 +1,4 @@
-\--- challenge \---
+--- challenge ---
 
 ## 도전 과제: 더 많은 차트와 그래프!
 
@@ -8,7 +8,7 @@
 
 ![스크린샷](images/pets-pn.png)
 
-\--- /challenge \---
+--- /challenge ---
 
 
 커뮤니티 기여 번역

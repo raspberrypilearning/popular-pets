@@ -5,6 +5,7 @@ notes: "Popular Pets - notes.md"
 layout: project
 new: true
 ---
+
 # المقدمة {.intro}
 
 In this project you create pie charts and bar graphs from data that you collect from members of your Code Club.

@@ -1,0 +1,33 @@
+---
+hero_image: images/popular-pets.png
+theme: yellow
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+title: 인기있는 동물 차트
+description: 원형 차트와 막대 그래프로 인기있는 동물들의 차트를 만들어 봅시다.
+original_url: https://codeclubprojects.org/en-GB/python/popular-pets
+interests: animals
+technologies: python
+site_areas: projects
+hardware: ''
+software: python
+version: 3
+last_tested: 2017-01-01
+steps:
+  - 
+    title: 소개
+  - 
+    title: 준비물
+  - 
+    title: 원형 차트 만들기
+  - 
+    title: '도전 과제: 자신만의 막대 차트 만들기'
+  - 
+    title: 파일에서 데이터 읽기
+  - 
+    title: '도전 과제: 파일에서 새 차트 만들기'
+  - 
+    title: '도전 과제: 더 많은 차트와 그래프!'

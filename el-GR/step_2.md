@@ -2,6 +2,6 @@
 
 ### Λογισμικό
 
-+ Online επεξεργαστής Trinket
++ Trinket online επεξεργαστής Python
 
-Note - this project uses trinket's pygal module and will only work with trinket.
+Σημείωση - αυτό το έργο χρησιμοποιεί το module pygal του trinket και θα λειτουργήσει μόνο με το trinket.

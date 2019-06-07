@@ -5,6 +5,7 @@ notes: "Populaire huisdieren - notes.md"
 layout: project
 new: waar
 ---
+
 # Inleiding {.intro}
 
 In dit project maak je taartdiagrammen en staafdiagrammen van gegevens die je van de leden van je Code Club verzamelt.

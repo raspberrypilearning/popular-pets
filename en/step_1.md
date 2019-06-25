@@ -7,7 +7,7 @@ In this project you create pie charts and bar graphs from data that you collect 
 When you click Run the charts are generated from data using the PyGal python module. 
 
 <div class="trinket">
-  <iframe src="https://trinket.io/embed/python/1db951f513?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  <iframe src="https://trinket.io/embed/python/70d24d92b8?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
   <img src="images/pets-finished.png">
 </div>

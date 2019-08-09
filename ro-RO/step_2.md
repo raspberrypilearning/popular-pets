@@ -1,7 +1,7 @@
-## What you will need
+## De ce vei avea nevoie
 
-### Software
+### Programe
 
-+ Trinket online editor
++ Editorul online Trinket
 
-Note - this project uses trinket's pygal module and will only work with trinket.
+Notă - acest proiect folosește modulul pygal al trinket și va funcționa doar cu trinket.

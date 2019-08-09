@@ -1,11 +1,11 @@
 \--- challenge \---
 
-## Challenge: More charts and graphs!
+## Provocare: Mai multe diagrame și grafice!
 
-Can you create a pie chart and a bar chart from the same file? You can either use the data you collected earlier or collect some new data.
+Poți crea o diagramă circulară și un grafic de bare din același fișier? Poți utiliza datele pe care le-ai colectat anterior sau poți colecta date noi.
 
-![screenshot](images/pets-pn-bar.png)
+![captură de ecran](images/pets-pn-bar.png)
 
-![screenshot](images/pets-pn.png)
+![captură de ecran](images/pets-pn.png)
 
 \--- /challenge \---

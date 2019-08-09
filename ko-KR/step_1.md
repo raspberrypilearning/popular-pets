@@ -7,7 +7,7 @@
 Run을 클릭하면 PyGal python 모듈을 기반으로 차트가 생성됩니다.
 
 <div class="trinket">
-  <iframe src="https://trinket.io/embed/python/1db951f513?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  <iframe src="https://trinket.io/embed/python/70d24d92b8?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
   <img src="images/pets-finished.png">
 </div>

@@ -1,49 +1,49 @@
-## Reto: Crea un nuevo gráfico a partir de un archivo
+## Lee los datos desde un archivo
 
-It's useful to be able to store data in a file rather than having to include it in your code.
+Resulta muy útil ser capaz de almacenar datos en un archivo en lugar de tener que incluirlos en tu código.
 
-+ Add a new file to your project and call it `pets.txt`:
++ Agrega un nuevo archivo a tu proyecto y llámalo `mascotas.txt`:
     
     ![captura de pantalla](images/pets-file.png)
 
-+ Now add data to the file. You can use the favourite pets data that you collected or the example data.
++ A continuación, agrega datos al archivo. Puedes usar los datos de las mascotas favoritas que recaudaste o los datos de ejemplo.
     
     ![captura de pantalla](images/pets-data.png)
 
-+ Switch back to `main.py` and comment out the lines that render (display) charts and graphs (so that they aren't displayed):
++ Regresa a `main.py` y comenta las líneas que reprodúcen (visualizan) cuadros y gráficos (de tal modo que no sean visualizados):
     
-    ![screenshot](images/pets-comment.png)
+    ![captura de pantalla](images/pets-comment.png)
 
-+ Now let's read the data from the file.
++ A continuación, lee los datos del archivo.
     
-    ![screenshot](images/pets-read.png)
+    ![captura de pantalla](images/pets-read.png)
     
-    The `for` loop will loop over the lines in the file. `splitlines()` removes the newline character from the end of the line as you don't want that.
+    El bucle `for` recorrerá a traves de las líneas del archivo. `splitlines()` elimina el caracter de línea nueva del final de la línea, ya que no lo necesitas.
 
-+ Each line needs to be separated into a label and a value:
++ Cada línea debe separarse en una etiqueta y un valor:
     
-    ![screenshot](images/pets-split.png)
+    ![captura de pantalla](images/pets-split.png)
     
-    This will split the line at the spaces so don't include spaces in the labels. (You can add support for spaces in labels later.)
+    Esto separará la línea en los espacios, por lo tanto, no incluyas espacios en las etiquetas. (Puedes añadir soporte para los espacios en las etiquetas más adelante).
 
-+ You might get an error like this:
++ Es posible que obtengas un error como este:
     
     ![captura de pantalla](images/pets-error.png)
     
-    This happens if you have an empty line at the end of your file.
+    Esto sucederá si tienes una línea vacía al final de tu archivo.
     
-    You can fix the error by only getting the label and value if the line isn't empty.
+    Puedes solucionar el error tomando solamente la etiqueta y el valor si la línea no está vacía.
     
-    To do this, indent the code inside your `for` loop and add the code `if line:` above it:
+    Para ello, indenta el código dentro del bucle `for` y añade el código `if line:` encima:
     
     ![captura de pantalla](images/pets-fix.png)
 
-+ You can remove the `print(label, value)` line now everything is working.
++ Ahora que todo funciona correctamente, puedes eliminar la línea `print(label, value)`.
 
-+ Now let's add the label and value to a new Pie Chart and render it:
++ Ahora, agreguemos la etiqueta y el valor a un nuevo Gráfico Circular y reproduzcámoslo:
     
     ![captura de pantalla](images/pets-pie2.png)
     
-    Note that `add` expects the value to be a number, `int(value)` turns the value from a string into an integer.
+    Ten en cuenta que `add` espera que el valor sea un número, `int(value)` convierte el valor de texto a un número entero.
     
-    If you wanted to use decimals such as 3.5 (floating point numbers) you could use `float(value)` instead.
+    Si deseas usar decimales como 3.5 (números de coma flotante), puedes usar `float(value)` en su lugar.

@@ -1,7 +1,7 @@
-Dog 6
-Cat 4
+Câine 6
+Pisică 4
 Hamster 3
-Fish 2
-Snake 1
+Pește 2
+Șarpe 1
 
 

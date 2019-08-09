@@ -1,49 +1,49 @@
-## Read data from a file
+## Citește datele dintr-un fișier
 
-It's useful to be able to store data in a file rather than having to include it in your code.
+Este mai util să stochezi datele într-un fișier, decât să le incluzi direct în codul tău.
 
-+ Add a new file to your project and call it `pets.txt`:
++ Adaugă un nou fișier la proiect și denumește-l `pets.txt`:
     
-    ![screenshot](images/pets-file.png)
+    ![captură de ecran](images/pets-file.png)
 
-+ Now add data to the file. You can use the favourite pets data that you collected or the example data.
++ Acum adaugă date în fișier. Poți utiliza datele animalelor de companie preferate pe care le-ai colectat sau datele din exemplu.
     
-    ![screenshot](images/pets-data.png)
+    ![captură de ecran](images/pets-data.png)
 
-+ Switch back to `main.py` and comment out the lines that render (display) charts and graphs (so that they aren't displayed):
++ Mergi înapoi la fișierul `main.py` și comentează liniile care redau (afișează) diagramele și graficele (astfel încât acestea să nu fie afișate):
     
-    ![screenshot](images/pets-comment.png)
+    ![captură de ecran](images/pets-comment.png)
 
-+ Now let's read the data from the file.
++ Acum să citim datele din fișier.
     
-    ![screenshot](images/pets-read.png)
+    ![captură de ecran](images/pets-read.png)
     
-    The `for` loop will loop over the lines in the file. `splitlines()` removes the newline character from the end of the line as you don't want that.
+    Bucla `for` va parcurge fiecare linie din fișier. Funcția `splitlines()` elimină caracterul de linie nouă de la sfârșitul liniei, deoarece nu avem nevoie de acel caracter.
 
-+ Each line needs to be separated into a label and a value:
++ Fiecare linie trebuie să fie separată într-o etichetă și o valoare:
     
-    ![screenshot](images/pets-split.png)
+    ![captură de ecran](images/pets-split.png)
     
-    This will split the line at the spaces so don't include spaces in the labels. (You can add support for spaces in labels later.)
+    Acest cod separă cuvintele unei linii la întâlnirea caracterului spațiu, prin urmare nu utiliza spații când scrii denumirile etichetelor din fișier. (Vei vedea ulterior cum poți adăuga spații în etichete.)
 
-+ You might get an error like this:
++ Este posibil să primești o eroare de acest fel:
     
-    ![screenshot](images/pets-error.png)
+    ![captură de ecran](images/pets-error.png)
     
-    This happens if you have an empty line at the end of your file.
+    Acest lucru se întâmplă dacă ai o linie goală la sfârșitul fișierului.
     
-    You can fix the error by only getting the label and value if the line isn't empty.
+    Poți remedia eroarea obținând eticheta și valoarea numai dacă linia nu este goală.
     
-    To do this, indent the code inside your `for` loop and add the code `if line:` above it:
+    Pentru a face acest lucru, indentează codul aflat în interiorul buclei `for` și adaugă linia de cod `if line:` deasupra acestuia:
     
-    ![screenshot](images/pets-fix.png)
+    ![captură de ecran](images/pets-fix.png)
 
-+ You can remove the `print(label, value)` line now everything is working.
++ Poți elimina linia `print(label, value)`, iar acum totul funcționează.
 
-+ Now let's add the label and value to a new Pie Chart and render it:
++ Acum, adaugă eticheta și valoarea într-o nouă diagramă circulară și redă-o:
     
-    ![screenshot](images/pets-pie2.png)
+    ![captură de ecran](images/pets-pie2.png)
     
-    Note that `add` expects the value to be a number, `int(value)` turns the value from a string into an integer.
+    Reține că `add` se așteaptă ca valoarea să fie un număr, `int(value)` transformă valoarea dintr-un șir de caractere într-un număr întreg.
     
-    If you wanted to use decimals such as 3.5 (floating point numbers) you could use `float(value)` instead.
+    Dacă dorești să utilizezi numere zecimale, cum ar fi 3.5 (numere în virgula flotantă), poți utiliza `float(value)`.

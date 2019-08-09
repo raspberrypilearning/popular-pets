@@ -4,31 +4,31 @@
 
 + Adicione um novo arquivo ao seu projeto e chame-o de `pets.txt`:
     
-    ![screenshot](images/pets-file.png)
+    ![captura de tela](images/pets-file.png)
 
-+ Agora adicione dados ao arquivo. Você pode usar os dados favoritos de animais de estimação que você coletou ou os dados de exemplo.
++ Agora adicione dados ao arquivo. Você pode usar os dados de animais de estimação favoritos que você coletou ou os dados de exemplo.
     
-    ![screenshot](images/pets-data.png)
+    ![captura de tela](images/pets-data.png)
 
-+ Volte para `main.py` e comente as linhas que renderizam (exibem) gráficos e gráficos (para que não sejam exibidos):
++ Volte para `main.py` e comente as linhas que renderizam (exibem) tabelas e gráficos (para que não sejam exibidos):
     
-    ![screenshot](images/pets-comment.png)
+    ![captura de tela](images/pets-comment.png)
 
 + Agora vamos ler os dados do arquivo.
     
-    ![screenshot](images/pets-read.png)
+    ![captura de tela](images/pets-read.png)
     
-    O laço `for` fará um loop nas linhas do arquivo. `splitlines ()` remove o caractere de nova linha do final da linha, já que você não quer isso.
+    O loop `for` fará um loop nas linhas do arquivo. `splitlines ()` remove o caractere de nova linha do final da linha, já que você não quer isso.
 
 + Cada linha precisa ser separada em um rótulo e um valor:
     
-    ![captura](images/pets-split.png)
+    ![captura de tela](images/pets-split.png)
     
     Isso dividirá a linha nos espaços, portanto, não inclua espaços nos rótulos. (Você pode adicionar suporte para espaços em rótulos depois.)
 
 + Você pode receber um erro como este:
     
-    ![screenshot](images/pets-error.png)
+    ![captura de tela](images/pets-error.png)
     
     Isso acontece se você tiver uma linha vazia no final do seu arquivo.
     
@@ -36,7 +36,7 @@
     
     Para fazer isso, indente o código dentro do seu loop `for` e adicione o código `if linha:` acima:
     
-    ![screenshot](images/pets-fix.png)
+    ![captura de tela](images/pets-fix.png)
 
 + Você pode remover a linha `print(rotulo, valor)` agora que está tudo funcionando.
 
@@ -46,4 +46,4 @@
     
     Note que `add` espera que o valor seja um número, `int (valor)` transforma o valor de uma string em um inteiro.
     
-    Se você quisesse usar decimais como 3.5 (números de ponto flutuante) você poderia usar `float (valor)`.
+    Se você quisesse usar decimais como 3,5 (números de ponto flutuante) você poderia usar `float (valor)`.

@@ -1,25 +1,25 @@
 \--- challenge \---
 
-## Challenge: Create your own bar chart
+## Provocare: Creează-ți propriul grafic cu bare
 
-You can create bar charts in a similar way. Just use `barchart = pygal.Bar()` to create a new barchart, and then add data and render in the same way as for a pie chart.
+Poți crea un grafic cu bare într-un mod similar. Poți crea un grafic cu bare într-un mod similar. Utilizează doar `grafic_bare = pygal.Bar()` pentru a crea un grafic cu bare nou, apoi adăugă date și redă-l în același mod ca o diagramă cu bare.
 
-Collect data from your Code Club members to create your own bar graph.
+Colectează date de la membrii Code Club-ului tău pentru ați crea propriul grafic cu bare.
 
-Make sure that you choose a topic that everyone will know about!
+Asigură-te că alegi un subiect pe care toată lumea îl cunoaște!
 
-Here are some ideas:
+Iată câteva idei:
 
-+ What is your favourite sport?
-+ What is your favourite ice cream flavour?
-+ How do you get to school?
-+ What month is your birthday?
-+ Do you play Minecraft? (yes/no)
++ Care este sportul favorit?
++ Care este aroma de înghețată preferată?
++ Cum ajungi la școală?
++ În ce lună este ziua ta de naștere?
++ Joci Minecraft? (da/nu)
 
-Don't ask questions that give personal data such as where people live. Ask your club leader if you're not sure.
+Nu pune întrebări care oferă date personale, cum ar fi locul în care locuiesc oamenii. Întreabă-ți liderul clubului dacă nu ești sigur.
 
-Examples:
+Exemple:
 
-![screenshot](images/pets-bar-examples.png)
+![captură de ecran](images/pets-bar-examples.png)
 
 \--- /challenge \---

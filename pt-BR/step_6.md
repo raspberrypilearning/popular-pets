@@ -6,6 +6,6 @@ Você consegue criar um novo gráfico de barras ou gráfico de pizza a partir de
 
 Dica: Se você quiser espaços nos rótulos, use `linha.split (':')` e adicione dois pontos ao seu arquivo de dados, por exemplo, 'Almirante Vermelho: 6'
 
-![screenshot](images/pets-butterflies.png)
+![captura de tela](images/pets-butterflies.png)
 
 \--- /challenge \---

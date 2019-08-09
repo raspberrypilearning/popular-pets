@@ -1,25 +1,25 @@
-## Introduction
+## Introducere
 
-In this project you create pie charts and bar graphs from data that you collect from members of your Code Club.
+În acest proiect creezi diagrame circulare și grafice cu bare din datele pe care le colectezi de la membrii Code Club din care faci parte.
 
-### Instructions
+### Instrucțiuni
 
-When you click Run the charts are generated from data using the PyGal python module.
+Când apeși butonul Run, graficele sunt generate din date utilizând modulul PyGal din python.
 
 <div class="trinket">
-  <iframe src="https://trinket.io/embed/python/1db951f513?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  <iframe src="https://trinket.io/embed/python/70d24d92b8?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
   <img src="images/pets-finished.png">
 </div>
 
-### What you will learn
+### Ce vei învăța
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Acest proiect acoperă elemente din următoarele domenii ale [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-+ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder/)
++ [Combină modalități de programare ca să rezolvi o problemă.](https://www.raspberrypi.org/curriculum/programming/builder/)
 
-### Additional information for educators
+### Informații suplimentare pentru educatori
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/popular-pets/print){:target="_blank"}.
+Dacă vrei să printezi acest proiect, folosește [versiunea printabilă](https://projects.raspberrypi.org/en/projects/popular-pets/print){:target="_blank"}.
 
-Use the link in the footer to access the GitHub repository for this project, which contains all resources (including an example finished project) in the 'en/resources' folder.
+Utilizează link-ul din footerul paginii pentru a accesa adresa GitHub a acestui proiect, care conține toate resursele (inclusiv un exemplu de proiect finalizat) în directorul ‘ro-Ro/resources’.

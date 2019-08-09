@@ -1,0 +1,26 @@
+---
+hero_image: images/popular-pets.png
+theme: yellow
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+title: Animale de companie populare
+description: Creează diagrame circulare și grafice cu bare din datele pe care le colectezi.
+original_url: https://codeclubprojects.org/en-GB/python/popular-pets
+interests: animals
+technologies: python
+site_areas: projects
+hardware: ''
+software: python
+version: 3
+last_tested: 2017-01-01
+steps:
+  - title: Introducere
+  - title: De ce vei avea nevoie
+  - title: Creează o diagramă circulară
+  - title: 'Provocare: Creează-ți propriul grafic de bare'
+  - title: Citește datele dintr-un fișier
+  - title: 'Provocare: Creează o diagramă nouă dintr-un fișier'
+  - title: 'Provocare: Mai multe diagrame și grafice!'

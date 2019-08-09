@@ -1,25 +1,25 @@
 ## Introducción
 
-In this project you create pie charts and bar graphs from data that you collect from members of your Code Club.
+En este proyecto, crearás gráficos circulares y gráficos de barras a partir de datos que recaudes de los miembros de tu Code Club.
 
 ### Instrucciones
 
-When you click Run the charts are generated from data using the PyGal python module.
+Cuando hagas clic en Run, los gráficos serán generados de datos usando PyGal, el módulo de Python.
 
 <div class="trinket">
-  <iframe src="https://trinket.io/embed/python/1db951f513?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  <iframe src="https://trinket.io/embed/python/70d24d92b8?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
   <img src="images/pets-finished.png">
 </div>
 
 ### Lo que aprenderás
 
-Este proyecto incluye elementos de los siguientes aspectos del [currículo de creación digital de Raspberry Pi](http://rpf.io/curriculum):
+Este proyecto incluye elementos de los siguientes aspectos del [Currículo de fabricación digital de Raspberry Pi](http://rpf.io/curriculum):
 
-+ [Combina estructuras de programación para resolver un problema.](https://www.raspberrypi.org/curriculum/programming/builder/)
++ [Combina conceptos de programación para resolver un problema.](https://www.raspberrypi.org/curriculum/programming/builder/)
 
-### Información adicional para los educadores
+### Información adicional para educadores
 
 Si necesitas imprimir este proyecto, usa la [versión para imprimir](https://projects.raspberrypi.org/en/projects/popular-pets/print){:target="_blank"}.
 
-Usa el enlace en el pie de página para acceder al repositorio de GitHub para este proyecto, que contiene todos los recursos (incluyendo un ejemplo de un proyecto terminado) en la carpeta 'en/resources'.
+Usa el enlace en el pie de página para acceder al repositorio de GitHub para este proyecto, que contiene todos los recursos (incluyendo un ejemplo del proyecto terminado) dentro de la carpeta 'en/resources'.

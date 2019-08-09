@@ -1,4 +1,4 @@
-## Criar um gráfico de pizza
+## Crie um gráfico de pizza
 
 Gráficos de pizza são uma forma útil de mostrar dados. Vamos fazer uma pesquisa dos animais favoritos no seu Code Club e, em seguida, apresentar os dados como um gráfico de pizza.
 
@@ -6,7 +6,7 @@ Gráficos de pizza são uma forma útil de mostrar dados. Vamos fazer uma pesqui
     
     Escreva uma lista de animais de estimação e certifique-se de que os favoritos de todos estejam incluídos.
     
-    Então faça com que todos votem em seu favorito, colocando a mão para cima quando for chamado. Apenas um voto cada!
+    Depois, faça com que todos votem em seu favorito, levantando a mão quando o animal for nomeado. Só um voto por pessoa!
     
     Por exemplo:
     

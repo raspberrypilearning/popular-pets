@@ -1,43 +1,43 @@
-## Create a Pie Chart
+## Creează o diagramă circulară
 
-Pie Charts are are useful way of showing data. Let's do a survey of favourite pets in your Code Club and then present the data as a Pie Chart.
+Diagramele circulare sunt un mod util de a afișa datele. Haide să facem un sondaj asupra animalelor de companie preferate în Code Club-ul din care faci parte și apoi să prezentăm datele sub forma unei diagrame circulare.
 
-+ Ask your club leader to help organise a survey. You could record the results on a computer connected to a projector or a whiteboard that everyone can see.
++ Cere-i conducătorului clubului tău să te ajute să organizezi un sondaj. Poți înregistra rezultatele pe un computer conectat la un proiector sau pe o tablă albă pe care toată lumea o poate vedea.
     
-    Write a list of pets and make sure everyone's favourite is included.
+    Scrie o listă cu animale de companie și asigură-te că sunt incluse animalele preferate ale tuturor.
     
-    Then get everyone to vote for their favourite by putting their hand up when it gets called out. Only one vote each!
+    Apoi, citește lista de animale și pune pe toată lumea să își voteze favoritul, ridicând mâna atunci când aude denumirea animalului de companie favorit. Fiecare poate vota o singură dată!
     
-    For example:
+    De exemplu:
     
-    ![screenshot](images/pets-favourite.png)
+    ![captură de ecran](images/pets-favourite.png)
 
-+ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ Deschide un șablon Python Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ Let's create a pie chart to show the results of your survey. You'll be using the PyGal library to do some of the hard work.
++ Creează o diagramă circulară care să afișeze rezultatele sondajului tău. Vei folosi biblioteca PyGal pentru a face o parte din munca grea.
     
-    First import the Pygal library:
+    Mai întâi importă biblioteca Pygal:
     
-    ![screenshot](images/pets-pygal.png)
+    ![captură de ecran](images/pets-pygal.png)
 
-+ Now let's create a Pie chart and render (display) it:
++ Acum, să creăm o diagramă circulară și să o redăm (afișăm):
     
-    ![screenshot](images/pets-pie.png)
+    ![captură de ecran](images/pets-pie.png)
     
-    Don't worry, it gets more interesting when you add data!
+    Nu iți face griji, devine mai interesant atunci când o să adaugi date!
 
-+ Let's add in the data for one of the pets. Use the data that you collected.
++ Să adăugăm datele pentru unul dintre animalele de companie. Folosește datele pe care le-ai colectat.
     
-    ![screenshot](images/pets-add.png)
+    ![captură de ecran](images/pets-add.png)
     
-    There's only one piece of data so it takes up the whole pie chart.
+    Există un singur animal de companie, prin urmare, acesta acoperă întreaga diagramă circulară.
 
-+ Now add the rest of the data in the same way.
++ Acum adaugă restul de date în același mod.
     
-    For example:
+    De exemplu:
     
-    ![screenshot](images/pets-add-all.png)
+    ![captură de ecran](images/pets-add-all.png)
 
-+ And to finish off your chart, add a title:
++ Pentru a termina diagrama circulară, adaugă un titlu (title):
     
-    ![screenshot](images/pets-title.png)
+    ![captură de ecran](images/pets-title.png)

@@ -1,11 +1,11 @@
 \--- challenge \---
 
-## Challenge: Create a new chart from a file
+## Provocare: Creează o diagramă nouă dintr-un fișier
 
-Can you create a new bar graph or pie chart from data in a file? You'll need to create a new .txt file.
+Poți crea un nou grafic de bare sau o nouă diagramă circulară din datele aflate într-un fișier? Va trebui să creați un nou fișier .txt.
 
-Tip: If you want to have spaces in the labels then use `line.split(': ')` and add colons to your data file, e.g. 'Red Admiral: 6'
+Sfat: Dacă dorești să ai spații în etichete, utilizează `line.split(':')` și adaugă caracterul „:” în locul spațiilor în fișierul tău de date, de exemplu 'Amiral Roșu: 6'
 
-![screenshot](images/pets-butterflies.png)
+![captură de ecran](images/pets-butterflies.png)
 
 \--- /challenge \---

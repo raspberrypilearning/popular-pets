@@ -2,6 +2,6 @@
 
 ### Software
 
-+ Trinket online editor
++ Trinket - editor en línea
 
-Note - this project uses trinket's pygal module and will only work with trinket.
+Nota: este proyecto utiliza el módulo pygal de Trinket y solo funcionará con Trinket.

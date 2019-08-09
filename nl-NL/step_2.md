@@ -4,4 +4,4 @@
 
 + Trinket online editor
 
-Note - this project uses trinket's pygal module and will only work with trinket.
+Let op - dit project gebruikt trinket's pygal module en werkt alleen met trinket.

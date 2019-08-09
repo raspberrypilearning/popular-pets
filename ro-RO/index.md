@@ -1,14 +1,14 @@
 ---
-title: Popular Pets
-description: Create pie charts and bar graphs from data you collect.
-notes: "Popular Pets - notes.md"
-layout: project
-new: true
+title: Animale de companie populare
+description: Creează diagrame circulare și grafice cu bare din datele pe care le colectezi.
+notes: "Animale de companie populare - notes.md"
+layout: proiect
+new: adevărat
 ---
 
-# Introduction {.intro}
+# Introducere {.intro}
 
-In this project you create pie charts and bar graphs from data that you collect from members of your Code Club.
+În acest proiect creezi diagrame circulare și grafice cu bare din datele pe care le colectezi de la membrii Code Club din care faci parte.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/70d24d92b8?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -16,152 +16,152 @@ In this project you create pie charts and bar graphs from data that you collect 
   <img src="images/pets-finished.png">
 </div>
 
-# Step 1: Create a Pie Chart {.activity}
+# Pasul 1: Creează o diagramă circulară {.activity}
 
-Pie Charts are are useful way of showing data. Let's do a survey of favourite pets in your Code Club and then present the data as a Pie Chart.
+Diagramele circulare sunt un mod util de a afișa datele. Haide să facem un sondaj asupra animalelor de companie preferate în Code Club-ul din care faci parte și apoi să prezentăm datele sub forma unei diagrame circulare.
 
-## Activity Checklist {.check}
+## Lista de verificare a activităților {.check}
 
-+ Ask your volunteer to help organise a survey. You could record the results on a computer connected to a projector or a whiteboard that everyone can see.
++ Roagă-l pe voluntarul tău să te ajute să organizezi un sondaj. Poți înregistra rezultatele pe un computer conectat la un proiector sau pe o tablă albă pe care toată lumea o poate vedea.
     
-    Write a list of pets and make sure everyone's favourite is included.
+    Scrie o listă cu animale de companie și asigură-te că sunt incluse animalele preferate ale tuturor.
     
-    Then get everyone to vote for their favourite by putting their hand up when it gets called out. Only one vote each!
+    Apoi, citește lista de animale și pune pe toată lumea să își voteze favoritul, ridicând mâna atunci când aude denumirea animalului de companie favorit. Fiecare poate vota o singură dată!
     
-    For example:
+    De exemplu:
     
-    ![screenshot](images/pets-favourite.png)
+    ![captură de ecran](images/pets-favourite.png)
 
-+ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ Deschide un șablon Python Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ Let's create a pie chart to show the results of your survey. You'll be using the PyGal library to do some of the hard work.
++ Creează o diagramă circulară care să afișeze rezultatele sondajului tău. Vei folosi biblioteca PyGal pentru a face o parte din munca grea.
     
-    First import the Pygal library:
+    Mai întâi importă biblioteca Pygal:
     
-    ![screenshot](images/pets-pygal.png)
+    ![captură de ecran](images/pets-pygal.png)
 
-+ Now let's create a Pie chart and render (display) it:
++ Acum, să creăm o diagramă circulară și să o redăm (afișăm):
     
-    ![screenshot](images/pets-pie.png)
+    ![captură de ecran](images/pets-pie.png)
     
-    Don't worry, it gets more interesting when you add data!
+    Nu iți face griji, devine mai interesant atunci când o să adaugi date!
 
-+ Let's add in the data for one of the pets. Use the data that you collected.
++ Să adăugăm datele pentru unul dintre animalele de companie. Folosește datele pe care le-ai colectat.
     
-    ![screenshot](images/pets-add.png)
+    ![captură de ecran](images/pets-add.png)
     
-    There's only one piece of data so it takes up the whole pie chart.
+    Există un singur animal de companie, prin urmare, acesta acoperă întreaga diagramă circulară.
 
-+ Now add the rest of the data in the same way.
++ Acum adaugă restul de date în același mod.
     
-    For example:
+    De exemplu:
     
-    ![screenshot](images/pets-add-all.png)
+    ![captură de ecran](images/pets-add-all.png)
 
-+ And to finish off your chart, add a title:
++ Pentru a termina diagrama circulară, adaugă un titlu (title):
     
-    ![screenshot](images/pets-title.png)
+    ![captură de ecran](images/pets-title.png)
 
-## Save Your Project {.save}
+## Salvează proiectul {.save}
 
-## Challenge: Create your own bar chart {.challenge}
+## Provocare: Creează-ți propriul grafic cu bare {.challenge}
 
-You can create bar charts in a similar way. Just use `barchart = pygal.Bar()` to create a new barchart, and then add data and render in the same way as for a pie chart.
+Poți crea un grafic cu bare într-un mod similar. Utilizează doar `grafic_bare = pygal.Bar()` pentru a crea un grafic cu bare nou, apoi adăugă date și redă-l în același mod ca o diagramă cu bare.
 
-Collect data from your Code Club members to create your own bar graph.
+Colectează date de la membrii Code Club-ului tău pentru ați crea propriul grafic cu bare.
 
-Make sure that you choose a topic that everyone will know about!
+Asigură-te că alegi un subiect pe care toată lumea îl cunoaște!
 
-Here are some ideas:
+Iată câteva idei:
 
-+ What is your favourite sport?
++ Care este sportul favorit?
 
-+ What is your favourite ice cream flavour?
++ Care este aroma de înghețată preferată?
 
-+ How do you get to school?
++ Cum ajungi la școală?
 
-+ What month is your birthday?
++ În ce lună este ziua ta de naștere?
 
-+ Do you play Minecraft? (yes/no)
++ Joci Minecraft? (da/nu)
 
-Don't ask questions that give personal data such as where people live. Ask your club leader if you're not sure.
+Nu pune întrebări care oferă date personale, cum ar fi locul în care locuiesc oamenii. Întreabă-ți liderul clubului dacă nu ești sigur.
 
-Examples:
+Exemple:
 
-![screenshot](images/pets-bar-examples.png)
+![captură de ecran](images/pets-bar-examples.png)
 
-## Save Your Project {.save}
+## Salvează proiectul {.save}
 
-# Step 2: Read data from a file {.activity}
+# Pasul 2: Citiți datele dintr-un fișier {.activity}
 
-It's useful to be able to store data in a file rather than having to include it in your code.
+Este mai util să stochezi datele într-un fișier, decât să le incluzi direct în codul tău.
 
-## Activity Checklist {.check}
+## Lista de verificare a activităților {.check}
 
-+ Add a new file to your project and call it `pets.txt`:
++ Adaugă un nou fișier la proiect și denumește-l `pets.txt`:
     
-    ![screenshot](images/pets-file.png)
+    ![captură de ecran](images/pets-file.png)
 
-+ Now add data to the file. You can use the favourite pets data that you collected or the example data.
++ Acum adaugă date în fișier. Poți utiliza datele animalelor de companie preferate pe care le-ai colectat sau datele din exemplu.
     
-    ![screenshot](images/pets-data.png)
+    ![captură de ecran](images/pets-data.png)
 
-+ Switch back to `main.py` and comment out the lines that render (display) charts and graphs (so that they aren't displayed):
++ Mergi înapoi la fișierul `main.py` și comentează liniile care redau (afișează) diagramele și graficele (astfel încât acestea să nu fie afișate):
     
-    ![screenshot](images/pets-comment.png)
+    ![captură de ecran](images/pets-comment.png)
 
-+ Now let's read the data from the file.
++ Acum să citim datele din fișier.
     
-    ![screenshot](images/pets-read.png)
+    ![captură de ecran](images/pets-read.png)
     
-    The `for` loop will loop over the lines in the file. `splitlines()` removes the newline character from the end of the line as you don't want that.
+    Bucla `for` va parcurge fiecare linie din fișier. Funcția `splitlines()` elimină caracterul de linie nouă de la sfârșitul liniei, deoarece nu avem nevoie de acel caracter.
 
-+ Each line needs to be separated into a label and a value:
++ Fiecare linie trebuie să fie separată într-o etichetă și o valoare:
     
-    ![screenshot](images/pets-split.png)
+    ![captură de ecran](images/pets-split.png)
     
-    This will split the line at the spaces so don't include spaces in the labels. (You can add support for spaces in labels later.)
+    Acest cod separă cuvintele unei linii la întâlnirea caracterului spațiu, prin urmare nu utiliza spații când scrii denumirile etichetelor din fișier. (Vei vedea ulterior cum poți adăuga spații în etichete.)
 
-+ You might get an error like this:
++ Este posibil să primești o eroare de acest fel:
     
-    ![screenshot](images/pets-error.png)
+    ![captură de ecran](images/pets-error.png)
     
-    This happens if you have an empty line at the end of your file.
+    Acest lucru se întâmplă dacă ai o linie goală la sfârșitul fișierului.
     
-    You can fix the error by only getting the label and value if the line isn't empty.
+    Poți remedia eroarea obținând eticheta și valoarea numai dacă linia nu este goală.
     
-    To do this, indent the code inside your `for` loop and add the code `if line:` above it:
+    Pentru a face acest lucru, indentează codul aflat în interiorul buclei `for` și adaugă linia de cod `if line:` deasupra acestuia:
     
-    ![screenshot](images/pets-fix.png)
+    ![captură de ecran](images/pets-fix.png)
 
-+ You can remove the `print(label, value)` line now everything is working.
++ Poți elimina linia `print(label, value)`, iar acum totul funcționează.
 
-+ Now let's add the label and value to a new Pie Chart and render it:
++ Acum, adaugă eticheta și valoarea într-o nouă diagramă circulară și redă-o:
     
-    ![screenshot](images/pets-pie2.png)
+    ![captură de ecran](images/pets-pie2.png)
     
-    Note that `add` expects the value to be a number, `int(value)` turns the value from a string into an integer.
+    Reține că `add` se așteaptă ca valoarea să fie un număr, `int(value)` transformă valoarea dintr-un șir de caractere într-un număr întreg.
     
-    If you wanted to use decimals such as 3.5 (floating point numbers) you could use `float(value)` instead.
+    Dacă dorești să utilizezi numere zecimale, cum ar fi 3.5 (numere în virgula flotantă), poți utiliza `float(value)`.
 
-## Save Your Project {.save}
+## Salvează proiectul {.save}
 
-## Challenge: Create a new chart from a file {.challenge}
+## Provocare: Creează o diagramă nouă dintr-un fișier {.challenge}
 
-Can you create a new bar graph or pie chart from data in a file? You'll need to create a new .txt file.
+Poți crea un nou grafic de bare sau o nouă diagramă circulară din datele aflate într-un fișier? Va trebui să creezi un nou fișier .txt.
 
-Tip: If you want to have spaces in the labels then use `line.split(': ')` and add colons to your data file, e.g. 'Red Admiral: 6'
+Sfat: Dacă dorești să ai spații în etichete, utilizează `line.split(':')` și adaugă caracterul „:” în locul spațiilor în fișierul tău de date, de exemplu 'Amiral Roșu: 6'
 
-![screenshot](images/pets-butterflies.png)
+![captură de ecran](images/pets-butterflies.png)
 
-## Save Your Project {.save}
+## Salvează proiectul {.save}
 
-## Challenge: More charts and graphs! {.challenge}
+## Provocare: Mai multe diagrame și grafice! {.challenge}
 
-Can you create a pie chart and a bar chart from the same file? You can either use the data you collected earlier or collect some new data.
+Poți crea o diagramă circulară și un grafic de bare din același fișier? Poți utiliza datele pe care le-ai colectat anterior sau poți colecta date noi.
 
-![screenshot](images/pets-pn-bar.png)
+![captură de ecran](images/pets-pn-bar.png)
 
-![screenshot](images/pets-pn.png)
+![captură de ecran](images/pets-pn.png)
 
-## Save Your Project {.save}
+## Salvează proiectul {.save}

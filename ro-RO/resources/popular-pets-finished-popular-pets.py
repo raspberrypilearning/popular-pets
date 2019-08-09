@@ -2,55 +2,55 @@
 
 import pygal
 
-piechart = pygal.Pie()
-piechart.title = 'Favourite Pet'
-piechart.add('Dog', 6)
-piechart.add('Cat', 4)
-piechart.add('Hamster', 3)
-piechart.add('Fish', 2)
-piechart.add('Snake', 1)
-piechart.render()
+diagrama_circulara= pygal.Pie()
+diagrama_circulara.title = 'Animal de companie favorit'
+diagrama_circulara.add('Câine', 6)
+diagrama_circulara.add('Pisică', 4)
+diagrama_circulara.add('Hamster', 3)
+diagrama_circulara.add ('Pește', 2)
+diagrama_circulara.add ('Șarpe', 1)
+diagrama_circulara.render()
 
-barchart = pygal.Bar()
-barchart.title = 'Favourite Pet'
-barchart.add('Dog', 6)
-barchart.add('Cat', 4)
-barchart.add('Hamster', 3)
-barchart.add('Fish', 2)
-barchart.add('Snake', 1)
-barchart.render()
+grafic_bare = pygal.Bar()
+grafic_bare.title = 'Animal de companie favorit'
+grafic_bare.add('Câine', 6)
+grafic_bare.add('Pisică', 4)
+grafic_bare.add('Hamster', 3)
+grafic_bare.add ('Pește', 2)
+grafic_bare.add ('Șarpe', 1)
+grafic_bare.render()
   
-piechart2 = pygal.Pie()
-barchart2 = pygal.Bar()
+diagrama_circulara2 = pygal.Pie()
+grafic_bare2 = pygal.Bar()
 
 file = open('pets.txt', 'r')
 
 for line in file.read().splitlines():
   if line:
     label, value = line.split(' ')
-    piechart2.add(label, int(value))
-    barchart2.add(label, int(value))
+    diagrama_circulara2.add(label, int(value))
+    grafic_bare2.add(label, int(value))
     
 file.close()
 
-#piechart2.render()
-#barchart2.render()
+#diagrama_circulara2.render()
+#grafic_bare2.render()
 
-butterflies = pygal.Bar()
-butterflies.title = 'Butterfly Count'
+fluturi = pygal.Bar()
+fluturi.title = 'Numărul fluturilor'
 
 file = open('butterflies.txt', 'r')
 
 for line in file.read().splitlines():
   if line:
     label, value = line.split(': ')
-    butterflies.add(label, int(value))
+    fluturi.add(label, int(value))
 file.close()
 
-butterflies.render()
+fluturi.render()
 
 pn = pygal.Bar()
-pn.title = 'Pirates vs Ninjas'
+pn.title = 'Pirați vs ninja'
 
 file = open('piratesninjas.txt', 'r')
 

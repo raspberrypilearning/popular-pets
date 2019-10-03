@@ -1,6 +1,6 @@
 ## Crie um gráfico de pizza
 
-Gráficos de pizza são uma forma útil de mostrar dados. Vamos fazer uma pesquisa dos animais favoritos no seu Code Club e, em seguida, apresentar os dados como um gráfico de pizza.
+Pie Charts are useful way of showing data. Vamos fazer uma pesquisa dos animais favoritos no seu Code Club e, em seguida, apresentar os dados como um gráfico de pizza.
 
 + Peça ao líder do seu clube para ajudar a organizar uma pesquisa. Você pode gravar os resultados em um computador conectado a um projetor ou em um quadro branco que todos possam ver.
     

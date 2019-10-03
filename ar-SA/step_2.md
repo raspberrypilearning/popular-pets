@@ -2,6 +2,6 @@
 
 ### البرمجيات
 
-+ Trinket online editor
++ برنامج برمجة عبر الانترنت Trinket
 
-Note - this project uses trinket's pygal module and will only work with trinket.
+ملاحظة - يستخدم هذا المشروع وحدة trinket's pygal وسيعمل فقط مع trinket.

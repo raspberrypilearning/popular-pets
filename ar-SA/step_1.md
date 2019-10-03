@@ -1,10 +1,10 @@
 ## المقدمة
 
-In this project you create pie charts and bar graphs from data that you collect from members of your Code Club.
+في هذا المشروع ، تقوم بإنشاء مخططات دائرية ورسومات بيانية على شكل أعمدة من البيانات التي تجمعه من أعضاء Code Club الخاص بك.
 
 ### التعليمات
 
-When you click Run the charts are generated from data using the PyGal python module.
+عند النقر على "تشغيل" ، يتم إنشاء المخططات من البيانات باستخدام وحدة PyGal python.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/70d24d92b8?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>

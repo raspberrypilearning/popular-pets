@@ -4,7 +4,7 @@
 
 ### Instrucțiuni
 
-Când apeși butonul Run, graficele sunt generate din date utilizând modulul PyGal din python.
+Când dai click pe butonul Run, graficele sunt generate din date utilizând modulul PyGal din python.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/70d24d92b8?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>

@@ -1,6 +1,6 @@
 ## Reto: Crea tu propio gráfico de barras
 
-Los gráficos circulares son una forma útil de mostrar datos. Realicemos una encuesta sobre las mascotas favoritas en tu Code Club y mostremos los datos como un gráfico circular.
+Pie Charts are useful way of showing data. Realicemos una encuesta sobre las mascotas favoritas en tu Code Club y mostremos los datos como un gráfico circular.
 
 + Solicita al líder de tu club que te ayude a organizar la encuesta. Puedes registrar los resultados en un ordenador conectado a un proyector o en una pizarra para que todos puedan verlos.
     

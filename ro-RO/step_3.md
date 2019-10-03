@@ -1,6 +1,6 @@
 ## Creează o diagramă circulară
 
-Diagramele circulare sunt un mod util de a afișa datele. Haide să facem un sondaj asupra animalelor de companie preferate în Code Club-ul din care faci parte și apoi să prezentăm datele sub forma unei diagrame circulare.
+Pie Charts are useful way of showing data. Haide să facem un sondaj asupra animalelor de companie preferate în Code Club-ul din care faci parte și apoi să prezentăm datele sub forma unei diagrame circulare.
 
 + Cere-i conducătorului clubului tău să te ajute să organizezi un sondaj. Poți înregistra rezultatele pe un computer conectat la un proiector sau pe o tablă albă pe care toată lumea o poate vedea.
     

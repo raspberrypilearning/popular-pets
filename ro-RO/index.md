@@ -2,8 +2,8 @@
 title: Animale de companie populare
 description: Creează diagrame circulare și grafice cu bare din datele pe care le colectezi.
 notes: "Animale de companie populare - notes.md"
-layout: proiect
-new: adevărat
+layout: project
+new: true
 ---
 
 # Introducere {.intro}

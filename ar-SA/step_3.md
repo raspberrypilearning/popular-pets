@@ -1,12 +1,12 @@
-## التحدي: أنشئ مخططًا على شكل أعمدة
+## إنشاء مخطط دائري
 
-Pie Charts are are useful way of showing data. Let's do a survey of favourite pets in your Code Club and then present the data as a Pie Chart.
+Pie Charts are useful way of showing data. لنقم بإستطلاع للحيوانات الأليفة المفضلة في Code Club، ثم قدم البيانات على شكل مخطط دائري.
 
-+ Ask your club leader to help organise a survey. You could record the results on a computer connected to a projector or a whiteboard that everyone can see.
++ اطلب من قائد النادي للمساعدة في تنظيم استطلاع. يمكنك تسجيل النتائج على جهاز كمبيوتر متصل بجهاز عرض أو لوحة بيضاء يمكن للجميع رؤيتها.
     
-    Write a list of pets and make sure everyone's favourite is included.
+    اكتب قائمة بالحيوانات الأليفة وتأكد من تضمين الحيوانات الأليفة المفضلة للجميع.
     
-    Then get everyone to vote for their favourite by putting their hand up when it gets called out. Only one vote each!
+    ثم اطلب من الجميع التصويت لصالح حيوانهم الأليف المفضل من خلال رفع أيديهم عندما يسمعونها. كل فرد يحصل على صوت واحد فقط!
     
     مثال:
     
@@ -14,30 +14,30 @@ Pie Charts are are useful way of showing data. Let's do a survey of favourite pe
 
 + افتح Trinket الذي يحتوي على قالب Python فارغ: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ Let's create a pie chart to show the results of your survey. You'll be using the PyGal library to do some of the hard work.
++ لنقم بإنشاء مخطط دائري لإظهار نتائج الاستبيان الخاص بك. سوف تستخدم مكتبة PyGal للقيام ببعض الأعمال الصعبة.
     
-    First import the Pygal library:
+    قم أولاً باستيراد مكتبة Pygal:
     
     ![لقطة الشاشة](images/pets-pygal.png)
 
-+ Now let's create a Pie chart and render (display) it:
++ الآن لنقم بإنشاء مخطط دائري و نصدره (نعرضه):
     
     ![لقطة الشاشة](images/pets-pie.png)
     
-    Don't worry, it gets more interesting when you add data!
+    لا تقلق ، يصبح أكثر إثارة للاهتمام عند إضافة البيانات!
 
-+ Let's add in the data for one of the pets. Use the data that you collected.
++ دعونا نضيف في البيانات لأحد الحيوانات الأليفة. استخدم البيانات التي جمعتها.
     
     ![لقطة الشاشة](images/pets-add.png)
     
-    There's only one piece of data so it takes up the whole pie chart.
+    لا يوجد سوى جزء واحد من البيانات لذلك سوف يستغرق المخطط الدائري بكامله.
 
-+ Now add the rest of the data in the same way.
++ الآن قم بإضافة بقية البيانات بنفس الطريقة.
     
     مثال:
     
     ![لقطة الشاشة](images/pets-add-all.png)
 
-+ And to finish off your chart, add a title:
++ ولإنهاء المخطط ، أضف عنوانًا:
     
     ![لقطة الشاشة](images/pets-title.png)

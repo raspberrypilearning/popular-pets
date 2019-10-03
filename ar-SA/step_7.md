@@ -1,8 +1,8 @@
 \--- challenge \---
 
-## Challenge: More charts and graphs!
+## التحدي: المزيد من الرسوم البيانية!
 
-Can you create a pie chart and a bar chart from the same file? You can either use the data you collected earlier or collect some new data.
+هل يمكنك إنشاء مخطط دائري و رسومات بيانية على شكل أعمدة من نفس الملف؟ يمكنك استخدام البيانات التي جمعتها سابقًا أو جمع بعض البيانات الجديدة.
 
 ![لقطة شاشة](images/pets-pn-bar.png)
 

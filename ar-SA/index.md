@@ -1,14 +1,14 @@
 ---
 title: الحيوانات الأليفة المفضلة
 description: أنشئ مخططات دائرية ورسومات بيانية على شكل أعمدة من البيانات التي تجمعها.
-notes: "Popular Pets - notes.md"
-layout: project
-new: true
+notes: "الحيوانات الأليفة المفضلة - notes.md"
+layout: مشروع
+new: صحيح
 ---
 
 # المقدمة {.intro}
 
-In this project you create pie charts and bar graphs from data that you collect from members of your Code Club.
+في هذا المشروع ، تقوم بإنشاء مخططات دائرية ورسومات بيانية على شكل أعمدة من البيانات التي تجمعه من أعضاء Code Club الخاص بك.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/70d24d92b8?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -16,17 +16,17 @@ In this project you create pie charts and bar graphs from data that you collect 
   <img src="images/pets-finished.png">
 </div>
 
-# Step 1: Create a Pie Chart {.activity}
+# الخطوة 1: إنشاء مخطط دائري {.activity}
 
-Pie Charts are are useful way of showing data. Let's do a survey of favourite pets in your Code Club and then present the data as a Pie Chart.
+المخططات الدائرية هي طريقة مفيدة لعرض البيانات. دعنا نجري استبيانا للحيوانات الأليفة المفضلة في Code Club ، ثم قدم البيانات على شكل مخطط دائري.
 
-## Activity Checklist {.check}
+## قائمة مراجعة النشاط {.check}
 
-+ Ask your volunteer to help organise a survey. You could record the results on a computer connected to a projector or a whiteboard that everyone can see.
++ اطلب من متطوعك المساعدة في تنظيم استطلاع. يمكنك تسجيل النتائج على جهاز كمبيوتر متصل بجهاز عرض أو لوحة بيضاء يمكن للجميع رؤيتها.
     
-    Write a list of pets and make sure everyone's favourite is included.
+    اكتب قائمة بالحيوانات الأليفة وتأكد من تضمين الحيوانات الأليفة المفضلة للجميع.
     
-    Then get everyone to vote for their favourite by putting their hand up when it gets called out. Only one vote each!
+    ثم اطلب من الجميع التصويت لصالح حيوانهم الأليف المفضل من خلال رفع أيديهم عندما يسمعونها. كل فرد يحصل على صوت واحد فقط!
     
     مثال:
     
@@ -34,134 +34,134 @@ Pie Charts are are useful way of showing data. Let's do a survey of favourite pe
 
 + افتح Trinket الذي يحتوي على قالب Python فارغ: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ Let's create a pie chart to show the results of your survey. You'll be using the PyGal library to do some of the hard work.
++ لنقم بإنشاء مخطط دائري لإظهار نتائج الاستبيان الخاص بك. ستستخدم مكتبة PyGal لجعل المهمة أسهل و للقيام بالعمل الصعب.
     
-    First import the Pygal library:
+    قم أولاً باستيراد مكتبة Pygal:
     
     ![لقطة الشاشة](images/pets-pygal.png)
 
-+ Now let's create a Pie chart and render (display) it:
++ الآن لنقم بإنشاء مخطط دائري و نصدره (نعرضه):
     
     ![لقطة الشاشة](images/pets-pie.png)
     
-    Don't worry, it gets more interesting when you add data!
+    لا تقلق ، سيكون مثيراً أكثر عند إضافة البيانات!
 
-+ Let's add in the data for one of the pets. Use the data that you collected.
++ دعونا نضيف في البيانات لأحد الحيوانات الأليفة. استخدم البيانات التي جمعتها.
     
     ![لقطة الشاشة](images/pets-add.png)
     
-    There's only one piece of data so it takes up the whole pie chart.
+    لا يوجد سوى جزء واحد من البيانات لذلك سوف يستغرق المخطط الدائري بكامله.
 
-+ Now add the rest of the data in the same way.
++ الآن قم بإضافة بقية البيانات بنفس الطريقة.
     
     مثال:
     
     ![لقطة الشاشة](images/pets-add-all.png)
 
-+ And to finish off your chart, add a title:
++ ولإنهاء المخطط ، أضف عنوانًا:
     
     ![لقطة الشاشة](images/pets-title.png)
 
-## Save Your Project {.save}
+## احفظ مشروعك {.save}
 
-## قراءة البيانات من ملف {.challenge}
+## التحدي: إنشاء رسم بياني على شكل أعمدة {.challenge}
 
-You can create bar charts in a similar way. Just use `barchart = pygal.Bar()` to create a new barchart, and then add data and render in the same way as for a pie chart.
+يمكنك إنشاء رسم بياني على شكل أعمدة بطريقة مماثلة. ما عليك سوى استخدام `barchart = pygal.Bar ()` لإنشاء رسم بياني جديد ، ثم قم بإضافة البيانات وعرضها بنفس طريقة التخطيط الدائري.
 
-Collect data from your Code Club members to create your own bar graph.
+جمع البيانات من أعضاء Code Club لإنشاء رسم بياني على شكل أعمدة.
 
-Make sure that you choose a topic that everyone will know about!
+تأكد من اختيار موضوع يعرفه الجميع!
 
 إليك بعض الأفكار:
 
-+ What is your favourite sport?
++ ما هي رياضتك المفضلة؟
 
-+ What is your favourite ice cream flavour?
++ ما هي نكهة الآيس كريم المفضلة لديك؟
 
-+ How do you get to school?
++ كيف تصل إلى المدرسة؟
 
-+ What month is your birthday?
++ ما هو شهر عيد ميلادك؟
 
-+ Do you play Minecraft? (yes/no)
++ هل لعب ماين كرافت (Minecraft)؟ (نعم / لا)
 
-Don't ask questions that give personal data such as where people live. Ask your club leader if you're not sure.
+لا تطرح أسئلة التي تقدم بيانات شخصية، مثل ما هو عنوانك؟ اسأل قائد النادي إذا كنت غير متأكد.
 
-Examples:
+أمثلة:
 
 ![لقطة الشاشة](images/pets-bar-examples.png)
 
-## Save Your Project {.save}
+## احفظ مشروعك {.save}
 
-# Step 2: Read data from a file {.activity}
+# الخطوة 2: قراءة البيانات من ملف {.activity}
 
-It's useful to be able to store data in a file rather than having to include it in your code.
+من المفيد أن تكون قادرًا على تخزين البيانات في ملف بدلاً من الاضطرار إلى تضمينها في الكود.
 
-## Activity Checklist {.check}
+## قائمة مراجعة النشاط {.check}
 
-+ Add a new file to your project and call it `pets.txt`:
++ أضف صفحة جديدة إلى مشروعك وسمِّها `pets.txt`:
     
     ![لقطة الشاشة](images/pets-file.png)
 
-+ Now add data to the file. You can use the favourite pets data that you collected or the example data.
++ الآن قم بإضافة البيانات إلى الملف. يمكنك استخدام بيانات الحيوانات الأليفة المفضلة التي قمت بجمعها أو استخدام بيانات مثال.
     
     ![لقطة الشاشة](images/pets-data.png)
 
-+ Switch back to `main.py` and comment out the lines that render (display) charts and graphs (so that they aren't displayed):
++ عد مرة أخرى إلى `main.py` وقم بالتعليق على الخطوط التي تقدم (تعرض) المخططات والرسوم البيانية (بحيث لا تعرض):
     
     ![لقطة الشاشة](images/pets-comment.png)
 
-+ Now let's read the data from the file.
++ الآن دعونا نقرأ البيانات من الملف.
     
     ![لقطة الشاشة](images/pets-read.png)
     
     The `for` loop will loop over the lines in the file. `splitlines()` removes the newline character from the end of the line as you don't want that.
 
-+ Each line needs to be separated into a label and a value:
++ يجب فصل كل سطر إلى ملصق وقيمة:
     
     ![لقطة الشاشة](images/pets-split.png)
     
-    This will split the line at the spaces so don't include spaces in the labels. (You can add support for spaces in labels later.)
+    سيؤدي ذلك إلى تقسيم السطر في المسافات لذا لا تتضمن مسافات في التسميات. (يمكنك إضافة دعم للمسافات في التسميات لاحقًا.)
 
-+ You might get an error like this:
++ قد تحصل على خطأ مثل هذا:
     
     ![لقطة الشاشة](images/pets-error.png)
     
-    This happens if you have an empty line at the end of your file.
+    يحدث هذا إذا كان لديك سطر فارغ في نهاية الملف.
     
-    You can fix the error by only getting the label and value if the line isn't empty.
+    يمكنك إصلاح الخطأ من خلال الحصول على التسمية والقيمة فقط إذا لم يكن السطر فارغا.
     
-    To do this, indent the code inside your `for` loop and add the code `if line:` above it:
+    للقيام بذلك ،ضع مسافة بادئة في الكود داخل `for` وإضافة الشرط `if line:` فوقها:
     
     ![لقطة الشاشة](images/pets-fix.png)
 
-+ You can remove the `print(label, value)` line now everything is working.
++ يمكنك إزالة `print(label, value)` الآن كل شيء ينبغي أن يعمل.
 
-+ Now let's add the label and value to a new Pie Chart and render it:
++ الآن ، دعونا نضيف التصنيف والقيمة إلى مخطط دائري جديد ونعرضه:
     
     ![لقطة الشاشة](images/pets-pie2.png)
     
-    Note that `add` expects the value to be a number, `int(value)` turns the value from a string into an integer.
+    لاحظ أن `add` تتوقع أن تكون القيمة رقمًا، `int(value)` تحول القيمة من سلسلة إلى عدد صحيح.
     
-    If you wanted to use decimals such as 3.5 (floating point numbers) you could use `float(value)` instead.
+    إذا كنت تريد استخدام الكسور العشرية مثل 3.5، فيمكنك استخدام `float(value)` في ذلك الحين.
 
-## Save Your Project {.save}
+## احفظ مشروعك {.save}
 
-## التحدي: مخططات ورسومات بيانية أخرى! {.challenge}
+## التحدي: إنشاء مخطط جديد من ملف {.challenge}
 
-Can you create a new bar graph or pie chart from data in a file? You'll need to create a new .txt file.
+هل يمكنك إنشاء رسم بياني على شكل أعمدة أو مخطط دائري جديد من البيانات في ملف؟ ستحتاج إلى إنشاء ملف .txt جديد.
 
-Tip: If you want to have spaces in the labels then use `line.split(': ')` and add colons to your data file, e.g. 'Red Admiral: 6'
+نصيحة: إذا كنت ترغب في الحصول على مسافات في التسميات ، فاستخدم `line.split (':')` و إضافة نقطتين إلى ملف البيانات الخاص بك ، على سبيل المثال "الأميرة الحمراء: 6"
 
 ![لقطة الشاشة](images/pets-butterflies.png)
 
-## Save Your Project {.save}
+## احفظ مشروعك {.save}
 
-## Challenge: More charts and graphs! {.challenge}
+## التحدي: المزيد من الرسوم البيانية! {.challenge}
 
-Can you create a pie chart and a bar chart from the same file? You can either use the data you collected earlier or collect some new data.
+هل يمكنك إنشاء مخطط دائري و رسم بياني على شكل أعمدة من نفس الملف؟ يمكنك استخدام البيانات التي جمعتها سابقًا أو جمع بعض البيانات الجديدة.
 
 ![لقطة الشاشة](images/pets-pn-bar.png)
 
 ![لقطة الشاشة](images/pets-pn.png)
 
-## Save Your Project {.save}
+## احفظ مشروعك {.save}

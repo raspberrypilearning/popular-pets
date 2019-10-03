@@ -1,49 +1,49 @@
-## التحدي: أنشئ مخططًا جديدًا من ملف
+## قراءة البيانات من ملف
 
-It's useful to be able to store data in a file rather than having to include it in your code.
+من المفيد أن تكون قادرًا على تخزين البيانات في ملف بدلاً من الاضطرار إلى تضمينها في الكود.
 
-+ Add a new file to your project and call it `pets.txt`:
++ أضف صفحة جديدة إلى مشروعك وسمِّها `pets.txt`:
     
     ![لقطة الشاشة](images/pets-file.png)
 
-+ Now add data to the file. You can use the favourite pets data that you collected or the example data.
++ الآن قم بإضافة البيانات إلى الملف. يمكنك استخدام بيانات الحيوانات الأليفة المفضلة التي قمت بجمعها أو استخدام بيانات المثال.
     
     ![لقطة الشاشة](images/pets-data.png)
 
-+ Switch back to `main.py` and comment out the lines that render (display) charts and graphs (so that they aren't displayed):
++ عد مرة أخرى إلى `main.py` وقم بالتعليق على الخطوط التي تقدم (تعرض) المخططات والرسوم البيانية (بحيث لا تعرض):
     
     ![لقطة الشاشة](images/pets-comment.png)
 
-+ Now let's read the data from the file.
++ الآن دعونا نقرأ البيانات من الملف.
     
     ![لقطة الشاشة](images/pets-read.png)
     
-    The `for` loop will loop over the lines in the file. `splitlines()` removes the newline character from the end of the line as you don't want that.
+    حلقة `for` سوف تمضي عبر السطور الموجودة في الملف. `splitlines()` removes the newline character from the end of the line as you don't want that.
 
-+ Each line needs to be separated into a label and a value:
++ يجب فصل كل سطر إلى ملصق وقيمة:
     
     ![لقطة الشاشة](images/pets-split.png)
     
-    This will split the line at the spaces so don't include spaces in the labels. (You can add support for spaces in labels later.)
+    سيؤدي ذلك إلى تقسيم السطر في المسافات لذا لا تتضمن مسافات في التسميات. (يمكنك إضافة دعم للمسافات في التسميات لاحقًا.)
 
-+ You might get an error like this:
++ قد تحصل على خطأ مثل هذا:
     
     ![لقطة الشاشة](images/pets-error.png)
     
-    This happens if you have an empty line at the end of your file.
+    يحدث هذا إذا كان لديك سطر فارغ في نهاية الملف.
     
-    You can fix the error by only getting the label and value if the line isn't empty.
+    يمكنك إصلاح الخطأ من خلال الحصول على التسمية والقيمة فقط إذا لم يكن السطر فارغا.
     
-    To do this, indent the code inside your `for` loop and add the code `if line:` above it:
+    للقيام بذلك ،ضع مسافة بادئة في الكود داخل `for` وإضافة الشرط `if line:` فوقها:
     
     ![لقطة الشاشة](images/pets-fix.png)
 
-+ You can remove the `print(label, value)` line now everything is working.
++ يمكنك إزالة `print(label, value)` الآن كل شيء ينبغي أن يعمل.
 
-+ Now let's add the label and value to a new Pie Chart and render it:
++ الآن ، دعونا نضيف التصنيف والقيمة إلى مخطط دائري جديد ونعرضه:
     
     ![لقطة الشاشة](images/pets-pie2.png)
     
-    Note that `add` expects the value to be a number, `int(value)` turns the value from a string into an integer.
+    لاحظ أن `add` تتوقع أن تكون القيمة رقمًا ، `int(value)` تحول القيمة من سلسلة إلى عدد صحيح.
     
-    If you wanted to use decimals such as 3.5 (floating point numbers) you could use `float(value)` instead.
+    إذا كنت تريد استخدام الكسور العشرية مثل 3.5، فيمكنك استخدام `float(value)` في ذلك الحين.

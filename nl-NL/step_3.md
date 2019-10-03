@@ -1,6 +1,6 @@
 ## Maak een taartdiagram
 
-Taartdiagrammen zijn een handige manier om gegevens weer te geven. Laten we een onderzoek doen naar de favoriete huisdieren in je Code Club om die gegevens daarna in een taartdiagram te laten zien.
+Pie Charts are useful way of showing data. Laten we een onderzoek doen naar de favoriete huisdieren in je Code Club om die gegevens daarna in een taartdiagram te laten zien.
 
 + Vraag je clubleider om een ​​enquête te organiseren. Je kunt de resultaten verzamelen op een computer die is aangesloten op een projector of schrijven op een whiteboard zodat iedereen ze kan zien.
     

@@ -114,7 +114,7 @@ new: صحيح
     
     ![لقطة الشاشة](images/pets-read.png)
     
-    The `for` loop will loop over the lines in the file. `splitlines()` removes the newline character from the end of the line as you don't want that.
+    حلقة `for` سوف تمضي عبر السطور الموجودة في الملف. `splitlines()` تزيل علامة السطر الجديد من نهاية السطر كما لو لم تُردْها.
 
 + يجب فصل كل سطر إلى ملصق وقيمة:
     

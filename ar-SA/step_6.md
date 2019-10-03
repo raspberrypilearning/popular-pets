@@ -1,10 +1,10 @@
 \--- challenge \---
 
-## التحدي: مخططات ورسومات بيانية أخرى!
+## التحدي: إنشاء مخطط جديد من ملف
 
-Can you create a new bar graph or pie chart from data in a file? You'll need to create a new .txt file.
+هل يمكنك إنشاء رسم بياني على شكل أعمدة أو مخطط دائري جديد من البيانات في الملف؟ ستحتاج إلى إنشاء ملف txt. جديد.
 
-Tip: If you want to have spaces in the labels then use `line.split(': ')` and add colons to your data file, e.g. 'Red Admiral: 6'
+نصيحة: إذا كنت ترغب في الحصول على مسافات في التسميات ، فاستخدم `line.split (':')` و إضافة نقطتين إلى ملف البيانات الخاص بك ، على سبيل المثال "الأميرة الحمراء: 6"
 
 ![لقطة الشاشة](images/pets-butterflies.png)
 

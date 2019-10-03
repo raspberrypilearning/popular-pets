@@ -18,7 +18,7 @@
     
     ![لقطة الشاشة](images/pets-read.png)
     
-    حلقة `for` سوف تمضي عبر السطور الموجودة في الملف. `splitlines()` removes the newline character from the end of the line as you don't want that.
+    حلقة `for` سوف تمضي عبر السطور الموجودة في الملف. حلقة `for` سوف تمضي عبر السطور الموجودة في الملف. <0>splitlines()</0> تزيل علامة السطر الجديد من نهاية السطر كما لو لم تُردْها.
 
 + يجب فصل كل سطر إلى ملصق وقيمة:
     

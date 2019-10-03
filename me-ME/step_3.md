@@ -1,6 +1,6 @@
 ## Izradi kružni grafikon
 
-Kružni grafikoni su koristan način prikazivanja podataka. Sprovedimo anketu o omiljenim kućnim ljubimcima u tvom Code Clubu, a zatim prikažimo podatke u obliku kružnog grafikona.
+Pie Charts are useful way of showing data. Sprovedimo anketu o omiljenim kućnim ljubimcima u tvom Code Clubu, a zatim prikažimo podatke u obliku kružnog grafikona.
 
 + Zamoli vođu svog kluba da ti pomogne u organizovanju ankete. Rezultate možeš da zabilježiš na računaru povezanom sa projektorom ili na tabli, tako da svi mogu da ih vide.
     

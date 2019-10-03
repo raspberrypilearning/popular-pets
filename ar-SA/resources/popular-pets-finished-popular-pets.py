@@ -3,21 +3,21 @@
 import pygal
 
 piechart = pygal.Pie()
-piechart.title = 'Favourite Pet'
-piechart.add('Dog', 6)
-piechart.add('Cat', 4)
-piechart.add('Hamster', 3)
-piechart.add('Fish', 2)
-piechart.add('Snake', 1)
+piechart.title = 'الحيوانات الأليفة المفضلة'
+piechart.add('كلب', 6)
+piechart.add('قط', 4)
+piechart.add('هامستر', 3)
+piechart.add('سمك', 2)
+piechart.add('ثعبان', 1)
 piechart.render()
 
 barchart = pygal.Bar()
-barchart.title = 'Favourite Pet'
-barchart.add('Dog', 6)
-barchart.add('Cat', 4)
-barchart.add('Hamster', 3)
-barchart.add('Fish', 2)
-barchart.add('Snake', 1)
+barchart.title = 'الحيوانات الأليفة المفضلة'
+piechart.add('كلب', 6)
+piechart.add('قط', 4)
+piechart.add('هامستر', 3)
+piechart.add('سمك', 2)
+piechart.add('ثعبان', 1)
 barchart.render()
   
 piechart2 = pygal.Pie()
@@ -37,7 +37,7 @@ file.close()
 #barchart2.render()
 
 butterflies = pygal.Bar()
-butterflies.title = 'Butterfly Count'
+butterflies.title = 'عدد الفراشات'
 
 file = open('butterflies.txt', 'r')
 
@@ -50,7 +50,7 @@ file.close()
 butterflies.render()
 
 pn = pygal.Bar()
-pn.title = 'Pirates vs Ninjas'
+pn.title = 'قراصنة مقابل النينجا'
 
 file = open('piratesninjas.txt', 'r')
 

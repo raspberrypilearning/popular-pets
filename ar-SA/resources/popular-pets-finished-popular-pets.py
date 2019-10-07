@@ -50,7 +50,7 @@ file.close()
 butterflies.render()
 
 pn = pygal.Bar()
-pn.title = 'قراصنة مقابل النينجا'
+pn.title = 'القراصنة مقابل النينجا'
 
 file = open('piratesninjas.txt', 'r')
 

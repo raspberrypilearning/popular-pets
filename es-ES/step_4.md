@@ -1,12 +1,12 @@
 \--- challenge \---
 
-## Lee los datos desde un archivo
+## Reto: Crea tu propio gráfico de barras
 
-Puedes crear gráficos de barras de modo similar. Simplemente usa `barchart = pygal.Bar()` para crear un nuevo gráfico de barras, luego agrega datos y reprodúcelo del mismo modo que hiciste con el gráfico circular.
+Puedes crear gráficos de barras de modo similar. Simplemente usa `grafico_barras = pygal.Bar()` para crear un nuevo gráfico de barras, luego agrega datos y reprodúcelo del mismo modo que hiciste con el gráfico circular.
 
 Recauda datos de los miembros de tu Code Club para crear tu propio gráfico de barras.
 
-¡Asegúrate de escoger un tópico del que todos puedan opinar!
+¡Asegúrate de escoger un tema del que todos puedan opinar!
 
 Aquí tienes algunas sugerencias:
 
@@ -20,6 +20,6 @@ No hagas preguntas que proporcionen datos personales tales como la dirección de
 
 Ejemplos:
 
-![captura de pantalla](images/pets-bar-examples.png)
+![screenshot](images/pets-bar-examples.png)
 
 \--- /challenge \---

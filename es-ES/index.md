@@ -30,47 +30,47 @@ Los gráficos circulares son un modo muy útil de mostrar datos. Realicemos una 
     
     Por ejemplo:
     
-    ![captura de pantalla](images/pets-favourite.png)
+    ![screenshot](images/pets-favourite.png)
 
 + Abre la plantilla en blanco de Python en Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ Vamos a crear un gráfico circular para mostrar los resultados de la encuesta. Estarás usando la biblioteca de PyGal para hacer parte del trabajo duro.
++ Vamos a crear un gráfico circular para mostrar los resultados de la encuesta. Estarás usando la librería PyGal para hacer parte del trabajo duro.
     
-    En primer lugar, importa la biblioteca PyGal:
+    En primer lugar, importa la librería PyGal:
     
-    ![captura de pantalla](images/pets-pygal.png)
+    ![screenshot](images/pets-pygal.png)
 
-+ A continuación, crea un gráfico circulare y reprodúcelo (visualízalo):
++ A continuación, crea un gráfico circular y reprodúcelo (visualízalo):
     
-    ![captura de pantalla](images/pets-pie.png)
+    ![screenshot](images/pets-pie.png)
     
     No te preocupes, ¡se volverá más interesante cuando agregues datos!
 
 + Agreguemos los datos de una de las mascotas. Usa los datos que has recaudado.
     
-    ![captura de pantalla](images/pets-add.png)
+    ![screenshot](images/pets-add.png)
     
     En estos momentos solamente hay datos de una mascota, el cual abarca todo el gráfico circular.
 
-+ A continuación, agreguemos el resto de datos del mismo modo.
++ A continuación, agrega el resto de datos del mismo modo.
     
     Por ejemplo:
     
-    ![captura de pantalla](images/pets-add-all.png)
+    ![screenshot](images/pets-add-all.png)
 
 + Para finalizar el gráfico, añade un título:
     
-    ![captura de pantalla](images/pets-title.png)
+    ![screenshot](images/pets-title.png)
 
 ## Guarda tu proyecto {.save}
 
 ## Reto: Crea tu propio gráfico de barras {.challenge}
 
-Puedes crear gráficos de barras de modo similar. Simplemente usa `barchart = pygal.Bar()` para crear un nuevo gráfico de barras, luego agrega datos y reprodúcelo del mismo modo que hiciste con el gráfico circular.
+Puedes crear gráficos de barras de modo similar. Simplemente usa `grafico_barras = pygal.Bar()` para crear un nuevo gráfico de barras, luego agrega datos y reprodúcelo del mismo modo que hiciste con el gráfico circular.
 
 Recauda datos de los miembros de tu Code Club para crear tu propio gráfico de barras.
 
-¡Asegúrate de escoger un tópico del que todos puedan opinar!
+¡Asegúrate de escoger un tema del que todos puedan opinar!
 
 Aquí tienes algunas sugerencias:
 
@@ -88,7 +88,7 @@ No hagas preguntas que proporcionen datos personales tales como la dirección de
 
 Ejemplos:
 
-![captura de pantalla](images/pets-bar-examples.png)
+![screenshot](images/pets-bar-examples.png)
 
 ## Guarda tu proyecto {.save}
 
@@ -100,31 +100,31 @@ Resulta muy útil ser capaz de almacenar datos en un archivo en lugar de tener q
 
 + Agrega un nuevo archivo a tu proyecto y llámalo `mascotas.txt`:
     
-    ![captura de pantalla](images/pets-file.png)
+    ![screenshot](images/pets-file.png)
 
 + A continuación, agrega datos al archivo. Puedes usar los datos de las mascotas favoritas que recaudaste o los datos de ejemplo.
     
-    ![captura de pantalla](images/pets-data.png)
+    ![screenshot](images/pets-data.png)
 
 + Regresa a `main.py` y comenta las líneas que reprodúcen (visualizan) cuadros y gráficos (de tal modo que no sean visualizados):
     
-    ![captura de pantalla](images/pets-comment.png)
+    ![screenshot](images/pets-comment.png)
 
 + A continuación, lee los datos del archivo.
     
-    ![captura de pantalla](images/pets-read.png)
+    ![screenshot](images/pets-read.png)
     
-    El bucle `for` recorrerá a traves de las líneas del archivo. `splitlines()` elimina el caracter de línea nueva del final de la línea, ya que no lo necesitas.
+    El bucle `for` recorrerá a través de las líneas del archivo. `splitlines()` elimina el carácter de línea nueva del final de la línea, ya que no lo necesitas.
 
 + Cada línea debe separarse en una etiqueta y un valor:
     
-    ![captura de pantalla](images/pets-split.png)
+    ![screenshot](images/pets-split.png)
     
     Esto separará la línea en los espacios, por lo tanto, no incluyas espacios en las etiquetas. (Puedes añadir soporte para los espacios en las etiquetas más adelante).
 
 + Es posible que obtengas un error como este:
     
-    ![captura de pantalla](images/pets-error.png)
+    ![screenshot](images/pets-error.png)
     
     Esto sucederá si tienes una línea vacía al final de tu archivo.
     
@@ -132,27 +132,27 @@ Resulta muy útil ser capaz de almacenar datos en un archivo en lugar de tener q
     
     Para ello, indenta el código dentro del bucle `for` y añade el código `if line:` encima:
     
-    ![captura de pantalla](images/pets-fix.png)
+    ![screenshot](images/pets-fix.png)
 
-+ Ahora que todo funciona correctamente, puedes eliminar la línea `print(label, value)`.
++ Puedes eliminar la línea `print(etiqueta, valor)` ahora que todo funciona correctamente.
 
 + Ahora, agreguemos la etiqueta y el valor a un nuevo Gráfico Circular y reproduzcámoslo:
     
-    ![captura de pantalla](images/pets-pie2.png)
+    ![screenshot](images/pets-pie2.png)
     
-    Ten en cuenta que `add` espera que el valor sea un número, `int(value)` convierte el valor de texto a un número entero.
+    Ten en cuenta que `add` espera que el valor sea un número, `int(valor)` convierte el valor de texto a un número entero.
     
-    Si deseas usar decimales como 3.5 (números de coma flotante), puedes usar `float(value)` en su lugar.
+    Si deseas usar decimales como 3.5 (números de coma flotante), puedes usar `float(valor)` en su lugar.
 
 ## Guarda tu Proyecto {.save}
 
 ## Reto: Crea un nuevo gráfico a partir de un archivo {.challenge}
 
-¿Puedes crear un nuevo gráfico circular o gráfico de barras a partir de datos en un archivo? Necesitarás crear un nuevo archivo .txt.
+¿Puedes crear un nuevo gráfico circular o gráfico de barras a partir de los datos en un archivo? Necesitarás crear un nuevo archivo .txt.
 
 Sugerencia: Si quieres tener espacios en las etiquetas, usa `line.split(': ')` y agrega dos puntos a tu archivo de datos, p. ej., ‘Almirante Rojo: 6’
 
-![captura de pantalla](images/pets-butterflies.png)
+![screenshot](images/pets-butterflies.png)
 
 ## Guarda tu Proyecto {.save}
 
@@ -160,8 +160,8 @@ Sugerencia: Si quieres tener espacios en las etiquetas, usa `line.split(': ')` y
 
 ¿Puedes crear un gráfico circular y un gráfico de barras a partir del mismo archivo? Puedes usar los datos que recaudaste anteriormente o recaudar datos nuevos.
 
-![captura de pantalla](images/pets-pn-bar.png)
+![screenshot](images/pets-pn-bar.png)
 
-![captura de pantalla](images/pets-pn.png)
+![screenshot](images/pets-pn.png)
 
 ## Guarda tu Proyecto {.save}

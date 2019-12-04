@@ -1,11 +1,11 @@
 \--- desafio \---
 
-## Desafio: crie um novo gráfico a partir de um arquivo
+## Desafio: Cria um novo gráfico a partir de um ficheiro
 
-Você pode criar um novo gráfico de barras ou gráfico de pizza a partir de dados em um arquivo? Você precisará criar um novo arquivo .txt.
+Consegues criar um novo gráfico de barras ou gráfico de pizza a partir de dados em um ficheiro? Vais ter necessidade de criar um novo ficheiro .txt.
 
-Dica: Se você quiser espaços nos rótulos, use `line.split (':')` e adicione dois pontos ao seu arquivo de dados, por exemplo, 'Red Admiral: 6'
+Dica: Se quiseres espaços nos rótulos, utiliza o comando `line.split (':')` e adiciona dois pontos ao teu ficheiro de dados, por exemplo, 'Almirante Vermelho: 6'
 
-![captura de tela](images/pets-butterflies.png)
+![captura de ecrã](images/pets-butterflies.png)
 
 \--- / desafio \---

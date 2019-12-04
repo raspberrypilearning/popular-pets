@@ -1,6 +1,6 @@
 ## Utwórz wykres kołowy
 
-Pie Charts are useful way of showing data. Zrób ankietę ulubionych zwierzaków w twoim Code Clubie, a następnie przedstaw dane jako wykres kołowy.
+Wykresy kołowe to użyteczny sposób wyświetlania danych. Zrób ankietę ulubionych zwierzaków w twoim Code Clubie, a następnie przedstaw dane jako wykres kołowy.
 
 + Poproś lidera klubu, aby pomógł zorganizować ankietę. Możesz nagrywać wyniki na komputerze podłączonym do projektora lub tablicy, którą każdy może zobaczyć.
     

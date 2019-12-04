@@ -1,6 +1,6 @@
-## Reto: Crea tu propio gráfico de barras
+## Crea un Gráfico Circular
 
-Pie Charts are useful way of showing data. Realicemos una encuesta sobre las mascotas favoritas en tu Code Club y mostremos los datos como un gráfico circular.
+Los gráficos circulares son una forma útil de mostrar datos. Realicemos una encuesta sobre las mascotas favoritas en tu Code Club y mostremos los datos como un gráfico circular.
 
 + Solicita al líder de tu club que te ayude a organizar la encuesta. Puedes registrar los resultados en un ordenador conectado a un proyector o en una pizarra para que todos puedan verlos.
     
@@ -10,25 +10,25 @@ Pie Charts are useful way of showing data. Realicemos una encuesta sobre las mas
     
     Por ejemplo:
     
-    ![captura de pantalla](images/pets-favourite.png)
+    ![screenshot](images/pets-favourite.png)
 
 + Abre la plantilla en blanco de Python en Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ Vamos a crear un gráfico circular para mostrar los resultados de la encuesta. Estarás usando la biblioteca de PyGal para hacer parte del trabajo duro.
++ Vamos a crear un gráfico circular para mostrar los resultados de la encuesta. Estarás usando la librería de PyGal para hacer parte del trabajo duro.
     
-    En primer lugar, importa la biblioteca PyGal:
+    En primer lugar, importa la librería PyGal:
     
-    ![captura de pantalla](images/pets-pygal.png)
+    ![screenshot](images/pets-pygal.png)
 
 + A continuación, crea un gráficos circulares y reprodúcelo (visualízalo):
     
-    ![captura de pantalla](images/pets-pie.png)
+    ![screenshot](images/pets-pie.png)
     
     No te preocupes, ¡se volverá más interesante cuando agregues datos!
 
-+ Agreguemos los datos de una de las mascotas. Usa los datos que has recaudado.
++ Agreguemos los datos de una de las mascotas. Usa los datos de la encuesta.
     
-    ![captura de pantalla](images/pets-add.png)
+    ![screenshot](images/pets-add.png)
     
     En estos momentos solamente hay datos de una mascota, el cual abarca todo el gráfico circular.
 
@@ -36,8 +36,8 @@ Pie Charts are useful way of showing data. Realicemos una encuesta sobre las mas
     
     Por ejemplo:
     
-    ![captura de pantalla](images/pets-add-all.png)
+    ![screenshot](images/pets-add-all.png)
 
 + Para finalizar el gráfico, añade un título:
     
-    ![captura de pantalla](images/pets-title.png)
+    ![screenshot](images/pets-title.png)

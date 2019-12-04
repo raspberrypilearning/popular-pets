@@ -8,7 +8,7 @@ new: verdadeiro
 
 # Introdução {.intro}
 
-Neste projeto, irás criar gráficos de pizza e gráficos de barra a partir de dados recolhidos entre os membros do seu Code Club.
+Neste projeto, irás criar gráficos de pizza e gráficos de barra a partir de dados recolhidos entre os membros do teu Code Club.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/70d24d92b8?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -18,7 +18,7 @@ Neste projeto, irás criar gráficos de pizza e gráficos de barra a partir de d
 
 # Etapa 1: criar um gráfico de pizza {.activity}
 
-Os Gráficos de pizza são uma ferramenta útil de apresentar dados. Vamos fazer uma pesquisa sobre os animais favoritos no seu Code Club para depois apresentar os dados na forma de um gráfico de pizza.
+Os Gráficos de pizza são uma ferramenta útil de apresentar dados. Vamos fazer uma pesquisa sobre os animais favoritos no teu Code Club para depois apresentar os dados na forma de um gráfico de pizza.
 
 ## Lista de atividades {.check}
 
@@ -36,7 +36,7 @@ Os Gráficos de pizza são uma ferramenta útil de apresentar dados. Vamos fazer
 
 + Vamos criar um gráfico de pizza para mostrar os resultados do teu inquérito. Utiliza a biblioteca PyGal para fazer um pouco do trabalho mais pesado.
     
-    Primeiro importe a biblioteca Pygal:
+    Primeiro importa a biblioteca Pygal:
     
     ![captura de ecrã](images/pets-pygal.png)
 
@@ -50,9 +50,9 @@ Os Gráficos de pizza são uma ferramenta útil de apresentar dados. Vamos fazer
     
     ![captura de ecrã](images/pets-add.png)
     
-    Há apenas um dado, que por isso ocupa todo o gráfico de pizza.
+    Há apenas um dado, pelo que ocupa todo o gráfico de pizza.
 
-+ Agora adicione os restantes dados da mesma forma.
++ Agora adiciona os restantes dados da mesma forma.
     
     Por exemplo:
     
@@ -62,7 +62,7 @@ Os Gráficos de pizza são uma ferramenta útil de apresentar dados. Vamos fazer
     
     ![captura de ecrã](images/pets-title.png)
 
-## Salva o teu projeto {.save}
+## Guarda o teu projeto {.save}
 
 ## Desafio: cria o teu próprio gráfico de barras {.challenge}
 
@@ -80,9 +80,9 @@ Aqui estão algumas idéias:
 
 + Como chegas à escola?
 
-+ Qual é a tua data de aniversário?
++ Qual é o mês do teu aniversário?
 
-+ Tu jogas minecraft? (sim não)
++ Tu jogas minecraft? (sim/não)
 
 Não faça perguntas que forneçam dados pessoais, como o local em que as pessoas moram. Pergunta ao líder do teu clube se não tiveres a certeza.
 
@@ -90,43 +90,43 @@ Exemplos:
 
 ![captura de ecrã](images/pets-bar-examples.png)
 
-## Salva o teu projeto {.save}
+## Guarda o teu projeto {.save}
 
-# Etapa 2: ler dados de um arquivo {.activity}
+# Etapa 2: ler dados de um ficheiro {.activity}
 
-É útil poder armazenar dados num arquivo em vez de ter que os incluir em teu código.
+É útil poder armazenar dados num ficheiro em vez de ter que os incluir no teu código.
 
 ## Lista de atividades {.check}
 
-+ Adiciona um novo arquivo ao teu projeto e chama-o `pets.txt`:
++ Adiciona um novo ficheiro ao teu projeto e chama-o `pets.txt`:
     
     ![captura de ecrã](images/pets-file.png)
 
-+ Agora adiciona dados ao arquivo. Podes utilizar os dados sobre os animais de estimação favoritos recolhidos ou dados de exemplo.
++ Agora adiciona dados ao ficheiro. Podes utilizar os dados sobre os animais de estimação favoritos recolhidos ou dados de exemplo.
     
     ![captura de ecrã](images/pets-data.png)
 
-+ Volta para `main.py` e comenta as linhas que renderizam (apresentam) gráficos e gráficos (para que não sejam apresentados):
++ Volta para `main.py` e comenta as linhas que renderizam (apresentam) quadros e gráficos (para que não sejam apresentados):
     
     ![captura de ecrã](images/pets-comment.png)
 
-+ Agora vamos ler os dados do arquivo.
++ Agora vamos ler os dados do ficheiro.
     
     ![captura de ecrã](images/pets-read.png)
     
-    O ciclo `for` irá ler as linhas no arquivo. `splitlines()` remove o newline character do final da linha, visto não ser o pretendido.
+    O ciclo `for` irá ler as linhas no ficheiro. `splitlines()` remove o character de nova linha (newline) do final da linha, visto não ser o pretendido.
 
 + Cada linha deve ser separada num rótulo e valor:
     
     ![captura de ecrã](images/pets-split.png)
     
-    Isto irá dividir a linha nos espaços, por isso, não incluas espaços nos nomes dos rótulos. (Pode acrescentar suporte para espaços em rótulos posteriormente.)
+    Isto irá dividir a linha nos espaços, por isso, não incluas espaços nos nomes dos rótulos. (Podes acrescentar suporte para espaços em rótulos posteriormente.)
 
 + Podes receber um erro como este:
     
     ![captura de ecrã](images/pets-error.png)
     
-    Isto acontece se você tiveres uma linha vazia no final do teu arquivo.
+    Isto acontece se tiveres uma linha vazia no final do teu ficheiro.
     
     Pode corrigir o erro obtendo apenas o rótulo e o valor se a linha não estiver vazia.
     
@@ -142,13 +142,13 @@ Exemplos:
     
     Nota que `add` espera que o valor seja um número, `int (value)` transforma o valor de uma sequência de caracteres num número inteiro.
     
-    Se quisesses utilizar números decimais como 3.5 (números de ponto flutuante), poderias utilizar `float (valor)`.
+    Se quisesses utilizar números decimais como 3.5 (números de virgula flutuante), poderias utilizar `float (valor)`.
 
-## Salva o teu projeto {.save}
+## Guarda o teu projeto {.save}
 
-## Desafio: cria um novo gráfico a partir de um arquivo {.challenge}
+## Desafio: cria um novo gráfico a partir de um ficheiro {.challenge}
 
-Podes criar um novo gráfico de barras ou gráfico de pizza a partir de dados num arquivo? Vais necessitar de criar um novo arquivo .txt.
+Podes criar um novo gráfico de barras ou gráfico de pizza a partir de dados num ficheiro? Vais necessitar de criar um novo ficheiro .txt.
 
 Dica: Se quiseres ter espaços nos rótulos, usa `line.split (':')` e adiciona dois pontos ao teu arquivo de dados, por exemplo, 'Red Admiral: 6'
 

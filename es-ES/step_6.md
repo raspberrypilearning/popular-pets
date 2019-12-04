@@ -1,13 +1,11 @@
 --- challenge ---
-## Reto: ¡Más cuadros y gráficos! 
 
-¿Puedes crear un gráfico de sectores y de barras del mismo archivo? Puedes usar los datos que recaudaste anteriormente o usar datos nuevos. 
+## Desafío: Crea un nuevo gráfico a partir de un archivo
 
-![screenshot](images/pets-pn-bar.png)
+¿Puedes crear un nuevo gráfico circular o gráfico de barras a partir de los datos en un archivo? Necesitarás crear un nuevo archivo .txt.
 
-![screenshot](images/pets-pn.png)
+Sugerencia: Si quieres tener espacios en las etiquetas, usa `linea.split(': ')` y agrega dos puntos a tu archivo de datos, p. ej., ‘Almirante Rojo: 6’
+
+![screenshot](images/pets-butterflies.png)
 
 --- /challenge ---
-
-
-

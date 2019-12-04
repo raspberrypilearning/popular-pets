@@ -1,50 +1,25 @@
-## Lee los datos desde un archivo
+--- challenge ---
 
-Resulta muy útil almacenar datos en un archivo en lugar de tener que incluirlos en tu código. 
+## Desafío: Crea tu propio gráfico de barras
 
-+ Añade un nuevo archivo a tu proyecto y llámalo `pets.txt`:
+Puedes crear gráficos de barras de modo similar. Simplemente usa `grafico_barras = pygal.Bar()` para crear un nuevo gráfico de barras, luego agrega datos y reprodúcelo del mismo modo que hiciste con el gráfico circular.
 
-  ![screenshot](images/pets-file.png)
+Recauda datos de los miembros de tu Code Club para crear tu propio gráfico de barras.
 
-+ A continuación, añade los datos al archivo. Puedes usar los datos de las mascotas favoritas que recaudaste o los datos de ejemplo.
+¡Asegúrate de escoger un tema del que todos puedan opinar!
 
-  ![screenshot](images/pets-data.png)
-  
-+ Regresa a `main.py` y comenta las líneas que representan (visualizan) cuadros y gráficos (de tal modo que no sean visualizados):
+Aquí tienes algunas sugerencias:
 
-  ![screenshot](images/pets-comment.png)
++ ¿Cuál es su deporte favorito?
++ ¿Cuál es su sabor de helado favorito?
++ ¿Cómo vas al colegio?
++ ¿En qué mes cae tu cumpleaños?
++ ¿Juegas Minecraft? (sí/no)
 
-+ A continuación, lee los datos del archivo. 
+No hagas preguntas que proporcionen datos personales tales como la dirección de donde vives. Si no estás seguro, pregunta al líder de tu club.
 
-  ![screenshot](images/pets-read.png)
-  
-  El bucle 'for' ciclará por las líneas del archivo. `splitlines()` elimina el carácter de la nueva línea del final de la línea. 
-  
-+ Cada línea debe separarse en una etiqueta y valor:
-  
-  ![screenshot](images/pets-split.png)
-  
-  Con ello dividirás la línea en los espacios, por lo tanto, no incluyas espacios en las etiquetas. (Puedes añadir soporte para los espacios en las etiquetas más adelante).
-  
-+ Es posible que recibas un error del siguiente tipo:
+Ejemplos:
 
-  ![screenshot](images/pets-error.png)
-  
-  Esto sucederá si tienes una línea vacía al final de tu archivo. 
-  
-  Solamente podrás solucionar el error usando la etiqueta y el valor si la línea no está vacía.
+![screenshot](images/pets-bar-examples.png)
 
-  Para ello, sangra el código dentro del bucle `for` y añade el código `if line:` encima:
-  
-  ![screenshot](images/pets-fix.png)
-  
-+ Ahora que todo funciona correctamente, puedes eliminar la línea `print(label, value)`. 
-  
-+ A continuación, añadamos la etiqueta y el valor a un nuevo gráfico de sectores y representémoslo:
-
-  ![screenshot](images/pets-pie2.png)
-  
-  Ten en cuenta que `add` espera que el valor sea un número. `int(value)` convierte el valor de una cadena a un número entero.
-  
-  Si deseas usar decimales como 3,5 (números de coma flotante), puedes usar `float(value)`. 
-  
+--- /challenge ---

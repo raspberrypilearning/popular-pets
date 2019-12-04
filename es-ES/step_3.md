@@ -1,25 +1,43 @@
---- challenge ---
-## Reto: Crea tu propio gráfico de barras 
+## Crea un Gráfico Circular
 
-Podrás crear gráficos de barras de modo similar. Simplemente usa `barchart = pygal.Bar()` para crear un nuevo gráfico de barras y, a continuación, añade gráficos y preséntalos del mismo modo que hiciste con el gráfico de sectores. 
+Los gráficos circulares son una forma útil de mostrar datos. Realicemos una encuesta sobre las mascotas favoritas en tu Code Club y mostremos los datos como un gráfico circular.
 
-Recauda datos de los miembros de tu Code Club para crear tu propio gráfico de barras.
++ Solicita al líder de tu club que te ayude a organizar la encuesta. Puedes registrar los resultados en un ordenador conectado a un proyector o en una pizarra para que todos puedan verlos.
+    
+    Escribe una lista de mascotas y asegúrate de que todos hayan incluido su favorita.
+    
+    Pide a todos que voten por su mascota favorita levantando la mano cuando digas su nombre en alto. ¡Una persona, un voto!
+    
+    Por ejemplo:
+    
+    ![screenshot](images/pets-favourite.png)
 
-¡Asegúrate de que seleccionas un tópico del que todos puedan opinar!
++ Abre la plantilla en blanco de Python en Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-Aquí te proporcionamos algunas ideas:
++ Vamos a crear un gráfico circular para mostrar los resultados de la encuesta. Estarás usando la librería de PyGal para hacer parte del trabajo duro.
+    
+    En primer lugar, importa la librería PyGal:
+    
+    ![screenshot](images/pets-pygal.png)
 
-+ ¿Cuál es tu deporte favorito?
-+ ¿Cuál es tu helado favorito?
-+ ¿Cómo vas al colegio?
-+ ¿En qué mes cae tu cumpleaños?
-+ ¿Juegas a Minecraft? (sí/no)
++ A continuación, crea un gráficos circulares y reprodúcelo (visualízalo):
+    
+    ![screenshot](images/pets-pie.png)
+    
+    No te preocupes, ¡se volverá más interesante cuando agregues datos!
 
-No hagas preguntas que proporcionen datos personales tales como la dirección. Si no estás seguro, consulta con el jefe de tu club. 
++ Agreguemos los datos de una de las mascotas. Usa los datos de la encuesta.
+    
+    ![screenshot](images/pets-add.png)
+    
+    En estos momentos solamente hay datos de una mascota, el cual abarca todo el gráfico circular.
 
-Ejemplos:
++ A continuación, agreguemos el resto de datos del mismo modo.
+    
+    Por ejemplo:
+    
+    ![screenshot](images/pets-add-all.png)
 
-![screenshot](images/pets-bar-examples.png)
-
---- /challenge ---
-
++ Para finalizar el gráfico, añade un título:
+    
+    ![screenshot](images/pets-title.png)

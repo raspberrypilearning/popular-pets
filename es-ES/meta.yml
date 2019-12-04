@@ -6,7 +6,7 @@ listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Mascotas Populares
+title: Mascotas populares
 description: Crea gráficos circulares y gráficos de barras a partir de datos recaudados.
 original_url: https://codeclubprojects.org/en-GB/python/popular-pets
 interests: animals
@@ -26,7 +26,7 @@ steps:
   - 
     title: 'Reto: Crea tu propio gráfico de barras'
   - 
-    title: Lee los datos desde un archivo
+    title: Leer los datos desde un archivo
   - 
     title: 'Reto: Crea un nuevo gráfico a partir de un archivo'
   - 

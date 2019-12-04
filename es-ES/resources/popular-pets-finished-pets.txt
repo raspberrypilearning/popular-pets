@@ -1,0 +1,7 @@
+Perro 6
+Gato 4
+Hamster 3
+Conejo 2
+Tortuga 1
+
+

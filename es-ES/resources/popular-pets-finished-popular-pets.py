@@ -23,7 +23,7 @@ grafico_barras.render()
 grafico_circular2 = pygal.Pie()
 grafico_barras2 = pygal.Bar()
 
-archivo = open('pets.txt', 'r')
+archivo = open('mascotas.txt', 'r')
 
 for linea in archivo.read().splitlines():
   if linea:
@@ -39,7 +39,7 @@ archivo.close()
 mariposas = pygal.Bar()
 mariposas.title = 'Conteo de Mariposas'
 
-archivo = open('butterflies.txt', 'r')
+archivo = open('mariposas.txt', 'r')
 
 for linea in archivo.read().splitlines():
   if linea:
@@ -52,7 +52,7 @@ mariposas.render()
 pn = pygal.Bar()
 pn.title = 'Piratas vs Ninjas'
 
-archivo = open('piratesninjas.txt', 'r')
+archivo = open('piratasninjas.txt', 'r')
 
 for linea in archivo.read().splitlines():
   if linea:

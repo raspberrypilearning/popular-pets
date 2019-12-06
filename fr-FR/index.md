@@ -114,15 +114,15 @@ Il est utile de pouvoir stocker des données dans un fichier plutôt que de les 
     
     ![capture d'écran](images/pets-read.png)
     
-    La boucle `pour` passera en boucle sur les lignes du fichier. `splitlines ()` supprime le caractère de nouvelle ligne de la fin de la ligne car vous ne le souhaitez pas.
+    La boucle `for` passera en boucle sur toutes les lignes du fichier. `splitlines ()` supprime le caractère de retour à la ligne de la fin de ligne car vous ne souhaitez pas les conserver.
 
-+ Chaque ligne doit être séparée en une étiquette et une valeur:
++ Chaque ligne doit être séparée en un libellé et une valeur:
     
     ![capture d'écran](images/pets-split.png)
     
-    Cela divisera la ligne au niveau des espaces, alors n'incluez pas d'espaces dans les étiquettes. (Vous pouvez ajouter ultérieurement une prise en charge des espaces dans les étiquettes.)
+    Cela divisera la ligne au niveau des espaces, alors n'incluez pas d'espaces dans les libellés. (Vous pouvez ajouter ultérieurement une prise en charge des espaces dans les libellés.)
 
-+ Vous pourriez avoir une erreur comme ceci:
++ Vous pourriez avoir une erreur comme celle-ci:
     
     ![capture d'écran](images/pets-error.png)
     
@@ -130,27 +130,27 @@ Il est utile de pouvoir stocker des données dans un fichier plutôt que de les 
     
     Vous pouvez corriger l'erreur en récupérant uniquement le libellé et la valeur si la ligne n'est pas vide.
     
-    Pour ce faire, indentez le code dans votre boucle `pour` et ajoutez le code `si ligne:` au-dessus:
+    Pour ce faire, indentez le code dans votre boucle `for` et ajoutez le code `if line:` juste avant:
     
     ![capture d'écran](images/pets-fix.png)
 
-+ Vous pouvez supprimer l’empreinte `(étiquette, valeur)` ligne maintenant tout fonctionne.
++ Vous pouvez supprimer la ligne `print(label, value)` maintenant que tout fonctionne.
 
-+ Ajoutons maintenant l'étiquette et la valeur à un nouveau graphique à secteurs et rendons-le:
++ Ajoutons maintenant le libellé et la valeur à un nouveau camembert et affichons-le:
     
     ![capture d'écran](images/pets-pie2.png)
     
-    Notez que `add` suppose que la valeur est un nombre, `int (valeur)` transforme la valeur d'une chaîne en un entier.
+    Notez que `add` suppose que la valeur est un nombre, `int (value)` transforme la valeur d'une chaîne en un entier.
     
-    Si vous souhaitez utiliser des nombres décimaux tels que 3.5 (nombres à virgule flottante), vous pouvez utiliser `float (valeur)` place.
+    Si vous souhaitez utiliser des nombres décimaux tels que 3.5 (nombres à virgule flottante), vous pouvez utiliser `float (value)` à la place.
 
 ## Enregistrez votre projet {.save}
 
-## Défi : Encore plus de représentations graphiques, histogrammes, camemberts ! {.challenge}
+## Défi : Créez un histogramme ou un camembert à partir d'un fichier {.challenge}
 
-Pouvez-vous créer un nouveau graphique à barres ou un graphique à secteurs à partir des données d'un fichier? Vous devrez créer un nouveau fichier .txt.
+Pouvez-vous créer un nouvel histogramme ou un camembert à partir des données d'un fichier? Vous devrez créer un nouveau fichier .txt.
 
-Astuce: Si vous voulez avoir des espaces dans les étiquettes, utilisez `line.split (':')` et ajoutez des points dans votre fichier de données, par exemple 'Red Admiral: 6'
+Astuce: Si vous voulez avoir des espaces dans les libellés, utilisez `line.split (':')` et ajoutez deux points pour les séparer dans votre fichier de données, par exemple 'Red Admiral: 6'
 
 ![capture d'écran](images/pets-butterflies.png)
 
@@ -158,7 +158,7 @@ Astuce: Si vous voulez avoir des espaces dans les étiquettes, utilisez `line.sp
 
 ## Défi: Plus de tableaux et de graphiques! {.challenge}
 
-Pouvez-vous créer un graphique à secteurs et un graphique à barres à partir du même fichier? Vous pouvez utiliser les données que vous avez collectées précédemment ou collecter de nouvelles données.
+Pouvez-vous créer un camembert ou un histogramme à partir du même fichier? Vous pouvez utiliser les données que vous avez collectées précédemment ou collecter de nouvelles données.
 
 ![capture d'écran](images/pets-pn-bar.png)
 

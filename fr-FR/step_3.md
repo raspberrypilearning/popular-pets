@@ -30,7 +30,7 @@ Les camemberts sont un moyen utile d’afficher des données. Faisons une enquê
     
     ![capture d'écran](images/pets-add.png)
     
-    Il n’ya qu’une donnée, elle occupe donc tout le graphique à secteurs.
+    Il n’y a qu’une seule donnée, elle occupe donc tout le camembert.
 
 + Ajoutez maintenant le reste des données de la même manière.
     

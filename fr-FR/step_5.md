@@ -12,7 +12,7 @@ Il est utile de pouvoir stocker des données dans un fichier plutôt que de les 
 
 + Revenez à `main.py` et commentez les lignes qui affichent les camemberts et les histogrammes (de sorte qu'ils ne sont pas affichés):
     
-    ![Captures d'écran](images/pets-comment.png)
+    ![capture d'écran](images/pets-comment.png)
 
 + Lisons maintenant les données du fichier.
     
@@ -38,12 +38,12 @@ Il est utile de pouvoir stocker des données dans un fichier plutôt que de les 
     
     ![capture d'écran](images/pets-fix.png)
 
-+ Vous pouvez supprimer l’empreinte `(étiquette, valeur)` ligne maintenant tout fonctionne.
++ Vous pouvez supprimer la ligne `print(label, value)` maintenant que tout fonctionne.
 
-+ Ajoutons maintenant l'étiquette et la valeur à un nouveau graphique à secteurs et rendons-le:
++ Ajoutons maintenant le libellé et la valeur à un nouveau camembert et affichons-le:
     
     ![capture d'écran](images/pets-pie2.png)
     
-    Notez que `add` suppose que la valeur est un nombre, `int (valeur)` transforme la valeur d'une chaîne en un entier.
+    Notez que `add` suppose que la valeur est un nombre, `int (value)` transforme la valeur d'une chaîne de caractères en un entier.
     
-    Si vous souhaitez utiliser des nombres décimaux tels que 3.5 (nombres à virgule flottante), vous pouvez utiliser `float (valeur)` place.
+    Si vous souhaitez utiliser des nombres décimaux tels que 3.5 (nombres à virgule flottante), vous pouvez utiliser `float (value)` à la place.

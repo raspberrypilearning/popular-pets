@@ -1,49 +1,49 @@
-## Read data from a file
+## Défi : Créer un nouveau histogramme à partir d'un fichier
 
-It's useful to be able to store data in a file rather than having to include it in your code.
+Il est utile de pouvoir stocker des données dans un fichier plutôt que de les inclure dans votre code.
 
-+ Add a new file to your project and call it `pets.txt`:
++ Ajoutez un nouveau fichier à votre projet et appelez-le `pets.txt`:
     
-    ![screenshot](images/pets-file.png)
+    ![capture d'écran](images/pets-file.png)
 
-+ Now add data to the file. You can use the favourite pets data that you collected or the example data.
++ Ajoutez maintenant des données au fichier. Vous pouvez utiliser les données des animaux de compagnie que vous avez collectées ou les exemples de données.
     
-    ![screenshot](images/pets-data.png)
+    ![captures d'écran](images/pets-data.png)
 
-+ Switch back to `main.py` and comment out the lines that render (display) charts and graphs (so that they aren't displayed):
++ Revenez à `main.py` et commentez les lignes qui rendent (affichent) les graphiques et les graphiques (de sorte qu'ils ne sont pas affichés):
     
-    ![screenshot](images/pets-comment.png)
+    ![Captures d'écran](images/pets-comment.png)
 
-+ Now let's read the data from the file.
++ Lisons maintenant les données du fichier.
     
-    ![screenshot](images/pets-read.png)
+    ![capture d'écran](images/pets-read.png)
     
-    The `for` loop will loop over the lines in the file. `splitlines()` removes the newline character from the end of the line as you don't want that.
+    La boucle `pour` passera en boucle sur les lignes du fichier. `splitlines ()` supprime le caractère de nouvelle ligne de la fin de la ligne car vous ne le souhaitez pas.
 
-+ Each line needs to be separated into a label and a value:
++ Chaque ligne doit être séparée en une étiquette et une valeur:
     
-    ![screenshot](images/pets-split.png)
+    ![capture d'écran](images/pets-split.png)
     
-    This will split the line at the spaces so don't include spaces in the labels. (You can add support for spaces in labels later.)
+    Cela divisera la ligne au niveau des espaces, alors n'incluez pas d'espaces dans les étiquettes. (Vous pouvez ajouter ultérieurement une prise en charge des espaces dans les étiquettes.)
 
-+ You might get an error like this:
++ Vous pourriez avoir une erreur comme ceci:
     
-    ![screenshot](images/pets-error.png)
+    ![capture d'écran](images/pets-error.png)
     
-    This happens if you have an empty line at the end of your file.
+    Cela se produit si vous avez une ligne vide à la fin de votre fichier.
     
-    You can fix the error by only getting the label and value if the line isn't empty.
+    Vous pouvez corriger l'erreur en récupérant uniquement le libellé et la valeur si la ligne n'est pas vide.
     
-    To do this, indent the code inside your `for` loop and add the code `if line:` above it:
+    Pour ce faire, indentez le code dans votre boucle `pour` et ajoutez le code `si ligne:` au-dessus:
     
-    ![screenshot](images/pets-fix.png)
+    ![capture d'écran](images/pets-fix.png)
 
-+ You can remove the `print(label, value)` line now everything is working.
++ Vous pouvez supprimer l’empreinte `(étiquette, valeur)` ligne maintenant tout fonctionne.
 
-+ Now let's add the label and value to a new Pie Chart and render it:
++ Ajoutons maintenant l'étiquette et la valeur à un nouveau graphique à secteurs et rendons-le:
     
-    ![screenshot](images/pets-pie2.png)
+    ![capture d'écran](images/pets-pie2.png)
     
-    Note that `add` expects the value to be a number, `int(value)` turns the value from a string into an integer.
+    Notez que `add` suppose que la valeur est un nombre, `int (valeur)` transforme la valeur d'une chaîne en un entier.
     
-    If you wanted to use decimals such as 3.5 (floating point numbers) you could use `float(value)` instead.
+    Si vous souhaitez utiliser des nombres décimaux tels que 3.5 (nombres à virgule flottante), vous pouvez utiliser `float (valeur)` place.

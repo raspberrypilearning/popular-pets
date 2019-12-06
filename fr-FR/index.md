@@ -24,7 +24,7 @@ Les camemberts sont un moyen utile d’afficher des données. Faisons une enquê
 
 + Demandez à votre volontaire de vous aider à organiser une enquête. Vous pouvez enregistrer les résultats sur un ordinateur connecté à un projecteur ou à un tableau blanc visible par tout le monde.
     
-    Rédigez une liste d'animaux de compagnie et assurez-vous que tous les animaux préférés sont inclus.
+    Rédigez une liste d'animaux de compagnie et assurez-vous que les animaux de compagnie préférés de tout le monde sont inclus.
     
     Demandez ensuite à chacun de voter pour son favori en levant la main au moment de l'appel. Un seul vote chacun!
     
@@ -34,13 +34,13 @@ Les camemberts sont un moyen utile d’afficher des données. Faisons une enquê
 
 + Ouvre le modèle de Trinket Python vierge : <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ Créons un graphique à secteurs montrant les résultats de votre enquête. Vous utiliserez la bibliothèque PyGal pour effectuer une partie du travail difficile.
++ Créons un camembert montrant les résultats de votre enquête. Vous utiliserez la bibliothèque PyGal pour effectuer une partie de ce travail compliqué.
     
     Commencez par importer la bibliothèque Pygal:
     
     ![capture d'écran](images/pets-pygal.png)
 
-+ Créons maintenant un diagramme à secteurs et rendons-le (affiché):
++ Créons maintenant un Camembert et affichons-le :
     
     ![capture d'écran](images/pets-pie.png)
     
@@ -50,7 +50,7 @@ Les camemberts sont un moyen utile d’afficher des données. Faisons une enquê
     
     ![capture d'écran](images/pets-add.png)
     
-    Il n’ya qu’une donnée, elle occupe donc tout le graphique à secteurs.
+    Il n’y a qu’une donnée, elle occupe donc tout le camembert.
 
 + Ajoutez maintenant le reste des données de la même manière.
     
@@ -64,27 +64,27 @@ Les camemberts sont un moyen utile d’afficher des données. Faisons une enquê
 
 ## Enregistrez votre projet {.save}
 
-## Lire des données à partir d'un fichier {.challenge}
+## Défi : Créez votre histogramme {.challenge}
 
-Vous pouvez créer des graphiques à barres de la même manière. Il vous suffit d'utiliser `diagramme à barres = pygal.Bar ()` pour créer un nouveau diagramme à barres, puis à ajouter des données et à effectuer le rendu de la même manière que pour un graphique à secteurs.
+Vous pouvez créer des histogrammes de la même manière. Il vous suffit d'utiliser `histogramme = pygal.Bar()` pour créer un nouvel histogramme, puis ajoutez des données et effectuez l'affichage de la même manière que pour un camembert.
 
-Recueillez des données auprès de vos membres du Code Club pour créer votre propre graphique à barres.
+Recueillez des données auprès de vos membres du Code Club pour créer votre histogramme.
 
-Assurez-vous de choisir un sujet que tout le monde connaîtra!
+Assurez-vous de choisir un sujet avec lequel tout le monde est familier!
 
 Voici quelques idées:
 
 + Quel est votre sport favori?
 
-+ Quelle est votre saveur de glace préférée?
++ Quel est votre parfum de glace préféré?
 
 + Comment allez-vous à l'école?
 
-+ Quel mois est votre anniversaire?
++ Quel est le mois de votre anniversaire?
 
-+ Jouez-vous à Minecraft? (Oui Non)
++ Jouez-vous à Minecraft? (Oui/Non)
 
-Ne posez pas de questions donnant des données personnelles telles que le lieu de résidence des personnes. Demandez à votre responsable de club si vous n'êtes pas sûr.
+Ne posez pas de questions donnant des données personnelles telles que le lieu de résidence des participants. Demandez à votre responsable de club si vous n'êtes pas sûr.
 
 Exemples:
 
@@ -106,7 +106,7 @@ Il est utile de pouvoir stocker des données dans un fichier plutôt que de les 
     
     ![capture d'écran](images/pets-data.png)
 
-+ Revenez à `main.py` et commentez les lignes qui rendent (affichent) les graphiques et les graphiques (de sorte qu'ils ne sont pas affichés):
++ Revenez à `main.py` et commentez les lignes qui affichent les graphiques (de sorte qu'ils ne sont pas affichés):
     
     ![capture d'écran](images/pets-comment.png)
 

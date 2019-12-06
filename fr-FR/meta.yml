@@ -7,7 +7,7 @@ ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 title: Animaux de compagnie préférés
-description: Créer des camemberts et des histogrammes à partir de données que tu colliges.
+description: Créer des camemberts et des histogrammes à partir de données que vous collectez.
 original_url: https://codeclubprojects.org/en-GB/python/popular-pets
 interests: animaux
 technologies: python
@@ -24,10 +24,10 @@ steps:
   - 
     title: 'Défi : Créer ton propre histogramme'
   - 
-    title: 'Lire des données à partir d''un fichier'
+    title: 'Défi : Lire des données à partir d''un fichier'
   - 
-    title: 'Défi : Créer un nouveau histogramme à partir d''un fichier'
+    title: 'Défi : Créer un nouveau histogramme à partir d''un fichier de données'
   - 
-    title: 'Défi : Encore plus de représentations graphiques, histogrammes, camemberts !'
+    title: 'Défi : Encore plus d''histogrammes et de camemberts à partir d''un fichier'
   - 
     title: 'Défi: Plus de tableaux et de graphiques!'

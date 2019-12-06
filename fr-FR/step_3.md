@@ -1,43 +1,43 @@
-## Create a Pie Chart
+## Défi : Créer ton propre histogramme
 
-Pie Charts are useful way of showing data. Let's do a survey of favourite pets in your Code Club and then present the data as a Pie Chart.
+Les camemberts sont un moyen utile d’afficher des données. Faisons une enquête sur les animaux de compagnie préférés dans votre Code Club, puis présentons les données sous forme de graphique à secteurs.
 
-+ Ask your club leader to help organise a survey. You could record the results on a computer connected to a projector or a whiteboard that everyone can see.
++ Demandez à votre responsable de club de vous aider à organiser une enquête. Vous pouvez enregistrer les résultats sur un ordinateur connecté à un projecteur ou à un tableau blanc visible par tout le monde.
     
-    Write a list of pets and make sure everyone's favourite is included.
+    Rédigez une liste d'animaux de compagnie et assurez-vous que tous les animaux préférés sont inclus.
     
-    Then get everyone to vote for their favourite by putting their hand up when it gets called out. Only one vote each!
+    Demandez ensuite à chacun de voter pour son favori en levant la main au moment de l'appel. Un seul vote chacun!
     
-    For example:
+    Par exemple :
     
-    ![screenshot](images/pets-favourite.png)
+    ![capture d'écran](images/pets-favourite.png)
 
-+ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ Ouvre le modèle de Trinket Python vierge : <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ Let's create a pie chart to show the results of your survey. You'll be using the PyGal library to do some of the hard work.
++ Créons un graphique à secteurs montrant les résultats de votre enquête. Vous utiliserez la bibliothèque PyGal pour effectuer une partie du travail difficile.
     
-    First import the Pygal library:
+    Commencez par importer la bibliothèque Pygal:
     
-    ![screenshot](images/pets-pygal.png)
+    ![capture d'écran](images/pets-pygal.png)
 
-+ Now let's create a Pie chart and render (display) it:
++ Créons maintenant un diagramme à secteurs et rendons-le (affiché):
     
-    ![screenshot](images/pets-pie.png)
+    ![capture d'écran](images/pets-pie.png)
     
-    Don't worry, it gets more interesting when you add data!
+    Ne vous inquiétez pas, cela devient plus intéressant lorsque vous ajoutez des données!
 
-+ Let's add in the data for one of the pets. Use the data that you collected.
++ Ajoutons les données pour l'un des animaux de compagnie. Utilisez les données que vous avez collectées.
     
-    ![screenshot](images/pets-add.png)
+    ![capture d'écran](images/pets-add.png)
     
-    There's only one piece of data so it takes up the whole pie chart.
+    Il n’ya qu’une donnée, elle occupe donc tout le graphique à secteurs.
 
-+ Now add the rest of the data in the same way.
++ Ajoutez maintenant le reste des données de la même manière.
     
-    For example:
+    Par exemple :
     
-    ![screenshot](images/pets-add-all.png)
+    ![capture d'écran](images/pets-add-all.png)
 
-+ And to finish off your chart, add a title:
++ Et pour finir votre graphique, ajoutez un titre:
     
-    ![screenshot](images/pets-title.png)
+    ![capture d'écran](images/pets-title.png)

@@ -1,14 +1,14 @@
 ---
-title: Popular Pets
-description: Create pie charts and bar graphs from data you collect.
-notes: "Popular Pets - notes.md"
-layout: project
-new: true
+title: Animaux de compagnie préférés
+description: Créer des camemberts et des histogrammes à partir de données que tu colliges.
+notes: "Animaux populaires - notes.md"
+layout: projet
+new: vrai
 ---
 
 # Introduction {.intro}
 
-In this project you create pie charts and bar graphs from data that you collect from members of your Code Club.
+Dans ce projet, vous créez des graphiques à secteurs et à barres à partir de données que vous collectez auprès des membres de votre club de code.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/70d24d92b8?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -16,152 +16,152 @@ In this project you create pie charts and bar graphs from data that you collect 
   <img src="images/pets-finished.png">
 </div>
 
-# Step 1: Create a Pie Chart {.activity}
+# Étape 1: Créer un graphique à secteurs {.activity}
 
-Pie Charts are are useful way of showing data. Let's do a survey of favourite pets in your Code Club and then present the data as a Pie Chart.
+Les camemberts sont un moyen utile d’afficher des données. Faisons une enquête sur les animaux de compagnie préférés dans votre Code Club, puis présentons les données sous forme de graphique à secteurs.
 
-## Activity Checklist {.check}
+## Liste de contrôle d'activité {.check}
 
-+ Ask your volunteer to help organise a survey. You could record the results on a computer connected to a projector or a whiteboard that everyone can see.
++ Demandez à votre volontaire de vous aider à organiser une enquête. Vous pouvez enregistrer les résultats sur un ordinateur connecté à un projecteur ou à un tableau blanc visible par tout le monde.
     
-    Write a list of pets and make sure everyone's favourite is included.
+    Rédigez une liste d'animaux de compagnie et assurez-vous que tous les animaux préférés sont inclus.
     
-    Then get everyone to vote for their favourite by putting their hand up when it gets called out. Only one vote each!
+    Demandez ensuite à chacun de voter pour son favori en levant la main au moment de l'appel. Un seul vote chacun!
     
-    For example:
+    Par exemple :
     
-    ![screenshot](images/pets-favourite.png)
+    ![capture d'écran](images/pets-favourite.png)
 
-+ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ Ouvre le modèle de Trinket Python vierge : <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ Let's create a pie chart to show the results of your survey. You'll be using the PyGal library to do some of the hard work.
++ Créons un graphique à secteurs montrant les résultats de votre enquête. Vous utiliserez la bibliothèque PyGal pour effectuer une partie du travail difficile.
     
-    First import the Pygal library:
+    Commencez par importer la bibliothèque Pygal:
     
-    ![screenshot](images/pets-pygal.png)
+    ![capture d'écran](images/pets-pygal.png)
 
-+ Now let's create a Pie chart and render (display) it:
++ Créons maintenant un diagramme à secteurs et rendons-le (affiché):
     
-    ![screenshot](images/pets-pie.png)
+    ![capture d'écran](images/pets-pie.png)
     
-    Don't worry, it gets more interesting when you add data!
+    Ne vous inquiétez pas, cela devient plus intéressant lorsque vous ajoutez des données!
 
-+ Let's add in the data for one of the pets. Use the data that you collected.
++ Ajoutons les données pour l'un des animaux de compagnie. Utilisez les données que vous avez collectées.
     
-    ![screenshot](images/pets-add.png)
+    ![capture d'écran](images/pets-add.png)
     
-    There's only one piece of data so it takes up the whole pie chart.
+    Il n’ya qu’une donnée, elle occupe donc tout le graphique à secteurs.
 
-+ Now add the rest of the data in the same way.
++ Ajoutez maintenant le reste des données de la même manière.
     
-    For example:
+    Par exemple :
     
-    ![screenshot](images/pets-add-all.png)
+    ![capture d'écran](images/pets-add-all.png)
 
-+ And to finish off your chart, add a title:
++ Et pour finir votre graphique, ajoutez un titre:
     
-    ![screenshot](images/pets-title.png)
+    ![capture d'écran](images/pets-title.png)
 
-## Save Your Project {.save}
+## Enregistrez votre projet {.save}
 
-## Challenge: Create your own bar chart {.challenge}
+## Lire des données à partir d'un fichier {.challenge}
 
-You can create bar charts in a similar way. Just use `barchart = pygal.Bar()` to create a new barchart, and then add data and render in the same way as for a pie chart.
+Vous pouvez créer des graphiques à barres de la même manière. Il vous suffit d'utiliser `diagramme à barres = pygal.Bar ()` pour créer un nouveau diagramme à barres, puis à ajouter des données et à effectuer le rendu de la même manière que pour un graphique à secteurs.
 
-Collect data from your Code Club members to create your own bar graph.
+Recueillez des données auprès de vos membres du Code Club pour créer votre propre graphique à barres.
 
-Make sure that you choose a topic that everyone will know about!
+Assurez-vous de choisir un sujet que tout le monde connaîtra!
 
-Here are some ideas:
+Voici quelques idées:
 
-+ What is your favourite sport?
++ Quel est votre sport favori?
 
-+ What is your favourite ice cream flavour?
++ Quelle est votre saveur de glace préférée?
 
-+ How do you get to school?
++ Comment allez-vous à l'école?
 
-+ What month is your birthday?
++ Quel mois est votre anniversaire?
 
-+ Do you play Minecraft? (yes/no)
++ Jouez-vous à Minecraft? (Oui Non)
 
-Don't ask questions that give personal data such as where people live. Ask your club leader if you're not sure.
+Ne posez pas de questions donnant des données personnelles telles que le lieu de résidence des personnes. Demandez à votre responsable de club si vous n'êtes pas sûr.
 
-Examples:
+Exemples:
 
-![screenshot](images/pets-bar-examples.png)
+![capture d'écran](images/pets-bar-examples.png)
 
-## Save Your Project {.save}
+## Enregistrez votre projet {.save}
 
-# Step 2: Read data from a file {.activity}
+# Étape 2: Lire les données d'un fichier {.activity}
 
-It's useful to be able to store data in a file rather than having to include it in your code.
+Il est utile de pouvoir stocker des données dans un fichier plutôt que de les inclure dans votre code.
 
-## Activity Checklist {.check}
+## Liste de contrôle d'activité {.check}
 
-+ Add a new file to your project and call it `pets.txt`:
++ Ajoutez un nouveau fichier à votre projet et appelez-le `pets.txt`:
     
-    ![screenshot](images/pets-file.png)
+    ![capture d'écran](images/pets-file.png)
 
-+ Now add data to the file. You can use the favourite pets data that you collected or the example data.
++ Ajoutez maintenant des données au fichier. Vous pouvez utiliser les données des animaux de compagnie que vous avez collectées ou les exemples de données.
     
-    ![screenshot](images/pets-data.png)
+    ![capture d'écran](images/pets-data.png)
 
-+ Switch back to `main.py` and comment out the lines that render (display) charts and graphs (so that they aren't displayed):
++ Revenez à `main.py` et commentez les lignes qui rendent (affichent) les graphiques et les graphiques (de sorte qu'ils ne sont pas affichés):
     
-    ![screenshot](images/pets-comment.png)
+    ![capture d'écran](images/pets-comment.png)
 
-+ Now let's read the data from the file.
++ Lisons maintenant les données du fichier.
     
-    ![screenshot](images/pets-read.png)
+    ![capture d'écran](images/pets-read.png)
     
-    The `for` loop will loop over the lines in the file. `splitlines()` removes the newline character from the end of the line as you don't want that.
+    La boucle `pour` passera en boucle sur les lignes du fichier. `splitlines ()` supprime le caractère de nouvelle ligne de la fin de la ligne car vous ne le souhaitez pas.
 
-+ Each line needs to be separated into a label and a value:
++ Chaque ligne doit être séparée en une étiquette et une valeur:
     
-    ![screenshot](images/pets-split.png)
+    ![capture d'écran](images/pets-split.png)
     
-    This will split the line at the spaces so don't include spaces in the labels. (You can add support for spaces in labels later.)
+    Cela divisera la ligne au niveau des espaces, alors n'incluez pas d'espaces dans les étiquettes. (Vous pouvez ajouter ultérieurement une prise en charge des espaces dans les étiquettes.)
 
-+ You might get an error like this:
++ Vous pourriez avoir une erreur comme ceci:
     
-    ![screenshot](images/pets-error.png)
+    ![capture d'écran](images/pets-error.png)
     
-    This happens if you have an empty line at the end of your file.
+    Cela se produit si vous avez une ligne vide à la fin de votre fichier.
     
-    You can fix the error by only getting the label and value if the line isn't empty.
+    Vous pouvez corriger l'erreur en récupérant uniquement le libellé et la valeur si la ligne n'est pas vide.
     
-    To do this, indent the code inside your `for` loop and add the code `if line:` above it:
+    Pour ce faire, indentez le code dans votre boucle `pour` et ajoutez le code `si ligne:` au-dessus:
     
-    ![screenshot](images/pets-fix.png)
+    ![capture d'écran](images/pets-fix.png)
 
-+ You can remove the `print(label, value)` line now everything is working.
++ Vous pouvez supprimer l’empreinte `(étiquette, valeur)` ligne maintenant tout fonctionne.
 
-+ Now let's add the label and value to a new Pie Chart and render it:
++ Ajoutons maintenant l'étiquette et la valeur à un nouveau graphique à secteurs et rendons-le:
     
-    ![screenshot](images/pets-pie2.png)
+    ![capture d'écran](images/pets-pie2.png)
     
-    Note that `add` expects the value to be a number, `int(value)` turns the value from a string into an integer.
+    Notez que `add` suppose que la valeur est un nombre, `int (valeur)` transforme la valeur d'une chaîne en un entier.
     
-    If you wanted to use decimals such as 3.5 (floating point numbers) you could use `float(value)` instead.
+    Si vous souhaitez utiliser des nombres décimaux tels que 3.5 (nombres à virgule flottante), vous pouvez utiliser `float (valeur)` place.
 
-## Save Your Project {.save}
+## Enregistrez votre projet {.save}
 
-## Challenge: Create a new chart from a file {.challenge}
+## Défi : Encore plus de représentations graphiques, histogrammes, camemberts ! {.challenge}
 
-Can you create a new bar graph or pie chart from data in a file? You'll need to create a new .txt file.
+Pouvez-vous créer un nouveau graphique à barres ou un graphique à secteurs à partir des données d'un fichier? Vous devrez créer un nouveau fichier .txt.
 
-Tip: If you want to have spaces in the labels then use `line.split(': ')` and add colons to your data file, e.g. 'Red Admiral: 6'
+Astuce: Si vous voulez avoir des espaces dans les étiquettes, utilisez `line.split (':')` et ajoutez des points dans votre fichier de données, par exemple 'Red Admiral: 6'
 
-![screenshot](images/pets-butterflies.png)
+![capture d'écran](images/pets-butterflies.png)
 
-## Save Your Project {.save}
+## Enregistrez votre projet {.save}
 
-## Challenge: More charts and graphs! {.challenge}
+## Défi: Plus de tableaux et de graphiques! {.challenge}
 
-Can you create a pie chart and a bar chart from the same file? You can either use the data you collected earlier or collect some new data.
+Pouvez-vous créer un graphique à secteurs et un graphique à barres à partir du même fichier? Vous pouvez utiliser les données que vous avez collectées précédemment ou collecter de nouvelles données.
 
-![screenshot](images/pets-pn-bar.png)
+![capture d'écran](images/pets-pn-bar.png)
 
-![screenshot](images/pets-pn.png)
+![capture d'écran](images/pets-pn.png)
 
-## Save Your Project {.save}
+## Enregistrez votre projet {.save}

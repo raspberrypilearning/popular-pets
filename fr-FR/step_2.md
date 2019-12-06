@@ -1,7 +1,7 @@
-## What you will need
+## Ce dont tu auras besoin
 
-### Software
+### Logiciel
 
-+ Trinket online editor
++ Éditeur en ligne de bibelots
 
-Note - this project uses trinket's pygal module and will only work with trinket.
+Remarque: ce projet utilise le module pygal de bibelot et ne fonctionne qu'avec bibelot.

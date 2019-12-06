@@ -2,21 +2,21 @@
 
 ## Desafio: crie seu próprio gráfico de barras
 
-Você pode criar gráficos de barras de maneira semelhante. Basta usar `barchart = pygal.Bar ()` para criar um novo gráfico de barras e, em seguida, adicionar dados e renderizar da mesma maneira que para um gráfico de pizza.
+Pode criar gráficos de barras de maneira semelhante. Basta utilizar `barchart = pygal.Bar ()` para criar um novo gráfico de barras e, em seguida, adicionar dados e renderizar da mesma maneira que para um gráfico de pizza.
 
-Colete dados de seus membros do Code Club para criar seu próprio gráfico de barras.
+Recolhe dados entre os membros do Code Club para criar o teu próprio gráfico de barras.
 
-Certifique-se de escolher um tópico que todos saibam!
+Certifica-te de escolher um tópico que todos conheçam!
 
 Aqui estão algumas idéias:
 
-+ Qual é o seu esporte favorito?
-+ Qual é o seu sabor favorito de sorvete?
-+ Como você chega na escola?
-+ Qual mês é seu aniversário?
-+ Você joga minecraft? (sim não)
++ Qual é o teu desporto favorito?
++ Qual é o teu sabor favorito de gelado?
++ Como é que vais para a escola?
++ Em que mês é o teu aniversário?
++ Jogas minecraft? (sim não)
 
-Não faça perguntas que forneçam dados pessoais, como o local em que as pessoas moram. Pergunte ao líder do seu clube se não tiver certeza.
+Não faça perguntas que forneçam dados pessoais, como o local em que as pessoas moram. Pergunta ao líder do teu clube se não tiveres certeza.
 
 Exemplos:
 

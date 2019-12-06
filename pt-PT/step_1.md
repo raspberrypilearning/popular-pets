@@ -1,10 +1,10 @@
 ## Introdução
 
-Neste projeto, você cria gráficos de pizza e gráficos de barras a partir dos dados coletados dos membros do seu Code Club.
+Neste projeto, crias gráficos de pizza e gráficos de barras a partir dos dados recolhidos entre os membros do teu Code Club.
 
 ### Instruções
 
-Quando você clica em Executar, os gráficos são gerados a partir dos dados usando o módulo python PyGal.
+Quando clicares em Executar, os gráficos são gerados a partir dos dados usando o módulo python PyGal.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/70d24d92b8?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -12,7 +12,7 @@ Quando você clica em Executar, os gráficos são gerados a partir dos dados usa
   <img src="images/pets-finished.png">
 </div>
 
-### O que você aprenderá
+### O que vais aprender
 
 Este projeto abrange elementos das seguintes vertentes do [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 

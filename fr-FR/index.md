@@ -22,11 +22,11 @@ Les camemberts sont un moyen utile d’afficher des données. Faisons une enquê
 
 ## Liste de contrôle d'activité {.check}
 
-+ Demandez à votre volontaire de vous aider à organiser une enquête. Vous pouvez enregistrer les résultats sur un ordinateur connecté à un projecteur ou à un tableau blanc visible par tout le monde.
++ Demande à ton volontaire de t'aider à organiser une enquête. Tu pouvez enregistrer les résultats sur un ordinateur connecté à un projecteur ou à un tableau blanc visible par tout le monde.
     
-    Rédigez une liste d'animaux de compagnie et assurez-vous que les animaux de compagnie préférés de tout le monde sont inclus.
+    Rédige une liste d'animaux de compagnie et assures-toi que les animaux de compagnie préférés de tout le monde sont inclus.
     
-    Demandez ensuite à chacun de voter pour son favori en levant la main au moment de l'appel. Un seul vote chacun!
+    Demande ensuite à chacun de voter pour son favori en levant la main au moment de l'appel. Un seul vote chacun !
     
     Par exemple :
     
@@ -34,9 +34,9 @@ Les camemberts sont un moyen utile d’afficher des données. Faisons une enquê
 
 + Ouvre le modèle de Trinket Python vierge : <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ Créons un camembert montrant les résultats de votre enquête. Vous utiliserez la bibliothèque PyGal pour effectuer une partie de ce travail compliqué.
++ Créons un camembert montrant les résultats de ton enquête. Tu utiliseras la bibliothèque PyGal pour effectuer une partie de ce travail compliqué.
     
-    Commencez par importer la bibliothèque Pygal:
+    Commence par importer la bibliothèque Pygal :
     
     ![capture d'écran](images/pets-pygal.png)
 
@@ -44,9 +44,9 @@ Les camemberts sont un moyen utile d’afficher des données. Faisons une enquê
     
     ![capture d'écran](images/pets-pie.png)
     
-    Ne vous inquiétez pas, cela devient plus intéressant lorsque vous ajoutez des données!
+    Ne t'inquiètes pas, cela devient plus intéressant lorsque tu ajoutes des données!
 
-+ Ajoutons les données pour l'un des animaux de compagnie. Utilisez les données que vous avez collectées.
++ Ajoutons les données pour l'un des animaux de compagnie. Utilise les données que tu as collectées.
     
     ![capture d'écran](images/pets-add.png)
     
@@ -58,55 +58,55 @@ Les camemberts sont un moyen utile d’afficher des données. Faisons une enquê
     
     ![capture d'écran](images/pets-add-all.png)
 
-+ Et pour finir votre graphique, ajoutez un titre:
++ Et pour finir ton graphique, ajoute un titre :
     
     ![capture d'écran](images/pets-title.png)
 
-## Enregistrez votre projet {.save}
+## Enregistre ton projet {.save}
 
-## Défi : Créez votre histogramme {.challenge}
+## Défi : Crée ton histogramme {.challenge}
 
-Vous pouvez créer des histogrammes de la même manière. Il vous suffit d'utiliser `histogramme = pygal.Bar()` pour créer un nouvel histogramme, puis ajoutez des données et effectuez l'affichage de la même manière que pour un camembert.
+Tu peux créer des histogrammes de la même manière. Il te suffit d'utiliser `histogramme = pygal.Bar()` pour créer un nouvel histogramme, puis ajoute des données et effectue l'affichage de la même manière que pour un camembert.
 
-Recueillez des données auprès de vos membres du Code Club pour créer votre histogramme.
+Recueille des données auprès de tes membres du Code Club pour créer ton histogramme.
 
-Assurez-vous de choisir un sujet avec lequel tout le monde est familier!
+Assures-toi de choisir un sujet avec lequel tout le monde est familier !
 
 Voici quelques idées:
 
-+ Quel est votre sport favori?
++ Quel est ton sport favori ?
 
-+ Quel est votre parfum de glace préféré?
++ Quel est ton parfum de glace préféré ?
 
-+ Comment allez-vous à l'école?
++ Comment vas-tu à l'école ?
 
-+ Quel est le mois de votre anniversaire?
++ Quel est le mois de ton anniversaire ?
 
-+ Jouez-vous à Minecraft? (Oui/Non)
++ Joues-tu à Minecraft ? (Oui/Non)
 
-Ne posez pas de questions donnant des données personnelles telles que le lieu de résidence des participants. Demandez à votre responsable de club si vous n'êtes pas sûr.
+Ne pose pas de questions donnant des données personnelles telles que le lieu de résidence des participants. Demande à ton responsable de club si tu n'est pas sûr.
 
-Exemples:
+Exemples :
 
 ![capture d'écran](images/pets-bar-examples.png)
 
-## Enregistrez votre projet {.save}
+## Enregistre ton projet {.save}
 
 # Étape 2: Lire les données d'un fichier {.activity}
 
-Il est utile de pouvoir stocker des données dans un fichier plutôt que de les inclure dans votre code.
+Il est utile de pouvoir stocker des données dans un fichier plutôt que de les inclure dans ton code.
 
 ## Liste de contrôle d'activité {.check}
 
-+ Ajoutez un nouveau fichier à votre projet et appelez-le `pets.txt`:
++ Ajoute un nouveau fichier à ton projet et appelle-le `pets.txt`:
     
     ![capture d'écran](images/pets-file.png)
 
-+ Ajoutez maintenant des données au fichier. Vous pouvez utiliser les données des animaux de compagnie que vous avez collectées ou les exemples de données.
++ Ajoute maintenant des données au fichier. Tu peux utiliser les données des animaux de compagnie que tu as collectées ou les exemples de données.
     
     ![capture d'écran](images/pets-data.png)
 
-+ Revenez à `main.py` et commentez les lignes qui affichent les graphiques (de sorte qu'ils ne sont pas affichés):
++ Reviens à `main.py` et commente les lignes qui affichent les graphiques (de sorte qu'ils ne sont pas affichés) :
     
     ![capture d'écran](images/pets-comment.png)
 
@@ -114,21 +114,21 @@ Il est utile de pouvoir stocker des données dans un fichier plutôt que de les 
     
     ![capture d'écran](images/pets-read.png)
     
-    La boucle `for` passera en boucle sur toutes les lignes du fichier. `splitlines ()` supprime le caractère de retour à la ligne de la fin de ligne car vous ne souhaitez pas les conserver.
+    La boucle `for` passera en boucle sur toutes les lignes du fichier. `splitlines ()` supprime le caractère de retour à la ligne de la fin de ligne car tu ne souhaites pas les conserver.
 
 + Chaque ligne doit être séparée en un libellé et une valeur:
     
     ![capture d'écran](images/pets-split.png)
     
-    Cela divisera la ligne au niveau des espaces, alors n'incluez pas d'espaces dans les libellés. (Vous pouvez ajouter ultérieurement une prise en charge des espaces dans les libellés.)
+    Cela divisera la ligne au niveau des espaces, alors n'inclue pas d'espaces dans les libellés. (Tu peux ajouter ultérieurement une prise en charge des espaces dans les libellés.)
 
-+ Vous pourriez avoir une erreur comme celle-ci:
++ Tu pourrais avoir une erreur comme celle-ci :
     
     ![capture d'écran](images/pets-error.png)
     
-    Cela se produit si vous avez une ligne vide à la fin de votre fichier.
+    Cela se produit si tu as une ligne vide à la fin de ton fichier.
     
-    Vous pouvez corriger l'erreur en récupérant uniquement le libellé et la valeur si la ligne n'est pas vide.
+    Tu peuxz corriger l'erreur en récupérant uniquement le libellé et la valeur si la ligne n'est pas vide.
     
     Pour ce faire, indentez le code dans votre boucle `for` et ajoutez le code `if line:` juste avant:
     

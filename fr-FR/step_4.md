@@ -1,12 +1,12 @@
 \--- challenge \---
 
-## Défi : Créez votre histogramme
+## Défi : Crée ton histogramme
 
-Vous pouvez créer des histogrammes de la même manière. Il vous suffit d'utiliser `histogramme = pygal.Bar ()` pour créer un nouvel histogramme, puis ajoutez des données et effectuez l'affichage de la même manière que pour un camembert.
+Tu peux créer des histogrammes de la même manière. Il te suffit d'utiliser `histogramme = pygal.Bar ()` pour créer un nouvel histogramme, puis ajoute des données et effectue l'affichage de la même manière que pour un camembert.
 
-Recueillez des données auprès des membres de votre Code Club pour créer votre propre histogramme.
+Recueille des données auprès de tes membres du Code Club pour créer ton histogramme.
 
-Assurez-vous de choisir un sujet avec lequel tout le monde est familier!
+Assures-toi de choisir un sujet avec lequel tout le monde est familier !
 
 Voici quelques idées:
 

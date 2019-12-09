@@ -84,7 +84,7 @@ Voici quelques idées:
 
 + Joues-tu à Minecraft ? (Oui/Non)
 
-Ne pose pas de questions donnant des données personnelles telles que le lieu de résidence des participants. Demande à ton responsable de club si tu n'est pas sûr.
+Ne pose pas de questions donnant des données personnelles telles que le lieu de résidence des participants. Demande à ton responsable de club si tu n'es pas sûr.
 
 Exemples :
 
@@ -120,7 +120,7 @@ Il est utile de pouvoir stocker des données dans un fichier plutôt que de les 
     
     ![capture d'écran](images/pets-split.png)
     
-    Cela divisera la ligne au niveau des espaces, alors n'inclue pas d'espaces dans les libellés. (Tu peux ajouter ultérieurement une prise en charge des espaces dans les libellés.)
+    Cela divisera la ligne au niveau des espaces, alors n'inclus pas d'espaces dans les libellés. (Tu peux ajouter ultérieurement une prise en charge des espaces dans les libellés.)
 
 + Tu pourrais avoir une erreur comme celle-ci :
     
@@ -146,7 +146,7 @@ Il est utile de pouvoir stocker des données dans un fichier plutôt que de les 
 
 ## Enregistre ton projet {.save}
 
-## Défi : Crée un histogramme ou un camembert à partir d'un fichier {.challenge}
+## Défi : Créer un histogramme ou un camembert à partir d'un fichier {.challenge}
 
 Peux-tu créer un nouvel histogramme ou un camembert à partir des données d'un fichier? Tu devras créer un nouveau fichier .txt.
 

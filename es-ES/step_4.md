@@ -10,8 +10,8 @@ Recauda datos de los miembros de tu Code Club para crear tu propio gráfico de b
 
 Aquí tienes algunas sugerencias:
 
-+ ¿Cuál es su deporte favorito?
-+ ¿Cuál es su sabor de helado favorito?
++ ¿Cuál es tu deporte favorito?
++ ¿Cuál es tu sabor de helado favorito?
 + ¿Cómo vas al colegio?
 + ¿En qué mes cae tu cumpleaños?
 + ¿Juegas Minecraft? (sí/no)

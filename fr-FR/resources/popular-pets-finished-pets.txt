@@ -1,5 +1,5 @@
 Chien 6
-Cat 4
+Chat 4
 Hamster 3
 Poisson 2
 Serpent 1

@@ -12,52 +12,52 @@ camembert.add('Serpent', 1)
 camembert.render()
 
 histogramme = pygal.Bar()
-barchart.title = 'Animal favori'
-barchart.add ('Chien', 6)
-barchart.add ('Cat', 4)
-barchart.add ('Hamster', 3)
-barchart.add ('Poisson', 2)
-barchart.add ('Serpent', 1)
-barchart.render ()
+histogramme.title = 'Animaux de compagnie préférés'
+histogramme.add('Chien', 6)
+histogramme.add('Chat', 4)
+histogramme.add('Hamster', 3)
+histogramme.add('Poisson', 2)
+histogramme.add('Serpent', 1)
+histogramme.render()
   
-Morceau2 = Pygal.Pie ()
-barchart2 = pygal.Bar ()
+camembert2 = Pygal.Pie()
+histogramme2 = pygal.Bar()
 
-file = open ('pets.txt', 'r')
+fichier = open('pets.txt', 'r')
 
-pour la ligne dans file.read (). splitlines ():
-  si ligne:
-    label, valeur = line.split ('')
-    atchhart2.add (label, int (valeur))
-    barchart2.add (label, int (valeur))
+for ligne in fichier.read().splitlines():
+  if ligne:
+    libelle, value = line.split(' ')
+    camembert2.add(libelle, int(value))
+    histogramme2.add(libelle, int(value))
     
-file.close ()
+fichier.close()
 
-#atchhart2.render ()
-# barchart2.render ()
+#camembert2.render()
+# histogramme2.render()
 
-papillons = pygal.Bar ()
-butterflies.title = 'Nombre de papillons'
+papillons = pygal.Bar()
+papillons.title = 'Comptage des papillons'
 
-file = open ('butterflies.txt', 'r')
+fichier = open('butterflies.txt', 'r')
 
-pour la ligne dans file.read (). splitlines ():
-  si ligne:
-    label, valeur = line.split (':')
-    papillons.add (étiquette, int (valeur))
-file.close ()
+for ligne in fichier.read().splitlines():
+  if ligne:
+    libelle, value = line.split(': ')
+    papillons.add(libelle, int(value))
+fichier.close()
 
-butterflies.render ()
+papillons.render()
 
-pn = pygal.Bar ()
+pn = pygal.Bar()
 pn.title = 'Pirates vs Ninjas'
 
-fichier = ouvert ('piratesninjas.txt', 'r')
+fichier = open('piratesninjas.txt', 'r')
 
-pour la ligne dans file.read (). splitlines ():
-  si ligne:
-    label, valeur = line.split ('')
-    pn.add (étiquette, int (valeur))
-file.close ()
+for ligne in fichier.read().splitlines():
+  if ligne:
+    libelle, value = line.split(' ')
+    pn.add(libelle, int(value))
+fichier.close()
 
-pn.render ()
+pn.render()

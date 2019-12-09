@@ -1,5 +1,5 @@
-Amiral Rouge: 6
-Portier: 4
-Petit blanc: 3
-Houx bleu: 3
-Prairie brune: 5
+Amiral rouge: 6
+Amaryllis: 4
+Petit Blanc: 3
+Azure des nerpruns: 3
+Myrtil: 5

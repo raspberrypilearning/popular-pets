@@ -10,15 +10,15 @@ Assures-toi de choisir un sujet avec lequel tout le monde est familier !
 
 Voici quelques idées:
 
-+ Quel est votre sport favori?
-+ Quel est votre parfum de glace préféré?
-+ Comment allez-vous à l'école?
-+ Quel est le mois de votre anniversaire?
-+ Jouez-vous à Minecraft? (Oui/Non)
++ Quel est ton sport favori ?
++ Quel est ton parfum de glace préféré ?
++ Comment vas-tu à l'école ?
++ Quel est le mois de ton anniversaire ?
++ Joues-tu à Minecraft ? (Oui/Non)
 
-Ne posez pas de questions révélant des données personnelles telles que le lieu de résidence des participants. Demandez à votre responsable de club si vous n'êtes pas sûr(e).
+Ne pose pas de questions révélant des données personnelles telles que le lieu de résidence des participants. Demande à ton responsable de club si tu n'es pas sûr(e).
 
-Exemples:
+Exemples :
 
 ![capture d'écran](images/pets-bar-examples.png)
 

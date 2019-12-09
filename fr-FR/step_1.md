@@ -1,10 +1,10 @@
 ## Introduction
 
-Dans ce projet, vous créez des camemberts et des histogrammes à partir de données que vous collectez auprès des membres de votre Code Club.
+Dans ce projet, tu créeras des camemberts et des histogrammes à partir de données que tu collectes auprès des membres de ton Code Club.
 
 ### Instructions
 
-Lorsque vous cliquez sur Exécuter, les graphiques sont générés à partir de données à l'aide du module python PyGal.
+Lorsque tu cliques sur Exécuter, les graphiques sont générés à partir de données à l'aide du module python PyGal.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/70d24d92b8?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>

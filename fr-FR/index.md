@@ -130,38 +130,38 @@ Il est utile de pouvoir stocker des données dans un fichier plutôt que de les 
     
     Tu peuxz corriger l'erreur en récupérant uniquement le libellé et la valeur si la ligne n'est pas vide.
     
-    Pour ce faire, indentez le code dans votre boucle `for` et ajoutez le code `if line:` juste avant:
+    Pour ce faire, indente le code dans ta boucle `for` et ajoute le code `if line:` juste avant :
     
     ![capture d'écran](images/pets-fix.png)
 
-+ Vous pouvez supprimer la ligne `print(label, value)` maintenant que tout fonctionne.
++ Tu peux supprimer la ligne `print(label, value)` maintenant que tout fonctionne.
 
-+ Ajoutons maintenant le libellé et la valeur à un nouveau camembert et affichons-le:
++ Ajoutons maintenant le libellé et la valeur à un nouveau camembert et affichons-le :
     
     ![capture d'écran](images/pets-pie2.png)
     
-    Notez que `add` suppose que la valeur est un nombre, `int (value)` transforme la valeur d'une chaîne en un entier.
+    Note que `add` suppose que la valeur est un nombre, `int (value)` transforme la valeur d'une chaîne en un entier.
     
-    Si vous souhaitez utiliser des nombres décimaux tels que 3.5 (nombres à virgule flottante), vous pouvez utiliser `float (value)` à la place.
+    Si tu souhaites utiliser des nombres décimaux tels que 3.5 (nombres à virgule flottante), tu peux utiliser `float (value)` à la place.
 
-## Enregistrez votre projet {.save}
+## Enregistre ton projet {.save}
 
-## Défi : Créez un histogramme ou un camembert à partir d'un fichier {.challenge}
+## Défi : Crée un histogramme ou un camembert à partir d'un fichier {.challenge}
 
-Pouvez-vous créer un nouvel histogramme ou un camembert à partir des données d'un fichier? Vous devrez créer un nouveau fichier .txt.
+Peux-tu créer un nouvel histogramme ou un camembert à partir des données d'un fichier? Tu devras créer un nouveau fichier .txt.
 
-Astuce: Si vous voulez avoir des espaces dans les libellés, utilisez `line.split (':')` et ajoutez deux points pour les séparer dans votre fichier de données, par exemple 'Red Admiral: 6'
+Astuce: Si tu veux avoir des espaces dans les libellés, utilise `line.split (':')` et ajoute deux points pour les séparer dans ton fichier de données, par exemple 'Red Admiral: 6'
 
 ![capture d'écran](images/pets-butterflies.png)
 
-## Enregistrez votre projet {.save}
+## Enregistre votre projet {.save}
 
-## Défi: Plus de tableaux et de graphiques! {.challenge}
+## Défi: Plus de tableaux et de graphiques ! {.challenge}
 
-Pouvez-vous créer un camembert ou un histogramme à partir du même fichier? Vous pouvez utiliser les données que vous avez collectées précédemment ou collecter de nouvelles données.
+Peux-tu créer un camembert ou un histogramme à partir du même fichier ? Tu peux utiliser les données que tu as collectées précédemment ou collecter de nouvelles données.
 
 ![capture d'écran](images/pets-pn-bar.png)
 
 ![capture d'écran](images/pets-pn.png)
 
-## Enregistrez votre projet {.save}
+## Enregistre ton projet {.save}

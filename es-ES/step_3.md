@@ -20,7 +20,7 @@ Los gráficos circulares son una forma útil de mostrar datos. Realicemos una en
     
     ![screenshot](images/pets-pygal.png)
 
-+ A continuación, crea un gráficos circulares y reprodúcelo (visualízalo):
++ A continuación, crea un gráfico circular y reprodúcelo (visualízalo):
     
     ![screenshot](images/pets-pie.png)
     

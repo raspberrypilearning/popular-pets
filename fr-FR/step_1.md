@@ -20,6 +20,6 @@ Ce projet couvre les éléments suivants du [Programme de Créativité Numériqu
 
 ### Informations supplémentaires pour les éducateurs
 
-Si vous besoin d'imprimer ce projet, utilisez la [version imprimable](https://projects.raspberrypi.org/en/projects/popular-pets/print) {:target="_blank"}.
+Si vous avez besoin d'imprimer ce projet, utilisez la [version imprimable](https://projects.raspberrypi.org/en/projects/popular-pets/print) {:target="_blank"}.
 
 Utilisez le lien en bas de cette page pour accéder au dépôt GitHub de ce projet, qui contient toutes les ressources (y compris un exemple du projet terminé) dans le dossier 'fr-FR/resources'.

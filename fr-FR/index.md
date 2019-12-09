@@ -2,13 +2,13 @@
 title: Animaux de compagnie préférés
 description: Créer des camemberts et des histogrammes à partir de données que tu collectes.
 notes: "Animaux de compagnie préférés - notes.md"
-layout: projet
-new: vrai
+layout: project
+new: true
 ---
 
 # Introduction {.intro}
 
-Dans ce projet, vous créez des camemberts et des histogrammes à partir de données que vous collectez auprès des membres de votre Code Club.
+Dans ce projet, tu créeras des camemberts et des histogrammes à partir de données que tu collectes auprès des membres de ton Code Club.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/70d24d92b8?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -18,7 +18,7 @@ Dans ce projet, vous créez des camemberts et des histogrammes à partir de donn
 
 # Étape 1: Créer un camembert {.activity}
 
-Les camemberts sont un moyen utile d’afficher des données. Faisons une enquête sur les animaux de compagnie préférés dans votre Code Club, puis présentons les données sous forme de Camemberts.
+Les camemberts sont un moyen utile d’afficher des données. Faisons une enquête sur les animaux de compagnie préférés dans ton Code Club, puis présentons les données sous forme de Camemberts.
 
 ## Liste de contrôle d'activité {.check}
 

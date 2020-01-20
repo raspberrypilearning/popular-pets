@@ -4,31 +4,31 @@ It's useful to be able to store data in a file rather than having to include it 
 
 + Add a new file to your project and call it `pets.txt`:
     
-    ![screenshot](images/pets-file.png)
+    ![ekran görüntüsü](images/pets-file.png)
 
 + Now add data to the file. You can use the favourite pets data that you collected or the example data.
     
-    ![screenshot](images/pets-data.png)
+    ![ekran alıntısı](images/pets-data.png)
 
 + Switch back to `main.py` and comment out the lines that render (display) charts and graphs (so that they aren't displayed):
     
-    ![screenshot](images/pets-comment.png)
+    ![ekran görüntüsü](images/pets-comment.png)
 
 + Now let's read the data from the file.
     
-    ![screenshot](images/pets-read.png)
+    ![ekran görüntüsü](images/pets-read.png)
     
     The `for` loop will loop over the lines in the file. `splitlines()` removes the newline character from the end of the line as you don't want that.
 
 + Each line needs to be separated into a label and a value:
     
-    ![screenshot](images/pets-split.png)
+    ![ekran görüntüsü](images/pets-split.png)
     
     This will split the line at the spaces so don't include spaces in the labels. (You can add support for spaces in labels later.)
 
 + You might get an error like this:
     
-    ![screenshot](images/pets-error.png)
+    ![ekran görüntüsü](images/pets-error.png)
     
     This happens if you have an empty line at the end of your file.
     
@@ -36,13 +36,13 @@ It's useful to be able to store data in a file rather than having to include it 
     
     To do this, indent the code inside your `for` loop and add the code `if line:` above it:
     
-    ![screenshot](images/pets-fix.png)
+    ![ekran görüntüsü](images/pets-fix.png)
 
 + You can remove the `print(label, value)` line now everything is working.
 
 + Now let's add the label and value to a new Pie Chart and render it:
     
-    ![screenshot](images/pets-pie2.png)
+    ![ekran görüntüsü](images/pets-pie2.png)
     
     Note that `add` expects the value to be a number, `int(value)` turns the value from a string into an integer.
     

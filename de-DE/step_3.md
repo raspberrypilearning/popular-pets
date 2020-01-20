@@ -1,12 +1,12 @@
 ## Aufgabe: Erstelle dein eigenes Balkendiagramm
 
-Pie Charts are useful way of showing data. Let's do a survey of favourite pets in your Code Club and then present the data as a Pie Chart.
+Kreisdiagramme sind eine nützliche Methode zum Anzeigen von Daten. Lassen Sie uns einen Überblick über Ihre Lieblingstiere in Ihrem Code Club geben und die Daten dann als Kreisdiagramm darstellen.
 
-+ Ask your club leader to help organise a survey. You could record the results on a computer connected to a projector or a whiteboard that everyone can see.
++ Bitten Sie Ihren Clubleiter, eine Umfrage zu organisieren. Sie können die Ergebnisse auf einem Computer aufzeichnen, der an einen Projektor oder ein Whiteboard angeschlossen ist und von jedem gesehen werden kann.
     
-    Write a list of pets and make sure everyone's favourite is included.
+    Schreiben Sie eine Liste mit Haustieren und vergewissern Sie sich, dass jeder Liebling dabei ist.
     
-    Then get everyone to vote for their favourite by putting their hand up when it gets called out. Only one vote each!
+    Bringen Sie dann alle dazu, für ihren Favoriten zu stimmen, indem Sie die Hand nach dem Aufruf heben. Nur jeweils eine Stimme!
     
     Zum Beispiel:
     
@@ -14,30 +14,30 @@ Pie Charts are useful way of showing data. Let's do a survey of favourite pets i
 
 + Öffne das leere Python-Vorlage-Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ Let's create a pie chart to show the results of your survey. You'll be using the PyGal library to do some of the hard work.
++ Lassen Sie uns ein Kreisdiagramm erstellen, um die Ergebnisse Ihrer Umfrage anzuzeigen. Sie werden die PyGal-Bibliothek verwenden, um einen Teil der harten Arbeit zu erledigen.
     
-    First import the Pygal library:
+    Importieren Sie zuerst die Pygal-Bibliothek:
     
     ![Screenshot](images/pets-pygal.png)
 
-+ Now let's create a Pie chart and render (display) it:
++ Jetzt erstellen wir ein Kreisdiagramm und rendern es (zeigen es an):
     
     ![screenshot](images/pets-pie.png)
     
-    Don't worry, it gets more interesting when you add data!
+    Keine Sorge, es wird interessanter, wenn Sie Daten hinzufügen!
 
-+ Let's add in the data for one of the pets. Use the data that you collected.
++ Lassen Sie uns die Daten für eines der Haustiere hinzufügen. Verwenden Sie die von Ihnen gesammelten Daten.
     
     ![screenshot](images/pets-add.png)
     
-    There's only one piece of data so it takes up the whole pie chart.
+    Es gibt nur ein Datenelement, sodass es das gesamte Kreisdiagramm einnimmt.
 
-+ Now add the rest of the data in the same way.
++ Fügen Sie nun den Rest der Daten auf die gleiche Weise hinzu.
     
     Zum Beispiel:
     
     ![Screenshot](images/pets-add-all.png)
 
-+ And to finish off your chart, add a title:
++ Und um Ihr Diagramm zu vervollständigen, fügen Sie einen Titel hinzu:
     
     ![Screenshot](images/pets-title.png)

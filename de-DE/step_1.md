@@ -18,8 +18,8 @@ Dieses Projekt deckt Bestandteile folgender Zweige des [Raspberry Pi Digital Mak
 
 + [Kombiniere zur Problemlösung verschiedene Programmierkonstrukte.](https://www.raspberrypi.org/curriculum/programming/builder/)
 
-### Zusätzliche Informationen für Pädagogen
+### Zusätzliche Informationen für Lehrer
 
-Wenn du dieses Projekt ausdrucken möchtest, verwende die [druckerfreundliche Version](https://projects.raspberrypi.org/en/projects/popular-pets/print){:target="_blank"}.
+Falls Sie dieses Projekt ausdrucken möchten, verwenden Sie bitte die [druckerfreundliche Version](https://projects.raspberrypi.org/en/projects/popular-pets/print){:target="_blank"}.
 
-Verwenden Sie den Link in der Fußzeile, um auf das GitHub-Repo für dieses Projekt zuzugreifen. Dieses enthält alle Ressourcen (einschließlich eines Beispiels für ein abgeschlossenes Projekt) im Ordner "de-DE/resources".
+Verwenden Sie den Link in der Fußzeile, um auf das GitHub-Repository für dieses Projekt zuzugreifen. Dieses enthält alle Ressourcen (einschließlich eines Beispiels für ein fertiggestelltes Projekt) im Ordner "de-DE/resources".

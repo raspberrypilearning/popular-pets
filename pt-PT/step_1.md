@@ -1,6 +1,6 @@
 ## Introdução
 
-Neste projeto, crias gráficos de pizza e gráficos de barras a partir dos dados recolhidos entre os membros do teu Code Club.
+Neste projeto, crias gráficos circulares e gráficos de barras a partir dos dados recolhidos entre os membros do teu Code Club.
 
 ### Instruções
 
@@ -20,6 +20,6 @@ Este projeto abrange elementos das seguintes vertentes do [Raspberry Pi Digital 
 
 ### Informações adicionais para educadores
 
-Se você precisar imprimir este projeto, por favor, use a [versão para impressão](https://projects.raspberrypi.org/en/projects/popular-pets/print){:target="_blank"}.
+Se precisas de imprimir este projeto, por favor, utiliza a [versão para impressão](https://projects.raspberrypi.org/en/projects/popular-pets/print){: target = "_ blank"}.
 
-Use o link no rodapé para acessar o repositório do GitHub para este projeto, que contém todos os recursos (incluindo um exemplo de projeto concluído) na pasta 'en / resources'.
+Usa o link no rodapé para aceder ao repositório do GitHub deste projeto, que contém todos os recursos (incluindo um exemplo de projeto concluído) na pasta 'en/resources'.

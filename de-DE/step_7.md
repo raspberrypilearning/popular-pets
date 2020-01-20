@@ -1,8 +1,8 @@
 \--- challenge \---
 
-## Challenge: More charts and graphs!
+## Herausforderung: Mehr Diagramme und Grafiken!
 
-Can you create a pie chart and a bar chart from the same file? You can either use the data you collected earlier or collect some new data.
+Können Sie aus derselben Datei ein Kreisdiagramm und ein Balkendiagramm erstellen? Sie können entweder die zuvor gesammelten Daten verwenden oder einige neue Daten sammeln.
 
 ![screenshot](images/pets-pn-bar.png)
 

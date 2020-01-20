@@ -1,6 +1,6 @@
 ---
 title: Animais de estimação populares
-description: Cria gráficos de pizza e gráficos de barra a partir dos dados recolhidos.
+description: Cria gráficos circulares e gráficos de barras a partir dos dados recolhidos.
 notes: "Animais de Estimação Populares - notes.md"
 layout: projeto
 new: verdadeiro
@@ -8,7 +8,7 @@ new: verdadeiro
 
 # Introdução {.intro}
 
-Neste projeto, irás criar gráficos de pizza e gráficos de barra a partir de dados recolhidos entre os membros do teu Code Club.
+Neste projeto, irás criar gráficos circulares e gráficos de barras a partir de dados recolhidos entre os membros do teu Code Club.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/70d24d92b8?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -16,9 +16,9 @@ Neste projeto, irás criar gráficos de pizza e gráficos de barra a partir de d
   <img src="images/pets-finished.png">
 </div>
 
-# Etapa 1: criar um gráfico de pizza {.activity}
+# Etapa 1: criar um gráfico circular {.activity}
 
-Os Gráficos de pizza são uma ferramenta útil de apresentar dados. Vamos fazer uma pesquisa sobre os animais favoritos no teu Code Club para depois apresentar os dados na forma de um gráfico de pizza.
+Os Gráficos circulares são uma ferramenta útil de apresentar dados. Vamos fazer uma pesquisa sobre os animais favoritos no teu Code Club para depois apresentar os dados na forma de um gráfico de pizza.
 
 ## Lista de atividades {.check}
 
@@ -34,13 +34,13 @@ Os Gráficos de pizza são uma ferramenta útil de apresentar dados. Vamos fazer
 
 + Abra o modelo em branco do Python Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ Vamos criar um gráfico de pizza para mostrar os resultados do teu inquérito. Utiliza a biblioteca PyGal para fazer um pouco do trabalho mais pesado.
++ Vamos criar um gráfico circular para mostrar os resultados do teu inquérito. Utiliza a biblioteca PyGal para fazer um pouco do trabalho mais pesado.
     
     Primeiro importa a biblioteca Pygal:
     
     ![captura de ecrã](images/pets-pygal.png)
 
-+ Agora vamos criar um gráfico de pizza e renderizar (exibir):
++ Agora vamos criar um gráfico circular e renderizar (exibir):
     
     ![captura de ecrã](images/pets-pie.png)
     
@@ -50,7 +50,7 @@ Os Gráficos de pizza são uma ferramenta útil de apresentar dados. Vamos fazer
     
     ![captura de ecrã](images/pets-add.png)
     
-    Há apenas um dado, pelo que ocupa todo o gráfico de pizza.
+    Há apenas um dado, pelo que ocupa todo o gráfico circular.
 
 + Agora adiciona os restantes dados da mesma forma.
     
@@ -138,7 +138,7 @@ Exemplos:
 
 + Agora vamos adicionar o rótulo e o valor a um novo gráfico de pizza e renderizá-lo:
     
-    ![captura de ecrã](images/pets-pie2.png)
+    ![captura de ecrã](images/pets-pie.png)
     
     Nota que `add` espera que o valor seja um número, `int (value)` transforma o valor de uma sequência de caracteres num número inteiro.
     
@@ -148,20 +148,20 @@ Exemplos:
 
 ## Desafio: cria um novo gráfico a partir de um ficheiro {.challenge}
 
-Podes criar um novo gráfico de barras ou gráfico de pizza a partir de dados num ficheiro? Vais necessitar de criar um novo ficheiro .txt.
+Podes criar um novo gráfico de barras ou gráfico circular a partir de dados num ficheiro? Vais necessitar de criar um novo ficheiro .txt.
 
 Dica: Se quiseres ter espaços nos rótulos, usa `line.split (':')` e adiciona dois pontos ao teu arquivo de dados, por exemplo, 'Red Admiral: 6'
 
 ![captura de ecrã](images/pets-butterflies.png)
 
-## Salva o teu projeto {.save}
+## Guarda o teu projeto {.save}
 
 ## Desafio: Mais gráficos e tabelas! {.challenge}
 
-Consegues criar um gráfico de pizza e um gráfico de barras do mesmo arquivo? Podes utilizar os dados recolhidos anteriormente ou recolher novos dados.
+Consegues criar um gráfico circular e um gráfico de barras do mesmo ficheiro? Podes utilizar os dados recolhidos anteriormente ou recolher novos dados.
 
 ![captura de ecrã](images/pets-pn-bar.png)
 
 ![captura de ecrã](images/pets-pn.png)
 
-## Salva o teu projeto {.save}
+## Guarda o teu projeto {.save}

@@ -1,4 +1,5 @@
 --- challenge ---
+
 ## Challenge: Create your own bar chart
 
 You can create bar charts in a similar way. Just use `barchart = pygal.Bar()` to create a new barchart, and then add data and render in the same way as for a pie chart.

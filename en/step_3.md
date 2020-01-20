@@ -20,13 +20,11 @@ Pie Charts are useful way of showing data. Let's do a survey of favourite pets i
 
     ![screenshot](images/pets-pygal.png)
 
-
 + Now let's create a Pie chart and render (display) it:
 
     ![screenshot](images/pets-pie.png)
 
     Don't worry, it gets more interesting when you add data!
-
 
 + Let's add in the data for one of the pets. Use the data that you collected.
 

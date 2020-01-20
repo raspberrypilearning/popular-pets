@@ -47,7 +47,3 @@ It's useful to be able to store data in a file rather than having to include it 
   Note that `add` expects the value to be a number, `int(value)` turns the value from a string into an integer.
 
   If you wanted to use decimals such as 3.5 (floating point numbers) you could use `float(value)` instead.
-
-
-
-

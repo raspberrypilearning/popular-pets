@@ -1,12 +1,12 @@
 ## Erstelle ein Kreisdiagramm
 
-Kreisdiagramme sind eine nützliche Methode um Daten anzuzeigen. Lassen Sie uns einen Überblick über Ihre Lieblingstiere in Ihrem Code Club geben und die Daten dann als Kreisdiagramm darstellen.
+Kreisdiagramme sind eine nützliche Methode um Daten anzuzeigen. Lass uns eine Umfrage über die Lieblingstiere in deinem Code Club durchführen und das Ergebnis als Kreisdiagramm darstellen.
 
-+ Bitten Sie Ihren Clubleiter, eine Umfrage zu organisieren. Sie können die Ergebnisse auf einem Computer aufzeichnen, der an einen Projektor oder ein Whiteboard angeschlossen ist und von jedem gesehen werden kann.
++ Bitte deinen Clubleiter, eine Umfrage zu organisieren. Du kannst die Ergebnisse mit einem Computer aufnehmen, welcher an einen Projektor angeschlossen ist, oder an einer Tafel, die alle sehen können.
     
-    Schreiben Sie eine Liste mit Haustieren und vergewissern Sie sich, dass jeder Liebling dabei ist.
+    Schreibe eine Liste mit Haustieren und stelle sicher, dass jeder Liebling dabei ist.
     
-    Bringen Sie dann alle dazu, für ihren Favoriten zu stimmen, indem Sie die Hand nach dem Aufruf heben. Nur jeweils eine Stimme!
+    Dann lasse alle für ihr Lieblingstier abstimmen indem sie ihre Hand heben, wenn es aufgerufen wird. Jeder hat nur eine Stimme!
     
     Zum Beispiel:
     

@@ -1,5 +1,6 @@
 
 --- challenge ---
+
 ## Challenge: Create a new chart from a file
 
 Can you create a new bar graph or pie chart from data in a file? You'll need to create a new .txt file.

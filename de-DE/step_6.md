@@ -2,9 +2,9 @@
 
 ## Aufgabe: Noch mehr Diagramme und Grafiken!
 
-Can you create a new bar graph or pie chart from data in a file? You'll need to create a new .txt file.
+Können Sie aus Daten in einer Datei ein neues Balkendiagramm oder Tortendiagramm erstellen? Sie müssen eine neue TXT-Datei erstellen.
 
-Tip: If you want to have spaces in the labels then use `line.split(': ')` and add colons to your data file, e.g. 'Red Admiral: 6'
+Tipp: Wenn Sie Leerzeichen in den Beschriftungen haben möchten, verwenden Sie `line.split (':')` und fügen Sie Ihrer Datendatei Doppelpunkte hinzu, z. B. 'Red Admiral: 6'.
 
 ![screenshot](images/pets-butterflies.png)
 

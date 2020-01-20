@@ -1,6 +1,6 @@
-## Aufgabe: Erstelle dein eigenes Balkendiagramm
+## Erstelle ein Kreisdiagramm
 
-Kreisdiagramme sind eine nützliche Methode zum Anzeigen von Daten. Lassen Sie uns einen Überblick über Ihre Lieblingstiere in Ihrem Code Club geben und die Daten dann als Kreisdiagramm darstellen.
+Kreisdiagramme sind eine nützliche Methode um Daten anzuzeigen. Lassen Sie uns einen Überblick über Ihre Lieblingstiere in Ihrem Code Club geben und die Daten dann als Kreisdiagramm darstellen.
 
 + Bitten Sie Ihren Clubleiter, eine Umfrage zu organisieren. Sie können die Ergebnisse auf einem Computer aufzeichnen, der an einen Projektor oder ein Whiteboard angeschlossen ist und von jedem gesehen werden kann.
     

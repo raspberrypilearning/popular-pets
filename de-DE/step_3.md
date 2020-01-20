@@ -12,11 +12,11 @@ Kreisdiagramme sind eine nützliche Methode um Daten anzuzeigen. Lass uns eine U
     
     ![Screenshot](images/pets-favourite.png)
 
-+ Öffne das leere Python-Vorlage-Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ Öffne die leere Python-Vorlage in Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ Lassen Sie uns ein Kreisdiagramm erstellen, um die Ergebnisse Ihrer Umfrage anzuzeigen. Sie werden die PyGal-Bibliothek verwenden, um einen Teil der harten Arbeit zu erledigen.
++ Lass uns ein Kreisdiagramm erstellen, um die Ergebnisse deiner Umfrage anzuzeigen. Du wirst die PyGal-Bibliothek verwenden, um einen Teil der harten Arbeit zu erledigen.
     
-    Importieren Sie zuerst die Pygal-Bibliothek:
+    Importiere zuerst die PyGal-Bibliothek:
     
     ![Screenshot](images/pets-pygal.png)
 
@@ -24,9 +24,9 @@ Kreisdiagramme sind eine nützliche Methode um Daten anzuzeigen. Lass uns eine U
     
     ![screenshot](images/pets-pie.png)
     
-    Keine Sorge, es wird interessanter, wenn Sie Daten hinzufügen!
+    Keine Sorge, es wird interessanter, wenn du Daten hinzufügst!
 
-+ Lassen Sie uns die Daten für eines der Haustiere hinzufügen. Verwenden Sie die von Ihnen gesammelten Daten.
++ Lass uns die Daten für eines der Haustiere hinzufügen. Verwenden die von dir gesammelten Daten.
     
     ![screenshot](images/pets-add.png)
     

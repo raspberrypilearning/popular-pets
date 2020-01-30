@@ -10,9 +10,11 @@ Poți crea o diagramă circulară și un grafic de bare din același fișier? Po
 
 --- /challenge ---
 
+***
+Acest proiect a fost tradus de voluntarii:
 
-**Traducere realizată de comunitate**
+**Liviu Celcan**
 
-Proiectul a fost tradus de **Liviu Celcan** și verificat de **Cristian Iacob**.
+**Cristian Iacob**
 
-Traducătorii noștri voluntari ne ajută să oferim copiilor din întreaga lume șansa de a învăța să programeze. Ne poți ajuta să ajungem la mai mulți copii, ajutând la traducerea proiectelor noastre – află mai multe pe rpf.io/translators.
+Datorită voluntarilor, putem oferi oamenilor din întreaga lume șansa de a învăța în propria lor limbă. Ne poți ajuta să ajungem la mai multe persoane, ajutând la traducere ca și voluntar - mai multe informații la [rpf.io/translate](https://rpf.io/translate).

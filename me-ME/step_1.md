@@ -1,10 +1,10 @@
-## Uvod
+## Introduction
 
-U ovom projektu izradićeš kružne i stubičaste grafikone od podataka koje prikupiš od članova svog Code Cluba.
+In this project you create pie charts and bar graphs from data that you collect from members of your Code Club.
 
-### Uputstvo
+### Instructions
 
-Kada klikneš na Run, grafikoni se generišu od podataka koristeći python modul PyGal.
+When you click Run the charts are generated from data using the PyGal python module.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/70d24d92b8?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -12,14 +12,14 @@ Kada klikneš na Run, grafikoni se generišu od podataka koristeći python modul
   <img src="images/pets-finished.png">
 </div>
 
-### Šta ćeš naučiti
+### What you will learn
 
-Ovim projektom obuhvaćeni su elementi iz sljedećih dijelova [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-+ [Kombinujte programske konstrukcije za rješavanje problema.](https://www.raspberrypi.org/curriculum/programming/builder/)
++ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder/)
 
-### Dodatne informacije za nastavnike
+### Additional information for educators
 
-Ukoliko je potrebno da odštampate ovaj projekat, koristite [verziju za štampu](https://projects.raspberrypi.org/en/projects/popular-pets/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/popular-pets/print){:target="_blank"}.
 
-Koristite link koji se nalazi u podnožju stranice da pristupite GitHub repozitorijumu za ovaj projekat, koji sadrži sve izvore (uključujući primjer završenog projekta) u 'en/resources' folderu.
+Use the link in the footer to access the GitHub repository for this project, which contains all resources (including an example finished project) in the 'en/resources' folder.

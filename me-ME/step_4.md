@@ -1,24 +1,24 @@
 \--- challenge \---
 
-## Izazov: Izradi sopstveni stubičasti grafikon
+## Challenge: Create your own bar chart
 
-Na sličan način možeš da izrađuješ stubičaste grafikone. Jednostavno koristi `stubicastigraf = pygal.Bar()` za kreiranje novog stubičastog grafikona, a zatim unesi i prikaži podatke na isti način kao za kružni grafikon.
+You can create bar charts in a similar way. Just use `barchart = pygal.Bar()` to create a new barchart, and then add data and render in the same way as for a pie chart.
 
-Za izradu svog stubičastog grafikona prikupi podatke od članova svog Code Cluba.
+Collect data from your Code Club members to create your own bar graph.
 
-Pobrini se da odabereš temu koja će biti poznata svima!
+Make sure that you choose a topic that everyone will know about!
 
-Evo nekoliko ideja:
+Here are some ideas:
 
-+ Koji je tvoj omiljeni sport?
-+ Koji je tvoj omiljeni ukus sladoleda?
-+ Kako dolaziš u školu?
-+ U kojem mjesecu si rođen/rođena?
-+ Igraš li Minecraft? (da/ne)
++ What is your favourite sport?
++ What is your favourite ice cream flavour?
++ How do you get to school?
++ What month is your birthday?
++ Do you play Minecraft? (yes/no)
 
-Ne postavljaj pitanja u kojima se traže lični podaci, kao što je adresa. Ako nisi siguran/sigurna koja pitanja da postaviš, pitaj vođu svog kluba.
+Don't ask questions that give personal data such as where people live. Ask your club leader if you're not sure.
 
-Primjeri:
+Examples:
 
 ![screenshot](images/pets-bar-examples.png)
 

@@ -1,4 +1,4 @@
-\--- meydan okuma \---
+\--- challenge \---
 
 ## Challenge: Create your own bar chart
 
@@ -20,6 +20,6 @@ Don't ask questions that give personal data such as where people live. Ask your 
 
 Examples:
 
-![ekran görüntüsü](images/pets-bar-examples.png)
+![screenshot](images/pets-bar-examples.png)
 
 \--- /challenge \---

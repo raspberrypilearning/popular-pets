@@ -26,19 +26,19 @@ Gráficos de pizza são uma forma útil de mostrar dados. Vamos fazer uma pesqui
     
     Escreva uma lista de animais de estimação e certifique-se de que os favoritos de todos estejam incluídos.
     
-    Depois, faça com que todos votem em seu favorito levantando a mão quando o animal for nomeado. Apenas um voto por pessoa!
+    Then get everyone to vote for their favourite by putting their hand up when it gets called out. Only one vote each!
     
     Por exemplo:
     
-    ![captura de tela](images/pets-favourite.png)
+    ![screenshot](images/pets-favourite.png)
 
-+ Abra o modelo Trinket em branco do Python: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
 + Vamos criar um gráfico de pizza para mostrar os resultados da sua pesquisa. Você usará a biblioteca PyGal para facilitar o trabalho.
     
     Primeiro importe a biblioteca Pygal:
     
-    ![captura de tela](images/pets-pygal.png)
+    ![screenshot](images/pets-pygal.png)
 
 + Agora vamos criar um gráfico de pizza e renderizar (exibir):
     
@@ -48,7 +48,7 @@ Gráficos de pizza são uma forma útil de mostrar dados. Vamos fazer uma pesqui
 
 + Vamos adicionar os dados de um dos animais de estimação. Use os dados que você coletou.
     
-    ![captura de tela](images/pets-add.png)
+    ![screenshot](images/pets-add.png)
     
     Há apenas um dado, então ele ocupa todo o gráfico de pizza.
 
@@ -60,17 +60,17 @@ Gráficos de pizza são uma forma útil de mostrar dados. Vamos fazer uma pesqui
 
 + Para finalizar seu gráfico, adicione um título:
     
-    ![captura de tela](images/pets-title.png)
+    ![screenshot](images/pets-title.png)
 
 ## Salve seu projeto {.save}
 
 ## Desafio: crie seu próprio gráfico de barras {.challenge}
 
-Você pode criar gráficos de barras da mesma forma. Use `grafico_barra = pygal.Bar()` para criar um novo gráfico de barras, e depois adicione os dados e renderize do mesmo jeito que para um gráfico de pizza.
+You can create bar charts in a similar way. Just use `barchart = pygal.Bar()` to create a new barchart, and then add data and render in the same way as for a pie chart.
 
-Colete dados dos membros do seu Code Club para criar seu próprio gráfico de barras.
+Collect data from your Code Club members to create your own bar graph.
 
-Escolha um tópico que todos conheçam!
+Make sure that you choose a topic that everyone will know about!
 
 Aqui estão algumas idéias:
 
@@ -78,7 +78,7 @@ Aqui estão algumas idéias:
 
 + Qual é o seu sabor favorito de sorvete?
 
-+ Como você vai para a escola?
++ How do you get to school?
 
 + Qual é o mês do seu aniversário?
 
@@ -88,61 +88,61 @@ Não faça perguntas que forneçam dados pessoais, como o endereço das pessoas.
 
 Exemplos:
 
-![captura de tela](images/pets-bar-examples.png)
+![screenshot](images/pets-bar-examples.png)
 
 ## Salve seu projeto {.save}
 
 # Passo 2: Ler dados de um arquivo {.activity}
 
-Guarde os dados em um arquivo em vez de incluí-los em seu código.
+It's useful to be able to store data in a file rather than having to include it in your code.
 
 ## Lista de atividades {.check}
 
 + Adicione um novo arquivo ao seu projeto e chame-o de `pets.txt`:
     
-    ![captura de tela](images/pets-file.png)
+    ![screenshot](images/pets-file.png)
 
 + Agora adicione dados ao arquivo. Você pode usar os dados de animais de estimação favoritos que você coletou ou os dados de exemplo.
     
-    ![captura de tela](images/pets-data.png)
+    ![screenshot](images/pets-data.png)
 
-+ Volte para `main.py` e comente as linhas que renderizam (exibem) os gráficos de pizza our de barra (para que não sejam exibidos):
++ Switch back to `main.py` and comment out the lines that render (display) charts and graphs (so that they aren't displayed):
     
-    ![captura de tela](images/pets-comment.png)
+    ![screenshot](images/pets-comment.png)
 
 + Agora vamos ler os dados do arquivo.
     
-    ![captura de tela](images/pets-read.png)
+    ![screenshot](images/pets-read.png)
     
-    O loop `for` fará um laço nas linhas do arquivo. `splitlines()` remove o caractere de nova linha ao final da linha, já que você não quer isso.
+    The `for` loop will loop over the lines in the file. `splitlines()` removes the newline character from the end of the line as you don't want that.
 
-+ Cada linha precisa ser separada em um rótulo e um valor:
++ Each line needs to be separated into a label and a value:
     
-    ![captura de tela](images/pets-split.png)
+    ![screenshot](images/pets-split.png)
     
-    Isso dividirá a linha nos espaços, portanto, não inclua espaços nos rótulos. (Você pode adicionar suporte para espaços em rótulos depois.)
+    This will split the line at the spaces so don't include spaces in the labels. (You can add support for spaces in labels later.)
 
 + Você pode receber um erro como este:
     
-    ![captura de tela](images/pets-error.png)
+    ![screenshot](images/pets-error.png)
     
     Isso acontece se você tiver uma linha vazia no final do seu arquivo.
     
-    Você pode corrigir o erro obtendo o rótulo e o valor apenas se a linha não estiver vazia.
+    You can fix the error by only getting the label and value if the line isn't empty.
     
-    Para fazer isso, indente o código dentro do seu loop `for` e adicione o código `if linha:` acima:
+    To do this, indent the code inside your `for` loop and add the code `if line:` above it:
     
-    ![captura de tela](images/pets-fix.png)
+    ![screenshot](images/pets-fix.png)
 
-+ Você pode remover a linha `print(rotulo, valor)`, agora que está tudo funcionando.
++ You can remove the `print(label, value)` line now everything is working.
 
 + Agora vamos adicionar o rótulo e o valor a um novo gráfico de pizza e renderizá-lo:
     
-    ![captura de tela](images/pets-pie2.png)
+    ![screenshot](images/pets-pie2.png)
     
-    Note que `add` espera que o valor seja um número, `int (valor)` transforma o valor de uma string em um inteiro.
+    Note that `add` expects the value to be a number, `int(value)` turns the value from a string into an integer.
     
-    Se você quiser usar decimais como 3,5 (números de ponto flutuante) você pode usar `float (valor)`.
+    If you wanted to use decimals such as 3.5 (floating point numbers) you could use `float(value)` instead.
 
 ## Salve seu projeto {.save}
 
@@ -152,7 +152,7 @@ Você consegue criar um gráfico de barras ou um gráfico de pizza a partir de d
 
 Dica: Se você quiser espaços nos rótulos, use `linha.split (':')` e adicione dois pontos ao seu arquivo de dados, por exemplo, 'Red Admiral: 6'
 
-![captura de tela](images/pets-butterflies.png)
+![screenshot](images/pets-butterflies.png)
 
 ## Salve seu projeto {.save}
 
@@ -160,8 +160,8 @@ Dica: Se você quiser espaços nos rótulos, use `linha.split (':')` e adicione 
 
 Você consegue criar um gráfico de pizza e um gráfico de barras a partir do mesmo arquivo? Você pode usar os dados coletados anteriormente ou coletar novos dados.
 
-![captura de tela](images/pets-pn-bar.png)
+![screenshot](images/pets-pn-bar.png)
 
-![captura de tela](images/pets-pn.png)
+![screenshot](images/pets-pn.png)
 
 ## Salve seu projeto {.save}

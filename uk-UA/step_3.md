@@ -1,43 +1,43 @@
-## Створення кругової діаграми
+## Create a Pie Chart
 
-Pie Charts are useful way of showing data. Давайте проведемо опитування улюблених домашніх тварин у Вашому Кодексі Клубу, а потім надамо дані у вигляді кругової діаграми.
+Pie Charts are useful way of showing data. Let's do a survey of favourite pets in your Code Club and then present the data as a Pie Chart.
 
-+ Запитайте свого лідера клубу, щоб допомогти організувати опитування. Ви можете записувати результати на комп'ютері, підключеному до проектора або дошки, яку кожен може бачити.
++ Ask your club leader to help organise a survey. You could record the results on a computer connected to a projector or a whiteboard that everyone can see.
     
-    Напишіть список домашніх тварин і переконайтеся, що всі улюблені включені.
+    Write a list of pets and make sure everyone's favourite is included.
     
-    Тоді всі повинні проголосувати за свого улюбленця, поклавши руку вгору, коли його викличе. Тільки один голос кожного!
+    Then get everyone to vote for their favourite by putting their hand up when it gets called out. Only one vote each!
     
-    Наприклад:
+    For example:
     
-    ![скріншот](images/pets-favourite.png)
+    ![screenshot](images/pets-favourite.png)
 
-+ Відкрийте пустий шаблон Python у трінкеті: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ Створімо кругова діаграма, щоб показати результати вашого опитування. Ви будете використовувати бібліотеку PyGal, щоб виконати якусь важку роботу.
++ Let's create a pie chart to show the results of your survey. You'll be using the PyGal library to do some of the hard work.
     
-    Спочатку імпортуйте бібліотеку Pygal:
+    First import the Pygal library:
     
-    ![скріншот](images/pets-pygal.png)
+    ![screenshot](images/pets-pygal.png)
 
-+ Тепер створімо кругову діаграму та візуалізуємо (відображення) її:
++ Now let's create a Pie chart and render (display) it:
     
-    ![скріншот](images/pets-pie.png)
+    ![screenshot](images/pets-pie.png)
     
-    Не хвилюйтеся, коли ви додасте дані, це стає цікавіше!
+    Don't worry, it gets more interesting when you add data!
 
-+ Додамо дані для одного з домашніх тварин. Використовуйте дані, які ви зібрали.
++ Let's add in the data for one of the pets. Use the data that you collected.
     
-    ![знімок екрану](images/pets-add.png)
+    ![screenshot](images/pets-add.png)
     
-    Є лише одна частина даних, тому вона займає всю діаграму.
+    There's only one piece of data so it takes up the whole pie chart.
 
-+ Тепер додайте решту даних таким же чином.
++ Now add the rest of the data in the same way.
     
-    Наприклад:
+    For example:
     
-    ![скріншот](images/pets-add-all.png)
+    ![screenshot](images/pets-add-all.png)
 
-+ Щоб завершити свій графік, додайте заголовок:
++ And to finish off your chart, add a title:
     
-    ![скріншот](images/pets-title.png)
+    ![screenshot](images/pets-title.png)

@@ -1,6 +1,6 @@
 ---
-title: Popularni ljubimci
-description: U ovom projektu kreirat ćeš tortne i stupčaste grafikone od podataka koje sakupiš od članova svog Code Cluba.
+title: Popular Pets
+description: Create pie charts and bar graphs from data you collect.
 notes: "Popular Pets - notes.md"
 layout: project
 new: true
@@ -28,11 +28,11 @@ Pie Charts are are useful way of showing data. Let's do a survey of favourite pe
     
     Then get everyone to vote for their favourite by putting their hand up when it gets called out. Only one vote each!
     
-    Na primjer:
+    For example:
     
     ![screenshot](images/pets-favourite.png)
 
-+ Otvori prazan Python predložak u Trinketu: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
 + Let's create a pie chart to show the results of your survey. You'll be using the PyGal library to do some of the hard work.
     
@@ -54,7 +54,7 @@ Pie Charts are are useful way of showing data. Let's do a survey of favourite pe
 
 + Now add the rest of the data in the same way.
     
-    Na primjer:
+    For example:
     
     ![screenshot](images/pets-add-all.png)
 

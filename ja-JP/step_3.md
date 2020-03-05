@@ -1,43 +1,43 @@
-## 円グラフを作る
+## Create a Pie Chart
 
-Pie Charts are useful way of showing data. コードクラブで大好きなペットについて調査してデータを円グラフにしましょう。
+Pie Charts are useful way of showing data. Let's do a survey of favourite pets in your Code Club and then present the data as a Pie Chart.
 
-+ コードクラブ指導者のひとに頼んで調査を行いましょう。 みんなに見えるように、プロジェクターやホワイトボードに接続されたコンピュータに結果を入力しましょう。
++ Ask your club leader to help organise a survey. You could record the results on a computer connected to a projector or a whiteboard that everyone can see.
     
-    ペットのリストを書き、みんなの大好きなペットが含まれているか確かめましょう。
+    Write a list of pets and make sure everyone's favourite is included.
     
-    好きなペットが呼ばれたら、手をあげてもらって全員に投票してもらいましょう。 一人一票です！
+    Then get everyone to vote for their favourite by putting their hand up when it gets called out. Only one vote each!
     
-    例えば：
+    For example:
     
-    ![スクリーンショット](images/pets-favourite.png)
+    ![screenshot](images/pets-favourite.png)
 
-+ Pythonの空白テンプレートを開き：<a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>
++ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ 調査結果を示す円グラフをつくりましょう。 PyGalライブラリーを使って大変な作業のいくつかを行います。
++ Let's create a pie chart to show the results of your survey. You'll be using the PyGal library to do some of the hard work.
     
-    最初にPygalライブラリーをインポートします。
+    First import the Pygal library:
     
-    ![スクリーンショット](images/pets-pygal.png)
+    ![screenshot](images/pets-pygal.png)
 
-+ 次に円グラフを作って表示しましょう。
++ Now let's create a Pie chart and render (display) it:
     
-    ![スクリーンショット](images/pets-pie.png)
+    ![screenshot](images/pets-pie.png)
     
-    心配いりません。データを加えればもっと面白くなりますよ！
+    Don't worry, it gets more interesting when you add data!
 
-+ ペットの種類の一つにデータを加えてみましょう。 受け取ったデータを使います。
++ Let's add in the data for one of the pets. Use the data that you collected.
     
-    ![スクリーンショット](images/pets-add.png)
+    ![screenshot](images/pets-add.png)
     
-    データが一つしかないので、円グラフには一色しかありません。
+    There's only one piece of data so it takes up the whole pie chart.
 
-+ 次に残りのデータを同じように加えます。
++ Now add the rest of the data in the same way.
     
-    例えば:
+    For example:
     
-    ![スクリーンショット](images/pets-add-all.png)
+    ![screenshot](images/pets-add-all.png)
 
-+ グラフの名前を付けて完成です。
++ And to finish off your chart, add a title:
     
-    ![スクリーンショット](images/pets-title.png)
+    ![screenshot](images/pets-title.png)

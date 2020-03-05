@@ -1,25 +1,25 @@
 \--- challenge \---
 
-## Daten von einer Datei ablesen
+## Challenge: Create your own bar chart
 
-Sie können Balkendiagramme auf ähnliche Weise erstellen. Verwenden Sie einfach `barchart = pygal.Bar ()` , um ein neues Balkendiagramm zu erstellen, fügen Sie Daten hinzu und rendern Sie es wie für ein Kreisdiagramm.
+You can create bar charts in a similar way. Just use `barchart = pygal.Bar()` to create a new barchart, and then add data and render in the same way as for a pie chart.
 
-Sammeln Sie Daten von Ihren Code Club-Mitgliedern, um Ihr eigenes Balkendiagramm zu erstellen.
+Collect data from your Code Club members to create your own bar graph.
 
-Stellen Sie sicher, dass Sie ein Thema auswählen, über das jeder Bescheid weiß!
+Make sure that you choose a topic that everyone will know about!
 
-Hier sind ein paar Vorschläge:
+Here are some ideas:
 
-+ Was ist dein Lieblingssport?
-+ Was ist Ihr Lieblingseisgeschmack?
-+ Wie kommst du zur Schule?
-+ In welchem Monat hast du Geburtstag?
-+ Spielst du Minecraft? (ja Nein)
++ What is your favourite sport?
++ What is your favourite ice cream flavour?
++ How do you get to school?
++ What month is your birthday?
++ Do you play Minecraft? (yes/no)
 
-Stellen Sie keine Fragen, die personenbezogene Daten enthalten, z. B. wo Menschen leben. Fragen Sie Ihren Clubleiter, wenn Sie sich nicht sicher sind.
+Don't ask questions that give personal data such as where people live. Ask your club leader if you're not sure.
 
-Beispiele:
+Examples:
 
-![Screenshot](images/pets-bar-examples.png)
+![screenshot](images/pets-bar-examples.png)
 
-Und ergänze den CSS-Code in <0>style.css</0>, um das Bild zu positionieren.
+\--- /challenge \---

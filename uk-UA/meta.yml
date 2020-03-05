@@ -1,15 +1,15 @@
 ---
 hero_image: images/popular-pets.png
-theme: жовтий
+theme: yellow
 duration: 2
 listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Популярні домашні тварини
-description: Створюйте кругові діаграми та стрічкові графіки з даних, які ви збираєте.
+title: Popular Pets
+description: Create pie charts and bar graphs from data you collect.
 original_url: https://codeclubprojects.org/en-GB/python/popular-pets
-interests: тварини
+interests: animals
 technologies: python
 site_areas: projects
 hardware: ''
@@ -18,16 +18,16 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: З днем народження
+    title: Introduction
   - 
-    title: Що вам знадобиться
+    title: What you will need
   - 
-    title: Створення кругової діаграми
+    title: Create a Pie Chart
   - 
-    title: 'Виклик: створіть власну діаграму'
+    title: 'Challenge: Create your own bar chart'
   - 
-    title: Читати дані з файлу
+    title: Read data from a file
   - 
-    title: 'Виклик: створити нову діаграму з файлу'
+    title: 'Challenge: Create a new chart from a file'
   - 
-    title: 'Виклик: більше діаграм та графіків!'
+    title: 'Challenge: More charts and graphs!'

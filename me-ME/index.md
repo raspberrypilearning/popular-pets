@@ -1,14 +1,14 @@
 ---
-title: Popularni ljubimci
-description: Izradi kružne i stubičaste grafikone od prikupljenih podataka.
-notes: "Popularni ljubimci - notes.md"
+title: Popular Pets
+description: Create pie charts and bar graphs from data you collect.
+notes: "Popular Pets - notes.md"
 layout: project
 new: true
 ---
 
-# Uvod {.intro}
+# Introduction {.intro}
 
-U ovom projektu izradićeš kružne i stubičaste grafikone od podataka koje prikupiš od članova svog Code Cluba.
+In this project you create pie charts and bar graphs from data that you collect from members of your Code Club.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/70d24d92b8?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -16,152 +16,152 @@ U ovom projektu izradićeš kružne i stubičaste grafikone od podataka koje pri
   <img src="images/pets-finished.png">
 </div>
 
-# Korak 1: Izradi kružni grafikon {.activity}
+# Step 1: Create a Pie Chart {.activity}
 
-Kružni grafikoni su koristan način prikazivanja podataka. Sprovedimo anketu o omiljenim kućnim ljubimcima u tvom Code Clubu, a zatim prikažimo podatke u obliku kružnog grafikona.
+Pie Charts are are useful way of showing data. Let's do a survey of favourite pets in your Code Club and then present the data as a Pie Chart.
 
-## Zadaci {.check}
+## Activity Checklist {.check}
 
-+ Zamoli svog volontera da ti pomogne u organizovanju ankete. Rezultate možeš da zabilježiš na računaru povezanom sa projektorom ili na tabli, tako da svi mogu da ih vide.
++ Ask your volunteer to help organise a survey. You could record the results on a computer connected to a projector or a whiteboard that everyone can see.
     
-    Napiši spisak kućnih ljubimaca i pobrini se da na spisku budu svi omiljeni ljubimci učesnika ankete.
+    Write a list of pets and make sure everyone's favourite is included.
     
-    Zatim neka svako glasa za svog omiljenog ljubimca tako što će podići ruku kada bude prozvan taj ljubimac. Svako glasa samo jednom!
+    Then get everyone to vote for their favourite by putting their hand up when it gets called out. Only one vote each!
     
-    Na primjer:
+    For example:
     
     ![screenshot](images/pets-favourite.png)
 
-+ Otvori prazan Python šablon u Trinketu: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ Izradimo kružni grafikon u kojem će biti prikazani rezutati tvoje ankete. Koristićeš PyGal biblioteku za neke teže dijelove.
++ Let's create a pie chart to show the results of your survey. You'll be using the PyGal library to do some of the hard work.
     
-    Prvo uvezi Pygal biblioteku:
+    First import the Pygal library:
     
     ![screenshot](images/pets-pygal.png)
 
-+ Sada napravimo kružni grafikon i vizuelizujmo ga (prikažimo ga):
++ Now let's create a Pie chart and render (display) it:
     
     ![screenshot](images/pets-pie.png)
     
-    Ne brini, biće zanimljiviji kada dodaš podatke!
+    Don't worry, it gets more interesting when you add data!
 
-+ Dodajmo podatke za jednog od ljubimaca. Koristi podatke koje si prikupio/prikupila.
++ Let's add in the data for one of the pets. Use the data that you collected.
     
     ![screenshot](images/pets-add.png)
     
-    Pošto smo unijeli samo jedan podatak, on zauzima čitav kružni grafikon.
+    There's only one piece of data so it takes up the whole pie chart.
 
-+ Sada na isti način dodaj ostale podatke.
++ Now add the rest of the data in the same way.
     
-    Na primjer:
+    For example:
     
     ![screenshot](images/pets-add-all.png)
 
-+ Dodaj naslov da dovršiš svoj grafikon:
++ And to finish off your chart, add a title:
     
     ![screenshot](images/pets-title.png)
 
-## Sačuvaj svoj projekat {.save}
+## Save Your Project {.save}
 
-## Izazov: Izradi sopstveni stubičasti grafikon {.challenge}
+## Challenge: Create your own bar chart {.challenge}
 
-Na sličan način možeš da izrađuješ stubičaste grafikone. Jednostavno koristi `stubicastigraf = pygal.Bar()` za kreiranje novog stubičastog grafikona, a zatim unesi i prikaži podatke na isti način kao za kružni grafikon.
+You can create bar charts in a similar way. Just use `barchart = pygal.Bar()` to create a new barchart, and then add data and render in the same way as for a pie chart.
 
-Za izradu svog stubičastog grafikona prikupi podatke od članova svog Code Cluba.
+Collect data from your Code Club members to create your own bar graph.
 
-Pobrini se da odabereš temu koja će biti poznata svima!
+Make sure that you choose a topic that everyone will know about!
 
-Evo nekoliko ideja:
+Here are some ideas:
 
-+ Koji je tvoj omiljeni sport?
++ What is your favourite sport?
 
-+ Koji je tvoj omiljeni ukus sladoleda?
++ What is your favourite ice cream flavour?
 
-+ Kako dolaziš u školu?
++ How do you get to school?
 
-+ U kojem mjesecu si rođen/rođena?
++ What month is your birthday?
 
-+ Igraš li Minecraft? (da/ne)
++ Do you play Minecraft? (yes/no)
 
-Ne postavljaj pitanja u kojima se traže lični podaci, kao što je adresa. Ako nisi siguran/sigurna koja pitanja da postaviš, pitaj vođu svog kluba.
+Don't ask questions that give personal data such as where people live. Ask your club leader if you're not sure.
 
-Primjeri:
+Examples:
 
 ![screenshot](images/pets-bar-examples.png)
 
-## Sačuvaj svoj projekat {.save}
+## Save Your Project {.save}
 
-# Korak 2: Čitaj podatke iz datoteke {.activity}
+# Step 2: Read data from a file {.activity}
 
-Umjesto da upisuješ podatke u svoj kôd, korisnije je da ih smjestiš u datoteku.
+It's useful to be able to store data in a file rather than having to include it in your code.
 
-## Zadaci {.check}
+## Activity Checklist {.check}
 
-+ Dodaj novu datoteku u svoj projekat i nazovi je `ljubimci.txt`:
++ Add a new file to your project and call it `pets.txt`:
     
     ![screenshot](images/pets-file.png)
 
-+ Sada upiši podatke u datoteku. Možeš da koristiš podatke o omiljenim ljubimcima koje si prikupio/prikupila ili podatke iz primjera.
++ Now add data to the file. You can use the favourite pets data that you collected or the example data.
     
     ![screenshot](images/pets-data.png)
 
-+ Pređi na `main.py` i komentariši redove koji vizuelizuju (prikazuju) grafikone (tako da ne budu prikazani):
++ Switch back to `main.py` and comment out the lines that render (display) charts and graphs (so that they aren't displayed):
     
     ![screenshot](images/pets-comment.png)
 
-+ Sada učitajmo podatke iz datoteke.
++ Now let's read the data from the file.
     
     ![screenshot](images/pets-read.png)
     
-    Petlja `for` će prolaziti kroz sve redove u datoteci. Funkcija `splitlines()` uklanja znak za novi red sa kraja reda, pošto to ne želimo.
+    The `for` loop will loop over the lines in the file. `splitlines()` removes the newline character from the end of the line as you don't want that.
 
-+ Svaki red mora biti podijeljen na naziv i vrijednost:
++ Each line needs to be separated into a label and a value:
     
     ![screenshot](images/pets-split.png)
     
-    Ovo će podijeliti red tamo gdje su razmaci, pa nemoj unositi razmake u nazive. (Kasnije možeš da dodaš opciju za razmake u nazivima.)
+    This will split the line at the spaces so don't include spaces in the labels. (You can add support for spaces in labels later.)
 
-+ Možda ćeš dobiti poruku o grešci kao što je ova:
++ You might get an error like this:
     
     ![screenshot](images/pets-error.png)
     
-    To se dešava ako na kraju svoje datoteke imaš prazan red.
+    This happens if you have an empty line at the end of your file.
     
-    Grešku možeš ispraviti tako da se naziv i vrijednost ispisuju samo ako red nije prazan.
+    You can fix the error by only getting the label and value if the line isn't empty.
     
-    Da to napraviš, uvuci kôd unutar svoje `for` petlje i dodaj kôd `if red:` iznad njega:
+    To do this, indent the code inside your `for` loop and add the code `if line:` above it:
     
     ![screenshot](images/pets-fix.png)
 
-+ Sada kada sve funkcioniše, možeš da ukloniš red `print(naziv, vrijednost)`.
++ You can remove the `print(label, value)` line now everything is working.
 
-+ Sada dodajmo naziv i vrijednost novom stubičastom grafikonu i prikažimo ga:
++ Now let's add the label and value to a new Pie Chart and render it:
     
     ![screenshot](images/pets-pie2.png)
     
-    Imaj u vidu da `add` očekuje da vrijednost bude broj, a `int(vrijednost)` pretvara vrijednost iz znakovnog niza u integer.
+    Note that `add` expects the value to be a number, `int(value)` turns the value from a string into an integer.
     
-    Ako želiš da koristiš decimalne brojeve kao što je 3.5 (broj sa pokretnom tačkom), možeš da koristiš `float(vrijednost)`.
+    If you wanted to use decimals such as 3.5 (floating point numbers) you could use `float(value)` instead.
 
-## Sačuvaj svoj projekat {.save}
+## Save Your Project {.save}
 
-## Izazov: Izradi novi grafikon od podataka iz datoteke {.challenge}
+## Challenge: Create a new chart from a file {.challenge}
 
-Možeš li da izradiš novi stubičasti ili kružni grafikon koristeći podatke iz datoteke? Biće potrebno da kreiraš novu .txt datoteku.
+Can you create a new bar graph or pie chart from data in a file? You'll need to create a new .txt file.
 
-Savjet: Ako želiš da imaš razmake u nazivima, koristi `red.split(': ')` i dodaj dvotačke u svoje podatke u datoteci, na primjer 'Crveni admiral: 6'.
+Tip: If you want to have spaces in the labels then use `line.split(': ')` and add colons to your data file, e.g. 'Red Admiral: 6'
 
 ![screenshot](images/pets-butterflies.png)
 
-## Sačuvaj svoj projekat {.save}
+## Save Your Project {.save}
 
-## Izazov: Još grafikona! {.challenge}
+## Challenge: More charts and graphs! {.challenge}
 
-Možeš li da izradiš kružni i stubičasti grafikon koristeći podatke iz iste datoteke? Možeš da koristiš već prikupljene podatke ili da prikupiš nove.
+Can you create a pie chart and a bar chart from the same file? You can either use the data you collected earlier or collect some new data.
 
 ![screenshot](images/pets-pn-bar.png)
 
 ![screenshot](images/pets-pn.png)
 
-## Sačuvaj svoj projekat {.save}
+## Save Your Project {.save}

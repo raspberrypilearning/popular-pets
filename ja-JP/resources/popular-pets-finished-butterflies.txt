@@ -1,5 +1,5 @@
-レッドアドミラル: 6
-ゲートキーパー: 4
-スモールホワイト: 3
-ホーリーブルー: 3
-メドーブラウン: 5
+Red Admiral: 6
+Gatekeeper: 4
+Small White: 3
+Holly Blue: 3
+Meadow Brown: 5

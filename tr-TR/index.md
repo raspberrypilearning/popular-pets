@@ -1,14 +1,14 @@
 ---
-title: Popüler Evcil Hayvanlar
-description: Topladığınız verilerden pasta grafikler ve çubuk grafikler oluşturun.
-notes: "Popüler Evcil Hayvanlar - notes.md"
-layout: proje
-new: doğru
+title: Popular Pets
+description: Create pie charts and bar graphs from data you collect.
+notes: "Popular Pets - notes.md"
+layout: project
+new: true
 ---
 
-# Giriş {.intro}
+# Introduction {.intro}
 
-Bu projede, Kod Kulübünüzün üyelerinden topladığınız verilerden pasta grafikler ve çubuk grafikler oluşturacaksınız.
+In this project you create pie charts and bar graphs from data that you collect from members of your Code Club.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/70d24d92b8?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -18,113 +18,113 @@ Bu projede, Kod Kulübünüzün üyelerinden topladığınız verilerden pasta g
 
 # Step 1: Create a Pie Chart {.activity}
 
-Pasta Grafikler, verileri göstermenin kullanışlı bir yoludur. Kod Kulübünüzde en sevdiğiniz evcil hayvanlar hakkında bir anket yapalım ve ardından verileri Pasta Grafiği olarak sunalım.
+Pie Charts are are useful way of showing data. Let's do a survey of favourite pets in your Code Club and then present the data as a Pie Chart.
 
-## Etkinlik Kontrol Listesi {.check}
+## Activity Checklist {.check}
 
-+ Gönüllünüzden bir anket düzenlemesine yardımcı olmasını isteyin. Sonuçları, herkesin görebileceği bir projektöre bağlı bilgisayara veya beyaz tahtaya kaydedebilirsiniz.
++ Ask your volunteer to help organise a survey. You could record the results on a computer connected to a projector or a whiteboard that everyone can see.
     
-    Bir evcil hayvan listesi yazın ve herkesin favorisinin dahil edildiğinden emin olun.
+    Write a list of pets and make sure everyone's favourite is included.
     
-    Ardından herkesin favorisi seslenildiğinde elini yukarı kaldırarak oy vermesini sağlayın. Her bir seçenek için sadece bir oy!
+    Then get everyone to vote for their favourite by putting their hand up when it gets called out. Only one vote each!
     
-    Örneğin:
+    For example:
     
-    ![ekran görüntüsü](images/pets-favourite.png)
+    ![screenshot](images/pets-favourite.png)
 
-+ Trinket'ta boş Python şablonunu açın: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ Anketinizin sonuçlarını göstermek için bir pasta grafiği oluşturalım. Zor işleri yapması için PyGal kütüphanesini kullanacaksınız.
++ Let's create a pie chart to show the results of your survey. You'll be using the PyGal library to do some of the hard work.
     
-    İlk önce Pygal kütüphanesini içe aktarın:
+    First import the Pygal library:
     
-    ![ekran görüntüsü](images/pets-pygal.png)
+    ![screenshot](images/pets-pygal.png)
 
-+ Şimdi bir Pasta grafiği oluşturalım ve ekrana yansıtalım (görüntüleyelim):
++ Now let's create a Pie chart and render (display) it:
     
-    ![ekran görüntüsü](images/pets-pie.png)
+    ![screenshot](images/pets-pie.png)
     
-    Endişelenmeyin, veri eklediğinizde daha ilginç hale gelecektir!
+    Don't worry, it gets more interesting when you add data!
 
-+ Evcil hayvanlardan birinin verilerini ekleyelim. Topladığınız verileri kullanın.
++ Let's add in the data for one of the pets. Use the data that you collected.
     
-    ![ekran görüntüsü](images/pets-add.png)
+    ![screenshot](images/pets-add.png)
     
-    Sadece bir veri parçası var, bu yüzden bütün pasta grafiğini kaplıyor.
+    There's only one piece of data so it takes up the whole pie chart.
 
-+ Şimdi diğer verileri de aynı şekilde ekleyin.
++ Now add the rest of the data in the same way.
     
-    Örneğin:
+    For example:
     
-    ![ekran görüntüsü](images/pets-add-all.png)
+    ![screenshot](images/pets-add-all.png)
 
-+ En sonunda grafiğinizi bitirmek için bir başlık ekleyin:
++ And to finish off your chart, add a title:
     
-    ![ekran görüntüsü](images/pets-title.png)
+    ![screenshot](images/pets-title.png)
 
-## Projenizi Kaydedin {.save}
+## Save Your Project {.save}
 
-## Meydan okuma: Kendi çubuk grafiğinizi oluşturun {.challenge}
+## Challenge: Create your own bar chart {.challenge}
 
-Benzer şekilde çubuk grafikler de oluşturabilirsiniz. Yeni bir çubuk grafiği oluşturmak için `cubukgrafik = pygal.Bar ()` kodunu kullanın, ardından verileri ekleyin ve pasta grafiğiyle aynı şekilde ekranda görüntüleyin.
+You can create bar charts in a similar way. Just use `barchart = pygal.Bar()` to create a new barchart, and then add data and render in the same way as for a pie chart.
 
-Kendi çubuk grafiğinizi oluşturmak için Kod Kulübü üyelerinizden veri toplayın.
+Collect data from your Code Club members to create your own bar graph.
 
-Herkesin bileceği bir konu seçtiğinizden emin olun!
+Make sure that you choose a topic that everyone will know about!
 
-Birkaç tane fikir:
+Here are some ideas:
 
-+ En sevdiğin spor ne?
++ What is your favourite sport?
 
-+ En sevdiğin dondurma aroması nedir?
++ What is your favourite ice cream flavour?
 
-+ Okula nasıl gidiyorsun?
++ How do you get to school?
 
-+ Hangi ayda doğdun?
++ What month is your birthday?
 
-+ Minecraft oynuyor musun? (Evet Hayır)
++ Do you play Minecraft? (yes/no)
 
-İnsanların nerede yaşadıkları gibi kişisel veriler içeren sorular sormayın. Emin değilseniz kulüp liderinize sorun.
+Don't ask questions that give personal data such as where people live. Ask your club leader if you're not sure.
 
-Örnekler:
+Examples:
 
-![ekran görüntüsü](images/pets-bar-examples.png)
+![screenshot](images/pets-bar-examples.png)
 
-## Projenizi Kaydedin {.save}
+## Save Your Project {.save}
 
-# 2. Adım: Bir dosyadan veri okuma {.activity}
+# Step 2: Read data from a file {.activity}
 
-Kodunuza dahil etmek yerine verileri bir dosyada depolamak daha kullanışlıdır.
+It's useful to be able to store data in a file rather than having to include it in your code.
 
-## Etkinlik Kontrol Listesi {.check}
+## Activity Checklist {.check}
 
-+ Projenize yeni bir dosya ekleyin ve dosyaya `evciller.txt` adını verin:
++ Add a new file to your project and call it `pets.txt`:
     
-    ![ekran görüntüsü](images/pets-file.png)
+    ![screenshot](images/pets-file.png)
 
-+ Şimdi dosyaya veriyi ekleyin. Topladığınız favori evcil hayvan verilerini veya örnek verileri kullanabilirsiniz.
++ Now add data to the file. You can use the favourite pets data that you collected or the example data.
     
-    ![ekran görüntüsü](images/pets-data.png)
+    ![screenshot](images/pets-data.png)
 
 + Switch back to `main.py` and comment out the lines that render (display) charts and graphs (so that they aren't displayed):
     
-    ![ekran görüntüsü](images/pets-comment.png)
+    ![screenshot](images/pets-comment.png)
 
 + Now let's read the data from the file.
     
-    ![ekran görüntüsü](images/pets-read.png)
+    ![screenshot](images/pets-read.png)
     
     The `for` loop will loop over the lines in the file. `splitlines()` removes the newline character from the end of the line as you don't want that.
 
 + Each line needs to be separated into a label and a value:
     
-    ![ekran görüntüsü](images/pets-split.png)
+    ![screenshot](images/pets-split.png)
     
     This will split the line at the spaces so don't include spaces in the labels. (You can add support for spaces in labels later.)
 
 + You might get an error like this:
     
-    ![ekran görüntüsü](images/pets-error.png)
+    ![screenshot](images/pets-error.png)
     
     This happens if you have an empty line at the end of your file.
     
@@ -132,13 +132,13 @@ Kodunuza dahil etmek yerine verileri bir dosyada depolamak daha kullanışlıdı
     
     To do this, indent the code inside your `for` loop and add the code `if line:` above it:
     
-    ![ekran görüntüsü](images/pets-fix.png)
+    ![screenshot](images/pets-fix.png)
 
 + You can remove the `print(label, value)` line now everything is working.
 
 + Now let's add the label and value to a new Pie Chart and render it:
     
-    ![ekran görüntüsü](images/pets-pie2.png)
+    ![screenshot](images/pets-pie2.png)
     
     Note that `add` expects the value to be a number, `int(value)` turns the value from a string into an integer.
     
@@ -152,7 +152,7 @@ Can you create a new bar graph or pie chart from data in a file? You'll need to 
 
 Tip: If you want to have spaces in the labels then use `line.split(': ')` and add colons to your data file, e.g. 'Red Admiral: 6'
 
-![ekran görüntüsü](images/pets-butterflies.png)
+![screenshot](images/pets-butterflies.png)
 
 ## Save Your Project {.save}
 
@@ -160,8 +160,8 @@ Tip: If you want to have spaces in the labels then use `line.split(': ')` and ad
 
 Can you create a pie chart and a bar chart from the same file? You can either use the data you collected earlier or collect some new data.
 
-![ekran görüntüsü](images/pets-pn-bar.png)
+![screenshot](images/pets-pn-bar.png)
 
-![ekran görüntüsü](images/pets-pn.png)
+![screenshot](images/pets-pn.png)
 
 ## Save Your Project {.save}

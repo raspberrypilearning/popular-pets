@@ -1,2 +1,2 @@
-海賊 50
-忍者 50
+pirates 50
+ninjas 50

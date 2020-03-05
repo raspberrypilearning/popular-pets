@@ -1,49 +1,49 @@
-## Aufgabe: Erstelle ein neues Diagramm aus einer Datei
+## Read data from a file
 
-Es ist nützlich, Daten in einer Datei speichern zu können, anstatt sie in den Code aufnehmen zu müssen.
+It's useful to be able to store data in a file rather than having to include it in your code.
 
-+ Fügen Sie Ihrem Projekt eine neue Datei hinzu und nennen Sie sie `pets.txt`:
++ Add a new file to your project and call it `pets.txt`:
     
-    ![Screenshot](images/pets-file.png)
+    ![screenshot](images/pets-file.png)
 
-+ Fügen Sie nun der Datei Daten hinzu. Sie können die von Ihnen gesammelten Lieblingshaustierdaten oder die Beispieldaten verwenden.
++ Now add data to the file. You can use the favourite pets data that you collected or the example data.
     
     ![screenshot](images/pets-data.png)
 
-+ Wechseln Sie zurück zu `main.py` und kommentieren Sie die Linien aus, die Diagramme und Grafiken rendern (anzeigen) (damit sie nicht angezeigt werden):
++ Switch back to `main.py` and comment out the lines that render (display) charts and graphs (so that they aren't displayed):
     
-    ![Screenshot](images/pets-comment.png)
+    ![screenshot](images/pets-comment.png)
 
-+ Lesen wir nun die Daten aus der Datei.
++ Now let's read the data from the file.
     
     ![screenshot](images/pets-read.png)
     
-    Die `für` Schleife durchläuft die Zeilen in der Datei. `splitlines ()` entfernt das Zeilenumbruchzeichen vom Zeilenende, da Sie das nicht wollen.
+    The `for` loop will loop over the lines in the file. `splitlines()` removes the newline character from the end of the line as you don't want that.
 
-+ Jede Zeile muss in eine Bezeichnung und einen Wert getrennt werden:
++ Each line needs to be separated into a label and a value:
     
     ![screenshot](images/pets-split.png)
     
-    Dadurch wird die Linie an den Leerzeichen geteilt. Fügen Sie also keine Leerzeichen in die Beschriftungen ein. (Sie können später die Unterstützung für Leerzeichen in Beschriftungen hinzufügen.)
+    This will split the line at the spaces so don't include spaces in the labels. (You can add support for spaces in labels later.)
 
-+ Möglicherweise erhalten Sie folgende Fehlermeldung:
++ You might get an error like this:
     
-    ![Screenshot](images/pets-error.png)
+    ![screenshot](images/pets-error.png)
     
-    Dies passiert, wenn Sie am Ende Ihrer Datei eine leere Zeile haben.
+    This happens if you have an empty line at the end of your file.
     
-    Sie können den Fehler beheben, indem Sie nur die Bezeichnung und den Wert abrufen, wenn die Zeile nicht leer ist.
+    You can fix the error by only getting the label and value if the line isn't empty.
     
-    Um dies zu tun, rücken Sie den Code in Ihre `für` Schleife ein und fügen Sie den Code `wenn Zeile:` darüber:
+    To do this, indent the code inside your `for` loop and add the code `if line:` above it:
     
-    ![Screenshot](images/pets-fix.png)
+    ![screenshot](images/pets-fix.png)
 
-+ Sie können die Zeile `print (label, value)` entfernen, jetzt funktioniert alles.
++ You can remove the `print(label, value)` line now everything is working.
 
-+ Fügen wir nun die Bezeichnung und den Wert zu einem neuen Kreisdiagramm hinzu und rendern Sie es:
++ Now let's add the label and value to a new Pie Chart and render it:
     
-    ![Screenshot](images/pets-pie2.png)
+    ![screenshot](images/pets-pie2.png)
     
-    Beachten Sie, dass `add` ausgeht, dass der Wert eine Zahl ist. `int (value)` wandelt den Wert einer Zeichenfolge in eine Ganzzahl um.
+    Note that `add` expects the value to be a number, `int(value)` turns the value from a string into an integer.
     
-    Wenn Sie Dezimalzahlen wie 3,5 (Gleitkommazahlen) verwenden möchten, können Sie stattdessen `float (Wert)` verwenden.
+    If you wanted to use decimals such as 3.5 (floating point numbers) you could use `float(value)` instead.

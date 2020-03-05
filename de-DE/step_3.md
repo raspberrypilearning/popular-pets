@@ -1,43 +1,43 @@
-## Erstelle ein Kreisdiagramm
+## Create a Pie Chart
 
-Kreisdiagramme sind eine nützliche Methode um Daten anzuzeigen. Lass uns eine Umfrage über die Lieblingstiere in deinem Code Club durchführen und das Ergebnis als Kreisdiagramm darstellen.
+Pie Charts are useful way of showing data. Let's do a survey of favourite pets in your Code Club and then present the data as a Pie Chart.
 
-+ Bitte deinen Clubleiter, eine Umfrage zu organisieren. Du kannst die Ergebnisse mit einem Computer aufnehmen, welcher an einen Projektor angeschlossen ist, oder an einer Tafel, die alle sehen können.
++ Ask your club leader to help organise a survey. You could record the results on a computer connected to a projector or a whiteboard that everyone can see.
     
-    Schreibe eine Liste mit Haustieren und stelle sicher, dass jeder Liebling dabei ist.
+    Write a list of pets and make sure everyone's favourite is included.
     
-    Dann lasse alle für ihr Lieblingstier abstimmen indem sie ihre Hand heben, wenn es aufgerufen wird. Jeder hat nur eine Stimme!
+    Then get everyone to vote for their favourite by putting their hand up when it gets called out. Only one vote each!
     
-    Zum Beispiel:
+    For example:
     
-    ![Screenshot](images/pets-favourite.png)
+    ![screenshot](images/pets-favourite.png)
 
-+ Öffne die leere Python-Vorlage in Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ Lass uns ein Kreisdiagramm erstellen, um die Ergebnisse deiner Umfrage anzuzeigen. Du wirst die PyGal-Bibliothek verwenden, um einen Teil der harten Arbeit zu erledigen.
++ Let's create a pie chart to show the results of your survey. You'll be using the PyGal library to do some of the hard work.
     
-    Importiere zuerst die PyGal-Bibliothek:
+    First import the Pygal library:
     
-    ![Screenshot](images/pets-pygal.png)
+    ![screenshot](images/pets-pygal.png)
 
-+ Jetzt erstellen wir ein Kreisdiagramm und rendern es (zeigen es an):
++ Now let's create a Pie chart and render (display) it:
     
     ![screenshot](images/pets-pie.png)
     
-    Keine Sorge, es wird interessanter, wenn du Daten hinzufügst!
+    Don't worry, it gets more interesting when you add data!
 
-+ Lass uns die Daten für eines der Haustiere hinzufügen. Verwenden die von dir gesammelten Daten.
++ Let's add in the data for one of the pets. Use the data that you collected.
     
     ![screenshot](images/pets-add.png)
     
-    Es gibt nur ein Datenelement, sodass es das gesamte Kreisdiagramm einnimmt.
+    There's only one piece of data so it takes up the whole pie chart.
 
-+ Fügen Sie nun den Rest der Daten auf die gleiche Weise hinzu.
++ Now add the rest of the data in the same way.
     
-    Zum Beispiel:
+    For example:
     
-    ![Screenshot](images/pets-add-all.png)
+    ![screenshot](images/pets-add-all.png)
 
-+ Und um Ihr Diagramm zu vervollständigen, fügen Sie einen Titel hinzu:
++ And to finish off your chart, add a title:
     
-    ![Screenshot](images/pets-title.png)
+    ![screenshot](images/pets-title.png)

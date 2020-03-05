@@ -1,5 +1,5 @@
-Red Admiral: 6
-Gatekeeper: 4
-Small White: 3
-Holly Blue: 3
-Meadow Brown: 5
+الأميرة الحمراء: 6
+حارس البوابة: 4
+البيضاء: 3
+الزرقاء: 3
+البومة الضخمة: 5

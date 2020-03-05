@@ -7,7 +7,7 @@ ingredient: false
 copyedit: false
 curriculum: 1, design-0, programação-1, phys-comp-0, fabricação-0, comunidade-0
 title: Animais de estimação populares
-description: Cria gráficos circulares e gráficos de barras a partir dos dados recolhidos.
+description: Create pie charts and bar graphs from data you collect.
 original_url: https://codeclubprojects.org/en-GB/python/popular-pets
 interests: animais
 technologies: python
@@ -20,14 +20,14 @@ steps:
   - 
     title: Introdução
   - 
-    title: O que vais precisar
+    title: What you will need
   - 
-    title: Cria um gráfico circular
+    title: Create a Pie Chart
   - 
-    title: 'Desafio: cria o teu próprio gráfico de barras'
+    title: 'Challenge: Create your own bar chart'
   - 
-    title: Ler dados de um ficheiro
+    title: Read data from a file
   - 
-    title: 'Desafio: Cria um novo gráfico a partir de um ficheiro'
+    title: 'Challenge: Create a new chart from a file'
   - 
     title: 'Desafio: Mais gráficos e tabelas!'

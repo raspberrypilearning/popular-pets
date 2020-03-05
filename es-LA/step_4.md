@@ -20,6 +20,6 @@ Don't ask questions that give personal data such as where people live. Ask your 
 
 Examples:
 
-![captura de pantalla](images/pets-bar-examples.png)
+![screenshot](images/pets-bar-examples.png)
 
 \--- /challenge \---

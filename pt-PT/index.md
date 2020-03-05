@@ -138,7 +138,7 @@ Exemplos:
 
 + Agora vamos adicionar o rótulo e o valor a um novo gráfico de pizza e renderizá-lo:
     
-    ![captura de ecrã](images/pets-pie.png)
+    ![captura de ecrã](images/pets-pie2.png)
     
     Nota que `add` espera que o valor seja um número, `int (value)` transforma o valor de uma sequência de caracteres num número inteiro.
     
@@ -150,18 +150,18 @@ Exemplos:
 
 Podes criar um novo gráfico de barras ou gráfico circular a partir de dados num ficheiro? Vais necessitar de criar um novo ficheiro .txt.
 
-Dica: Se quiseres ter espaços nos rótulos, usa `line.split (':')` e adiciona dois pontos ao teu arquivo de dados, por exemplo, 'Red Admiral: 6'
+Tip: If you want to have spaces in the labels then use `line.split(': ')` and add colons to your data file, e.g. 'Red Admiral: 6'
 
-![captura de ecrã](images/pets-butterflies.png)
+![screenshot](images/pets-butterflies.png)
 
-## Guarda o teu projeto {.save}
+## Save Your Project {.save}
 
 ## Desafio: Mais gráficos e tabelas! {.challenge}
 
-Consegues criar um gráfico circular e um gráfico de barras do mesmo ficheiro? Podes utilizar os dados recolhidos anteriormente ou recolher novos dados.
+Can you create a pie chart and a bar chart from the same file? You can either use the data you collected earlier or collect some new data.
 
-![captura de ecrã](images/pets-pn-bar.png)
+![screenshot](images/pets-pn-bar.png)
 
-![captura de ecrã](images/pets-pn.png)
+![screenshot](images/pets-pn.png)
 
-## Guarda o teu projeto {.save}
+## Save Your Project {.save}

@@ -1,49 +1,49 @@
-## ファイルからデータを読み込む
+## Read data from a file
 
-データをコードに含むよりも、ファイルに保存する方が便利です。
+It's useful to be able to store data in a file rather than having to include it in your code.
 
-+ 新規ファイルを追加し、名前を`pets.txt`とします。
++ Add a new file to your project and call it `pets.txt`:
     
-    ![スクリーンショット](images/pets-file.png)
+    ![screenshot](images/pets-file.png)
 
-+ ファイルに新データを追加します。 大好きなペットのデータやデータ例を使います。
++ Now add data to the file. You can use the favourite pets data that you collected or the example data.
     
-    ![スクリーンショット](images/pets-data.png)
+    ![screenshot](images/pets-data.png)
 
-+ `main.py`に切り替えて、グラフ表示に関するプログラムのソースファイルをコメントに変更して、実行されないようにします（グラフが表示されないように）。
++ Switch back to `main.py` and comment out the lines that render (display) charts and graphs (so that they aren't displayed):
     
-    ![スクリーンショット](images/pets-comment.png)
+    ![screenshot](images/pets-comment.png)
 
-+ ファイルからデータを読み込みましょう。
++ Now let's read the data from the file.
     
-    ![スクリーンショット](images/pets-read.png)
+    ![screenshot](images/pets-read.png)
     
-    `for`の繰り返しはファイル内の行に繰り返し適用されます。 `splitlines()`は新しい行に改行して表示します。 
+    The `for` loop will loop over the lines in the file. `splitlines()` removes the newline character from the end of the line as you don't want that.
 
-+ 各行はラベルとバリューに分けられます。
++ Each line needs to be separated into a label and a value:
     
-    ![スクリーンショット](images/pets-split.png)
+    ![screenshot](images/pets-split.png)
     
-    スペースがあるところで改行しますからラベルにはスペースを入れないでください。 （ラベルにスペースが必要な場合、後で追加できます。）
+    This will split the line at the spaces so don't include spaces in the labels. (You can add support for spaces in labels later.)
 
-+ つぎのようなエラーが出るかもしれません。
++ You might get an error like this:
     
-    ![スクリーンショット](images/pets-error.png)
+    ![screenshot](images/pets-error.png)
     
-    これは、ファイルの最後の行に何も入力されていない場合に出てきます。
+    This happens if you have an empty line at the end of your file.
     
-    最後の行に入れるデータがある場合、ラベルとバリューを追加入力すればエラーは解決します。
+    You can fix the error by only getting the label and value if the line isn't empty.
     
-    そのために、`for`の繰り返しのコードの中でインデントしてその上に`if line:`を追加します。
+    To do this, indent the code inside your `for` loop and add the code `if line:` above it:
     
-    ![スクリーンショット](images/pets-fix.png)
+    ![screenshot](images/pets-fix.png)
 
-+ `print(label, value)`は削除します。
++ You can remove the `print(label, value)` line now everything is working.
 
-+ 円グラフにラベルとバリューを追加して表示してみましょう。
++ Now let's add the label and value to a new Pie Chart and render it:
     
-    ![スクリーンショット](images/pets-pie2.png)
+    ![screenshot](images/pets-pie2.png)
     
-    `add`ではバリューは数値であることは必要です。`int(value)`はバリューを文字列から数値に変換します。
+    Note that `add` expects the value to be a number, `int(value)` turns the value from a string into an integer.
     
-    3.5などの少数を使いたい場合、`float(value)`を使います。
+    If you wanted to use decimals such as 3.5 (floating point numbers) you could use `float(value)` instead.

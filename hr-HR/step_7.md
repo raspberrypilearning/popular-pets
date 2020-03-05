@@ -8,4 +8,4 @@ Can you create a pie chart and a bar chart from the same file? You can either us
 
 ![screenshot](images/pets-pn.png)
 
-\--- challenge \---
+\--- /challenge \---

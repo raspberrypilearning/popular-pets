@@ -6,10 +6,10 @@ listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: 人気のあるペット
-description: 集めたデータをもとにして円グラフと棒グラフを作ります。
+title: Popular Pets
+description: Create pie charts and bar graphs from data you collect.
 original_url: https://codeclubprojects.org/en-GB/python/popular-pets
-interests: 動物
+interests: animals
 technologies: python
 site_areas: projects
 hardware: ''
@@ -18,16 +18,16 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: 前書き
+    title: Introduction
   - 
-    title: あなたが必要とするもの
+    title: What you will need
   - 
-    title: 円グラフを作る
+    title: Create a Pie Chart
   - 
-    title: 'チャレンジ：棒グラフを作りましょう'
+    title: 'Challenge: Create your own bar chart'
   - 
-    title: ファイルからデータを読み込む
+    title: Read data from a file
   - 
-    title: 'チャレンジ：ファイルから新規グラフをつくろう'
+    title: 'Challenge: Create a new chart from a file'
   - 
-    title: 'チャレンジ：さらにグラフをつくろう！'
+    title: 'Challenge: More charts and graphs!'

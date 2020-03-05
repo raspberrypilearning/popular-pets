@@ -1,8 +1,8 @@
-## Uvod
+## Introduction
 
 In this project you create pie charts and bar graphs from data that you collect from members of your Code Club.
 
-### Upute
+### Instructions
 
 When you click Run the charts are generated from data using the PyGal python module.
 
@@ -12,14 +12,14 @@ When you click Run the charts are generated from data using the PyGal python mod
   <img src="images/pets-finished.png">
 </div>
 
-### Što ćete naučiti
+### What you will learn
 
-Ovaj projekt obuhvaća elemente iz sljedećih dijelova [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum) nastavnog plana i programa:
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-+ [Koristi različite programske strukture za rješavanje problema.](https://www.raspberrypi.org/curriculum/programming/builder/)
++ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder/)
 
-### Dodatne informacije za voditelje kluba
+### Additional information for educators
 
-Ako trebate ispisati ovaj projekt, koristite [printer-friendly version](https://projects.raspberrypi.org/en/projects/popular-pets/print){:Target="_ blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/popular-pets/print){:target="_blank"}.
 
-Koristite poveznicu u podnožju da bi pristupili GitHub repozitoriju ovog projekta koji sadrži sve resurse (uključujući i primjer dovršenog projekta) u mapi 'hr-HR/resources'.
+Use the link in the footer to access the GitHub repository for this project, which contains all resources (including an example finished project) in the 'en/resources' folder.

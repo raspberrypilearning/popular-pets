@@ -1,7 +1,7 @@
-## Do que você vai precisar
+## What you will need
 
 ### Software
 
 + Editor on-line do trinket
 
-Atenção - este projeto usa o módulo de trinket pygal e só funcionará com esse trinket.
+Note - this project uses trinket's pygal module and will only work with trinket.

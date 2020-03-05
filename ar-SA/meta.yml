@@ -1,21 +1,26 @@
+---
 hero_image: images/popular-pets.png
 theme: yellow
 duration: 2
 listed: true
 ingredient: false
 copyedit: false
-curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 title: الحيوانات الأليفة المفضلة
 description: أنشئ مخططات دائرية ورسومات بيانية على شكل أعمدة من البيانات التي تجمعها.
 original_url: https://codeclubprojects.org/en-GB/python/popular-pets
-interests: ''
+interests: animals
 technologies: python
-site_areas: codeclub, python
+site_areas: projects
+hardware: ''
+software: python
+version: 3
+last_tested: 2017-01-01
 steps:
-- title: المقدمة
-- title: إنشاء مخطط دائري
-- title: 'التحدي: أنشئ مخططًا على شكل أعمدة'
-- title: قراءة البيانات من ملف
-- title: 'التحدي: أنشئ مخططًا جديدًا من ملف'
-- title: 'التحدي: مخططات ورسومات بيانية أخرى!'
-
+  - title: المقدمة
+  - title: ما ستحتاج إليه
+  - title: إنشاء مخطط دائري
+  - title: 'التحدي: إنشاء رسم بياني على شكل أعمدة'
+  - title: قراءة البيانات من ملف
+  - title: 'التحدي: إنشاء مخطط جديد من ملف'
+  - title: 'التحدي: المزيد من المخططات والرسومات البيانية!'

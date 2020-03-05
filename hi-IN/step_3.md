@@ -1,4 +1,4 @@
-## चुनौती: अपना स्वयं का बार चार्ट बनाएँ
+## Create a Pie Chart
 
 Pie Charts are useful way of showing data. Let's do a survey of favourite pets in your Code Club and then present the data as a Pie Chart.
 
@@ -8,36 +8,36 @@ Pie Charts are useful way of showing data. Let's do a survey of favourite pets i
     
     Then get everyone to vote for their favourite by putting their hand up when it gets called out. Only one vote each!
     
-    उदाहरण के लिए:
+    For example:
     
-    ![स्क्रीनशॉट](images/pets-favourite.png)
+    ![screenshot](images/pets-favourite.png)
 
-+ रिक्त Python टेंपलेट Trinket खोलें: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
 + Let's create a pie chart to show the results of your survey. You'll be using the PyGal library to do some of the hard work.
     
     First import the Pygal library:
     
-    ![स्क्रीनशॉट](images/pets-pygal.png)
+    ![screenshot](images/pets-pygal.png)
 
 + Now let's create a Pie chart and render (display) it:
     
-    ![स्क्रीनशॉट](images/pets-pie.png)
+    ![screenshot](images/pets-pie.png)
     
     Don't worry, it gets more interesting when you add data!
 
 + Let's add in the data for one of the pets. Use the data that you collected.
     
-    ![स्क्रीनशॉट](images/pets-add.png)
+    ![screenshot](images/pets-add.png)
     
     There's only one piece of data so it takes up the whole pie chart.
 
 + Now add the rest of the data in the same way.
     
-    उदाहरण के लिए:
+    For example:
     
-    ![स्क्रीनशॉट](images/pets-add-all.png)
+    ![screenshot](images/pets-add-all.png)
 
 + And to finish off your chart, add a title:
     
-    ![स्क्रीनशॉट](images/pets-title.png)
+    ![screenshot](images/pets-title.png)

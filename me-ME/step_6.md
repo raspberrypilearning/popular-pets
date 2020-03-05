@@ -1,10 +1,10 @@
 \--- challenge \---
 
-## Izazov: Izradi novi grafikon od podataka iz datoteke
+## Challenge: Create a new chart from a file
 
-Možeš li da izradiš novi stubičasti ili kružni grafikon koristeći podatke iz datoteke? Biće potrebno da kreiraš novu .txt datoteku.
+Can you create a new bar graph or pie chart from data in a file? You'll need to create a new .txt file.
 
-Savjet: Ako želiš da imaš razmake u nazivima, koristi `red.split(': ')` i dodaj dvotačke u svoje podatke u datoteci, na primjer 'Crveni admiral: 6'.
+Tip: If you want to have spaces in the labels then use `line.split(': ')` and add colons to your data file, e.g. 'Red Admiral: 6'
 
 ![screenshot](images/pets-butterflies.png)
 

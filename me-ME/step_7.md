@@ -1,8 +1,8 @@
 \--- challenge \---
 
-## Izazov: Još grafikona!
+## Challenge: More charts and graphs!
 
-Možeš li da izradiš kružni i stubičasti grafikon koristeći podatke iz iste datoteke? Možeš da koristiš već prikupljene podatke ili da prikupiš nove.
+Can you create a pie chart and a bar chart from the same file? You can either use the data you collected earlier or collect some new data.
 
 ![screenshot](images/pets-pn-bar.png)
 

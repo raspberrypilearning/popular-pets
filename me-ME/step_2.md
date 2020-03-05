@@ -1,7 +1,7 @@
-## Šta će ti biti potrebno
+## What you will need
 
-### Softver
+### Software
 
 + Trinket online editor
 
-Napomena - ovaj projekat koristi trinketov pygal modul i funkcionisaće samo u trinketu.
+Note - this project uses trinket's pygal module and will only work with trinket.

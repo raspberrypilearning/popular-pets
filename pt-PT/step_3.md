@@ -1,6 +1,6 @@
-## Criar um gráfico circular
+## Create a Pie Chart
 
-Os gráficos circulares são uma forma útil de apresentar dados. Vamos fazer uma pesquisa sobre os animais favoritos no teu Code Club e, em seguida, apresentar os dados através de um gráfico circular.
+Pie Charts are useful way of showing data. Let's do a survey of favourite pets in your Code Club and then present the data as a Pie Chart.
 
 + Pede ao líder do teu clube para ajudar a organizar a pesquisa. Podes gravar os resultados num computador ligado a um projetor ou quadro branco que todos possam ver.
     
@@ -10,34 +10,34 @@ Os gráficos circulares são uma forma útil de apresentar dados. Vamos fazer um
     
     Por exemplo:
     
-    ![captura de ecrã](images/pets-favourite.png)
+    ![screenshot](images/pets-favourite.png)
 
 + Abre o modelo em branco do Python Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ Vamos criar um gráfico circular para mostrar os resultados da tua pesquisa. Vais estar a utilizar a biblioteca PyGal para fazer um pouco do trabalho pesado.
++ Let's create a pie chart to show the results of your survey. Vais estar a utilizar a biblioteca PyGal para fazer um pouco do trabalho pesado.
     
     Primeiro importa a biblioteca Pygal:
     
-    ![captura de ecrã](images/pets-pygal.png)
+    ![screenshot](images/pets-pygal.png)
 
-+ Agora vamos criar um gráfico circular e renderizar (exibir):
++ Now let's create a Pie chart and render (display) it:
     
-    ![captura de ecrã](images/pets-pie.png)
+    ![screenshot](images/pets-pie.png)
     
     Não te preocupes, vai ficar mais interessante quando acrescentares dados!
 
 + Vamos acrescentar os dados de um dos animais de estimação. Utiliza os dados que recolheste.
     
-    ![captura de ecrã](images/pets-add.png)
+    ![screenshot](images/pets-add.png)
     
     Como há apenas dados de um animal, ele ocupa todo o espaço do gráfico.
 
 + Agora adiciona os restantes dados da mesma maneira.
     
-    Por exemplo:
+    For example:
     
-    ![captura de ecrã](images/pets-add-all.png)
+    ![screenshot](images/pets-add-all.png)
 
 + E para finalizar o teu gráfico, adiciona-lhe um título:
     
-    ![captura de ecrã](images/pets-title.png)
+    ![screenshot](images/pets-title.png)

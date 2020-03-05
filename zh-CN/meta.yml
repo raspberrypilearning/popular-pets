@@ -5,29 +5,29 @@ duration: 2
 listed: true
 ingredient: false
 copyedit: false
-curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
-title: 热门宠物
-description: 利用你收集的数据创建饼图和条形图。
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+title: Popular Pets
+description: Create pie charts and bar graphs from data you collect.
 original_url: https://codeclubprojects.org/en-GB/python/popular-pets
 interests: animals
 technologies: python
-site_areas: codeclub, python
+site_areas: projects
 hardware: ''
 software: python
 version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: 介绍
+    title: Introduction
   - 
-    title: 创建一个饼图
+    title: What you will need
   - 
-    title: 挑战：创建你自己的条形图
+    title: Create a Pie Chart
   - 
-    title: '从文件读取数据'
+    title: 'Challenge: Create your own bar chart'
   - 
-    title: 挑战：从文件中创建新图表
+    title: Read data from a file
   - 
-    title: '挑战：更多图表和图形！'
+    title: 'Challenge: Create a new chart from a file'
   - 
     title: 'Challenge: More charts and graphs!'

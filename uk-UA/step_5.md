@@ -1,49 +1,49 @@
-## Читати дані з файлу
+## Read data from a file
 
-Це корисно мати можливість зберігати дані у файлі, а не додавати його до коду.
+It's useful to be able to store data in a file rather than having to include it in your code.
 
-+ Додайте новий файл у ваш проект і назвіть його `pets.txt`:
++ Add a new file to your project and call it `pets.txt`:
     
-    ![скріншот](images/pets-file.png)
+    ![screenshot](images/pets-file.png)
 
-+ Тепер додайте дані до файлу. Ви можете використовувати зібрані вами улюблені домашні тварини або приклади даних.
++ Now add data to the file. You can use the favourite pets data that you collected or the example data.
     
-    ![знімок екрану](images/pets-data.png)
+    ![screenshot](images/pets-data.png)
 
-+ Поверніться назад до `main.py` і коментувати рядки, які відтворюють діаграми та графіки (так, щоб вони не відображалися):
++ Switch back to `main.py` and comment out the lines that render (display) charts and graphs (so that they aren't displayed):
     
-    ![скріншот](images/pets-comment.png)
+    ![screenshot](images/pets-comment.png)
 
-+ Тепер давайте читаємо дані з файлу.
++ Now let's read the data from the file.
     
-    ![скріншот](images/pets-read.png)
+    ![screenshot](images/pets-read.png)
     
-    `для циклу` буде петля над рядками у файлі. `splitlines ()` видаляє символ нової рядка з кінця рядка, оскільки ви цього не бажаєте.
+    The `for` loop will loop over the lines in the file. `splitlines()` removes the newline character from the end of the line as you don't want that.
 
-+ Кожен рядок потрібно розділити на мітку та значення:
++ Each line needs to be separated into a label and a value:
     
-    ![знімок екрану](images/pets-split.png)
+    ![screenshot](images/pets-split.png)
     
-    Це розділить рядок на пробіли, тому не включайте пробіли в мітки. (Пізніше ви можете додати підтримку пробілів у етикетках.)
+    This will split the line at the spaces so don't include spaces in the labels. (You can add support for spaces in labels later.)
 
-+ Ви можете отримати таку помилку:
++ You might get an error like this:
     
-    ![скріншот](images/pets-error.png)
+    ![screenshot](images/pets-error.png)
     
-    Це трапляється, якщо в кінці файлу є порожня рядок.
+    This happens if you have an empty line at the end of your file.
     
-    Ви можете виправити помилку, тільки отримавши мітку та значення, якщо рядок не порожній.
+    You can fix the error by only getting the label and value if the line isn't empty.
     
-    Для цього вставте код усередині вашої `для циклу` і додайте код `, якщо рядок:` над ним:
+    To do this, indent the code inside your `for` loop and add the code `if line:` above it:
     
-    ![скріншот](images/pets-fix.png)
+    ![screenshot](images/pets-fix.png)
 
-+ Ви можете вилучити `друк (мітка, значення)` , тепер все працює.
++ You can remove the `print(label, value)` line now everything is working.
 
-+ Тепер давайте додамо мітку та значення до нової кругової діаграми та зробимо її:
++ Now let's add the label and value to a new Pie Chart and render it:
     
-    ![скріншот](images/pets-pie2.png)
+    ![screenshot](images/pets-pie2.png)
     
-    Зауважте, що `додати` очікує, що значення буде числом, `int (value)` перетворює значення з рядка у ціле число.
+    Note that `add` expects the value to be a number, `int(value)` turns the value from a string into an integer.
     
-    Якщо ви хочете використовувати десяткові знаки, такі як 3.5 (номери з плаваючою точкою), ви можете використовувати `float (значення)`.
+    If you wanted to use decimals such as 3.5 (floating point numbers) you could use `float(value)` instead.

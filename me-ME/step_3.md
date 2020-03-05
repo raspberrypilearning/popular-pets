@@ -1,43 +1,43 @@
-## Izradi kružni grafikon
+## Create a Pie Chart
 
-Pie Charts are useful way of showing data. Sprovedimo anketu o omiljenim kućnim ljubimcima u tvom Code Clubu, a zatim prikažimo podatke u obliku kružnog grafikona.
+Pie Charts are useful way of showing data. Let's do a survey of favourite pets in your Code Club and then present the data as a Pie Chart.
 
-+ Zamoli vođu svog kluba da ti pomogne u organizovanju ankete. Rezultate možeš da zabilježiš na računaru povezanom sa projektorom ili na tabli, tako da svi mogu da ih vide.
++ Ask your club leader to help organise a survey. You could record the results on a computer connected to a projector or a whiteboard that everyone can see.
     
-    Napiši spisak kućnih ljubimaca i pobrini se da na spisku budu svi omiljeni ljubimci učesnika ankete.
+    Write a list of pets and make sure everyone's favourite is included.
     
-    Zatim neka svako glasa za svog omiljenog ljubimca tako što će podići ruku kada bude prozvan taj ljubimac. Svako glasa samo jednom!
+    Then get everyone to vote for their favourite by putting their hand up when it gets called out. Only one vote each!
     
-    Na primjer:
+    For example:
     
     ![screenshot](images/pets-favourite.png)
 
-+ Otvori prazan Python šablon u Trinketu: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ Izradimo kružni grafikon u kojem će biti prikazani rezutati tvoje ankete. Koristićeš PyGal biblioteku za neke teže dijelove.
++ Let's create a pie chart to show the results of your survey. You'll be using the PyGal library to do some of the hard work.
     
-    Prvo uvezi Pygal biblioteku:
+    First import the Pygal library:
     
     ![screenshot](images/pets-pygal.png)
 
-+ Sada napravimo kružni grafikon i vizuelizujmo ga (prikažimo ga):
++ Now let's create a Pie chart and render (display) it:
     
     ![screenshot](images/pets-pie.png)
     
-    Ne brini, biće zanimljiviji kada dodaš podatke!
+    Don't worry, it gets more interesting when you add data!
 
-+ Dodajmo podatke za jednog od ljubimaca. Koristi podatke koje si prikupio/prikupila.
++ Let's add in the data for one of the pets. Use the data that you collected.
     
     ![screenshot](images/pets-add.png)
     
-    Pošto smo unijeli samo jedan podatak, on zauzima čitav kružni grafikon.
+    There's only one piece of data so it takes up the whole pie chart.
 
-+ Sada na isti način dodaj ostale podatke.
++ Now add the rest of the data in the same way.
     
-    Na primjer:
+    For example:
     
     ![screenshot](images/pets-add-all.png)
 
-+ Dodaj naslov da dovršiš svoj grafikon:
++ And to finish off your chart, add a title:
     
     ![screenshot](images/pets-title.png)

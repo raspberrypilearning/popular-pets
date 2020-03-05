@@ -10,7 +10,7 @@ Pie Charts are useful way of showing data. Let's do a survey of favourite pets i
     
     For example:
     
-    ![captura de pantalla](images/pets-favourite.png)
+    ![screenshot](images/pets-favourite.png)
 
 + Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
@@ -18,17 +18,17 @@ Pie Charts are useful way of showing data. Let's do a survey of favourite pets i
     
     First import the Pygal library:
     
-    ![captura de pantalla](images/pets-pygal.png)
+    ![screenshot](images/pets-pygal.png)
 
 + Now let's create a Pie chart and render (display) it:
     
-    ![captura de pantalla](images/pets-pie.png)
+    ![screenshot](images/pets-pie.png)
     
     Don't worry, it gets more interesting when you add data!
 
 + Let's add in the data for one of the pets. Use the data that you collected.
     
-    ![captura de pantalla](images/pets-add.png)
+    ![screenshot](images/pets-add.png)
     
     There's only one piece of data so it takes up the whole pie chart.
 
@@ -36,8 +36,8 @@ Pie Charts are useful way of showing data. Let's do a survey of favourite pets i
     
     For example:
     
-    ![captura de pantalla](images/pets-add-all.png)
+    ![screenshot](images/pets-add-all.png)
 
 + And to finish off your chart, add a title:
     
-    ![captura de pantalla](images/pets-title.png)
+    ![screenshot](images/pets-title.png)

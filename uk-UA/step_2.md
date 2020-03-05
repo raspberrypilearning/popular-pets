@@ -1,7 +1,7 @@
-## Що вам знадобиться
+## What you will need
 
-### Програмне забезпечення
+### Software
 
-+ Інтернет-редактор Trinket
++ Trinket online editor
 
 Note - this project uses trinket's pygal module and will only work with trinket.

@@ -6,28 +6,28 @@ listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: लोकप्रिय पालतू जानवर
-description: अपने एकत्रित किए गए डेटा से पाई चार्ट और बार ग्राफ बनाएँ।
+title: Popular Pets
+description: Create pie charts and bar graphs from data you collect.
 original_url: https://codeclubprojects.org/en-GB/python/popular-pets
-interests: पशु
+interests: animals
 technologies: python
-site_areas: प्रोजेक्ट
+site_areas: projects
 hardware: ''
-software: python (पायथन)
+software: python
 version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: भूमिका
+    title: Introduction
   - 
-    title: आपको किसकी ज़रूरत होगी
+    title: What you will need
   - 
-    title: 'चुनौती: अपना स्वयं का बार चार्ट बनाएँ'
+    title: Create a Pie Chart
   - 
-    title: 'फाइल से डेटा पढ़ें'
+    title: 'Challenge: Create your own bar chart'
   - 
-    title: 'चुनौती: फाइल से नया चार्ट बनाएँ'
+    title: Read data from a file
   - 
-    title: 'चुनौती: और चार्ट और ग्राफ!'
+    title: 'Challenge: Create a new chart from a file'
   - 
     title: 'Challenge: More charts and graphs!'

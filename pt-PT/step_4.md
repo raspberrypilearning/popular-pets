@@ -1,8 +1,8 @@
-\--- desafio \---
+\--- challenge \---
 
-## Desafio: cria o teu próprio gráfico de barras
+## Challenge: Create your own bar chart
 
-Pode criar gráficos de barras de maneira semelhante. Basta utilizar `barchart = pygal.Bar ()` para criar um novo gráfico de barras e, em seguida, adicionar dados e renderizar da mesma maneira que para um gráfico circular.
+Pode criar gráficos de barras de maneira semelhante. Just use `barchart = pygal.Bar()` to create a new barchart, and then add data and render in the same way as for a pie chart.
 
 Recolhe dados entre os membros do Code Club para criar o teu próprio gráfico de barras.
 
@@ -20,6 +20,6 @@ Não faça perguntas que forneçam dados pessoais, como o local em que as pessoa
 
 Exemplos:
 
-![captura de ecrã](images/pets-bar-examples.png)
+![screenshot](images/pets-bar-examples.png)
 
 \--- / desafio \---

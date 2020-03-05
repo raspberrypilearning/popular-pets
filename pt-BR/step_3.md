@@ -1,6 +1,6 @@
 ## Crie um gráfico de pizza
 
-Os gráficos de pizza são uma forma útil de apresentar dados. Vamos fazer uma pesquisa dos animais favoritos no seu Code Club e, em seguida, apresentar os dados como um gráfico de pizza.
+Pie Charts are useful way of showing data. Vamos fazer uma pesquisa dos animais favoritos no seu Code Club e, em seguida, apresentar os dados como um gráfico de pizza.
 
 + Peça ao líder do seu clube para ajudar a organizar uma pesquisa. Você pode gravar os resultados em um computador conectado a um projetor ou em um quadro branco que todos possam ver.
     
@@ -12,32 +12,32 @@ Os gráficos de pizza são uma forma útil de apresentar dados. Vamos fazer uma 
     
     ![screenshot](images/pets-favourite.png)
 
-+ Abra o modelo Trinket em branco do Python: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ Vamos criar um gráfico de pizza para mostrar os resultados da sua pesquisa. Você estará usando a biblioteca PyGal para fazer um pouco do trabalho pesado.
++ Let's create a pie chart to show the results of your survey. You'll be using the PyGal library to do some of the hard work.
     
-    Primeiro importe a biblioteca Pygal:
+    First import the Pygal library:
     
     ![screenshot](images/pets-pygal.png)
 
-+ Agora vamos criar um gráfico de pizza e renderizar (exibir):
++ Now let's create a Pie chart and render (display) it:
     
     ![screenshot](images/pets-pie.png)
     
-    Não se preocupe, fica mais interessante quando você adiciona dados!
+    Don't worry, it gets more interesting when you add data!
 
-+ Vamos adicionar os dados de um dos animais de estimação. Use os dados que você coletou.
++ Let's add in the data for one of the pets. Use the data that you collected.
     
-    ![captura](images/pets-add.png)
+    ![screenshot](images/pets-add.png)
     
-    Há apenas um dado, então ele ocupa todo o gráfico de pizza.
+    There's only one piece of data so it takes up the whole pie chart.
 
-+ Agora adicione o restante dos dados da mesma maneira.
++ Now add the rest of the data in the same way.
     
-    Por exemplo:
+    For example:
     
-    ![capturas de tela](images/pets-add-all.png)
+    ![screenshot](images/pets-add-all.png)
 
-+ E para finalizar seu gráfico, adicione um título:
++ And to finish off your chart, add a title:
     
     ![screenshot](images/pets-title.png)

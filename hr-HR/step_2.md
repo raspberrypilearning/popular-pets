@@ -1,6 +1,6 @@
-## Trebat ćeš
+## What you will need
 
-### Softver
+### Software
 
 + Trinket online editor
 

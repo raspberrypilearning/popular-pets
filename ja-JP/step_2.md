@@ -1,7 +1,7 @@
-## 必要なもの
+## What you will need
 
-### ソフトウェア
+### Software
 
-+ Trinket　オンライン・エディター
++ Trinket online editor
 
 Note - this project uses trinket's pygal module and will only work with trinket.

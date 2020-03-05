@@ -1,10 +1,10 @@
-## Вступ
+## Introduction
 
-У цьому проекті ви створюєте кругові діаграми та стрічкові графіки з даних, які ви збираєте від членів вашого коду клубу.
+In this project you create pie charts and bar graphs from data that you collect from members of your Code Club.
 
-### Інструкції
+### Instructions
 
-Коли ви натискаєте кнопку Запустити, діаграми створюються з даних за допомогою модуля pythal PyGal.
+When you click Run the charts are generated from data using the PyGal python module.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/70d24d92b8?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -12,14 +12,14 @@
   <img src="images/pets-finished.png">
 </div>
 
-### Що ви дізнаєтесь
+### What you will learn
 
-Цей проект охоплює елементи з наступними стандартами [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-+ [Для вирішення проблеми об'єднайте конструкції програмування.](https://www.raspberrypi.org/curriculum/programming/builder/)
++ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder/)
 
-### Додаткова інформація для вчителів
+### Additional information for educators
 
-Якщо вам потрібно роздрукувати цей проект, будь ласка скористайтеся [ версією для друку ](https://projects.raspberrypi.org/en/projects/popular-pets/print) {: target = "_ blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/popular-pets/print){:target="_blank"}.
 
-Скористайтеся посиланням у нижньому колонтитулі, щоб отримати доступ до сховища GitHub для даного проекту, який містить усі ресурси (включаючи приклад готового проекту) в папці 'en/resources'.
+Use the link in the footer to access the GitHub repository for this project, which contains all resources (including an example finished project) in the 'en/resources' folder.

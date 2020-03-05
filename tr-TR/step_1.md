@@ -1,10 +1,10 @@
-## Giriş
+## Introduction
 
-Bu projede, Kod Kulübünüzün üyelerinden topladığınız verilerden pasta grafikler ve çubuk grafikler oluşturacaksınız.
+In this project you create pie charts and bar graphs from data that you collect from members of your Code Club.
 
-### Talimatlar
+### Instructions
 
-Çalıştır'ı tıklattığınızda grafikler PyGal python modülü kullanılarak verilerden oluşturulur.
+When you click Run the charts are generated from data using the PyGal python module.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/70d24d92b8?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -12,14 +12,14 @@ Bu projede, Kod Kulübünüzün üyelerinden topladığınız verilerden pasta g
   <img src="images/pets-finished.png">
 </div>
 
-### Ne öğreneceksiniz
+### What you will learn
 
-Bu proje, [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum) 'un aşağıdaki bölümlerinden unsurları kapsamaktadır:
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-+ [Bir problemi çözmek için programlama yapılarını birleştirin.](https://www.raspberrypi.org/curriculum/programming/builder/)
++ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder/)
 
-### Eğitimciler için ek bilgiler
+### Additional information for educators
 
-Bu projeyi yazdırmanız gerekiyorsa lütfen [yazıcı-dostu sürümü](https://projects.raspberrypi.org/en/projects/popular-pets/print){:target="_blank"} kullanın.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/popular-pets/print){:target="_blank"}.
 
-Bu projeye ait bütün kaynakları içeren (bitmiş örnek bir proje de dahil!) GitHub Repo'suna erişmek için, en alttaki linke tıklayabilirsiniz. Kaynaklar, 'en/resources' klasöründe bulunmakta.
+Use the link in the footer to access the GitHub repository for this project, which contains all resources (including an example finished project) in the 'en/resources' folder.

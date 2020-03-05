@@ -1,14 +1,14 @@
 ---
-title: Beliebte Haustiere
-description: Erstelle Kreis- und Balkendiagramme von den Daten, die du gesammelt hast.
-notes: "Beliebte Haustiere - notes.md"
+title: Popular Pets
+description: Create pie charts and bar graphs from data you collect.
+notes: "Popular Pets - notes.md"
 layout: project
 new: true
 ---
 
-# Einleitung {.intro}
+# Introduction {.intro}
 
-In diesem Projekt wirst du Tortendiagramme und Balkendiagramme aus Daten erstellen, welche du von Mitgliedern deines Code Clubs gesammelt hast.
+In this project you create pie charts and bar graphs from data that you collect from members of your Code Club.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/70d24d92b8?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -16,152 +16,152 @@ In diesem Projekt wirst du Tortendiagramme und Balkendiagramme aus Daten erstell
   <img src="images/pets-finished.png">
 </div>
 
-# Schritt 1: Erstelle ein Kreisdiagramm {.activity}
+# Step 1: Create a Pie Chart {.activity}
 
-Kreisdiagramme sind eine nützliche Methode zum Anzeigen von Daten. Lass uns eine Umfrage über die Lieblingstiere in deinem Code Club durchführen und die Daten als Tortendiagramm darstellen.
+Pie Charts are are useful way of showing data. Let's do a survey of favourite pets in your Code Club and then present the data as a Pie Chart.
 
-## Aufgaben-Checkliste {.check}
+## Activity Checklist {.check}
 
-+ Bitten Sie einen Freiwilligen, eine Umfrage zu organisieren. Sie können die Ergebnisse auf einem Computer aufzeichnen, der an einen Projektor oder ein Whiteboard angeschlossen ist und von jedem gesehen werden kann.
++ Ask your volunteer to help organise a survey. You could record the results on a computer connected to a projector or a whiteboard that everyone can see.
     
-    Schreiben Sie eine Liste mit Haustieren und vergewissern Sie sich, dass jeder Liebling dabei ist.
+    Write a list of pets and make sure everyone's favourite is included.
     
-    Bringen Sie dann alle dazu, für ihren Favoriten zu stimmen, indem Sie die Hand nach dem Aufruf heben. Nur jeweils eine Stimme!
+    Then get everyone to vote for their favourite by putting their hand up when it gets called out. Only one vote each!
     
-    Zum Beispiel:
+    For example:
     
-    ![Screenshot](images/pets-favourite.png)
+    ![screenshot](images/pets-favourite.png)
 
-+ Öffne das leere Python-Vorlage-Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ Lassen Sie uns ein Kreisdiagramm erstellen, um die Ergebnisse Ihrer Umfrage anzuzeigen. Sie werden die PyGal-Bibliothek verwenden, um einen Teil der harten Arbeit zu erledigen.
++ Let's create a pie chart to show the results of your survey. You'll be using the PyGal library to do some of the hard work.
     
-    Importieren Sie zuerst die Pygal-Bibliothek:
+    First import the Pygal library:
     
-    ![Screenshot](images/pets-pygal.png)
+    ![screenshot](images/pets-pygal.png)
 
-+ Jetzt erstellen wir ein Kreisdiagramm und rendern es (zeigen es an):
++ Now let's create a Pie chart and render (display) it:
     
     ![screenshot](images/pets-pie.png)
     
-    Keine Sorge, es wird interessanter, wenn Sie Daten hinzufügen!
+    Don't worry, it gets more interesting when you add data!
 
-+ Lassen Sie uns die Daten für eines der Haustiere hinzufügen. Verwenden Sie die von Ihnen gesammelten Daten.
++ Let's add in the data for one of the pets. Use the data that you collected.
     
     ![screenshot](images/pets-add.png)
     
-    Es gibt nur ein Datenelement, sodass es das gesamte Kreisdiagramm einnimmt.
+    There's only one piece of data so it takes up the whole pie chart.
 
-+ Fügen Sie nun den Rest der Daten auf die gleiche Weise hinzu.
++ Now add the rest of the data in the same way.
     
-    Zum Beispiel:
+    For example:
     
-    ![Screenshot](images/pets-add-all.png)
+    ![screenshot](images/pets-add-all.png)
 
-+ Und um Ihr Diagramm zu vervollständigen, fügen Sie einen Titel hinzu:
++ And to finish off your chart, add a title:
     
-    ![Screenshot](images/pets-title.png)
+    ![screenshot](images/pets-title.png)
 
-## Speichern Sie Ihr Projekt {.save}
+## Save Your Project {.save}
 
-## Daten von einer Datei ablesen {.challenge}
+## Challenge: Create your own bar chart {.challenge}
 
-Sie können Balkendiagramme auf ähnliche Weise erstellen. Verwenden Sie einfach `barchart = pygal.Bar ()` , um ein neues Balkendiagramm zu erstellen, fügen Sie Daten hinzu und rendern Sie es wie für ein Kreisdiagramm.
+You can create bar charts in a similar way. Just use `barchart = pygal.Bar()` to create a new barchart, and then add data and render in the same way as for a pie chart.
 
-Sammeln Sie Daten von Ihren Code Club-Mitgliedern, um Ihr eigenes Balkendiagramm zu erstellen.
+Collect data from your Code Club members to create your own bar graph.
 
-Stellen Sie sicher, dass Sie ein Thema auswählen, über das jeder Bescheid weiß!
+Make sure that you choose a topic that everyone will know about!
 
-Hier sind ein paar Vorschläge:
+Here are some ideas:
 
-+ Was ist dein Lieblingssport?
++ What is your favourite sport?
 
-+ Was ist Ihr Lieblingseisgeschmack?
++ What is your favourite ice cream flavour?
 
-+ Wie kommst du zur Schule?
++ How do you get to school?
 
-+ In welchem Monat hast du Geburtstag?
++ What month is your birthday?
 
-+ Spielst du Minecraft? (ja Nein)
++ Do you play Minecraft? (yes/no)
 
-Stellen Sie keine Fragen, die personenbezogene Daten enthalten, z. B. wo Menschen leben. Fragen Sie Ihren Clubleiter, wenn Sie sich nicht sicher sind.
+Don't ask questions that give personal data such as where people live. Ask your club leader if you're not sure.
 
-Beispiele:
+Examples:
 
-![Screenshot](images/pets-bar-examples.png)
+![screenshot](images/pets-bar-examples.png)
 
-## Speichern Sie Ihr Projekt {.save}
+## Save Your Project {.save}
 
-# Schritt 2: Daten aus einer Datei lesen {.activity}
+# Step 2: Read data from a file {.activity}
 
-Es ist nützlich, Daten in einer Datei speichern zu können, anstatt sie in den Code aufnehmen zu müssen.
+It's useful to be able to store data in a file rather than having to include it in your code.
 
-## Aktivitäts-Checkliste {.check}
+## Activity Checklist {.check}
 
-+ Fügen Sie Ihrem Projekt eine neue Datei hinzu und nennen Sie sie `pets.txt`:
++ Add a new file to your project and call it `pets.txt`:
     
-    ![Screenshot](images/pets-file.png)
+    ![screenshot](images/pets-file.png)
 
-+ Fügen Sie nun der Datei Daten hinzu. Sie können die von Ihnen gesammelten Lieblingshaustierdaten oder die Beispieldaten verwenden.
++ Now add data to the file. You can use the favourite pets data that you collected or the example data.
     
-    ![Screenshot](images/pets-data.png)
+    ![screenshot](images/pets-data.png)
 
-+ Wechseln Sie zurück zu `main.py` und kommentieren Sie die Linien aus, die Diagramme und Grafiken rendern (anzeigen) (damit sie nicht angezeigt werden):
++ Switch back to `main.py` and comment out the lines that render (display) charts and graphs (so that they aren't displayed):
     
-    ![Screenshot](images/pets-comment.png)
+    ![screenshot](images/pets-comment.png)
 
-+ Lesen wir nun die Daten aus der Datei.
++ Now let's read the data from the file.
     
-    ![Screenshot](images/pets-read.png)
+    ![screenshot](images/pets-read.png)
     
-    Die `für` Schleife durchläuft die Zeilen in der Datei. `splitlines ()` entfernt das Zeilenumbruchzeichen vom Zeilenende, da Sie das nicht wollen.
+    The `for` loop will loop over the lines in the file. `splitlines()` removes the newline character from the end of the line as you don't want that.
 
-+ Jede Zeile muss in eine Bezeichnung und einen Wert getrennt werden:
++ Each line needs to be separated into a label and a value:
     
-    ![Screenshot](images/pets-split.png)
+    ![screenshot](images/pets-split.png)
     
-    Dadurch wird die Linie an den Leerzeichen geteilt. Fügen Sie also keine Leerzeichen in die Beschriftungen ein. (Sie können später die Unterstützung für Leerzeichen in Beschriftungen hinzufügen.)
+    This will split the line at the spaces so don't include spaces in the labels. (You can add support for spaces in labels later.)
 
-+ Möglicherweise erhalten Sie folgende Fehlermeldung:
++ You might get an error like this:
     
-    ![Screenshot](images/pets-error.png)
+    ![screenshot](images/pets-error.png)
     
-    Dies passiert, wenn Sie am Ende Ihrer Datei eine leere Zeile haben.
+    This happens if you have an empty line at the end of your file.
     
-    Sie können den Fehler beheben, indem Sie nur die Bezeichnung und den Wert abrufen, wenn die Zeile nicht leer ist.
+    You can fix the error by only getting the label and value if the line isn't empty.
     
-    Um dies zu tun, rücken Sie den Code in Ihre `für` Schleife ein und fügen Sie den Code `wenn Zeile:` darüber:
+    To do this, indent the code inside your `for` loop and add the code `if line:` above it:
     
-    ![Screenshot](images/pets-fix.png)
+    ![screenshot](images/pets-fix.png)
 
-+ Sie können die Zeile `print (label, value)` entfernen, jetzt funktioniert alles.
++ You can remove the `print(label, value)` line now everything is working.
 
-+ Fügen wir nun die Bezeichnung und den Wert zu einem neuen Kreisdiagramm hinzu und rendern Sie es:
++ Now let's add the label and value to a new Pie Chart and render it:
     
-    ![Screenshot](images/pets-pie2.png)
+    ![screenshot](images/pets-pie2.png)
     
-    Beachten Sie, dass `add` ausgeht, dass der Wert eine Zahl ist. `int (value)` wandelt den Wert einer Zeichenfolge in eine Ganzzahl um.
+    Note that `add` expects the value to be a number, `int(value)` turns the value from a string into an integer.
     
-    Wenn Sie Dezimalzahlen wie 3,5 (Gleitkommazahlen) verwenden möchten, können Sie stattdessen `float (Wert)` verwenden.
+    If you wanted to use decimals such as 3.5 (floating point numbers) you could use `float(value)` instead.
 
-## Speichern Sie Ihr Projekt {.save}
+## Save Your Project {.save}
 
-## Aufgabe: Noch mehr Diagramme und Grafiken! {.challenge}
+## Challenge: Create a new chart from a file {.challenge}
 
-Können Sie aus Daten in einer Datei ein neues Balkendiagramm oder Tortendiagramm erstellen? Sie müssen eine neue TXT-Datei erstellen.
+Can you create a new bar graph or pie chart from data in a file? You'll need to create a new .txt file.
 
-Tipp: Wenn Sie Leerzeichen in den Beschriftungen haben möchten, verwenden Sie `line.split (':')` und fügen Sie Ihrer Datendatei Doppelpunkte hinzu, z. B. 'Red Admiral: 6'.
+Tip: If you want to have spaces in the labels then use `line.split(': ')` and add colons to your data file, e.g. 'Red Admiral: 6'
 
-![Screenshot](images/pets-butterflies.png)
+![screenshot](images/pets-butterflies.png)
 
-## Speichern Sie Ihr Projekt {.save}
+## Save Your Project {.save}
 
-## Herausforderung: Mehr Diagramme und Grafiken! {.challenge}
+## Challenge: More charts and graphs! {.challenge}
 
-Können Sie aus derselben Datei ein Kreisdiagramm und ein Balkendiagramm erstellen? Sie können entweder die zuvor gesammelten Daten verwenden oder einige neue Daten sammeln.
+Can you create a pie chart and a bar chart from the same file? You can either use the data you collected earlier or collect some new data.
 
-![Screenshot](images/pets-pn-bar.png)
+![screenshot](images/pets-pn-bar.png)
 
-![Screenshot](images/pets-pn.png)
+![screenshot](images/pets-pn.png)
 
-## Speichern Sie Ihr Projekt {.save}
+## Save Your Project {.save}

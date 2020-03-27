@@ -14,7 +14,7 @@ Lorsque tu cliques sur Exécuter, les graphiques sont générés à partir de do
 
 ### Ce que tu vas apprendre
 
-Ce projet couvre les éléments suivants du [Programme de Créativité Numérique de Raspberry Pi](http://rpf.io/curriculum):
+Ce projet couvre les éléments suivants du [Programme de Créativité Numérique de Raspberry Pi](http://rpf.io/curriculum) :
 
 + [Combiner des notions de programmation pour résoudre un problème.](https://www.raspberrypi.org/curriculum/programming/builder/)
 
@@ -22,4 +22,4 @@ Ce projet couvre les éléments suivants du [Programme de Créativité Numériqu
 
 Si vous avez besoin d'imprimer ce projet, utilisez la [version imprimable](https://projects.raspberrypi.org/en/projects/popular-pets/print) {:target="_blank"}.
 
-Utilisez le lien en bas de cette page pour accéder au dépôt GitHub de ce projet, qui contient toutes les ressources (y compris un exemple du projet terminé) dans le dossier 'fr-FR/resources'.
+Utilisez le lien en bas de cette page pour accéder au dépôt GitHub de ce projet, qui contient toutes les ressources (y compris un exemple du projet terminé) dans le dossier « fr-FR/resources ».

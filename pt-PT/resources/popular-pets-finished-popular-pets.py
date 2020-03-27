@@ -2,62 +2,62 @@
 
 import pygal
 
-piechart = pygal.Pie()
-piechart.title = 'Favourite Pet'
-piechart.add('Dog', 6)
-piechart.add('Cat', 4)
-piechart.add('Hamster', 3)
-piechart.add('Fish', 2)
-piechart.add('Snake', 1)
-piechart.render()
+circular = pygal.Pie()
+circular.title = 'Animais Favoritos'
+ circular.add('Cão', 6)
+circular.add('Gato',4)
+circular.add('Hamster',3)
+circular.add('Peixe',2)
+circular.add('Cobra',1)
+circular.render()
 
-barchart = pygal.Bar()
-barchart.title = 'Favourite Pet'
-barchart.add('Dog', 6)
-barchart.add('Cat', 4)
-barchart.add('Hamster', 3)
-barchart.add('Fish', 2)
-barchart.add('Snake', 1)
-barchart.render()
+barras = pygal.Bar()
+barras.title = 'Animal Favorito'
+barras.add('Cão',6)
+barras.add('Gato',4)
+barras.add('Hamster',3)
+barras.add('Peixe',2)
+barras.add('Snake',1)
+barras.render()
   
-piechart2 = pygal.Pie()
-barchart2 = pygal.Bar()
+circular2 = pygal.Pie()
+barras2 = pygal.Bar()
 
-file = open('pets.txt', 'r')
+ficheiro = open('animais.txt','r')
 
-for line in file.read().splitlines():
-  if line:
-    label, value = line.split(' ')
-    piechart2.add(label, int(value))
-    barchart2.add(label, int(value))
+for linha in ficheiro.read().splitlines():
+  if linha:
+    rotulo, valor = linha.split(' ')
+    circular2.add(rotulo, int(valor))
+    barras2.add(rotulo, int(valor))
     
-file.close()
+ficheiro.close()
 
-#piechart2.render()
-#barchart2.render()
+#circular2.render()
+#barras2.render()
 
-butterflies = pygal.Bar()
-butterflies.title = 'Butterfly Count'
+borboletas = pygal.Bar ()
+borboletas.title = 'Contagem de Borboletas'
 
-file = open('butterflies.txt', 'r')
+ficheiro = open('borboletas.txt','r')
 
-for line in file.read().splitlines():
-  if line:
-    label, value = line.split(': ')
-    butterflies.add(label, int(value))
-file.close()
+for linha in ficheiro.read().splitlines():
+  if linha:
+    rotulo, valor = linha.split(': ')
+    borboletas.add(rotulo, int(valor))
+ficheiro.close()
 
-butterflies.render()
+borboletas.render()
 
-pn = pygal.Bar()
-pn.title = 'Pirates vs Ninjas'
+pn = pygal.Bar ()
+pn.title = 'Piratas vs Ninjas'
 
-file = open('piratesninjas.txt', 'r')
+ficheiro = open('piratasninjas.txt','r')
 
-for line in file.read().splitlines():
-  if line:
-    label, value = line.split(' ')
-    pn.add(label, int(value))
-file.close()
+for linha in ficheiro.read().splitlines():
+  if linha:
+    rotulo, valor = linha.split(' ')
+    pn.add(rotulo, int(valor))
+ficheiro.close()
 
 pn.render()

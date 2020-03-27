@@ -22,7 +22,7 @@ Les camemberts sont un moyen utile d’afficher des données. Faisons une enquê
 
 ## Liste de contrôle d'activité {.check}
 
-+ Demande à ton volontaire de t'aider à organiser une enquête. Tu pouvez enregistrer les résultats sur un ordinateur connecté à un projecteur ou à un tableau blanc visible par tout le monde.
++ Demande à ton volontaire de t'aider à organiser une enquête. Tu peux enregistrer les résultats sur un ordinateur connecté à un projecteur ou à un tableau blanc visible par tout le monde.
     
     Rédige une liste d'animaux de compagnie et assures-toi que les animaux de compagnie préférés de tout le monde sont inclus.
     
@@ -40,11 +40,11 @@ Les camemberts sont un moyen utile d’afficher des données. Faisons une enquê
     
     ![capture d'écran](images/pets-pygal.png)
 
-+ Créons maintenant un Camembert et affichons-le :
++ Créons maintenant un camembert et affichons-le :
     
     ![capture d'écran](images/pets-pie.png)
     
-    Ne t'inquiètes pas, cela devient plus intéressant lorsque tu ajoutes des données!
+    Ne t'inquiètes pas, cela devient plus intéressant lorsque tu ajoutes des données !
 
 + Ajoutons les données pour l'un des animaux de compagnie. Utilise les données que tu as collectées.
     
@@ -52,7 +52,7 @@ Les camemberts sont un moyen utile d’afficher des données. Faisons une enquê
     
     Il n’y a qu’une donnée, elle occupe donc tout le camembert.
 
-+ Ajoutez maintenant le reste des données de la même manière.
++ Ajoute maintenant le reste des données de la même manière.
     
     Par exemple :
     
@@ -70,9 +70,9 @@ Tu peux créer des histogrammes de la même manière. Il te suffit d'utiliser `h
 
 Recueille des données auprès de tes membres du Code Club pour créer ton histogramme.
 
-Assures-toi de choisir un sujet avec lequel tout le monde est familier !
+Assure-toi de choisir un sujet avec lequel tout le monde est familier !
 
-Voici quelques idées:
+Voici quelques idées :
 
 + Quel est ton sport favori ?
 
@@ -116,7 +116,7 @@ Il est utile de pouvoir stocker des données dans un fichier plutôt que de les 
     
     La boucle `for` passera en boucle sur toutes les lignes du fichier. `splitlines ()` supprime le caractère de retour à la ligne de la fin de ligne car tu ne souhaites pas les conserver.
 
-+ Chaque ligne doit être séparée en un libellé et une valeur:
++ Chaque ligne doit être séparée en un libellé et une valeur :
     
     ![capture d'écran](images/pets-split.png)
     
@@ -128,7 +128,7 @@ Il est utile de pouvoir stocker des données dans un fichier plutôt que de les 
     
     Cela se produit si tu as une ligne vide à la fin de ton fichier.
     
-    Tu peuxz corriger l'erreur en récupérant uniquement le libellé et la valeur si la ligne n'est pas vide.
+    Tu peux corriger l'erreur en récupérant uniquement le libellé et la valeur si la ligne n'est pas vide.
     
     Pour ce faire, indente le code dans ta boucle `for` et ajoute le code `if line:` juste avant :
     
@@ -150,7 +150,7 @@ Il est utile de pouvoir stocker des données dans un fichier plutôt que de les 
 
 Peux-tu créer un nouvel histogramme ou un camembert à partir des données d'un fichier? Tu devras créer un nouveau fichier .txt.
 
-Astuce: Si tu veux avoir des espaces dans les libellés, utilise `line.split (':')` et ajoute deux points pour les séparer dans ton fichier de données, par exemple 'Red Admiral: 6'
+Astuce: Si tu veux avoir des espaces dans les libellés, utilise `line.split (':')` et ajoute deux points pour les séparer dans ton fichier de données, par exemple « Red Admiral: 6 »
 
 ![capture d'écran](images/pets-butterflies.png)
 

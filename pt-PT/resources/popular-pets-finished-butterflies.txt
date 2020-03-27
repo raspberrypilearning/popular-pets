@@ -1,0 +1,5 @@
+Almirante Vermelho: 6
+Guardião: 4
+Branco Pequeno: 3
+Borboleta Azul: 3
+Borboleta Castanha: 5

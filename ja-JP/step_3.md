@@ -1,43 +1,43 @@
-## Create a Pie Chart
+## 円グラフを作る
 
 Pie Charts are useful way of showing data. Let's do a survey of favourite pets in your Code Club and then present the data as a Pie Chart.
 
-+ Ask your club leader to help organise a survey. You could record the results on a computer connected to a projector or a whiteboard that everyone can see.
++ Ask your club leader to help organise a survey. みんなに見えるように、プロジェクターやホワイトボードに接続されたコンピュータに結果を入力しましょう。
     
-    Write a list of pets and make sure everyone's favourite is included.
+    ペットのリストを書き、みんなの大好きなペットが含まれているか確かめましょう。
     
-    Then get everyone to vote for their favourite by putting their hand up when it gets called out. Only one vote each!
+    好きなペットが呼ばれたら、手をあげてもらって全員に投票してもらいましょう。 一人一票です！
     
     For example:
     
-    ![screenshot](images/pets-favourite.png)
+    ![スクリーンショット](images/pets-favourite.png)
 
 + Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ Let's create a pie chart to show the results of your survey. You'll be using the PyGal library to do some of the hard work.
++ 調査結果を示す円グラフをつくりましょう。 You'll be using the PyGal library to do some of the hard work.
     
-    First import the Pygal library:
+    最初にPygalライブラリーをインポートします。
     
-    ![screenshot](images/pets-pygal.png)
+    ![スクリーンショット](images/pets-pygal.png)
 
 + Now let's create a Pie chart and render (display) it:
     
-    ![screenshot](images/pets-pie.png)
+    ![スクリーンショット](images/pets-pie.png)
     
     Don't worry, it gets more interesting when you add data!
 
 + Let's add in the data for one of the pets. Use the data that you collected.
     
-    ![screenshot](images/pets-add.png)
+    ![スクリーンショット](images/pets-add.png)
     
     There's only one piece of data so it takes up the whole pie chart.
 
-+ Now add the rest of the data in the same way.
++ 次に残りのデータを同じように加えます。
     
-    For example:
+    例えば:
     
-    ![screenshot](images/pets-add-all.png)
+    ![スクリーンショット](images/pets-add-all.png)
 
 + And to finish off your chart, add a title:
     
-    ![screenshot](images/pets-title.png)
+    ![スクリーンショット](images/pets-title.png)

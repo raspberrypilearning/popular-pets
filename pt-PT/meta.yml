@@ -1,5 +1,5 @@
 ---
-hero_image: images / popular-pets.png
+hero_image: images/popular-pets.png
 theme: yellow
 duration: 2
 listed: true
@@ -18,7 +18,7 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - title: Introdução
-  - title: O que vais precisar
+  - title: Do que vais necessitar
   - title: Cria um gráfico circular
   - title: 'Desafio: cria o teu próprio gráfico de barras'
   - title: Ler dados de um ficheiro

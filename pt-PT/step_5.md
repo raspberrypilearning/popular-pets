@@ -42,7 +42,7 @@
 
 + Agora vamos adicionar o rótulo e o valor a um novo gráfico circular e renderizá-lo:
     
-    ![captura de ecrã](images / pets-pie2.png)
+    ![captura de ecrã](images/pets-pie2.png)
     
     Note que `add` espera que o valor seja um número, `int (valor)` transforma o valor de uma string em um inteiro.
     

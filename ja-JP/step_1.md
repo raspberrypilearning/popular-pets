@@ -2,7 +2,7 @@
 
 In this project you create pie charts and bar graphs from data that you collect from members of your Code Club.
 
-### Instructions
+### 説明
 
 When you click Run the charts are generated from data using the PyGal python module.
 
@@ -16,10 +16,10 @@ When you click Run the charts are generated from data using the PyGal python mod
 
 This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-+ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder/)
++ [プログラミング構造を組み合わせて問題を解決する。](https://www.raspberrypi.org/curriculum/programming/builder/)
 
-### Additional information for educators
+### 教育者のための追加情報
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/popular-pets/print){:target="_blank"}.
+このプロジェクトを印刷する必要がある場合は、 [印刷用バージョン](https://projects.raspberrypi.org/en/projects/popular-pets/print){:target="_ blank"}を使用してください。
 
-Use the link in the footer to access the GitHub repository for this project, which contains all resources (including an example finished project) in the 'en/resources' folder.
+フッターのリンクを使用して、このプロジェクトのGitHubリポジトリにアクセスします。このリポジトリには、 'en / resources'フォルダ内のすべてのリソース（完成プロジェクトの例を含む）が含まれています。

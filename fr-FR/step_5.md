@@ -40,7 +40,7 @@ Il est utile de pouvoir stocker des données dans un fichier plutôt que de les 
 
 + Tu peux supprimer la ligne `print(label, value)` maintenant que tout fonctionne.
 
-+ Ajoutons maintenant le libellé et la valeur à un nouveau camembert et affichons-le:
++ Ajoutons maintenant le libellé et la valeur à un nouveau camembert et affichons-le :
     
     ![capture d'écran](images/pets-pie2.png)
     

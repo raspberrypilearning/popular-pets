@@ -1,6 +1,6 @@
 ## Introdução
 
-In this project you create pie charts and bar graphs from data that you collect from members of your Code Club.
+Neste projeto, crias gráficos circulares e gráficos de barras a partir dos dados recolhidos entre os membros do teu Code Club.
 
 ### Instruções
 
@@ -22,4 +22,4 @@ Este projeto abrange elementos das seguintes vertentes do [Raspberry Pi Digital 
 
 Se precisas de imprimir este projeto, por favor, utiliza a [versão para impressão](https://projects.raspberrypi.org/en/projects/popular-pets/print){: target = "_ blank"}.
 
-Use the link in the footer to access the GitHub repository for this project, which contains all resources (including an example finished project) in the 'en/resources' folder.
+Usa o link no rodapé para aceder ao repositório do GitHub deste projeto, que contém todos os recursos (incluindo um exemplo de projeto concluído) na pasta 'en/resources'.

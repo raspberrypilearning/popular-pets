@@ -1,25 +1,25 @@
 \--- challenge \---
 
-## Challenge: Create your own bar chart
+## Herausforderung: Erstelle ein Balkendiagramm
 
-You can create bar charts in a similar way. Just use `barchart = pygal.Bar()` to create a new barchart, and then add data and render in the same way as for a pie chart.
+Du kannst auf ähnliche Weise ein Balkendiagramm erstellen. Verwende dazu einfach `barchart = pygal.Bar()`, um ein neues Balkendiagramm zu erstellen, füge Daten hinzu und rendere das Diagramm auf die gleiche Weise wie zuvor das Kreisdiagramm.
 
-Collect data from your Code Club members to create your own bar graph.
+Sammle Daten von deinen Code Club-Mitgliedern, um dein eigenes Balkendiagramm zu erstellen.
 
-Make sure that you choose a topic that everyone will know about!
+Vergewissere dich, dass Du ein Thema auswählst, über das jeder Bescheid weiß!
 
-Here are some ideas:
+Hier sind ein paar Vorschläge:
 
-+ What is your favourite sport?
-+ What is your favourite ice cream flavour?
-+ How do you get to school?
-+ What month is your birthday?
-+ Do you play Minecraft? (yes/no)
++ Was ist dein Lieblingssport?
++ Was ist dein Lieblingseisgeschmack?
++ Wie kommst Du zur Schule?
++ In welchem Monat hast Du Geburtstag?
++ Spielst Du Minecraft? (Ja/Nein)
 
-Don't ask questions that give personal data such as where people live. Ask your club leader if you're not sure.
+Stelle keine Fragen, welche persönliche Daten enthalten wie zum Beispiel den Wohnort. Frage deinen Clubleiter, wenn Du dir nicht sicher bist.
 
 Examples:
 
-![screenshot](images/pets-bar-examples.png)
+![Screenshot](images/pets-bar-examples.png)
 
-\--- /challenge \---
+Und ergänze den CSS-Code in <0>style.css</0>, um das Bild zu positionieren.

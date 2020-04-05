@@ -30,15 +30,15 @@ Kreisdiagramme sind eine nützliche Methode zum Anzeigen von Daten. Lass uns ein
     
     Zum Beispiel:
     
-    ![screenshot](images/pets-favourite.png)
+    ![Screenshot](images/pets-favourite.png)
 
-+ Öffne das leere Python-Vorlage-Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ Öffne eine leere Python-Vorlage in Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
 + Lass uns ein Kreisdiagramm erstellen, um die Ergebnisse deiner Umfrage anzuzeigen. Du wirst die PyGal-Bibliothek verwenden, um einen Teil der harten Arbeit zu erledigen.
     
     Importiere zuerst die Pygal-Bibliothek:
     
-    ![screenshot](images/pets-pygal.png)
+    ![Screenshot](images/pets-pygal.png)
 
 + Jetzt erstellen wir ein Kreisdiagramm und rendern es (zeigen es an):
     
@@ -56,11 +56,11 @@ Kreisdiagramme sind eine nützliche Methode zum Anzeigen von Daten. Lass uns ein
     
     Zum Beispiel:
     
-    ![screenshot](images/pets-add-all.png)
+    ![Screenshot](images/pets-add-all.png)
 
 + Und um dein Diagramm zu vervollständigen, füge einen Titel hinzu:
     
-    ![screenshot](images/pets-title.png)
+    ![Screenshot](images/pets-title.png)
 
 ## Speichere dein Projekt {.save}
 
@@ -84,11 +84,11 @@ Hier sind ein paar Vorschläge:
 
 + Spielst du Minecraft? (ja Nein)
 
-Stelle keine Fragen, die personenbezogene Daten enthalten, z. B. wo Menschen leben. Frage deinen Clubleiter, wenn du dir nicht sicher bist.
+Stelle keine Fragen, die personenbezogene Daten enthalten, zum Beispiel den Wohnort. Frage deinen Clubleiter, wenn du dir nicht sicher bist.
 
 Beispiele:
 
-![screenshot](images/pets-bar-examples.png)
+![Screenshot](images/pets-bar-examples.png)
 
 ## Speichere dein Projekt {.save}
 
@@ -100,31 +100,31 @@ Es ist nützlich, Daten in einer Datei speichern zu können, anstatt sie in den 
 
 + Füge zu deinem Projekt eine neue Datei hinzu und nenne sie `pets.txt`:
     
-    ![screenshot](images/pets-file.png)
+    ![Screenshot](images/pets-file.png)
 
 + Füge nun der Datei Daten hinzu. Du kannst die von dir gesammelten Lieblingshaustierdaten oder die Beispieldaten verwenden.
     
-    ![screenshot](images/pets-data.png)
+    ![Screenshot](images/pets-data.png)
 
-+ Wechsel zurück zu `main.py` und kommentiere die Zeilen aus, welche Diagramme und Graphen rendern (anzeigen) (damit sie nicht angezeigt werden):
++ Wechsel zurück zu `main.py` und kommentiere die Zeilen aus(damit sie nicht angezeigt werden), welche Diagramme und Graphen rendern (anzeigen):
     
-    ![screenshot](images/pets-comment.png)
+    ![Screenshot](images/pets-comment.png)
 
 + Lesen wir nun die Daten aus der Datei.
     
-    ![screenshot](images/pets-read.png)
+    ![Screenshot](images/pets-read.png)
     
     Die `für` Schleife durchläuft die Zeilen in der Datei. `splitlines ()` entfernt das Zeilenumbruchzeichen vom Zeilenende, da Sie das nicht wollen.
 
 + Jede Zeile muss in eine Bezeichnung und einen Wert getrennt werden:
     
-    ![screenshot](images/pets-split.png)
+    ![Screenshot](images/pets-split.png)
     
     Dadurch wird die Linie an den Leerzeichen geteilt. Füge also keine Leerzeichen in die Beschriftungen ein. (Du kannst später die Unterstützung für Leerzeichen in Beschriftungen hinzufügen.)
 
 + Möglicherweise erhälst du folgende Fehlermeldung:
     
-    ![screenshot](images/pets-error.png)
+    ![Screenshot](images/pets-error.png)
     
     Dies passiert, wenn du am Ende deiner Datei eine leere Zeile hast.
     
@@ -132,13 +132,13 @@ Es ist nützlich, Daten in einer Datei speichern zu können, anstatt sie in den 
     
     Um dies zu tun, rücke den Code in deiner `für` Schleife ein und füge den Code `wenn Zeile:` darüber ein:
     
-    ![screenshot](images/pets-fix.png)
+    ![Screenshot](images/pets-fix.png)
 
 + Du kannst die Zeile `print (label, value)` entfernen, jetzt funktioniert alles.
 
 + Fügen wir nun die Bezeichnung und den Wert zu einem neuen Kreisdiagramm hinzu und rendern es:
     
-    ![screenshot](images/pets-pie2.png)
+    ![Screenshot](images/pets-pie2.png)
     
     Beachte, dass `add` davon ausgeht, dass der Wert eine Zahl ist. `int (value)` wandelt den Wert einer Zeichenfolge in eine Ganzzahl um.
     
@@ -152,16 +152,16 @@ Kannst du aus den Daten in einer Datei ein neues Balkendiagramm oder Tortendiagr
 
 Tipp: Wenn du Leerzeichen in den Beschriftungen haben möchtest, verwende `line.split (':')` und füge deiner Datendatei Doppelpunkte hinzu, z. B. 'Red Admiral: 6'
 
-![screenshot](images/pets-butterflies.png)
+![Screenshot](images/pets-butterflies.png)
 
-## Save Your Project {.save}
+## Speichere dein Projekt {.save}
 
-## Challenge: More charts and graphs! {.challenge}
+## Herausforderung: Mehr Diagramme und Grafiken! {.challenge}
 
-Can you create a pie chart and a bar chart from the same file? You can either use the data you collected earlier or collect some new data.
+Kannst du aus derselben Datei ein Kreisdiagramm und ein Balkendiagramm erstellen? Du kannst entweder die zuvor gesammelten Daten verwenden oder einige neue Daten sammeln.
 
-![screenshot](images/pets-pn-bar.png)
+![Screenshot](images/pets-pn-bar.png)
 
-![screenshot](images/pets-pn.png)
+![Screenshot](images/pets-pn.png)
 
-## Save Your Project {.save}
+## Speichere dein Projekt {.save}

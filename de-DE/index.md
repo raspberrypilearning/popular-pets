@@ -34,75 +34,75 @@ Kreisdiagramme sind eine nützliche Methode zum Anzeigen von Daten. Lass uns ein
 
 + Öffne das leere Python-Vorlage-Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ Let's create a pie chart to show the results of your survey. You'll be using the PyGal library to do some of the hard work.
++ Lass uns ein Kreisdiagramm erstellen, um die Ergebnisse deiner Umfrage anzuzeigen. Du wirst die PyGal-Bibliothek verwenden, um einen Teil der harten Arbeit zu erledigen.
     
-    First import the Pygal library:
+    Importiere zuerst die Pygal-Bibliothek:
     
     ![screenshot](images/pets-pygal.png)
 
-+ Now let's create a Pie chart and render (display) it:
++ Jetzt erstellen wir ein Kreisdiagramm und rendern es (zeigen es an):
     
     ![screenshot](images/pets-pie.png)
     
-    Don't worry, it gets more interesting when you add data!
+    Keine Sorge, es wird interessanter, wenn du Daten hinzufügst!
 
-+ Let's add in the data for one of the pets. Use the data that you collected.
++ Lass uns die Daten für eines der Haustiere hinzufügen. Verwende die von Dir gesammelten Daten.
     
     ![screenshot](images/pets-add.png)
     
-    There's only one piece of data so it takes up the whole pie chart.
+    Es gibt nur ein Datenelement, sodass es das gesamte Kreisdiagramm einnimmt.
 
-+ Now add the rest of the data in the same way.
++ Füge nun den Rest der Daten auf die gleiche Weise hinzu.
     
-    For example:
+    Zum Beispiel:
     
     ![screenshot](images/pets-add-all.png)
 
-+ And to finish off your chart, add a title:
++ Und um dein Diagramm zu vervollständigen, füge einen Titel hinzu:
     
     ![screenshot](images/pets-title.png)
 
-## Save Your Project {.save}
+## Speichere dein Projekt {.save}
 
-## Challenge: Create your own bar chart {.challenge}
+## Daten von einer Datei ablesen {.challenge}
 
-You can create bar charts in a similar way. Just use `barchart = pygal.Bar()` to create a new barchart, and then add data and render in the same way as for a pie chart.
+Du kannst Balkendiagramme auf ähnliche Weise erstellen. Verwende einfach `barchart = pygal.Bar ()`, um ein neues Balkendiagramm zu erstellen, füge Daten hinzu und rendern es wie für ein Kreisdiagramm.
 
-Collect data from your Code Club members to create your own bar graph.
+Sammle Daten von deinen Code Club-Mitgliedern, um dein eigenes Balkendiagramm zu erstellen.
 
-Make sure that you choose a topic that everyone will know about!
+Stelle sicher, dass du ein Thema auswählst, über das jeder Bescheid weiß!
 
-Here are some ideas:
+Hier sind ein paar Vorschläge:
 
-+ What is your favourite sport?
++ Was ist dein Lieblingssport?
 
-+ What is your favourite ice cream flavour?
++ Was ist dein Lieblingseisgeschmack?
 
-+ How do you get to school?
++ Wie kommst du zur Schule?
 
-+ What month is your birthday?
++ In welchem Monat hast du Geburtstag?
 
-+ Do you play Minecraft? (yes/no)
++ Spielst du Minecraft? (ja Nein)
 
-Don't ask questions that give personal data such as where people live. Ask your club leader if you're not sure.
+Stelle keine Fragen, die personenbezogene Daten enthalten, z. B. wo Menschen leben. Frage deinen Clubleiter, wenn du dir nicht sicher bist.
 
-Examples:
+Beispiele:
 
 ![screenshot](images/pets-bar-examples.png)
 
-## Save Your Project {.save}
+## Speichere dein Projekt {.save}
 
-# Step 2: Read data from a file {.activity}
+# Schritt 2: Daten aus einer Datei lesen {.activity}
 
-It's useful to be able to store data in a file rather than having to include it in your code.
+Es ist nützlich, Daten in einer Datei speichern zu können, anstatt sie in den Code aufnehmen zu müssen.
 
-## Activity Checklist {.check}
+## Aktivitäts-Checkliste {.check}
 
-+ Add a new file to your project and call it `pets.txt`:
++ Füge zu deinem Projekt eine neue Datei hinzu und nenne sie `pets.txt`:
     
     ![screenshot](images/pets-file.png)
 
-+ Now add data to the file. You can use the favourite pets data that you collected or the example data.
++ Füge nun der Datei Daten hinzu. Du kannst die von dir gesammelten Lieblingshaustierdaten oder die Beispieldaten verwenden.
     
     ![screenshot](images/pets-data.png)
 

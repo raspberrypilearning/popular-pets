@@ -1,7 +1,7 @@
-## What you will need
+## Was Du brauchen wirst
 
 ### Software
 
-+ Trinket online editor
++ Trinket Online-Editor
 
-Note - this project uses trinket's pygal module and will only work with trinket.
+Hinweis - Dieses Projekt verwendet das Pygal-Modul von trinket und funktioniert nur mit trinket.

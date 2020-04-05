@@ -1,10 +1,10 @@
-## Introduction
+## Einleitung
 
-In this project you create pie charts and bar graphs from data that you collect from members of your Code Club.
+In diesem Projekt erstellst Du Kreis- und Balkendiagramme aus Daten, welche Du von Mitgliedern deines Code Club gesammelt hast.
 
-### Instructions
+### Anweisungen
 
-When you click Run the charts are generated from data using the PyGal python module.
+Wenn Du auf Ausführen klickst, werden die Diagramme mithilfe des PyGal Python-Moduls aus Daten erstellt.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/70d24d92b8?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -12,14 +12,14 @@ When you click Run the charts are generated from data using the PyGal python mod
   <img src="images/pets-finished.png">
 </div>
 
-### What you will learn
+### Was Du lernen wirst
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Dieses Projekt umfasst Elemente aus den folgenden Themen des [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-+ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder/)
++ [Kombiniere verschiedene Programmierkonstrukte, um ein Problem zu lösen.](https://www.raspberrypi.org/curriculum/programming/builder/)
 
-### Additional information for educators
+### Zusätzliche Informationen für Pädagogen
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/popular-pets/print){:target="_blank"}.
+Falls Sie dieses Projekt ausdrucken möchten, verwenden Sie bitte die [druckerfreundliche Version](https://projects.raspberrypi.org/en/projects/popular-pets/print){:target="_blank"}.
 
-Use the link in the footer to access the GitHub repository for this project, which contains all resources (including an example finished project) in the 'en/resources' folder.
+Folgen Sie dem Link in der Fußzeile, um auf das GitHub-Repository für dieses Projekt zuzugreifen. Dieses enthält alle Bestandteile (einschließlich eines Beispiels für ein abgeschlossenes Projekt) im Ordner "de-DE/resources".

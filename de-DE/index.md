@@ -1,14 +1,14 @@
 ---
-title: Popular Pets
-description: Create pie charts and bar graphs from data you collect.
-notes: "Popular Pets - notes.md"
+title: Beliebte Haustiere
+description: Erstelle Kreis- und Balkendiagramme von den Daten, die du gesammelt hast.
+notes: "Beliebte Haustiere - notes.md"
 layout: project
 new: true
 ---
 
-# Introduction {.intro}
+# Einleitung {.intro}
 
-In this project you create pie charts and bar graphs from data that you collect from members of your Code Club.
+In diesem Projekt wirst du Tortendiagramme und Balkendiagramme aus Daten erstellen, welche du von Mitgliedern deines Code Clubs gesammelt hast.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/70d24d92b8?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -16,23 +16,23 @@ In this project you create pie charts and bar graphs from data that you collect 
   <img src="images/pets-finished.png">
 </div>
 
-# Step 1: Create a Pie Chart {.activity}
+# Schritt 1: Erstelle ein Kreisdiagramm {.activity}
 
-Pie Charts are are useful way of showing data. Let's do a survey of favourite pets in your Code Club and then present the data as a Pie Chart.
+Kreisdiagramme sind eine nützliche Methode zum Anzeigen von Daten. Lass uns eine Umfrage über die Lieblingstiere in deinem Code Club durchführen und die Daten als Tortendiagramm darstellen.
 
-## Activity Checklist {.check}
+## Aufgaben-Checkliste {.check}
 
-+ Ask your volunteer to help organise a survey. You could record the results on a computer connected to a projector or a whiteboard that everyone can see.
++ Bitte einen Freiwilligen, eine Umfrage zu organisieren. Du kannst die Ergebnisse auf einem Computer aufzeichnen, der an einen Projektor oder ein Whiteboard angeschlossen ist und von jedem gesehen werden kann.
     
-    Write a list of pets and make sure everyone's favourite is included.
+    Schreibe eine Liste mit Haustieren und vergewissern dich, dass jeder Liebling dabei ist.
     
-    Then get everyone to vote for their favourite by putting their hand up when it gets called out. Only one vote each!
+    Bringe dann alle dazu, für ihren Favoriten zu stimmen, indem du die Hand nach dem Aufruf heben. Nur jeweils eine Stimme!
     
-    For example:
+    Zum Beispiel:
     
     ![screenshot](images/pets-favourite.png)
 
-+ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ Öffne das leere Python-Vorlage-Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
 + Let's create a pie chart to show the results of your survey. You'll be using the PyGal library to do some of the hard work.
     

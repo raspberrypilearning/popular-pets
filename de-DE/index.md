@@ -106,51 +106,51 @@ Es ist nützlich, Daten in einer Datei speichern zu können, anstatt sie in den 
     
     ![screenshot](images/pets-data.png)
 
-+ Switch back to `main.py` and comment out the lines that render (display) charts and graphs (so that they aren't displayed):
++ Wechsel zurück zu `main.py` und kommentiere die Zeilen aus, welche Diagramme und Graphen rendern (anzeigen) (damit sie nicht angezeigt werden):
     
     ![screenshot](images/pets-comment.png)
 
-+ Now let's read the data from the file.
++ Lesen wir nun die Daten aus der Datei.
     
     ![screenshot](images/pets-read.png)
     
-    The `for` loop will loop over the lines in the file. `splitlines()` removes the newline character from the end of the line as you don't want that.
+    Die `für` Schleife durchläuft die Zeilen in der Datei. `splitlines ()` entfernt das Zeilenumbruchzeichen vom Zeilenende, da Sie das nicht wollen.
 
-+ Each line needs to be separated into a label and a value:
++ Jede Zeile muss in eine Bezeichnung und einen Wert getrennt werden:
     
     ![screenshot](images/pets-split.png)
     
-    This will split the line at the spaces so don't include spaces in the labels. (You can add support for spaces in labels later.)
+    Dadurch wird die Linie an den Leerzeichen geteilt. Füge also keine Leerzeichen in die Beschriftungen ein. (Du kannst später die Unterstützung für Leerzeichen in Beschriftungen hinzufügen.)
 
-+ You might get an error like this:
++ Möglicherweise erhälst du folgende Fehlermeldung:
     
     ![screenshot](images/pets-error.png)
     
-    This happens if you have an empty line at the end of your file.
+    Dies passiert, wenn du am Ende deiner Datei eine leere Zeile hast.
     
-    You can fix the error by only getting the label and value if the line isn't empty.
+    Du kannst den Fehler beheben, indem du nur die Bezeichnung und den Wert abrufst, wenn die Zeile nicht leer ist.
     
-    To do this, indent the code inside your `for` loop and add the code `if line:` above it:
+    Um dies zu tun, rücke den Code in deiner `für` Schleife ein und füge den Code `wenn Zeile:` darüber ein:
     
     ![screenshot](images/pets-fix.png)
 
-+ You can remove the `print(label, value)` line now everything is working.
++ Du kannst die Zeile `print (label, value)` entfernen, jetzt funktioniert alles.
 
-+ Now let's add the label and value to a new Pie Chart and render it:
++ Fügen wir nun die Bezeichnung und den Wert zu einem neuen Kreisdiagramm hinzu und rendern es:
     
     ![screenshot](images/pets-pie2.png)
     
-    Note that `add` expects the value to be a number, `int(value)` turns the value from a string into an integer.
+    Beachte, dass `add` davon ausgeht, dass der Wert eine Zahl ist. `int (value)` wandelt den Wert einer Zeichenfolge in eine Ganzzahl um.
     
-    If you wanted to use decimals such as 3.5 (floating point numbers) you could use `float(value)` instead.
+    Wenn du Dezimalzahlen wie 3,5 (Gleitkommazahlen) verwenden möchtest, kannst du stattdessen `float (Wert)` verwenden.
 
-## Save Your Project {.save}
+## Speichere dein Projekt {.save}
 
-## Challenge: Create a new chart from a file {.challenge}
+## Aufgabe: Noch mehr Diagramme und Grafiken! {.challenge}
 
-Can you create a new bar graph or pie chart from data in a file? You'll need to create a new .txt file.
+Kannst du aus den Daten in einer Datei ein neues Balkendiagramm oder Tortendiagramm erstellen? Du musst eine neue .txt-Datei erstellen.
 
-Tip: If you want to have spaces in the labels then use `line.split(': ')` and add colons to your data file, e.g. 'Red Admiral: 6'
+Tipp: Wenn du Leerzeichen in den Beschriftungen haben möchtest, verwende `line.split (':')` und füge deiner Datendatei Doppelpunkte hinzu, z. B. 'Red Admiral: 6'
 
 ![screenshot](images/pets-butterflies.png)
 

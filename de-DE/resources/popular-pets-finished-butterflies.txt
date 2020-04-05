@@ -1,5 +1,5 @@
-Red Admiral: 6
-Gatekeeper: 4
-Small White: 3
-Holly Blue: 3
-Meadow Brown: 5
+Roter Admiral: 6
+Tagfalter: 4
+Kleiner Kohlweissling: 3
+Blaeuling: 3
+Kleiner Fuchs: 5

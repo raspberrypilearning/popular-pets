@@ -1,11 +1,11 @@
 \--- challenge \---
 
-## Challenge: Create a new chart from a file
+## Herausforderung: Erstelle ein neues Diagramm aus einer Datei
 
-Can you create a new bar graph or pie chart from data in a file? You'll need to create a new .txt file.
+Kannst Du aus Daten in einer Datei ein neues Balken- oder Kreisdiagramm erstellen? Du musst eine neue .txt-Datei erstellen.
 
-Tip: If you want to have spaces in the labels then use `line.split(': ')` and add colons to your data file, e.g. 'Red Admiral: 6'
+Tipp: Wenn Du Leerzeichen in den Bezeichnungen haben möchtest, dann verwende `zeile.split(': ')` und füge Doppelpunkte hinzu. Beispiel: 'Roter Admiral: 6'
 
-![screenshot](images/pets-butterflies.png)
+![Screenshot](images/pets-butterflies.png)
 
 \--- /challenge \---

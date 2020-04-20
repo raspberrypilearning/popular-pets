@@ -24,10 +24,10 @@ steps:
   - 
     title: 円グラフを作る
   - 
-    title: 'Challenge: Create your own bar chart'
+    title: 'チャレンジ: 棒グラフを作りましょう'
   - 
     title: ファイルからデータを読み込む
   - 
-    title: 'Challenge: Create a new chart from a file'
+    title: 'チャレンジ: ファイルから新規グラフをつくろう'
   - 
-    title: 'Challenge: More charts and graphs!'
+    title: 'チャレンジ: さらにグラフをつくろう！'

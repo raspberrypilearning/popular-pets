@@ -11,6 +11,7 @@ Kannst Du aus derselben Datei ein Kreisdiagramm und ein Balkendiagramm erstellen
 --- /challenge ---
 
 
+
 ***
 Dieses Projekt wurde von freiwilligen Helfern übersetzt:
 

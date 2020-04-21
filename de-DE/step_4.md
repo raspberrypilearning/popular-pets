@@ -18,7 +18,7 @@ Hier sind ein paar Vorschläge:
 
 Stelle keine Fragen, welche persönliche Daten enthalten wie zum Beispiel den Wohnort. Frage deinen Clubleiter, wenn Du dir nicht sicher bist.
 
-Examples:
+Beispiele:
 
 ![Screenshot](images/pets-bar-examples.png)
 

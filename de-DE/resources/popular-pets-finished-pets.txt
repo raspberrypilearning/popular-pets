@@ -1,7 +1,7 @@
-Dog 6
-Cat 4
+Hund 6
+Katze 4
 Hamster 3
-Fish 2
-Snake 1
+Fisch 2
+Schlange 1
 
 

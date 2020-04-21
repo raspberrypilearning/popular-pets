@@ -1,13 +1,11 @@
 --- challenge ---
-## Aufgabe: Noch mehr Diagramme und Grafiken! 
 
-Kannst du ein Kreis- und Balkendiagramm von der gleichen Datei erstellen? Du kannst entweder die Daten benutzen, die du bereits gesammelt hast oder neue Daten erheben. 
+## Herausforderung: Erstelle ein neues Diagramm aus einer Datei
 
-![screenshot](images/pets-pn-bar.png)
+Kannst Du aus Daten in einer Datei ein neues Balken- oder Kreisdiagramm erstellen? Du musst eine neue .txt-Datei erstellen.
 
-![screenshot](images/pets-pn.png)
+Tipp: Wenn Du Leerzeichen in den Bezeichnungen haben möchtest, dann verwende `zeile.split(': ')` und füge Doppelpunkte hinzu. Beispiel: 'Roter Admiral: 6'
+
+![Screenshot](images/pets-butterflies.png)
 
 --- /challenge ---
-
-
-

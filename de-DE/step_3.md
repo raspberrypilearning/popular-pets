@@ -1,25 +1,43 @@
---- challenge ---
-## Aufgabe: Erstelle dein eigenes Balkendiagramm 
+## Erstelle ein Kreisdiagramm
 
-Du kannst auf ähnliche Art und Weise auch ein Balkendiagramm erstellen. Benutze einfach nur `barchart = pygal.Bar()` (Balkendiagramm), um ein neues  Balkendiagramm zu erstellen, füge dann die Daten hinzu und rendere es auf die gleiche Art und Weise wie das Kreisdiagramm. 
+Kreisdiagramme sind eine nützliche Methode um Daten anzuzeigen. Lass uns eine Umfrage über die Lieblingstiere in deinem Code Club durchführen und das Ergebnis als Kreisdiagramm darstellen.
 
-Sammele die Daten von deinen Code Club Mitgliedern, um dein eigenes Balkendiagramm zu erstellen.
++ Bitte deinen Clubleiter, eine Umfrage zu organisieren. Du kannst die Ergebnisse in einen Computer eingeben, welcher an einen Projektor angeschlossen ist, oder an eine Tafel schreiben, die alle sehen können.
+    
+    Schreibe eine Liste mit Haustieren und stelle sicher, dass jeder Liebling dabei ist.
+    
+    Dann lasse alle für ihr Lieblingstier abstimmen indem sie ihre Hand heben, wenn es aufgerufen wird. Jeder hat nur eine Stimme!
+    
+    Zum Beispiel:
+    
+    ![Screenshot](images/pets-favourite.png)
 
-Achte darauf, dass du ein Thema wählst, über das jeder Bescheid weiß!
++ Öffne die leere Python-Vorlage in Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-Hier sind ein paar Vorschläge:
++ Lass uns ein Kreisdiagramm erstellen, um die Ergebnisse deiner Umfrage anzuzeigen. Du wirst die PyGal-Bibliothek verwenden, die einen Teil der harten Arbeit erledigt.
+    
+    Importiere zuerst die PyGal-Bibliothek:
+    
+    ![Screenshot](images/pets-pygal.png)
 
-+ Was ist dein Lieblingssport?
-+ Welche Sorte Eiscreme magst du am liebsten?
-+ Wie kommst du zur Schule?
-+ In welchem Monat hast du Geburtstag?
-+ Spielst du Minecraft? (ja/nein)
++ Jetzt erstellen wir ein Kreisdiagramm und rendern es (zeigen es an):
+    
+    ![Screenshot](images/pets-pie.png)
+    
+    Keine Sorge, es wird interessanter, wenn Du Daten hinzufügst!
 
-Stelle keine Fragen, bei denen persönliche Daten abgefragt werden, wie z.B. wo jemand wohnt. Frage deinen Club-Leiter, wenn du dir nicht sicher bist. 
++ Lass uns die Daten für eines der Haustiere einfügen. Verwende die Daten, welche Du gesammelt hast.
+    
+    ![Screenshot](images/pets-add.png)
+    
+    Es gibt nur ein Datenelement, sodass es das gesamte Kreisdiagramm ausfüllt.
 
-Beispiele:
++ Nun füge die restlichen Daten auf die gleiche Weise hinzu.
+    
+    Zum Beispiel:
+    
+    ![Screenshot](images/pets-add-all.png)
 
-![screenshot](images/pets-bar-examples.png)
-
---- /challenge ---
-
++ Um dein Diagramm zu vervollständigen, füge einen Titel hinzu:
+    
+    ![Screenshot](images/pets-title.png)

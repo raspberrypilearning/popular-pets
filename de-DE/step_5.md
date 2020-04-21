@@ -28,6 +28,7 @@ Es ist nützlich, Daten in einer Datei speichern zu können, anstatt sie in den 
 
 + Möglicherweise erhältst Du eine Fehlermeldung wie diese:
     
+    
     ![Screenshot](images/pets-error.png)
     
     Dies passiert, wenn sich am Ende deiner Datei eine Leerzeile befindet.

@@ -1,8 +1,8 @@
 \--- challenge \---
 
-## Challenge: More charts and graphs!
+## チャレンジ: さらにグラフをつくろう！
 
-円グラフと棒グラフを同じファイルから作成できましたか？ You can either use the data you collected earlier or collect some new data.
+円グラフと棒グラフを同じファイルから作成できましたか？ 前に集めたデータを使っても、新しいデータを集めてもよいです。
 
 ![スクリーンショット](images/pets-pn-bar.png)
 

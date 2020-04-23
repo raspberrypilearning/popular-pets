@@ -1,49 +1,49 @@
 ## ファイルからデータを読み込む
 
-It's useful to be able to store data in a file rather than having to include it in your code.
+データをコードに含むよりも、ファイルに保存できる方が便利です。
 
 + 新規ファイルを追加し、名前を`pets.txt`とします。
     
     ![スクリーンショット](images/pets-file.png)
 
-+ Now add data to the file. You can use the favourite pets data that you collected or the example data.
++ 次に、ファイルにデータを追加します。 集めたお気に入りのペットデータまたはサンプルデータを使用できます。
     
     ![スクリーンショット](images/pets-data.png)
 
-+ Switch back to `main.py` and comment out the lines that render (display) charts and graphs (so that they aren't displayed):
++ `main.py`に戻り、グラフのレンダリング(表示) する行をコメントアウトします(表示されないように):
     
     ![スクリーンショット](images/pets-comment.png)
 
-+ Now let's read the data from the file.
++ 次に、ファイルからデータを読み込みましょう。
     
     ![スクリーンショット](images/pets-read.png)
     
-    The `for` loop will loop over the lines in the file. `splitlines()` removes the newline character from the end of the line as you don't want that.
+    `for`ループはファイル内の行を繰り返します。 `splitlines()`は、行末から改行文字を削除します。
 
-+ Each line needs to be separated into a label and a value:
++ 各行はラベルと値に分けられる必要があります:
     
     ![スクリーンショット](images/pets-split.png)
     
-    This will split the line at the spaces so don't include spaces in the labels. (You can add support for spaces in labels later.)
+    スペースがあるところで分割されるので、ラベルにはスペースを入れないでください。 (ラベル中のスペースに必要なサポートは後で追加できます。)
 
 + つぎのようなエラーが出るかもしれません。
     
     ![スクリーンショット](images/pets-error.png)
     
-    This happens if you have an empty line at the end of your file.
+    これは、ファイルの最後に空の行がある場合に出てきます。
     
-    You can fix the error by only getting the label and value if the line isn't empty.
+    行が空でないのであれば、ラベルと値を取得することのみでエラーは修正できます。
     
-    To do this, indent the code inside your `for` loop and add the code `if line:` above it:
+    そのために、`for`ループ内のコードをインデントし、その上に`if line:`コードを追加します。
     
     ![スクリーンショット](images/pets-fix.png)
 
-+ You can remove the `print(label, value)` line now everything is working.
++ `print(label, value)` 行を削除して、すべてが機能するようになりました。
 
-+ Now let's add the label and value to a new Pie Chart and render it:
++ 次に、新しい円グラフにラベルと値を追加してレンダリングします:
     
     ![スクリーンショット](images/pets-pie2.png)
     
-    Note that `add` expects the value to be a number, `int(value)` turns the value from a string into an integer.
+    `add`は値が数値であることを想定し、`int(value)`は文字列から数値に変換した値を返すことに注意してください。
     
-    If you wanted to use decimals such as 3.5 (floating point numbers) you could use `float(value)` instead.
+    3.5(浮動小数点) などの少数を使いたい場合、代わりに`float(value) `を使えます。

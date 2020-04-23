@@ -2,6 +2,6 @@
 
 ### ソフトウェア
 
-+ Trinket online editor
++ Trinket オンラインエディタ
 
-Note - this project uses trinket's pygal module and will only work with trinket.
+注 - このプロジェクトはtrinketのpygalモジュールを使用しており、trinketでのみ動作します。

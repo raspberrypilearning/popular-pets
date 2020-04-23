@@ -1,10 +1,10 @@
 \--- challenge \---
 
-## Challenge: Create a new chart from a file
+## チャレンジ: ファイルから新しくグラフをつくろう
 
-Can you create a new bar graph or pie chart from data in a file? You'll need to create a new .txt file.
+ファイルの中のデータを使って新しく棒グラフか円グラフを作れますか？ 新しい.txtファイルを作る必要があります。
 
-Tip: If you want to have spaces in the labels then use `line.split(': ')` and add colons to your data file, e.g. 'Red Admiral: 6'
+ヒント: ラベル内にスペースが必要なら、`line.split(': ')`を使い、コロンをデータファイル内に追加します。例 'レッドアドミラル: 6'
 
 ![スクリーンショット](images/pets-butterflies.png)
 

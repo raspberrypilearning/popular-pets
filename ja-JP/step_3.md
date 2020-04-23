@@ -1,36 +1,36 @@
 ## 円グラフを作る
 
-Pie Charts are useful way of showing data. Let's do a survey of favourite pets in your Code Club and then present the data as a Pie Chart.
+円グラフはデータを表示する便利な方法です。 Code Clubで大好きなペットについて調査してデータを円グラフとして表示しましょう。
 
-+ Ask your club leader to help organise a survey. みんなに見えるように、プロジェクターやホワイトボードに接続されたコンピュータに結果を入力しましょう。
++ クラブのリーダーに頼み調査を計画しましょう。 みんなに見えるように、プロジェクターやホワイトボードに接続されたコンピュータに結果を入力しましょう。
     
     ペットのリストを書き、みんなの大好きなペットが含まれているか確かめましょう。
     
     好きなペットが呼ばれたら、手をあげてもらって全員に投票してもらいましょう。 一人一票です！
     
-    For example:
+    例えば:
     
     ![スクリーンショット](images/pets-favourite.png)
 
-+ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ 空のPythonテンプレートTrinketを開きます: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>
 
-+ 調査結果を示す円グラフをつくりましょう。 You'll be using the PyGal library to do some of the hard work.
++ 調査結果を示す円グラフをつくりましょう。 PyGalライブラリーを使っていくつかの大変な作業を行います。
     
     最初にPygalライブラリーをインポートします。
     
     ![スクリーンショット](images/pets-pygal.png)
 
-+ Now let's create a Pie chart and render (display) it:
++ 次に円グラフを作ってレンダリング(表示) しましょう:
     
     ![スクリーンショット](images/pets-pie.png)
     
-    Don't worry, it gets more interesting when you add data!
+    心配いりません。データを加えればもっと面白くなります！
 
-+ Let's add in the data for one of the pets. Use the data that you collected.
++ ペットの１つをデータを加えてみましょう。 集めたデータを使います。
     
     ![スクリーンショット](images/pets-add.png)
     
-    There's only one piece of data so it takes up the whole pie chart.
+    データが１つしかないので、円グラフ全体となります。
 
 + 次に残りのデータを同じように加えます。
     
@@ -38,6 +38,6 @@ Pie Charts are useful way of showing data. Let's do a survey of favourite pets i
     
     ![スクリーンショット](images/pets-add-all.png)
 
-+ And to finish off your chart, add a title:
++ グラフを完成させるために、title: を追加します。
     
     ![スクリーンショット](images/pets-title.png)

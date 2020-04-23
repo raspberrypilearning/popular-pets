@@ -1,24 +1,24 @@
 \--- challenge \---
 
-## Challenge: Create your own bar chart
+## チャレンジ: 棒グラフを作りましょう
 
-同じようにして棒グラフを作れます。 Just use `barchart = pygal.Bar()` to create a new barchart, and then add data and render in the same way as for a pie chart.
+同じようにして棒グラフを作れます。 `barchart = pygal.Bar()` を使うだけで新しい棒グラフを作成し、円グラフのときと同じようにデータを加えレンダリングします。
 
-Collect data from your Code Club members to create your own bar graph.
+Code Clubのメンバーからデータを集めて棒グラフを作ります。
 
 みんなが知っているトピックを選びましょう！
 
-Here are some ideas:
+ここにいくつかのアイデアがあります:
 
-+ What is your favourite sport?
-+ What is your favourite ice cream flavour?
-+ How do you get to school?
-+ What month is your birthday?
-+ Do you play Minecraft? (yes/no)
++ 好きなスポーツは何ですか？
++ 好きなアイスクリームの味は何ですか？
++ どうやって学校に行きますか？
++ あなたの誕生日は何月ですか？
++ Minecraftをプレイしますか？ (はい/いいえ)
 
-Don't ask questions that give personal data such as where people live. Ask your club leader if you're not sure.
+どこに住んでいるかといったような個人情報に関する質問はしないでください。 わからない場合は、クラブリーダーに聞いてみましょう。
 
-Examples:
+例えば:
 
 ![スクリーンショット](images/pets-bar-examples.png)
 

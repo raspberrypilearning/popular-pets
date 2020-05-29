@@ -8,7 +8,7 @@ Collect data from your Code Club members to create your own bar graph.
 
 Make sure that you choose a topic that everyone will know about!
 
-Here are some ideas:
+Íme néhány ötlet:
 
 + What is your favourite sport?
 + What is your favourite ice cream flavour?

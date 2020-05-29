@@ -1,11 +1,11 @@
 \--- challenge \---
 
-## Challenge: Create a new chart from a file
+## चुनौती: किसी फ़ाइल से एक नया चार्ट बनाएँ
 
-Can you create a new bar graph or pie chart from data in a file? You'll need to create a new .txt file.
+क्या आप किसी फ़ाइल में डेटा से एक नया बार ग्राफ़ या पाई चार्ट बना सकते हैं? आपको एक नई .txt फ़ाइल बनानी होगी।
 
-Tip: If you want to have spaces in the labels then use `line.split(': ')` and add colons to your data file, e.g. 'Red Admiral: 6'
+युक्ति: यदि आप लेबलों में स्थान चाहते हैं, तो `line.split(': ')` का उपयोग करें और अपनी डेटा फ़ाइल में कॉलोन जोड़ें, जैसे 'रेड एडमिरल: 6'
 
-![screenshot](images/pets-butterflies.png)
+![स्क्रीनशॉट](images/pets-butterflies.png)
 
 \--- /challenge \---

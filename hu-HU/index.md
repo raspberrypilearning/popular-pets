@@ -1,5 +1,5 @@
 ---
-title: Popular Pets
+title: Népszerű háziállatok
 description: Create pie charts and bar graphs from data you collect.
 notes: "Popular Pets - notes.md"
 layout: project

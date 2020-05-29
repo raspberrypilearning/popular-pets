@@ -38,6 +38,6 @@
     
     ![スクリーンショット](images/pets-add-all.png)
 
-+ グラフを完成させるために、title: を追加します。
++ グラフの名前を付けて完成です。
     
     ![スクリーンショット](images/pets-title.png)

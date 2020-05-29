@@ -1,43 +1,43 @@
-## Create a Pie Chart
+## एक पाई चार्ट बनाएं
 
-Pie Charts are useful way of showing data. Let's do a survey of favourite pets in your Code Club and then present the data as a Pie Chart.
+पाई चार्ट डेटा दिखाने का उपयोगी तरीका है। आइए अपने कोड क्लब में पसंदीदा पालतू जानवरों का एक सर्वेक्षण करें और फिर डेटा को पाई चार्ट के रूप में प्रस्तुत करें।
 
-+ Ask your club leader to help organise a survey. You could record the results on a computer connected to a projector or a whiteboard that everyone can see.
++ अपने क्लब लीडर से एक सर्वेक्षण आयोजित करने में मदद करने के लिए कहें। आप प्रोजेक्टर या व्हाइटबोर्ड से जुड़े कंप्यूटर पर परिणाम रिकॉर्ड कर सकते हैं जिसे हर कोई देख सकता है।
     
-    Write a list of pets and make sure everyone's favourite is included.
+    पालतू जानवरों की एक सूची लिखें और सुनिश्चित करें कि हर किसी का पसंदीदा शामिल है।
     
-    Then get everyone to vote for their favourite by putting their hand up when it gets called out. Only one vote each!
+    फिर हर किसी को अपने पसंदीदा को वोट देने के लिए कहें जब वह बाहर जाता है। केवल एक वोट!
     
-    For example:
+    उदाहरण के लिए:
     
-    ![screenshot](images/pets-favourite.png)
+    ![स्क्रीनशॉट](images/pets-favourite.png)
 
-+ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ रिक्त Python टेंपलेट Trinket खोलें: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ Let's create a pie chart to show the results of your survey. You'll be using the PyGal library to do some of the hard work.
++ आइए अपने सर्वेक्षण के परिणामों को दिखाने के लिए एक पाई चार्ट बनाएं। आप कुछ कठिन परिश्रम करने के लिए PyGal लाइब्रेरी का उपयोग करेंगे।
     
-    First import the Pygal library:
+    पहला पायल लाइब्रेरी आयात करें:
     
-    ![screenshot](images/pets-pygal.png)
+    ![स्क्रीनशॉट](images/pets-pygal.png)
 
-+ Now let's create a Pie chart and render (display) it:
++ अब एक पाई चार्ट बनाते हैं और इसे प्रदर्शित करते हैं:
     
-    ![screenshot](images/pets-pie.png)
+    ![स्क्रीनशॉट](images/pets-pie.png)
     
-    Don't worry, it gets more interesting when you add data!
+    चिंता न करें, जब आप डेटा जोड़ते हैं तो यह अधिक दिलचस्प हो जाता है!
 
-+ Let's add in the data for one of the pets. Use the data that you collected.
++ चलो पालतू जानवरों में से एक के लिए डेटा जोड़ें। आपके द्वारा एकत्र किए गए डेटा का उपयोग करें।
     
-    ![screenshot](images/pets-add.png)
+    ![स्क्रीनशॉट](images/pets-add.png)
     
-    There's only one piece of data so it takes up the whole pie chart.
+    अभी डेटा का केवल एक टुकड़ा है, इसलिए यह पूरे पाई चार्ट को लेता है।
 
-+ Now add the rest of the data in the same way.
++ अब उसी तरह से बाकी डेटा भी जोड़ें।
     
-    For example:
+    उदाहरण के लिए:
     
-    ![screenshot](images/pets-add-all.png)
+    ![स्क्रीनशॉट](images/pets-add-all.png)
 
-+ And to finish off your chart, add a title:
++ और अपना चार्ट समाप्त करने के लिए, शीर्षक जोड़ें:
     
-    ![screenshot](images/pets-title.png)
+    ![स्क्रीनशॉट](images/pets-title.png)

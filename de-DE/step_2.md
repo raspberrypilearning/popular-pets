@@ -4,4 +4,4 @@
 
 + Trinket Online-Editor
 
-Hinweis - Dieses Projekt verwendet das Pygal-Modul von trinket und funktioniert nur mit trinket.
+Hinweis - Dieses Projekt verwendet das Pygal-Modul von Trinket und funktioniert nur mit Trinket.

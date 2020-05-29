@@ -34,7 +34,7 @@ Es ist nützlich, Daten in einer Datei speichern zu können, anstatt sie in den 
     
     Du kannst den Fehler beheben, indem Du Bezeichnung und Wert nur abrufst, wenn die Zeile nicht leer ist.
     
-    Um das zu tun, rücke den Code in der `for` Schleife ein und füge den Code `if line:` oberhalb hinzu:
+    Um das zu tun, rücke den Code in der `for` Schleife ein und füge den Code `if zeile:` oberhalb hinzu:
     
     ![Screenshot](images/pets-fix.png)
 

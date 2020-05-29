@@ -1,0 +1,7 @@
+Cachorro 6
+Gato 4
+Hamster 3
+Peixe 2
+Cobra 1
+
+

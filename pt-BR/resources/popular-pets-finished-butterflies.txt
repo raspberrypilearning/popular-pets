@@ -1,0 +1,5 @@
+Almirante Vermelho: 6
+Guarda-portões: 4
+Borboleta-pequena-das-couves: 3
+Azul-celeste: 3
+Borboleta-loba: 5

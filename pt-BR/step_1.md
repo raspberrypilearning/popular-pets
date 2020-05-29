@@ -1,8 +1,8 @@
-## Introduction
+## Introdução
 
-In this project you create pie charts and bar graphs from data that you collect from members of your Code Club.
+Neste projeto, você cria gráficos de pizza e gráficos de barras a partir dos dados coletados dos membros do seu Code Club.
 
-### Instructions
+### Instruções
 
 Quando você clica em "Run" (executar, em inglês), os gráficos são gerados a partir dos dados usando o módulo python PyGal.
 

@@ -2,7 +2,7 @@
 
 ## Herausforderung: Erstelle ein Balkendiagramm
 
-Du kannst auf ähnliche Weise ein Balkendiagramm erstellen. Verwende dazu einfach `barchart = pygal.Bar()`, um ein neues Balkendiagramm zu erstellen, füge Daten hinzu und rendere das Diagramm auf die gleiche Weise wie zuvor das Kreisdiagramm.
+Du kannst auf ähnliche Weise ein Balkendiagramm erstellen. Verwende dazu einfach `balkendiagramm = pygal.Bar()`, um ein neues Balkendiagramm zu erstellen, füge Daten hinzu und rendere das Diagramm auf die gleiche Weise wie zuvor das Kreisdiagramm.
 
 Sammle Daten von deinen Code Club-Mitgliedern, um dein eigenes Balkendiagramm zu erstellen.
 

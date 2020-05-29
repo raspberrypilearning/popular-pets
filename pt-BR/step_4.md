@@ -2,7 +2,7 @@
 
 ## Desafio: crie seu próprio gráfico de barras
 
-Você pode criar gráficos de barras do mesmo jeito. Just use `barchart = pygal.Bar()` to create a new barchart, and then add data and render in the same way as for a pie chart.
+Você pode criar gráficos de barras do mesmo jeito. Use `grafico_barra = pygal.Bar()` para criar um novo gráfico de barras, e então adicione os dados e renderize do mesmo jeito que você faria em um gráfico de pizza.
 
 Colete dados dos membros do seu Code Club para criar seu próprio gráfico de barras.
 

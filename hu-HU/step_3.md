@@ -14,9 +14,9 @@ Pie Charts are useful way of showing data. Let's do a survey of favourite pets i
 
 + Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ Let's create a pie chart to show the results of your survey. You'll be using the PyGal library to do some of the hard work.
++ Készíts kördiagramot a felmérés eredményének a bemutatására. Részben a PyGal könyvtárat fogod használni a munkád során.
     
-    First import the Pygal library:
+    Először importáld a Pygal könyvtárat:
     
     ![screenshot](images/pets-pygal.png)
 
@@ -34,7 +34,7 @@ Pie Charts are useful way of showing data. Let's do a survey of favourite pets i
 
 + Now add the rest of the data in the same way.
     
-    For example:
+    Például:
     
     ![screenshot](images/pets-add-all.png)
 

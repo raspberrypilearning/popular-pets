@@ -4,7 +4,7 @@ It's useful to be able to store data in a file rather than having to include it 
 
 + Add a new file to your project and call it `pets.txt`:
     
-    ![screenshot](images/pets-file.png)
+    ![képernyőkép](images/pets-file.png)
 
 + Now add data to the file. You can use the favourite pets data that you collected or the example data.
     

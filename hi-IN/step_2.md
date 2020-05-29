@@ -1,7 +1,7 @@
-## What you will need
+## आपको क्या आवश्यकता होगी
 
-### Software
+### सॉफ्टवेयर
 
-+ Trinket online editor
++ त्रिंकेत ऑनलाइन संपादक
 
-Note - this project uses trinket's pygal module and will only work with trinket.
+नोट - यह प्रोजैक्ट trinket के पाइगल मॉड्यूल का उपयोग करती है और केवल trinket के साथ काम करेगी।

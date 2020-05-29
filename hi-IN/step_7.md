@@ -1,11 +1,11 @@
 \--- challenge \---
 
-## Challenge: More charts and graphs!
+## चुनौती: अधिक चार्ट और रेखांकन!
 
-Can you create a pie chart and a bar chart from the same file? You can either use the data you collected earlier or collect some new data.
+क्या आप उसी फ़ाइल से पाई चार्ट और बार चार्ट बना सकते हैं? आप या तो पहले एकत्र किए गए डेटा का उपयोग कर सकते हैं या कुछ नए डेटा एकत्र कर सकते हैं।
 
-![screenshot](images/pets-pn-bar.png)
+![स्क्रीनशॉट](images/pets-pn-bar.png)
 
-![screenshot](images/pets-pn.png)
+![स्क्रीनशॉट](images/pets-pn.png)
 
 \--- /challenge \---

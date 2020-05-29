@@ -1,14 +1,14 @@
 ---
-title: Popular Pets
-description: Create pie charts and bar graphs from data you collect.
-notes: "Popular Pets - notes.md"
-layout: project
-new: true
+title: लोकप्रिय पालतू जानवर
+description: अपने एकत्रित किए गए डेटा से पाई चार्ट और बार ग्राफ बनाएँ।
+notes: "लोकप्रिय पालतू जानवर - notes.md"
+layout: प्रोजेक्ट
+new: सही
 ---
 
-# Introduction {.intro}
+# परिचय {.intro}
 
-In this project you create pie charts and bar graphs from data that you collect from members of your Code Club.
+इस परियोजना में आप अपने कोड क्लब के सदस्यों से एकत्रित डेटा से पाई चार्ट और बार ग्राफ बनाते हैं।
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/70d24d92b8?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -16,152 +16,152 @@ In this project you create pie charts and bar graphs from data that you collect 
   <img src="images/pets-finished.png">
 </div>
 
-# Step 1: Create a Pie Chart {.activity}
+# चरण 1: एक पाई चार्ट बनाएं {.activity}
 
-Pie Charts are are useful way of showing data. Let's do a survey of favourite pets in your Code Club and then present the data as a Pie Chart.
+पाई चार्ट डेटा दिखाने का उपयोगी तरीका है। आइए अपने कोड क्लब में पसंदीदा पालतू जानवरों का एक सर्वेक्षण करें और फिर डेटा को पाई चार्ट के रूप में प्रस्तुत करें।
 
-## Activity Checklist {.check}
+## गतिविधि जाँच सूची {.check}
 
-+ Ask your volunteer to help organise a survey. You could record the results on a computer connected to a projector or a whiteboard that everyone can see.
++ अपने स्वयंसेवक से एक सर्वेक्षण को व्यवस्थित करने में सहायता के लिए पूछें। आप प्रोजेक्टर या व्हाइटबोर्ड से जुड़े कंप्यूटर पर परिणाम रिकॉर्ड कर सकते हैं जिसे हर कोई देख सकता है।
     
-    Write a list of pets and make sure everyone's favourite is included.
+    पालतू जानवरों की एक सूची लिखें और सुनिश्चित करें कि हर किसी का पसंदीदा शामिल है।
     
-    Then get everyone to vote for their favourite by putting their hand up when it gets called out. Only one vote each!
+    फिर हर किसी को अपने पसंदीदा को वोट देने के लिए कहें | जब नाम बोला जाता है तो हाथ ऊपर उठाएं। केवल एक वोट!
     
-    For example:
+    उदाहरण के लिए:
     
-    ![screenshot](images/pets-favourite.png)
+    ![स्क्रीनशॉट](images/pets-favourite.png)
 
-+ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ रिक्त Python टेंपलेट Trinket खोलें: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ Let's create a pie chart to show the results of your survey. You'll be using the PyGal library to do some of the hard work.
++ आइए अपने सर्वेक्षण के परिणामों को दिखाने के लिए एक पाई चार्ट बनाएं। आप कुछ कठिन परिश्रम करने के लिए PyGal लाइब्रेरी का उपयोग करेंगे।
     
-    First import the Pygal library:
+    पहला पायल लाइब्रेरी आयात करें:
     
-    ![screenshot](images/pets-pygal.png)
+    ![स्क्रीनशॉट](images/pets-pygal.png)
 
-+ Now let's create a Pie chart and render (display) it:
++ अब एक पाई चार्ट बनाते हैं और इसे प्रदर्शित करते हैं:
     
-    ![screenshot](images/pets-pie.png)
+    ![स्क्रीनशॉट](images/pets-pie.png)
     
-    Don't worry, it gets more interesting when you add data!
+    चिंता न करें, जब आप डेटा जोड़ते हैं तो यह अधिक दिलचस्प हो जाता है!
 
-+ Let's add in the data for one of the pets. Use the data that you collected.
++ चलो पालतू जानवरों में से एक के लिए डेटा जोड़ें। आपके द्वारा एकत्र किए गए डेटा का उपयोग करें।
     
-    ![screenshot](images/pets-add.png)
+    ![स्क्रीनशॉट](images/pets-add.png)
     
-    There's only one piece of data so it takes up the whole pie chart.
+    अभी डेटा का केवल एक टुकड़ा है, इसलिए यह पूरे पाई चार्ट को लेता है।
 
-+ Now add the rest of the data in the same way.
++ अब उसी तरह से बाकी डेटा भी जोड़ें।
     
-    For example:
+    उदाहरण के लिए:
     
-    ![screenshot](images/pets-add-all.png)
+    ![स्क्रीनशॉट](images/pets-add-all.png)
 
-+ And to finish off your chart, add a title:
++ और अपना चार्ट समाप्त करने के लिए, शीर्षक जोड़ें:
     
-    ![screenshot](images/pets-title.png)
+    ![स्क्रीनशॉट](images/pets-title.png)
 
-## Save Your Project {.save}
+## अपने प्रोजेक्ट को Save करें {.save}
 
-## Challenge: Create your own bar chart {.challenge}
+## चुनौती: अपना खुद का बार ग्राफ बनाएँ {.challenge}
 
-You can create bar charts in a similar way. Just use `barchart = pygal.Bar()` to create a new barchart, and then add data and render in the same way as for a pie chart.
+आप इसी तरह से बार चार्ट बना सकते हैं। नया बार चार्ट बनाने के लिए बस `barchart = pygal.Bar ()` का उपयोग करें, और फिर डेटा जोड़ें और पाई चार्ट के लिए उसी तरह प्रस्तुत करें।
 
-Collect data from your Code Club members to create your own bar graph.
+अपने स्वयं के बार ग्राफ बनाने के लिए अपने कोड क्लब के सदस्यों से डेटा एकत्र करें।
 
-Make sure that you choose a topic that everyone will know about!
+सुनिश्चित करें कि आप एक विषय चुनें जिसके बारे में सभी को पता होगा!
 
-Here are some ideas:
+यहाँ कुछ उदाहरण हैं:
 
-+ What is your favourite sport?
++ आपका पसंदीदा खेल क्या है?
 
-+ What is your favourite ice cream flavour?
++ आपका पसंदीदा आइसक्रीम स्वाद क्या है?
 
-+ How do you get to school?
++ आप स्कूल कैसे आए?
 
-+ What month is your birthday?
++ आपका जन्मदिन कौन सा महीने में है?
 
-+ Do you play Minecraft? (yes/no)
++ क्या आप Minecraft खेलते हैं? (हाँ नही)
 
-Don't ask questions that give personal data such as where people live. Ask your club leader if you're not sure.
+ऐसे सवाल न पूछें जो व्यक्तिगत डेटा देते हैं जैसे कि लोग कहाँ रहते हैं । यदि आपके पास कोई विचार नहीं है तो अपने क्लब लीडर से पूछें
 
-Examples:
+उदाहरण:
 
-![screenshot](images/pets-bar-examples.png)
+![स्क्रीनशॉट](images/pets-bar-examples.png)
 
-## Save Your Project {.save}
+## अपने प्रोजेक्ट को Save करें {.save}
 
-# Step 2: Read data from a file {.activity}
+# चरण 2: एक फ़ाइल से डेटा पढ़ें {.activity}
 
-It's useful to be able to store data in a file rather than having to include it in your code.
+अपने कोड में इसे शामिल करने के बजाय किसी फ़ाइल में डेटा संग्रहीत करना उपयोगी है।
 
-## Activity Checklist {.check}
+## गतिविधि जाँच सूची {.check}
 
-+ Add a new file to your project and call it `pets.txt`:
++ अपनी परियोजना में एक नई फ़ाइल जोड़ें और इसे `pets.txt` कॉल करें:
     
-    ![screenshot](images/pets-file.png)
+    ![स्क्रीनशॉट](images/pets-file.png)
 
-+ Now add data to the file. You can use the favourite pets data that you collected or the example data.
++ अब फ़ाइल में डेटा जोड़ें। आप पसंदीदा पालतू जानवर डेटा का उपयोग कर सकते हैं जिसे आपने एकत्र किया था या उदाहरण डेटा।
     
-    ![screenshot](images/pets-data.png)
+    ![स्क्रीनशॉट](images/pets-data.png)
 
-+ Switch back to `main.py` and comment out the lines that render (display) charts and graphs (so that they aren't displayed):
++ वापस `मेनफ्रेम` जाओ और उन लाइनों को comment out करो जो चार्ट (ग्राफ़) और ग्राफ़ प्रस्तुत करती हैं (ताकि वे प्रदर्शित न हों):
     
-    ![screenshot](images/pets-comment.png)
+    ![स्क्रीनशॉट](images/pets-comment.png)
 
-+ Now let's read the data from the file.
++ अब फाइल से डेटा पढ़ते हैं।
     
-    ![screenshot](images/pets-read.png)
+    ![स्क्रीनशॉट](images/pets-read.png)
     
-    The `for` loop will loop over the lines in the file. `splitlines()` removes the newline character from the end of the line as you don't want that.
+    `for` लूप फ़ाइल में लाइनों पर लूप होगा। `splitlines()` लाइन के अंत से न्यूलाइन वर्ण को हटा देता है क्योंकि आप ऐसा नहीं चाहते हैं।
 
-+ Each line needs to be separated into a label and a value:
++ प्रत्येक पंक्ति को एक लेबल और एक value में अलग करने की आवश्यकता है:
     
-    ![screenshot](images/pets-split.png)
+    ![स्क्रीनशॉट](images/pets-split.png)
     
-    This will split the line at the spaces so don't include spaces in the labels. (You can add support for spaces in labels later.)
+    यह रिक्त स्थान पर लाइन को विभाजित करेगा इसलिए लेबल में रिक्त स्थान शामिल न करें। (आप बाद में लेबल में रिक्त स्थान के लिए समर्थन जोड़ सकते हैं।)
 
-+ You might get an error like this:
++ आपको इस प्रकार की एक त्रुटि मिल सकती है:
     
-    ![screenshot](images/pets-error.png)
+    ![स्क्रीनशॉट](images/pets-error.png)
     
-    This happens if you have an empty line at the end of your file.
+    ऐसा तब होता है जब आपकी फाइल के अंत में एक खाली लाइन होती है।
     
-    You can fix the error by only getting the label and value if the line isn't empty.
+    यदि लाइन खाली नहीं है, तो आप केवल लेबल और value प्राप्त करके त्रुटि को ठीक कर सकते हैं।
     
-    To do this, indent the code inside your `for` loop and add the code `if line:` above it:
+    ऐसा करने के लिए, अपने `for` लूप के अंदर के कोड को इंडेंट करें और `if line:` जोड़ें पंक्ति के ऊपर:
     
-    ![screenshot](images/pets-fix.png)
+    ![स्क्रीनशॉट](images/pets-fix.png)
 
-+ You can remove the `print(label, value)` line now everything is working.
++ अब आप `print(label, value)` लाइन को हटा सकते हैं अब सब कुछ काम कर रहा है।
 
-+ Now let's add the label and value to a new Pie Chart and render it:
++ अब एक नए पाई चार्ट में लेबल और value जोड़ें और इसे प्रस्तुत करें:
     
-    ![screenshot](images/pets-pie2.png)
+    ![स्क्रीनशॉट](images/pets-pie2.png)
     
-    Note that `add` expects the value to be a number, `int(value)` turns the value from a string into an integer.
+    ध्यान दें कि `add` value के संख्या होने की उम्मीद है, `int (value)` एक स्ट्रिंग से value को पूर्णांक में बदल देता है।
     
-    If you wanted to use decimals such as 3.5 (floating point numbers) you could use `float(value)` instead.
+    अगर आप दशमलव उपयोग करना चाहते थे जैसे 3.5 (चल बिन्दु संख्या) उसके लिए इस का उपयोग करें `float(value)`
 
-## Save Your Project {.save}
+## अपने प्रोजेक्ट को Save करें {.save}
 
-## Challenge: Create a new chart from a file {.challenge}
+## चुनौती: एक फ़ाइल से एक नया चार्ट बनाएं {.challenge}
 
-Can you create a new bar graph or pie chart from data in a file? You'll need to create a new .txt file.
+क्या आप किसी फ़ाइल में डेटा से एक नया बार ग्राफ़ या पाई चार्ट बना सकते हैं? आपको एक नई .txt फ़ाइल बनानी होगी।
 
-Tip: If you want to have spaces in the labels then use `line.split(': ')` and add colons to your data file, e.g. 'Red Admiral: 6'
+युक्ति: यदि आप लेबलों में स्थान चाहते हैं, तो `line.split(': ')` का उपयोग करें और अपनी डेटा फ़ाइल में कॉलोन जोड़ें, जैसे 'रेड एडमिरल: 6'
 
-![screenshot](images/pets-butterflies.png)
+![स्क्रीनशॉट](images/pets-butterflies.png)
 
-## Save Your Project {.save}
+## अपने प्रोजेक्ट को Save करें {.save}
 
-## Challenge: More charts and graphs! {.challenge}
+## चुनौती: अधिक चार्ट और रेखांकन! {.challenge}
 
-Can you create a pie chart and a bar chart from the same file? You can either use the data you collected earlier or collect some new data.
+क्या आप उसी फ़ाइल से पाई चार्ट और बार चार्ट बना सकते हैं? आप या तो पहले एकत्र किए गए डेटा का उपयोग कर सकते हैं या कुछ नए डेटा एकत्र कर सकते हैं।
 
-![screenshot](images/pets-pn-bar.png)
+![स्क्रीनशॉट](images/pets-pn-bar.png)
 
-![screenshot](images/pets-pn.png)
+![स्क्रीनशॉट](images/pets-pn.png)
 
-## Save Your Project {.save}
+## अपने प्रोजेक्ट को Save करें {.save}

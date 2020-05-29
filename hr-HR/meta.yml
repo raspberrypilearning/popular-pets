@@ -1,15 +1,15 @@
 ---
-hero_image: images/banner.png
-theme: violet
+hero_image: images/popular-pets.png
+theme: yellow
 duration: 2
 listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Modern Art
-description: Code your own computer-generated modern art.
-original_url: https://codeclubprojects.org/en-GB/python/modern-art
-interests: art
+title: Popular Pets
+description: Create pie charts and bar graphs from data you collect.
+original_url: https://codeclubprojects.org/en-GB/python/popular-pets
+interests: animals
 technologies: python
 site_areas: projects
 hardware: ''
@@ -20,12 +20,14 @@ steps:
   - 
     title: Introduction
   - 
-    title: Random colours
+    title: What you will need
   - 
-    title: Random place
+    title: Create a Pie Chart
   - 
-    title: 'Challenge: Turtle art'
+    title: 'Challenge: Create your own bar chart'
   - 
-    title: Create rectangle modern art
+    title: Read data from a file
   - 
-    title: 'Challenge: More modern art'
+    title: 'Challenge: Create a new chart from a file'
+  - 
+    title: 'Challenge: More charts and graphs!'

@@ -6,7 +6,7 @@
     
     ![captura de tela](images/pets-file.png)
 
-+ Agora adicione dados ao arquivo. You can use the favourite pets data that you collected or the example data.
++ Agora adicione dados ao arquivo. Você pode usar os dados de animais de estimação favoritos que você coletou ou os dados de exemplo.
     
     ![captura de tela](images/pets-data.png)
 
@@ -18,7 +18,7 @@
     
     ![captura de tela](images/pets-read.png)
     
-    The `for` loop will loop over the lines in the file. `splitlines ()` remove o caractere de nova linha do final da linha, já que você não quer isso.
+    O loop `for` fará um loop nas linhas do arquivo. `splitlines ()` remove o caractere de nova linha do final da linha, já que você não quer isso.
 
 + Cada linha precisa ser separada em um rótulo e um valor:
     
@@ -34,7 +34,7 @@
     
     Você pode corrigir o erro obtendo o rótulo e o valor apenas se a linha não estiver vazia.
     
-    To do this, indent the code inside your `for` loop and add the code `if line:` above it:
+    Para fazer isso, indente o código dentro do seu loop `for` e adicione o código `if linha:` acima:
     
     ![captura de tela](images/pets-fix.png)
 
@@ -42,8 +42,8 @@
 
 + Agora vamos adicionar o rótulo e o valor a um novo gráfico de pizza e renderizá-lo:
     
-    ![screenshot](images/pets-pie2.png)
+    ![captura de tela](images/pets-pie2.png)
     
-    Note that `add` expects the value to be a number, `int(value)` turns the value from a string into an integer.
+    Note que `add` espera que o valor seja um número, `int (valor)` transforma o valor de uma string em um inteiro.
     
-    If you wanted to use decimals such as 3.5 (floating point numbers) you could use `float(value)` instead.
+    Se você quisesse usar decimais como 3,5 (números de ponto flutuante) você poderia usar `float (valor)`.

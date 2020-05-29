@@ -1,6 +1,6 @@
-## What you will need
+## Amire szükséged lesz
 
-### Software
+### Szoftver
 
 + Trinket online editor
 

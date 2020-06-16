@@ -1,10 +1,10 @@
-## Introduction
+## Introducción
 
-In this project you create pie charts and bar graphs from data that you collect from members of your Code Club.
+En este proyecto, crearás gráficos circulares y gráficos de barras a partir de los datos que recaudes de los miembros de tu Code Club.
 
-### Instructions
+### Instrucciones
 
-When you click Run the charts are generated from data using the PyGal python module.
+Cuando hagas clic en Run, los gráficos serán generados de datos usando PyGal, el módulo de Python.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/70d24d92b8?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -12,14 +12,14 @@ When you click Run the charts are generated from data using the PyGal python mod
   <img src="images/pets-finished.png">
 </div>
 
-### What you will learn
+### Lo que aprenderás
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Este proyecto incluye elementos de los siguientes aspectos del [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-+ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder/)
++ [Combina estructuras de programación para resolver un problema.](https://www.raspberrypi.org/curriculum/programming/builder/)
 
-### Additional information for educators
+### Información adicional para educadores
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/popular-pets/print){:target="_blank"}.
+En caso necesites imprimir este proyecto, utiliza [la versión para impresión](https://projects.raspberrypi.org/en/projects/popular-pets/print){:target="_blank"}.
 
-Use the link in the footer to access the GitHub repository for this project, which contains all resources (including an example finished project) in the 'en/resources' folder.
+Utiliza el enlace en el pie de página para acceder al depósito GitHub de este proyecto, contiene todos los materiales (incluyendo un ejemplo de proyecto terminado) en la carpeta 'en/resources'.

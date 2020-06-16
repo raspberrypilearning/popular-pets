@@ -1,11 +1,11 @@
 \--- challenge \---
 
-## Challenge: More charts and graphs!
+## Reto: ¡Más cuadros y gráficos!
 
-Can you create a pie chart and a bar chart from the same file? You can either use the data you collected earlier or collect some new data.
+¿Puedes crear un gráfico circular y un gráfico de barras a partir del mismo archivo? Puedes usar los datos que recolectaste anteriormente o recolectar datos nuevos.
 
-![screenshot](images/pets-pn-bar.png)
+![captura de pantalla](images/pets-pn-bar.png)
 
-![screenshot](images/pets-pn.png)
+![captura de pantalla](images/pets-pn.png)
 
 \--- /challenge \---

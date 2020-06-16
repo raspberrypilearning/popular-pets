@@ -22,4 +22,4 @@
 
 ![स्क्रीनशॉट](images/pets-bar-examples.png)
 
---- challenge ---
+--- /challenge ---

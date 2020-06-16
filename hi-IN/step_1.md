@@ -20,6 +20,6 @@
 
 ### शिक्षकों के लिए अतिरिक्त जानकारी
 
-अगर आपको इस project को प्रिंट करने की आवश्यकता है, तो कृप्या [printer-friendly version](https://projects.raspberrypi.org/en/projects/popular-pets/print){: target = "_ blank"} का उपयोग करें।
+अगर आपको इस प्रोजेक्ट को प्रिंट करने की आवश्यकता है, तो कृपया [प्रिंटर-अनुकूल संस्करण](https://projects.raspberrypi.org/en/projects/popular-pets/print){:target="_blank"} का उपयोग करें।
 
 इस project के लिए GitHub रिपॉज़िटरी का उपयोग करने के लिए फुटर में दिए लिंक का उपयोग करें, जिसमें 'en/resources' फोल्डर में सभी संसाधन (तैयार project के उदाहरण सहित) सम्मिलित हैं।

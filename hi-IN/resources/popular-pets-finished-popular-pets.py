@@ -2,28 +2,28 @@
 
 import pygal
 
-piechart = pygal.Pie()
-piechart.title = 'Favourite Pet'
-piechart.add('Dog', 6)
-piechart.add('Cat', 4)
-piechart.add('Hamster', 3)
-piechart.add('Fish', 2)
-piechart.add('Snake', 1)
+piechart2 = pygal.Pie()
+piechart.title = 'पसंदीदा पालतू'
+piechart.add ('कुत्ता', 6)
+piechart.add ('बिल्ली', 4)
+piechart.add ('हम्सटर', 3)
+piechart.add ('मछली', 2)
+piechart.add ('साँप', 1)
 piechart.render()
 
 barchart = pygal.Bar()
-barchart.title = 'Favourite Pet'
-barchart.add('Dog', 6)
-barchart.add('Cat', 4)
-barchart.add('Hamster', 3)
-barchart.add('Fish', 2)
-barchart.add('Snake', 1)
+barchart.title = 'पसंदीदा पालतू'
+piechart.add ('कुत्ता', 6)
+piechart.add ('बिल्ली', 4)
+piechart.add ('हम्सटर', 3)
+piechart.add ('मछली', 2)
+piechart.add ('साँप', 1)
 barchart.render()
   
 piechart2 = pygal.Pie()
-barchart2 = pygal.Bar()
+barchart = pygal.Bar()
 
-file = open('pets.txt', 'r')
+file = open ('pets.txt', 'r')
 
 for line in file.read().splitlines():
   if line:
@@ -31,33 +31,33 @@ for line in file.read().splitlines():
     piechart2.add(label, int(value))
     barchart2.add(label, int(value))
     
-file.close()
+file.close ()
 
-#piechart2.render()
-#barchart2.render()
+# Piechart2.render ()
+# Barchart2.render ()
 
-butterflies = pygal.Bar()
-butterflies.title = 'Butterfly Count'
+butterflies= pygal.Bar ()
+butterflies.title = 'तितली गणना'
 
-file = open('butterflies.txt', 'r')
+फ़ाइल = खुला ('butterflies.txt', 'r')
 
 for line in file.read().splitlines():
   if line:
     label, value = line.split(': ')
-    butterflies.add(label, int(value))
-file.close()
+    barchart2.add(label, int(value))
+file.close ()
 
-butterflies.render()
+butterflies.render ()
 
-pn = pygal.Bar()
-pn.title = 'Pirates vs Ninjas'
+pn = pygal.Bar ()
+pn.title = 'समुद्री-डाकू बनाम निन्जा'
 
-file = open('piratesninjas.txt', 'r')
+file = open ('piratesninjas.txt', 'r')
 
 for line in file.read().splitlines():
   if line:
     label, value = line.split(' ')
-    pn.add(label, int(value))
-file.close()
+    pn.add (label, int(value))
+file.close ()
 
-pn.render()
+pn.render ()

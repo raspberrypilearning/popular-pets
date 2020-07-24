@@ -6,7 +6,7 @@ listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Popular Pets
+title: ಜನಪ್ರಿಯ ಸಾಕುಪ್ರಾಣಿಗಳು
 description: ನೀವು ಸಂಗ್ರಹಿಸಿದ ಡೇಟಾದಿಂದ ಪೈ ಚಾರ್ಟ್(pie chart) ಮತ್ತು ಬಾರ್ ಗ್ರಾಫ್‌(bar graph) ಗಳನ್ನು ರಚಿಸಿ.
 original_url: https://codeclubprojects.org/en-GB/python/popular-pets
 interests: animals

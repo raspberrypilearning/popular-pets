@@ -1,43 +1,43 @@
-## Create a Pie Chart
+## Készíts kördiagramot
 
-Pie Charts are useful way of showing data. Let's do a survey of favourite pets in your Code Club and then present the data as a Pie Chart.
+A kördiagramokat az adatok megjelenítésére használjuk. Készíts egy felmérést a kedvenc háziállatokról a Code Club-ban, majd mutasd be be az adatokat kördiagramként.
 
-+ Ask your club leader to help organise a survey. You could record the results on a computer connected to a projector or a whiteboard that everyone can see.
++ Kérd meg a Code Club vezetőjét, hogy segítsen egy felmérés megszervezésében. Az eredményt rögzítheted egy projektorhoz csatlakoztatott számítógépen vagy egy táblán, amelyet mindenki láthat.
     
-    Write a list of pets and make sure everyone's favourite is included.
+    Készíts egy listát a háziállatokról és győződj meg róla, hogy mindenkinek a kedvence rajta van a listán.
     
-    Then get everyone to vote for their favourite by putting their hand up when it gets called out. Only one vote each!
-    
-    For example:
-    
-    ![screenshot](images/pets-favourite.png)
-
-+ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
-
-+ Készíts kördiagramot a felmérés eredményének a bemutatására. Részben a PyGal könyvtárat fogod használni a munkád során.
-    
-    Először importáld a Pygal könyvtárat:
-    
-    ![screenshot](images/pets-pygal.png)
-
-+ Now let's create a Pie chart and render (display) it:
-    
-    ![screenshot](images/pets-pie.png)
-    
-    Don't worry, it gets more interesting when you add data!
-
-+ Let's add in the data for one of the pets. Use the data that you collected.
-    
-    ![screenshot](images/pets-add.png)
-    
-    There's only one piece of data so it takes up the whole pie chart.
-
-+ Now add the rest of the data in the same way.
+    Ezután kérj meg mindenkit, hogy szavazzon a kedvencére kézfelemeléssel, amikor a kedvencét mondják be. Mindenkinek csak egy szavazata van!
     
     Például:
     
-    ![screenshot](images/pets-add-all.png)
+    ![képernyőkép](images/pets-favourite.png)
 
-+ And to finish off your chart, add a title:
++ Nyisd meg az üres Python trinket sablont: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
+
++ Készíts kördiagramot a felmérés eredményének a bemutatására. A PyGal könyvtárat fogod használni a kemény munka egy részéhez.
     
-    ![screenshot](images/pets-title.png)
+    Először importáld a Pygal könyvtárat:
+    
+    ![képernyőkép](images/pets-pygal.png)
+
++ Most készíts egy kördiagramot, és rendereld (jelenítsd meg a kijelződön):
+    
+    ![képernyőkép](images/pets-pie.png)
+    
+    Ne aggódj, sokkal érdekesebbé válik amikor hozzáadod az adatokat!
+
++ Add hozzá az egyik háziállat adatait. Használd az összegyűjtött adatokat.
+    
+    ![képernyőkép](images/pets-add.png)
+    
+    Csak egy adat van, tehát az egész kördiagramot ez tölti ki.
+
++ Most ugyanígy add hozzá a többi adatot.
+    
+    Például:
+    
+    ![képernyőkép](images/pets-add-all.png)
+
++ És a diagram befejezéséhez adj neki egy címet (title):
+    
+    ![képernyőkép](images/pets-title.png)

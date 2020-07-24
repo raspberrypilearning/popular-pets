@@ -1,10 +1,10 @@
 \--- challenge \---
 
-## Challenge: Create a new chart from a file
+## Kihívás: Készíts új diagramot egy fájlból
 
-Can you create a new bar graph or pie chart from data in a file? You'll need to create a new .txt file.
+Tudsz új oszlopdiagramot és kördiagramot létrehozni adatból egy fájlban? Új .txt fájlt kell létrehoznod.
 
-Tip: If you want to have spaces in the labels then use `line.split(': ')` and add colons to your data file, e.g. 'Red Admiral: 6'
+Tipp: Ha szeretnél szóközöket a címkékben, akkor használd a `line.split (': ')` kódot, és adj kettőspontokat az adatfájlhoz, pl. „Kis ökörszemlepke: 4”
 
 ![képernyőkép](images/pets-butterflies.png)
 

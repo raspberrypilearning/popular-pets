@@ -1,14 +1,14 @@
 ---
 title: Népszerű háziállatok
-description: Create pie charts and bar graphs from data you collect.
-notes: "Popular Pets - notes.md"
-layout: project
+description: Készíts kördiagramokat és oszlopdiagramokat az összegyűjtött adatokból.
+notes: "Népszerű háziállatok - notes.md"
+layout: projekt
 new: true
 ---
 
-# Introduction {.intro}
+# Bevezetés {.intro}
 
-In this project you create pie charts and bar graphs from data that you collect from members of your Code Club.
+Ebben a projektben kördiagramokat és oszlopdiagramokat fogsz létrehozni azokból az adatokból, amelyeket a Code Club-od tagjaitól gyűjtesz össze.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/70d24d92b8?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -16,152 +16,152 @@ In this project you create pie charts and bar graphs from data that you collect 
   <img src="images/pets-finished.png">
 </div>
 
-# Step 1: Create a Pie Chart {.activity}
+# 1. lépés: Készíts kördiagramot {.activity}
 
-Pie Charts are are useful way of showing data. Let's do a survey of favourite pets in your Code Club and then present the data as a Pie Chart.
+A kördiagramokat az adatok megjelenítésére használjuk. Készítsünk egy felmérést a kedvenc háziállataidról a Code Club-ban, majd mutassuk be az adatokat kördiagramként.
 
-## Activity Checklist {.check}
+## Lista a teendőkről {.check}
 
-+ Ask your volunteer to help organise a survey. You could record the results on a computer connected to a projector or a whiteboard that everyone can see.
++ Kérd meg az önkéntesedet, hogy segítsen egy felmérés megszervezésében. Az eredményeket rögzítheted egy projektorhoz csatlakoztatott számítógépen vagy egy táblán, amelyet mindenki láthat.
     
-    Write a list of pets and make sure everyone's favourite is included.
+    Készíts egy listát a háziállatokról és győződj meg róla, hogy mindenkinek a kedvence rajta van a listán.
     
-    Then get everyone to vote for their favourite by putting their hand up when it gets called out. Only one vote each!
+    Ezután kérj meg mindenkit, hogy szavazzon a kedvencére kézfelemeléssel, amikor a kedvencét mondják be. Mindenkinek csak egy szavazata van!
     
-    For example:
+    Például:
     
-    ![screenshot](images/pets-favourite.png)
+    ![képernyőkép](images/pets-favourite.png)
 
-+ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ Nyisd meg az üres Python trinket sablont: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ Let's create a pie chart to show the results of your survey. You'll be using the PyGal library to do some of the hard work.
++ Készíts egy kördiagramot a felmérésed eredményeinek bemutatására. A PyGal könyvtárat fogod használni a kemény munka egy részéhez.
     
-    First import the Pygal library:
+    Először importáld a Pygal könyvtárat:
     
-    ![screenshot](images/pets-pygal.png)
+    ![képernyőkép](images/pets-pygal.png)
 
-+ Now let's create a Pie chart and render (display) it:
++ Most készíts egy kördiagramot, és rendereld (jelenítsd meg a kijelződön):
     
-    ![screenshot](images/pets-pie.png)
+    ![képernyőkép](images/pets-pie.png)
     
-    Don't worry, it gets more interesting when you add data!
+    Ne aggódj, sokkal érdekesebbé válik, amikor hozzáadod az adatokat!
 
-+ Let's add in the data for one of the pets. Use the data that you collected.
++ Add hozzá az adatokat az egyik háziállathoz. Használd az adatokat, amiket összegyűjtöttél.
     
-    ![screenshot](images/pets-add.png)
+    ![képernyőkép](images/pets-add.png)
     
-    There's only one piece of data so it takes up the whole pie chart.
+    Csak egy adat van, tehát az egész kördiagramot ez tölti ki.
 
-+ Now add the rest of the data in the same way.
++ Most ugyanígy add hozzá a többi adatot.
     
-    For example:
+    Például:
     
-    ![screenshot](images/pets-add-all.png)
+    ![képernyőkép](images/pets-add-all.png)
 
-+ And to finish off your chart, add a title:
++ És a diagram befejezéséhez adj neki egy címet (title):
     
-    ![screenshot](images/pets-title.png)
+    ![képernyőkép](images/pets-title.png)
 
-## Save Your Project {.save}
+## Mentsd el a projektedet {.save}
 
-## Challenge: Create your own bar chart {.challenge}
+## Kihívás: Készítsd el saját oszlopdiagramodat {.challenge}
 
-You can create bar charts in a similar way. Just use `barchart = pygal.Bar()` to create a new barchart, and then add data and render in the same way as for a pie chart.
+Oszlopdiagramokat hasonló módon tudsz létrehozni. Csak használd az `oszlopdiagram = pygal.Bar ()` kódot új oszlopdiagram létrehozásához, majd add hozzá az adatokat és rendereld ugyanúgy, mint a kördiagramnál.
 
-Collect data from your Code Club members to create your own bar graph.
+Gyűjts adatokat a Code Club tagjaitól a saját oszlopdiagramod elkészítéséhez.
 
-Make sure that you choose a topic that everyone will know about!
+Győződj meg róla, hogy olyan témát választasz, amit mindenki ismer!
 
-Here are some ideas:
+Íme néhány ötlet:
 
-+ What is your favourite sport?
++ Mi a kedvenc sportod?
 
-+ What is your favourite ice cream flavour?
++ Melyik fagylalt a kedvenced?
 
-+ How do you get to school?
++ Hogyan jársz iskolába?
 
-+ What month is your birthday?
++ Melyik hónapban van a szülinapod?
 
-+ Do you play Minecraft? (yes/no)
++ Játszol a Minecrafttal? (igen/nem)
 
-Don't ask questions that give personal data such as where people live. Ask your club leader if you're not sure.
+Ne tegyél fel olyan kérdéseket, amelyek személyes adatot tartalmaznak, például, hogy ki hol lakik. Ha nem vagy biztos benne, kérdezd meg a Code Club vezetőjét.
 
-Examples:
+Példák:
 
-![screenshot](images/pets-bar-examples.png)
+![képernyőkép](images/pets-bar-examples.png)
 
-## Save Your Project {.save}
+## Mentsd el a projektedet {.save}
 
-# Step 2: Read data from a file {.activity}
+# 2. lépés: Olvass adatot egy fájlból {.activity}
 
-It's useful to be able to store data in a file rather than having to include it in your code.
+Hasznos, ha az adatokat fájlban tudod tárolni, ahelyett, hogy azokat bele kellene foglalnod a kódodba.
 
-## Activity Checklist {.check}
+## Lista a teendőkről {.check}
 
-+ Add a new file to your project and call it `pets.txt`:
++ Adj hozzá egy új fájlt a projektedhez, és nevezd el `pets.txt`-nek:
     
-    ![screenshot](images/pets-file.png)
+    ![képernyőkép](images/pets-file.png)
 
-+ Now add data to the file. You can use the favourite pets data that you collected or the example data.
++ Most adj adatot a fájlhoz. Használhatod a kedvenc háziállatok adatait, amit összegyűjtöttél, vagy a példaadatokat.
     
-    ![screenshot](images/pets-data.png)
+    ![képernyőkép](images/pets-data.png)
 
-+ Switch back to `main.py` and comment out the lines that render (display) charts and graphs (so that they aren't displayed):
++ Válts vissza `main.py` -ra, és 'kommenteld ki' azokat a sorokat, amelyek renderelik (megjelenítik) a grafikonokat (hogy azok ne jelenjenek meg):
     
-    ![screenshot](images/pets-comment.png)
+    ![képernyőkép](images/pets-comment.png)
 
-+ Now let's read the data from the file.
++ Most olvasd ki az adatokat a fájlból.
     
-    ![screenshot](images/pets-read.png)
+    ![képernyőkép](images/pets-read.png)
     
-    The `for` loop will loop over the lines in the file. `splitlines()` removes the newline character from the end of the line as you don't want that.
+    A `for` ciklus végigmegy a fájl minden során. A `splitlines()` eltávolítja az új sor karaktert a sor végéről, mivel ezt nem akarod.
 
-+ Each line needs to be separated into a label and a value:
++ Minden egyes sort szét kell választani címkére és értékre:
     
-    ![screenshot](images/pets-split.png)
+    ![képernyőkép](images/pets-split.png)
     
-    This will split the line at the spaces so don't include spaces in the labels. (You can add support for spaces in labels later.)
+    Ez szétválasztja a sort a szóközöknél, tehát ne adj hozzá szóközt a címkékben. (Később hozzáadhatsz támogatást a szóközökhöz a címkékben.)
 
-+ You might get an error like this:
++ Előfordulhat egy ilyen hiba:
     
-    ![screenshot](images/pets-error.png)
+    ![képernyőkép](images/pets-error.png)
     
-    This happens if you have an empty line at the end of your file.
+    Ez akkor fordul elő, ha üres sor van a fájl végén.
     
-    You can fix the error by only getting the label and value if the line isn't empty.
+    A hibát kijavíthatod, ha meggyőződsz róla, hogy csak akkor kapod meg a címkét és az értéket, ha a sor nem üres.
     
-    To do this, indent the code inside your `for` loop and add the code `if line:` above it:
+    Ehhez húzd be a kódot a `for` ciklusban, és add hozzá az `if line:` sort:
     
-    ![screenshot](images/pets-fix.png)
+    ![képernyőkép](images/pets-fix.png)
 
-+ You can remove the `print(label, value)` line now everything is working.
++ Eltávolíthatod a `print(cimke, ertek)` sort, most minden működik.
 
-+ Now let's add the label and value to a new Pie Chart and render it:
++ Most add hozzá a címkét és az értéket egy új kördiagramhoz, és rendereld:
     
-    ![screenshot](images/pets-pie2.png)
+    ![képernyőkép](images/pets-pie2.png)
     
-    Note that `add` expects the value to be a number, `int(value)` turns the value from a string into an integer.
+    Ne feledd, hogy az `add` elvárja, hogy az érték szám legyen, az `int(value)` az értéket egy karakterláncból egész számra változtatja.
     
-    If you wanted to use decimals such as 3.5 (floating point numbers) you could use `float(value)` instead.
+    Ha tizedes értékű számokat szeretnél használni, mint például a 3.5 (lebegőpontos számok), akkor használhatod a `float(value)` kódot helyette.
 
-## Save Your Project {.save}
+## Mentsd el a projektedet {.save}
 
-## Challenge: Create a new chart from a file {.challenge}
+## Kihívás: Készíts új diagramot egy fájlból {.challenge}
 
-Can you create a new bar graph or pie chart from data in a file? You'll need to create a new .txt file.
+Tudsz új oszlopdiagramot vagy kördiagramot készíteni egy fájl adataiból? Új .txt fájlt kell létrehoznod.
 
-Tip: If you want to have spaces in the labels then use `line.split(': ')` and add colons to your data file, e.g. 'Red Admiral: 6'
+Tipp: Ha szeretnél szóközöket a címkékben, akkor használd a `line.split (': ')` kódot, és adj kettőspontokat az adatfájlhoz, pl. „Kis ökörszemlepke: 4”
 
-![screenshot](images/pets-butterflies.png)
+![képernyőkép](images/pets-butterflies.png)
 
-## Save Your Project {.save}
+## Mentsd el a projektedet {.save}
 
-## Challenge: More charts and graphs! {.challenge}
+## Kihívás: Még több grafikon! {.challenge}
 
-Can you create a pie chart and a bar chart from the same file? You can either use the data you collected earlier or collect some new data.
+Tudsz kördiagramot és oszlopdiagramot létrehozni ugyanabból a fájlból? Használhatod az adatot, amit korábban összegyűjtöttél, vagy gyűjthetsz új adatot.
 
-![screenshot](images/pets-pn-bar.png)
+![képernyőkép](images/pets-pn-bar.png)
 
-![screenshot](images/pets-pn.png)
+![képernyőkép](images/pets-pn.png)
 
-## Save Your Project {.save}
+## Mentsd el a projektedet {.save}

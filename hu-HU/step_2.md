@@ -2,6 +2,6 @@
 
 ### Szoftver
 
-+ Trinket online editor
++ Trinket online szerkesztő
 
-Note - this project uses trinket's pygal module and will only work with trinket.
+Megjegyzés: ez a projekt a trinket pygal modulját használja, és csak a trinkettel fog működni.

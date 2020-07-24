@@ -6,8 +6,8 @@ listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Popular Pets
-description: Create pie charts and bar graphs from data you collect.
+title: Népszerű háziállatok
+description: Készíts kördiagramokat és oszlopdiagramokat az összegyűjtött adatokból.
 original_url: https://codeclubprojects.org/en-GB/python/popular-pets
 interests: animals
 technologies: python
@@ -18,16 +18,16 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: Bevezetés
   - 
-    title: What you will need
+    title: Amire szükséged lesz
   - 
-    title: Create a Pie Chart
+    title: Készíts kördiagramot
   - 
-    title: 'Challenge: Create your own bar chart'
+    title: 'Kihívás: Készítsd el saját oszlopdiagramodat'
   - 
-    title: Read data from a file
+    title: Olvass adatot egy fájlból
   - 
-    title: 'Challenge: Create a new chart from a file'
+    title: 'Kihívás: Készíts új diagramot egy fájlból'
   - 
-    title: 'Challenge: More charts and graphs!'
+    title: 'Kihívás: Még több grafikon!'

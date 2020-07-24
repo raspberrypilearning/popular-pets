@@ -1,10 +1,10 @@
-## Introduction
+## Bevezetés
 
-In this project you create pie charts and bar graphs from data that you collect from members of your Code Club.
+Ebben a projektben kördiagramokat és oszlopdiagramokat fogsz létrehozni azokból az adatokból, amelyeket a Code Club-od tagjaitól gyűjtesz össze.
 
-### Instructions
+### Utasítások
 
-When you click Run the charts are generated from data using the PyGal python module.
+Amikor a 'Run'-ra kattintasz, az adatokból diagramok jönnek létre a PyGal python modul segítségével.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/70d24d92b8?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -12,13 +12,13 @@ When you click Run the charts are generated from data using the PyGal python mod
   <img src="images/pets-finished.png">
 </div>
 
-### What you will learn
+### Amit meg fogsz tanulni
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Ez a projekt a [Raspberry Pi Digitális Alkotás Tanterv](http://rpf.io/curriculum) alábbi részeiből fed le elemeket:
 
-+ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder/)
++ [Kombinálj programszerkezeteket a probléma megoldásához.](https://www.raspberrypi.org/curriculum/programming/builder/)
 
-### Additional information for educators
+### További információk oktatóknak
 
 Ha ki szeretnéd nyomtatni ezt a projektet, kérjük, használd a [nyomtatóbarát verziót](https://projects.raspberrypi.org/en/projects/popular-pets/print) {:target="_blank"}.
 

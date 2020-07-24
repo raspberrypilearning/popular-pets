@@ -1,11 +1,11 @@
 \--- challenge \---
 
-## Challenge: More charts and graphs!
+## Kihívás: Még több grafikon!
 
-Can you create a pie chart and a bar chart from the same file? You can either use the data you collected earlier or collect some new data.
+Tudsz ugyanabból a fájlból kördiagramot és oszlopdiagramot készíteni? Használhatod a korábban összegyűjtött adatot, vagy gyűjthetsz új adatokat.
 
-![screenshot](images/pets-pn-bar.png)
+![képernyőkép](images/pets-pn-bar.png)
 
-![screenshot](images/pets-pn.png)
+![képernyőkép](images/pets-pn.png)
 
 \--- /challenge \---

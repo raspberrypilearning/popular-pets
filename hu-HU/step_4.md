@@ -1,25 +1,25 @@
 \--- challenge \---
 
-## Challenge: Create your own bar chart
+## Kihívás: Készítsd el saját oszlopdiagramodat
 
-You can create bar charts in a similar way. Just use `barchart = pygal.Bar()` to create a new barchart, and then add data and render in the same way as for a pie chart.
+Hasonló módon készíthetsz oszlopdiagramokat. Csak használd az `oszlopdiagram = pygal.Bar ()` kódot új oszlopdiagram létrehozásához, majd add hozzá az adatokat és rendereld ugyanúgy, mint a kördiagramnál.
 
-Collect data from your Code Club members to create your own bar graph.
+Gyűjts adatokat a Code Club tagjaitól a saját oszlopdiagramod elkészítéséhez.
 
-Make sure that you choose a topic that everyone will know about!
+Győződj meg róla, hogy olyan témát választasz, amit mindenki ismer!
 
 Íme néhány ötlet:
 
-+ What is your favourite sport?
-+ What is your favourite ice cream flavour?
-+ How do you get to school?
-+ What month is your birthday?
-+ Do you play Minecraft? (yes/no)
++ Mi a kedvenc sportod?
++ Melyik fagylalt a kedvenced?
++ Hogyan jársz iskolába?
++ Melyik hónapban van a szülinapod?
++ Játszol a Minecrafttal? (igen/nem)
 
-Don't ask questions that give personal data such as where people live. Ask your club leader if you're not sure.
+Ne tegyél fel olyan kérdést, ami személyes adatot tartalmaz, például, hogy ki hol lakik. Kérdezd meg a klub vezetõjét, ha nem vagy biztos benne.
 
-Examples:
+Példák:
 
-![screenshot](images/pets-bar-examples.png)
+![képernyőkép](images/pets-bar-examples.png)
 
 \--- /challenge \---

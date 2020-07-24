@@ -1,49 +1,49 @@
-## Read data from a file
+## Olvass adatot egy fájlból
 
-It's useful to be able to store data in a file rather than having to include it in your code.
+Hasznos, ha az adatokat fájlban tudod tárolni, ahelyett, hogy azokat bele kellene foglalnod a kódodba.
 
-+ Add a new file to your project and call it `pets.txt`:
++ Adj hozzá egy új fájlt a projektedhez, és nevezd el `pets.txt`-nek:
     
     ![képernyőkép](images/pets-file.png)
 
-+ Now add data to the file. You can use the favourite pets data that you collected or the example data.
++ Most adj hozzá adatot a fájlhoz. Használhatod a kedvenc háziállatok adatait, amit összegyűjtöttél, vagy a példaadatokat.
     
-    ![screenshot](images/pets-data.png)
+    ![képernyőkép](images/pets-data.png)
 
-+ Switch back to `main.py` and comment out the lines that render (display) charts and graphs (so that they aren't displayed):
++ Válts vissza `main.py` -ra, és 'kommenteld ki' azokat a sorokat, amelyek renderelik (megjelenítik) a grafikonokat (hogy azok ne jelenjenek meg):
     
-    ![screenshot](images/pets-comment.png)
+    ![képernyőkép](images/pets-comment.png)
 
-+ Now let's read the data from the file.
++ Most olvasd ki az adatokat a fájlból.
     
-    ![screenshot](images/pets-read.png)
+    ![képernyőkép](images/pets-read.png)
     
-    The `for` loop will loop over the lines in the file. `splitlines()` removes the newline character from the end of the line as you don't want that.
+    A `for` ciklus végigmegy a fájl minden során. A `splitlines()` eltávolítja az új sor karaktert a sor végéről, mivel ezt nem akarod.
 
-+ Each line needs to be separated into a label and a value:
++ Minden egyes sort szét kell választani címkére és értékre:
     
-    ![screenshot](images/pets-split.png)
+    ![képernyőkép](images/pets-split.png)
     
-    This will split the line at the spaces so don't include spaces in the labels. (You can add support for spaces in labels later.)
+    Ez szétválasztja a sort a szóközöknél, tehát ne adj hozzá szóközt a címkékben. (Később hozzáadhatsz támogatást szóközökhöz a címkékben.)
 
-+ You might get an error like this:
++ Előfordulhat egy ilyen hiba:
     
-    ![screenshot](images/pets-error.png)
+    ![képernyőkép](images/pets-error.png)
     
-    This happens if you have an empty line at the end of your file.
+    Ez akkor fordul elő, ha üres sor van a fájl végén.
     
-    You can fix the error by only getting the label and value if the line isn't empty.
+    A hibát kijavíthatod, ha meggyőződsz róla, hogy csak akkor kapod meg a címkét és az értéket, ha a sor nem üres.
     
-    To do this, indent the code inside your `for` loop and add the code `if line:` above it:
+    Ehhez húzd be a kódot a `for` ciklusban, és add hozzá az `if line:` sort:
     
-    ![screenshot](images/pets-fix.png)
+    ![képernyőkép](images/pets-fix.png)
 
-+ You can remove the `print(label, value)` line now everything is working.
++ Eltávolíthatod a `print(cimke, ertek)` sort, most minden működik.
 
-+ Now let's add the label and value to a new Pie Chart and render it:
++ Most add hozzá a címkét és az értéket egy új kördiagramhoz, és rendereld:
     
-    ![screenshot](images/pets-pie2.png)
+    ![képernyőkép](images/pets-pie2.png)
     
-    Note that `add` expects the value to be a number, `int(value)` turns the value from a string into an integer.
+    Ne feledd, hogy az `add` elvárja, hogy az érték szám legyen, az `int(value)` az értéket egy karakterláncból egész számra változtatja.
     
-    If you wanted to use decimals such as 3.5 (floating point numbers) you could use `float(value)` instead.
+    Ha tizedes értékű számokat szeretnél használni, mint például a 3.5 (lebegőpontos számok), akkor használhatod a `float(value)` kódot helyette.

@@ -18,7 +18,7 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - title: ಪರಿಚಯ
-  - title: ನಿಮಗೆ ಏನು ಬೇಕಾಗುತ್ತದೆ
+  - title: ನಿಮಗೆ ಬೇಕಾದುದು
   - title: ಪೈ ಚಾರ್ಟ್(Pie Chart) ತಯಾರಿಸಿ
   - title: 'ಸವಾಲು: ನಿಮ್ಮ ಸ್ವಂತ ಬಾರ್ ಚಾರ್ಟ್(bar chart) ರಚಿಸಿ'
   - title: file ‌ನಿಂದ ಡೇಟಾವನ್ನು ಓದಿ

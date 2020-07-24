@@ -1,5 +1,5 @@
-Red Admiral: 6
-Gatekeeper: 4
-Small White: 3
-Holly Blue: 3
-Meadow Brown: 5
+Atalantalepke: 6
+Kis ökörszemlepke: 4
+Répalepke: 3
+Bengeboglárka: 3
+Nagy ökörszemlepke: 5

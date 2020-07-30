@@ -1,12 +1,12 @@
 ---
-title: Popular Pets
-description: Create pie charts and bar graphs from data you collect.
-notes: "Popular Pets - notes.md"
-layout: project
+title: Animali Popolari
+description: Crea grafici a torta e a barre sulla base dei dati raccolti.
+notes: "Animali popolari - notes.md"
+layout: progetto
 new: true
 ---
 
-# Introduction {.intro}
+# Introduzione {.intro}
 
 In this project you create pie charts and bar graphs from data that you collect from members of your Code Club.
 

@@ -1,6 +1,6 @@
-## Introduction
+## Introduzione
 
-In this project you create pie charts and bar graphs from data that you collect from members of your Code Club.
+In questo progetto avrai la possibilità di creare grafici a torta e grafici a barre dai dati raccolti dai membri del tuo Code Club.
 
 ### Instructions
 

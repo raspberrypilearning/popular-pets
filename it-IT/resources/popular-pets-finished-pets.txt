@@ -1,7 +1,7 @@
-Dog 6
-Cat 4
-Hamster 3
-Fish 2
-Snake 1
+Cane 6
+Gatto 4
+Criceto 3
+Pesce 2
+Serpente 1
 
 

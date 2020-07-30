@@ -1,43 +1,43 @@
-## Create a Pie Chart
+## Crea un grafico a torta
 
-Pie Charts are useful way of showing data. Let's do a survey of favourite pets in your Code Club and then present the data as a Pie Chart.
+I grafici a torta sono un modo utile per mostrare i dati. Facciamo un sondaggio sugli animali preferiti nel tuo Code Club e presentiamo i dati con un grafico a torta.
 
-+ Ask your club leader to help organise a survey. You could record the results on a computer connected to a projector or a whiteboard that everyone can see.
++ Se sei in dubbio, chiedi al leader del tuo club. Potresti registrare i risultati su un computer collegato a un proiettore o una lavagna visibile a tutti.
     
-    Write a list of pets and make sure everyone's favourite is included.
+    Scrivi un elenco di animali domestici e assicurati di includere il preferito di tutti i partecipanti.
     
-    Then get everyone to vote for their favourite by putting their hand up when it gets called out. Only one vote each!
+    Quindi fai in modo che tutti votino per il loro preferito per alzata di mano, nel momento in cui vengono chiamati. Un solo voto ciascuno!
     
-    For example:
+    Per esempio:
     
     ![screenshot](images/pets-favourite.png)
 
-+ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ Apri un modello vuoto di Python su Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ Let's create a pie chart to show the results of your survey. You'll be using the PyGal library to do some of the hard work.
++ Creiamo un grafico a torta per mostrare i risultati del tuo sondaggio. La libreria PyGal ti aiuterà nella parte più faticosa del lavoro.
     
-    First import the Pygal library:
+    Prima importiamo la libreria Pygal:
     
     ![screenshot](images/pets-pygal.png)
 
-+ Now let's create a Pie chart and render (display) it:
++ Ora creiamo un grafico a torta e renderizziamolo (visualizziamolo):
     
     ![screenshot](images/pets-pie.png)
     
-    Don't worry, it gets more interesting when you add data!
+    Non preoccuparti, sarà più interessante una volta che aggiungerai i dati!
 
-+ Let's add in the data for one of the pets. Use the data that you collected.
++ Aggiungiamo i dati per uno degli animali domestici. Puoi utilizzare i dati che hai raccolto.
     
     ![screenshot](images/pets-add.png)
     
-    There's only one piece of data so it takes up the whole pie chart.
+    C'è solo un dato che occuperà l'intero grafico a torta.
 
-+ Now add the rest of the data in the same way.
++ Ora aggiungi il resto dei dati allo stesso modo.
     
-    For example:
+    Per esempio:
     
     ![screenshot](images/pets-add-all.png)
 
-+ And to finish off your chart, add a title:
++ E per finire il tuo grafico, aggiungi un titolo:
     
     ![screenshot](images/pets-title.png)

@@ -1,24 +1,24 @@
 \--- challenge \---
 
-## Challenge: Create your own bar chart
+## Sfida: crea il tuo grafico a barre
 
-You can create bar charts in a similar way. Just use `barchart = pygal.Bar()` to create a new barchart, and then add data and render in the same way as for a pie chart.
+Puoi creare grafici a barre in modo simile. Basta usare `barchart = pygal.Bar()` per creare un nuovo grafico a barre, quindi aggiungere dati e renderizzarli allo stesso modo di un grafico a torta.
 
-Collect data from your Code Club members to create your own bar graph.
+Raccogli i dati dai membri del tuo Code Club per creare il tuo grafico a barre.
 
-Make sure that you choose a topic that everyone will know about!
+Assicurati di scegliere un argomento che conoscono tutti!
 
-Here are some ideas:
+Ecco alcune idee:
 
-+ What is your favourite sport?
-+ What is your favourite ice cream flavour?
-+ How do you get to school?
-+ What month is your birthday?
-+ Do you play Minecraft? (yes/no)
++ Qual è il tuo sport preferito?
++ Qual è il tuo gusto di gelato preferito?
++ Con che mezzo vai a scuola?
++ In quale mese è il tuo compleanno?
++ Giochi a Minecraft? (sì/no)
 
-Don't ask questions that give personal data such as where people live. Ask your club leader if you're not sure.
+Non fare domande che possono contenere dati personali come dove abitano le persone. Chiedi al tuo capo club se non sei sicuro.
 
-Examples:
+Esempi:
 
 ![screenshot](images/pets-bar-examples.png)
 

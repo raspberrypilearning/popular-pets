@@ -1,0 +1,7 @@
+Perro 6
+Gato 4
+Hamster 3
+Pez 2
+Serpiente 1
+
+

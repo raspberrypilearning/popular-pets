@@ -1,10 +1,10 @@
 \--- challenge \---
 
-## Challenge: Create a new chart from a file
+## Sfida: crea un nuovo grafico da un file
 
-Can you create a new bar graph or pie chart from data in a file? You'll need to create a new .txt file.
+Puoi creare un nuovo grafico a barre o grafico a torta dai dati in un file? Dovrai creare un nuovo file .txt.
 
-Tip: If you want to have spaces in the labels then use `line.split(': ')` and add colons to your data file, e.g. 'Red Admiral: 6'
+Suggerimento: se si desidera avere spazi nelle etichette, utilizzare ` line.split (':') ` e aggiungere due punti al tuo file di dati, ad esempio "Vanessa atalanta: 6"
 
 ![screenshot](images/pets-butterflies.png)
 

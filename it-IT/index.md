@@ -8,7 +8,7 @@ new: true
 
 # Introduzione {.intro}
 
-In this project you create pie charts and bar graphs from data that you collect from members of your Code Club.
+In questo progetto avrai la possibilità di creare grafici a torta e grafici a barre dai dati raccolti dai membri del tuo Code Club.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/70d24d92b8?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -44,124 +44,124 @@ I grafici a torta sono un modo utile per mostrare i dati. Possiamo creare un son
     
     ![screenshot](images/pets-pie.png)
     
-    Don't worry, it gets more interesting when you add data!
+    Non preoccuparti, sarà più interessante una volta che aggiungerai i dati!
 
-+ Let's add in the data for one of the pets. Use the data that you collected.
++ Aggiungiamo i dati per uno degli animali domestici. Puoi utilizzare i dati che hai raccolto.
     
     ![screenshot](images/pets-add.png)
     
-    There's only one piece of data so it takes up the whole pie chart.
+    C'è solo un dato e quindi occupa l'intero grafico a torta.
 
-+ Now add the rest of the data in the same way.
++ Ora aggiungi il resto dei dati nello stesso modo.
     
-    For example:
+    Per esempio:
     
     ![screenshot](images/pets-add-all.png)
 
-+ And to finish off your chart, add a title:
++ E per finire il tuo grafico, aggiungi un titolo:
     
-    ![screenshot](images/pets-title.png)
+    ![schermata](images/pets-title.png)
 
-## Save Your Project {.save}
+## Salva il tuo progetto {.save}
 
-## Challenge: Create your own bar chart {.challenge}
+## Sfida: crea il tuo grafico a barre {.challenge}
 
-You can create bar charts in a similar way. Just use `barchart = pygal.Bar()` to create a new barchart, and then add data and render in the same way as for a pie chart.
+È possibile creare grafici a barre in modo simile. Basta usare `barchart = pygal.Bar ()` per creare un nuovo grafico a barre, quindi aggiungere dati e renderizzare come per un grafico a torta.
 
-Collect data from your Code Club members to create your own bar graph.
+Raccogli i dati dai membri del tuo Code Club per creare il tuo grafico a barre.
 
-Make sure that you choose a topic that everyone will know about!
+Assicurati di scegliere un argomento che tutti conoscono!
 
-Here are some ideas:
+Ecco alcune idee:
 
-+ What is your favourite sport?
++ Qual è il vostro sport preferito?
 
-+ What is your favourite ice cream flavour?
++ Qual è il tuo gusto preferito di gelato?
 
-+ How do you get to school?
++ Con che mezzo vai a scuola?
 
-+ What month is your birthday?
++ In quale mese è il tuo compleanno?
 
-+ Do you play Minecraft? (yes/no)
++ Giochi a Minecraft? (si /no)
 
-Don't ask questions that give personal data such as where people live. Ask your club leader if you're not sure.
+Non fare domande che richiedono dati personali come dove vivono le persone. Chiedi al tuo capo club se non sei sicuro.
 
-Examples:
+Esempi:
 
 ![screenshot](images/pets-bar-examples.png)
 
-## Save Your Project {.save}
+## Salva il tuo progetto {.save}
 
-# Step 2: Read data from a file {.activity}
+# Passaggio 2: leggere i dati da un file {.activity}
 
-It's useful to be able to store data in a file rather than having to include it in your code.
+È utile poter archiviare i dati in un file piuttosto che doverli includere nel codice.
 
-## Activity Checklist {.check}
+## Lista di controllo delle attività {.check}
 
-+ Add a new file to your project and call it `pets.txt`:
++ Aggiungi un nuovo file al tuo progetto e salvalo come `animalidomestici.txt`:
     
     ![screenshot](images/pets-file.png)
 
-+ Now add data to the file. You can use the favourite pets data that you collected or the example data.
++ Ora aggiungi i dati al file. Puoi utilizzare i dati sugli animali domestici preferiti raccolti o i dati di esempio.
     
     ![screenshot](images/pets-data.png)
 
-+ Switch back to `main.py` and comment out the lines that render (display) charts and graphs (so that they aren't displayed):
++ Torna a `main.py` e commenta le righe che renderizzeranno (visualizzano) diagrammi e grafici (in modo che non vengano visualizzati):
     
     ![screenshot](images/pets-comment.png)
 
-+ Now let's read the data from the file.
++ Ora leggiamo i dati dal file.
     
     ![screenshot](images/pets-read.png)
     
-    The `for` loop will loop over the lines in the file. `splitlines()` removes the newline character from the end of the line as you don't want that.
+    Il ciclo `for` passerà sopra le righe nel file. `splitlines()` rimuove il carattere di nuova riga dalla fine della linea poiché non serve.
 
-+ Each line needs to be separated into a label and a value:
++ Ciascuna riga deve essere separata in un'etichetta e un valore:
     
     ![screenshot](images/pets-split.png)
     
-    This will split the line at the spaces so don't include spaces in the labels. (You can add support for spaces in labels later.)
+    Questo dividerà la linea negli spazi in modo tale da non includere spazi nelle etichette. (È possibile aggiungere il supporto per gli spazi nelle etichette in un momento successivo.)
 
-+ You might get an error like this:
++ Potresti ottenere un errore di questo tipo:
     
     ![screenshot](images/pets-error.png)
     
-    This happens if you have an empty line at the end of your file.
+    Questo succede se hai una riga vuota alla fine del tuo file.
     
-    You can fix the error by only getting the label and value if the line isn't empty.
+    È possibile correggere l'errore ottenendo l'etichetta e il valore solo se la riga non è vuota.
     
-    To do this, indent the code inside your `for` loop and add the code `if line:` above it:
+    Per fare ciò, rientra il codice all'interno del tuo ciclo `for` e aggiungi il codice `if line:` sopra di esso:
     
     ![screenshot](images/pets-fix.png)
 
-+ You can remove the `print(label, value)` line now everything is working.
++ Puoi rimuovere la riga `print(label, value)` e ora tutto funzionerà.
 
-+ Now let's add the label and value to a new Pie Chart and render it:
++ Adesso aggiungiamo l'etichetta e il valore a un nuovo grafico a torta e renderizziamolo:
     
     ![screenshot](images/pets-pie2.png)
     
-    Note that `add` expects the value to be a number, `int(value)` turns the value from a string into an integer.
+    Nota che `add` si aspetta che il valore sia un numero, `int(value)` trasforma il valore da una stringa a un numero intero.
     
-    If you wanted to use decimals such as 3.5 (floating point numbers) you could use `float(value)` instead.
+    Se volessi utilizzare i numeri decimali come ad esempio 3.5 (numeri in virgola mobile) potresti usare `float(value)`.
 
-## Save Your Project {.save}
+## Salva il tuo progetto {.save}
 
-## Challenge: Create a new chart from a file {.challenge}
+## Sfida: Crea un nuovo grafico da un file {.challenge}
 
-Can you create a new bar graph or pie chart from data in a file? You'll need to create a new .txt file.
+Riesci a creare un nuovo grafico a barre o grafico a torta dai dati in un file? Dovrai creare un nuovo file .txt.
 
-Tip: If you want to have spaces in the labels then use `line.split(': ')` and add colons to your data file, e.g. 'Red Admiral: 6'
+Suggerimento: se vuoi avere spazi nelle etichette, usa `line.split (': ')` e aggiungi due punti al tuo file di dati, ad esempio 'Vanessa atalanta: 6'
 
 ![screenshot](images/pets-butterflies.png)
 
-## Save Your Project {.save}
+## Salva il tuo progetto {.save}
 
-## Challenge: More charts and graphs! {.challenge}
+## Sfida: più grafici e diagrammi! {.challenge}
 
-Can you create a pie chart and a bar chart from the same file? You can either use the data you collected earlier or collect some new data.
+Sai come creare un grafico a torta e uno a barre dallo stesso file? Puoi utilizzare i dati raccolti in precedenza o raccogliere alcuni nuovi dati.
 
 ![screenshot](images/pets-pn-bar.png)
 
 ![screenshot](images/pets-pn.png)
 
-## Save Your Project {.save}
+## Salva il tuo progetto {.save}

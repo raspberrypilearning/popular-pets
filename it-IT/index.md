@@ -16,31 +16,31 @@ In this project you create pie charts and bar graphs from data that you collect 
   <img src="images/pets-finished.png">
 </div>
 
-# Step 1: Create a Pie Chart {.activity}
+# Passaggio 1: creare un grafico a torta {.activity}
 
-Pie Charts are are useful way of showing data. Let's do a survey of favourite pets in your Code Club and then present the data as a Pie Chart.
+I grafici a torta sono un modo utile per mostrare i dati. Possiamo creare un sondaggio sugli animali domestici preferiti nel tuo Code Club e presentare i dati in un grafico a torta.
 
-## Activity Checklist {.check}
+## Lista di controllo delle attività {.check}
 
-+ Ask your volunteer to help organise a survey. You could record the results on a computer connected to a projector or a whiteboard that everyone can see.
++ Chiedi al volontario di aiutarti a organizzare un sondaggio. È possibile registrare i risultati su un computer collegato a un proiettore o una lavagna visibile a tutti.
     
-    Write a list of pets and make sure everyone's favourite is included.
+    Scrivi un elenco di animali domestici e assicurati che il preferito di tutti sia incluso.
     
-    Then get everyone to vote for their favourite by putting their hand up when it gets called out. Only one vote each!
+    Quindi fai in modo che tutti votino per il loro preferito alzando la mano quando viene chiamato. Solo un voto ciascuno!
     
-    For example:
+    Per esempio:
     
     ![screenshot](images/pets-favourite.png)
 
-+ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ Apri un modello vuoto di Python su Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ Let's create a pie chart to show the results of your survey. You'll be using the PyGal library to do some of the hard work.
++ Creiamo un grafico a torta per mostrare i risultati del sondaggio. La libreria PyGal ti sarà utile nella parte più faticosa del lavoro.
     
-    First import the Pygal library:
+    Prima importa la libreria Pygal:
     
     ![screenshot](images/pets-pygal.png)
 
-+ Now let's create a Pie chart and render (display) it:
++ Ora puoi creare un grafico a torta e renderizziamolo (visualizza):
     
     ![screenshot](images/pets-pie.png)
     

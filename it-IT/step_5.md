@@ -1,49 +1,49 @@
-## Read data from a file
+## Carica i dati da un file
 
-It's useful to be able to store data in a file rather than having to include it in your code.
+È utile poter archiviare i dati in un file piuttosto che doverli includere nel codice.
 
-+ Add a new file to your project and call it `pets.txt`:
++ Aggiungi un nuovo file al tuo progetto e salvalo come `animalidomestici.txt`:
     
     ![screenshot](images/pets-file.png)
 
-+ Now add data to the file. You can use the favourite pets data that you collected or the example data.
++ Ora aggiungi i dati al file. È possibile utilizzare i dati sugli animali domestici preferiti raccolti o i dati di esempio.
     
     ![screenshot](images/pets-data.png)
 
-+ Switch back to `main.py` and comment out the lines that render (display) charts and graphs (so that they aren't displayed):
++ Torna a `main.py` e commenta le righe che renderizzeranno (visualizzano) diagrammi e grafici (in modo che non vengano visualizzati):
     
     ![screenshot](images/pets-comment.png)
 
-+ Now let's read the data from the file.
++ Ora leggiamo i dati dal file.
     
     ![screenshot](images/pets-read.png)
     
-    The `for` loop will loop over the lines in the file. `splitlines()` removes the newline character from the end of the line as you don't want that.
+    Il ciclo `for` leggerà le righe del file. `splitlines()` rimuove il carattere di nuova riga dalla fine della riga poiché non serve.
 
-+ Each line needs to be separated into a label and a value:
++ Ogni riga deve essere separata in un'etichetta e un valore:
     
     ![screenshot](images/pets-split.png)
     
-    This will split the line at the spaces so don't include spaces in the labels. (You can add support for spaces in labels later.)
+    Questo dividerà la linea in corrispondenza degli spazi, che quindi non saranno inclusi nelle etichette. (È possibile aggiungere il supporto per gli spazi nelle etichette in seguito.)
 
-+ You might get an error like this:
++ Potresti ottenere un errore di questo tipo:
     
     ![screenshot](images/pets-error.png)
     
-    This happens if you have an empty line at the end of your file.
+    Questo accade se hai una riga vuota alla fine del tuo file.
     
-    You can fix the error by only getting the label and value if the line isn't empty.
+    È possibile correggere l'errore ottenendo l'etichetta e il valore solo se la riga non è vuota.
     
-    To do this, indent the code inside your `for` loop and add the code `if line:` above it:
+    Per fare ciò, rientra il codice all'interno del tuo ciclo `for` e aggiungi il codice `if line:` sopra di esso:
     
     ![screenshot](images/pets-fix.png)
 
-+ You can remove the `print(label, value)` line now everything is working.
++ Puoi rimuovere la riga `print(label, value)` e ora tutto funzionerà.
 
-+ Now let's add the label and value to a new Pie Chart and render it:
++ Adesso aggiungiamo l'etichetta e il valore a un nuovo grafico a torta e renderizziamolo:
     
     ![screenshot](images/pets-pie2.png)
     
-    Note that `add` expects the value to be a number, `int(value)` turns the value from a string into an integer.
+    Nota che `add` prevede che il valore sia un numero, `int(value)` trasforma il valore da una stringa in un numero intero.
     
-    If you wanted to use decimals such as 3.5 (floating point numbers) you could use `float(value)` instead.
+    Se volessi utilizzare i numeri decimali come ad esempio 3.5 (numeri in virgola mobile) potresti usare `float(value)`.

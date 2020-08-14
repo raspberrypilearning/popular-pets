@@ -34,16 +34,16 @@
     
     È possibile correggere l'errore ottenendo l'etichetta e il valore solo se la riga non è vuota.
     
-    Per fare ciò, rientra il codice all'interno del tuo ciclo `for` e aggiungi il codice `if line:` sopra di esso:
+    Per fare ciò, rientra il codice all'interno del tuo ciclo `for` e aggiungi il codice `if linea:` sopra di esso:
     
     ![screenshot](images/pets-fix.png)
 
-+ Puoi rimuovere la riga `print(label, value)` e ora tutto funzionerà.
++ Puoi rimuovere la riga `print(etichetta, valore)` e ora tutto funzionerà.
 
 + Adesso aggiungiamo l'etichetta e il valore a un nuovo grafico a torta e renderizziamolo:
     
     ![screenshot](images/pets-pie2.png)
     
-    Nota che `add` prevede che il valore sia un numero, `int(value)` trasforma il valore da una stringa in un numero intero.
+    Nota che `add` prevede che il valore sia un numero, `int(valore)` trasforma il valore da una stringa in un numero intero.
     
-    Se volessi utilizzare i numeri decimali come ad esempio 3.5 (numeri in virgola mobile) potresti usare `float(value)`.
+    Se volessi utilizzare i numeri decimali come ad esempio 3.5 (numeri in virgola mobile) potresti usare `float(valore)`.

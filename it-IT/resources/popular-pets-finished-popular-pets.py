@@ -2,57 +2,57 @@
 
 import pygal
 
-piechart = pygal.Pie()
-piechart.title = 'Favourite Pet'
-piechart.add('Dog', 6)
-piechart.add('Cat', 4)
-piechart.add('Hamster', 3)
-piechart.add('Fish', 2)
-piechart.add('Snake', 1)
-piechart.render()
+diagramma_a_torta = pygal.Pie()
+diagramma_a_torta.title='Animale Preferito'
+diagramma_a_torta.add('Cane',6)
+diagramma_a_torta.add('Cat',4)
+diagramma_a_torta.add('Criceto',3)
+diagramma_a_torta.add('Pesce',2)
+diagramma_a_torta.add('Serpente',1)
+diagramma_a_torta.render()
 
-barchart = pygal.Bar()
-barchart.title = 'Favourite Pet'
-barchart.add('Dog', 6)
-barchart.add('Cat', 4)
-barchart.add('Hamster', 3)
-barchart.add('Fish', 2)
-barchart.add('Snake', 1)
-barchart.render()
+grafico_a_barre = pygal.Bar()
+grafico_a_barre.title = 'Animale Preferito'
+grafico_a_barre.add('Cane',6)
+grafico_a_barre.add('Gatto',4)
+grafico_a_barre.add('Criceto',3)
+grafico_a_barre.add('Pesce',2)
+grafico_a_barre.add('Serpente',1)
+grafico_a_barre.render()
   
-piechart2 = pygal.Pie()
-barchart2 = pygal.Bar()
+diagramma_a_torta2 = pygal.Pie()
+grafico_a_barre2 = pygal.Bar()
 
-file = open('pets.txt', 'r')
+file = open('animalidomestici.txt', 'r')
 
 for line in file.read().splitlines():
   if line:
-    label, value = line.split(' ')
-    piechart2.add(label, int(value))
-    barchart2.add(label, int(value))
+    label,value = line.split(' ')
+    diagramma_a_torta2.add(label, int(value))
+    grafico_a_barre2.add(label, int(value))
     
 file.close()
 
-#piechart2.render()
-#barchart2.render()
+#diagramma_a_torta2.render()
+#grafico_a_barre2.render()
 
-butterflies = pygal.Bar()
-butterflies.title = 'Butterfly Count'
+farfalle = pygal.Bar()
+farfalle.title = 'Calcolo farfalle'
 
-file = open('butterflies.txt', 'r')
+file = open('farfalle.txt', 'r')
 
 for line in file.read().splitlines():
   if line:
     label, value = line.split(': ')
-    butterflies.add(label, int(value))
+    farfalle.add(label, int(value))
 file.close()
 
-butterflies.render()
+farfalle.render()
 
 pn = pygal.Bar()
-pn.title = 'Pirates vs Ninjas'
+pn.title = 'Pirati vs Ninja'
 
-file = open('piratesninjas.txt', 'r')
+file = open('piratininja.txt', 'r')
 
 for line in file.read().splitlines():
   if line:

@@ -1,25 +1,43 @@
---- challenge ---
-## Défi : Créer ton propre histogramme 
+## Créer un camembert
 
-Tu peux créer des histogrammes avec la même méthode. Il suffit d'utiliser `barchart = pygal.Bar()` afin de créer un nouveau histogramme, et ensuite ajouter des données et les rendre de la même façon que pour le camembert.
+Les camemberts sont un moyen utile d’afficher des données. Faisons une enquête sur les animaux de compagnie préférés dans ton Code Club, puis présentons les données sous forme de camembert.
 
-Collectionne des données de tes collègues de ton Code Club pour créer ton propre histogramme.
++ Demande à ton responsable de club de t'aider à organiser une enquête. Tu peux enregistrer les résultats sur un ordinateur connecté à un projecteur ou à un tableau blanc visible par tout le monde.
+    
+    Rédige une liste d'animaux de compagnie et assures-toi que les animaux préférés de tout le monde sont inclus.
+    
+    Demande ensuite à chacun de voter pour son favori en levant la main au moment de l'appel. Un seul vote chacun !
+    
+    Par exemple :
+    
+    ![capture d'écran](images/pets-favourite.png)
 
-Veille à ce que tu choisis un sujet que tout le monde connait !
++ Ouvre le modèle de Trinket Python vierge : <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-Voici quelques idées :
++ Créons un camembert montrant les résultats de ton enquête. Tu utiliseras la bibliothèque PyGal pour effectuer une partie du travail compliqué.
+    
+    Commence par importer la bibliothèque Pygal :
+    
+    ![capture d'écran](images/pets-pygal.png)
 
-+ Quel est ton sport préféré ?
-+ Quel est le parfum de glace que tu préfères ?
-+ Par quel moyen de transport vas-tu à l'école ?
-+ Dans quel mois tombe ton anniversaire ?
-+ Joues-tu à Minecraft ? (oui/non)
++ Créons maintenant un camembert et affiche-le :
+    
+    ![capture d'écran](images/pets-pie.png)
+    
+    Ne t’inquiètes pas, cela devient plus intéressant lorsque tu ajoutes des données !
 
-Ne pose pas de question sur des sujets qui donnent des informations personnels comme par exemple où habitent les personnes. Demande à l'animateur du club si tu as des doutes.
++ Ajoutons les données pour l'un des animaux de compagnie. Utilise les données que tu as collectées.
+    
+    ![capture d'écran](images/pets-add.png)
+    
+    Il n’y a qu’une seule donnée, elle occupe donc tout le camembert.
 
-Exemples :
++ Ajoute maintenant le reste des données de la même manière.
+    
+    Par exemple :
+    
+    ![capture d'écran](images/pets-add-all.png)
 
-![capture d'écran](images/pets-bar-examples.png)
-
---- /challenge ---
-
++ Et pour finir ton graphique, ajoute un titre :
+    
+    ![capture d'écran](images/pets-title.png)

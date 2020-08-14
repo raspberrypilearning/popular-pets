@@ -1,49 +1,25 @@
-## Lire des données à partir d'un fichier
+--- challenge ---
 
-C'est pratique de pouvoir stocker des données dans un fichier plutôt qu'à l'intérieur de ton code.
+## Défi : Crée ton histogramme
 
-+ Ajoute un nouveau fichier à ton projet et nomme-le `pets.txt` :
+Tu peux créer des histogrammes de la même manière. Il te suffit d'utiliser `histogramme = pygal.Bar ()` pour créer un nouvel histogramme, puis ajoute des données et effectue l'affichage de la même manière que pour un camembert.
 
-  ![capture d'écran](images/pets-file.png)
+Recueille des données auprès de tes membres du Code Club pour créer ton histogramme.
 
-+ Maintenant ajoute des données à l'intérieur du fichier. Tu peux utiliser les informations concernant les animaux de compagnie préférés que tu as recueillies ou d'autres exemples de données.
+Assure-toi de choisir un sujet avec lequel tout le monde est familier !
 
-  ![capture d'écran](images/pets-data.png)
+Voici quelques idées :
 
-+ Revient vers `main.py` et transformer en commentaire les lignes qui rendent (affichent) les représentations graphiques (pour qu'elles ne s'affichent pas) :
++ Quel est ton sport favori ?
++ Quel est ton parfum de glace préféré ?
++ Comment vas-tu à l'école ?
++ Quel est le mois de ton anniversaire ?
++ Joues-tu à Minecraft ? (Oui/Non)
 
-  ![capture d'écran](images/pets-comment.png)
+Ne pose pas de questions révélant des données personnelles telles que le lieu de résidence des participants. Demande à ton responsable de club si tu n'es pas sûr(e).
 
-+ Maintenant lisons les données à partir du fichier.
+Exemples :
 
-  ![capture d'écran](images/pets-read.png)
+![capture d'écran](images/pets-bar-examples.png)
 
-  La boucle `for` s'exécutera en continu les lignes dans le fichier. `splitlines()` enlève le charactère/symbole pour une nouvelle ligne de la fin de chaque ligne car tu t'en sers pas.
-
-+ Chaque ligne doit être séparé dan un label et une valeur :
-
-  ![capture d'écran](images/pets-split.png)
-
-  Ceci va scinder les lignes au niveau des espaces, donc il ne faut pas inclure des espaces dans les labels. (Tu pourrais ajouter une méthode pour traiter les espaces dans les labels plus tard.)
-
-+ Tu recevras peut-être un message d'erreur comme le suivant :
-
-  ![capture d'écran](images/pets-error.png)
-
-  Ça arrive si tu as une ligne vide à la fin de ton fichier.
-
-  Tu peux corriger l'erreur en cherchant le label et valeur uniquement si la ligne n'est pas vide.
-
-  Pour ce faire, décaler le code à l'intérieur de la boucle `for` et ajoute le code `if line:` en-dessus :
-
-  ![capture d'écran](images/pets-fix.png)
-
-+ Tu peux retirer la ligne `print(label, value)` maintenant que tout marche correctement.
-
-+ Maintenant ajoutons le label et la valeur dans un nouveau camembert et rend les données pour les visualiser :
-
-  ![capture d'écran](images/pets-pie2.png)
-
-  A noter que `add` attend en entrée une valeur qui est un numéro, `int(value)` transforme la valeur d'une chaîne de charactères dans un integer.
-
-  Si tu voulais utiliser des décimals comme 3.5 ("floating point numbers") tu pourrais utiliser `float(value)` à la place.
+--- /challenge ---

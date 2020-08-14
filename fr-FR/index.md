@@ -1,14 +1,14 @@
 ---
-title: Popular Pets
-description: Create pie charts and bar graphs from data you collect.
-notes: "Popular Pets - notes.md"
+title: Animaux de compagnie préférés
+description: Créer des camemberts et des histogrammes à partir de données que tu collectes.
+notes: "Animaux de compagnie préférés - notes.md"
 layout: project
 new: true
 ---
 
-# Introduction { .intro}
+# Introduction {.intro}
 
-In this project you create pie charts and bar graphs from data that you collect from members of your Code Club.  
+Dans ce projet, tu créeras des camemberts et des histogrammes à partir de données que tu collectes auprès des membres de ton Code Club.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/70d24d92b8?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -16,158 +16,152 @@ In this project you create pie charts and bar graphs from data that you collect 
   <img src="images/pets-finished.png">
 </div>
 
+# Étape 1: Créer un camembert {.activity}
 
-# Step 1: Create a Pie Chart { .activity}
+Les camemberts sont un moyen utile d’afficher des données. Faisons une enquête sur les animaux de compagnie préférés dans ton Code Club, puis présentons les données sous forme de Camemberts.
 
-Pie Charts are are useful way of showing data. Let's do a survey of favourite pets in your Code Club and then present the data as a Pie Chart.
+## Liste de contrôle d'activité {.check}
 
-## Activity Checklist { .check}
++ Demande à ton volontaire de t'aider à organiser une enquête. Tu peux enregistrer les résultats sur un ordinateur connecté à un projecteur ou à un tableau blanc visible par tout le monde.
+    
+    Rédige une liste d'animaux de compagnie et assures-toi que les animaux de compagnie préférés de tout le monde sont inclus.
+    
+    Demande ensuite à chacun de voter pour son favori en levant la main au moment de l'appel. Un seul vote chacun !
+    
+    Par exemple :
+    
+    ![capture d'écran](images/pets-favourite.png)
 
-+ Ask your volunteer to help organise a survey. You could record the results on a computer connected to a projector or a whiteboard that everyone can see.
++ Ouvre le modèle de Trinket Python vierge : <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-    Write a list of pets and make sure everyone's favourite is included.
++ Créons un camembert montrant les résultats de ton enquête. Tu utiliseras la bibliothèque PyGal pour effectuer une partie de ce travail compliqué.
+    
+    Commence par importer la bibliothèque Pygal :
+    
+    ![capture d'écran](images/pets-pygal.png)
 
-    Then get everyone to vote for their favourite by putting their hand up when it gets called out. Only one vote each!
++ Créons maintenant un camembert et affichons-le :
+    
+    ![capture d'écran](images/pets-pie.png)
+    
+    Ne t'inquiètes pas, cela devient plus intéressant lorsque tu ajoutes des données !
 
-    For example:
++ Ajoutons les données pour l'un des animaux de compagnie. Utilise les données que tu as collectées.
+    
+    ![capture d'écran](images/pets-add.png)
+    
+    Il n’y a qu’une donnée, elle occupe donc tout le camembert.
 
-    ![screenshot](images/pets-favourite.png)
++ Ajoute maintenant le reste des données de la même manière.
+    
+    Par exemple :
+    
+    ![capture d'écran](images/pets-add-all.png)
 
-+ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ Et pour finir ton graphique, ajoute un titre :
+    
+    ![capture d'écran](images/pets-title.png)
 
-+ Let's create a pie chart to show the results of your survey. You'll be using the PyGal library to do some of the hard work.
+## Enregistre ton projet {.save}
 
-    First import the Pygal library:
+## Défi : Crée ton histogramme {.challenge}
 
-    ![screenshot](images/pets-pygal.png)
+Tu peux créer des histogrammes de la même manière. Il te suffit d'utiliser `histogramme = pygal.Bar()` pour créer un nouvel histogramme, puis ajoute des données et effectue l'affichage de la même manière que pour un camembert.
 
+Recueille des données auprès de tes membres du Code Club pour créer ton histogramme.
 
-+ Now let's create a Pie chart and render (display) it:
+Assure-toi de choisir un sujet avec lequel tout le monde est familier !
 
-    ![screenshot](images/pets-pie.png)
+Voici quelques idées :
 
-    Don't worry, it gets more interesting when you add data!
++ Quel est ton sport favori ?
 
++ Quel est ton parfum de glace préféré ?
 
-+ Let's add in the data for one of the pets. Use the data that you collected.
++ Comment vas-tu à l'école ?
 
-    ![screenshot](images/pets-add.png)
++ Quel est le mois de ton anniversaire ?
 
-    There's only one piece of data so it takes up the whole pie chart.
++ Joues-tu à Minecraft ? (Oui/Non)
 
-+ Now add the rest of the data in the same way.
+Ne pose pas de questions donnant des données personnelles telles que le lieu de résidence des participants. Demande à ton responsable de club si tu n'es pas sûr.
 
-    For example:
+Exemples :
 
-    ![screenshot](images/pets-add-all.png)
+![capture d'écran](images/pets-bar-examples.png)
 
-+ And to finish off your chart, add a title:
+## Enregistre ton projet {.save}
 
-    ![screenshot](images/pets-title.png)
+# Étape 2: Lire les données d'un fichier {.activity}
 
+Il est utile de pouvoir stocker des données dans un fichier plutôt que de les inclure dans ton code.
 
-## Save Your Project {.save}
+## Liste de contrôle d'activité {.check}
 
-## Challenge: Create your own bar chart {.challenge}
++ Ajoute un nouveau fichier à ton projet et appelle-le `pets.txt`:
+    
+    ![capture d'écran](images/pets-file.png)
 
-You can create bar charts in a similar way. Just use `barchart = pygal.Bar()` to create a new barchart, and then add data and render in the same way as for a pie chart.
++ Ajoute maintenant des données au fichier. Tu peux utiliser les données des animaux de compagnie que tu as collectées ou les exemples de données.
+    
+    ![capture d'écran](images/pets-data.png)
 
-Collect data from your Code Club members to create your own bar graph.
++ Reviens à `main.py` et commente les lignes qui affichent les graphiques (de sorte qu'ils ne sont pas affichés) :
+    
+    ![capture d'écran](images/pets-comment.png)
 
-Make sure that you choose a topic that everyone will know about!
++ Lisons maintenant les données du fichier.
+    
+    ![capture d'écran](images/pets-read.png)
+    
+    La boucle `for` passera en boucle sur toutes les lignes du fichier. `splitlines ()` supprime le caractère de retour à la ligne de la fin de ligne car tu ne souhaites pas les conserver.
 
-Here are some ideas:
++ Chaque ligne doit être séparée en un libellé et une valeur :
+    
+    ![capture d'écran](images/pets-split.png)
+    
+    Cela divisera la ligne au niveau des espaces, alors n'inclus pas d'espaces dans les libellés. (Tu peux ajouter ultérieurement une prise en charge des espaces dans les libellés.)
 
-+ What is your favourite sport?
++ Tu pourrais avoir une erreur comme celle-ci :
+    
+    ![capture d'écran](images/pets-error.png)
+    
+    Cela se produit si tu as une ligne vide à la fin de ton fichier.
+    
+    Tu peux corriger l'erreur en récupérant uniquement le libellé et la valeur si la ligne n'est pas vide.
+    
+    Pour ce faire, indente le code dans ta boucle `for` et ajoute le code `if line:` juste avant :
+    
+    ![capture d'écran](images/pets-fix.png)
 
-+ What is your favourite ice cream flavour?
++ Tu peux supprimer la ligne `print(label, value)` maintenant que tout fonctionne.
 
-+ How do you get to school?
++ Ajoutons maintenant le libellé et la valeur à un nouveau camembert et affichons-le :
+    
+    ![capture d'écran](images/pets-pie2.png)
+    
+    Note que `add` suppose que la valeur est un nombre, `int (value)` transforme la valeur d'une chaîne en un entier.
+    
+    Si tu souhaites utiliser des nombres décimaux tels que 3.5 (nombres à virgule flottante), tu peux utiliser `float (value)` à la place.
 
-+ What month is your birthday?
+## Enregistre ton projet {.save}
 
-+ Do you play Minecraft? (yes/no)
+## Défi : Créer un histogramme ou un camembert à partir d'un fichier {.challenge}
 
-Don't ask questions that give personal data such as where people live. Ask your club leader if you're not sure.
+Peux-tu créer un nouvel histogramme ou un camembert à partir des données d'un fichier? Tu devras créer un nouveau fichier .txt.
 
-Examples:
+Astuce: Si tu veux avoir des espaces dans les libellés, utilise `line.split (':')` et ajoute deux points pour les séparer dans ton fichier de données, par exemple « Red Admiral: 6 »
 
-![screenshot](images/pets-bar-examples.png)
+![capture d'écran](images/pets-butterflies.png)
 
-## Save Your Project {.save}
+## Enregistre votre projet {.save}
 
-# Step 2: Read data from a file { .activity}
+## Défi: Plus de tableaux et de graphiques ! {.challenge}
 
-It's useful to be able to store data in a file rather than having to include it in your code.
+Peux-tu créer un camembert ou un histogramme à partir du même fichier ? Tu peux utiliser les données que tu as collectées précédemment ou collecter de nouvelles données.
 
-## Activity Checklist { .check}
+![capture d'écran](images/pets-pn-bar.png)
 
-+ Add a new file to your project and call it `pets.txt`:
+![capture d'écran](images/pets-pn.png)
 
-    ![screenshot](images/pets-file.png)
-
-+ Now add data to the file. You can use the favourite pets data that you collected or the example data.
-
-    ![screenshot](images/pets-data.png)
-
-+ Switch back to `main.py` and comment out the lines that render (display) charts and graphs (so that they aren't displayed):
-
-    ![screenshot](images/pets-comment.png)
-
-+ Now let's read the data from the file.
-
-    ![screenshot](images/pets-read.png)
-
-    The `for` loop will loop over the lines in the file. `splitlines()` removes the newline character from the end of the line as you don't want that.
-
-+ Each line needs to be separated into a label and a value:
-
-    ![screenshot](images/pets-split.png)
-
-    This will split the line at the spaces so don't include spaces in the labels. (You can add support for spaces in labels later.)
-
-+ You might get an error like this:
-
-    ![screenshot](images/pets-error.png)
-
-    This happens if you have an empty line at the end of your file.
-
-    You can fix the error by only getting the label and value if the line isn't empty.
-
-    To do this, indent the code inside your `for` loop and add the code `if line:` above it:
-
-    ![screenshot](images/pets-fix.png)
-
-+ You can remove the `print(label, value)` line now everything is working.
-
-+ Now let's add the label and value to a new Pie Chart and render it:
-
-    ![screenshot](images/pets-pie2.png)
-
-    Note that `add` expects the value to be a number, `int(value)` turns the value from a string into an integer.
-
-    If you wanted to use decimals such as 3.5 (floating point numbers) you could use `float(value)` instead.
-
-
-## Save Your Project {.save}
-
-## Challenge: Create a new chart from a file {.challenge}
-
-Can you create a new bar graph or pie chart from data in a file? You'll need to create a new .txt file.
-
-Tip: If you want to have spaces in the labels then use `line.split(': ')` and add colons to your data file, e.g. 'Red Admiral: 6'
-
-![screenshot](images/pets-butterflies.png)
-
-## Save Your Project {.save}
-
-## Challenge: More charts and graphs! {.challenge}
-
-Can you create a pie chart and a bar chart from the same file? You can either use the data you collected earlier or collect some new data.
-
-![screenshot](images/pets-pn-bar.png)
-
-![screenshot](images/pets-pn.png)
-
-
-## Save Your Project {.save}
+## Enregistre ton projet {.save}

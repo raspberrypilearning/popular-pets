@@ -2,62 +2,62 @@
 
 import pygal
 
-piechart = pygal.Pie()
-piechart.title = 'Favourite Pet'
-piechart.add('Dog', 6)
-piechart.add('Cat', 4)
-piechart.add('Hamster', 3)
-piechart.add('Fish', 2)
-piechart.add('Snake', 1)
-piechart.render()
+camembert = pygal.Pie()
+camembert.title = 'Animaux de compagnie préférés'
+camembert.add('Chien', 6)
+camembert.add('Chat', 4)
+camembert.add('Hamster', 3)
+camembert.add('Poisson', 2)
+camembert.add('Serpent', 1)
+camembert.render()
 
-barchart = pygal.Bar()
-barchart.title = 'Favourite Pet'
-barchart.add('Dog', 6)
-barchart.add('Cat', 4)
-barchart.add('Hamster', 3)
-barchart.add('Fish', 2)
-barchart.add('Snake', 1)
-barchart.render()
+histogramme = pygal.Bar()
+histogramme.title = 'Animaux de compagnie préférés'
+histogramme.add('Chien', 6)
+histogramme.add('Chat', 4)
+histogramme.add('Hamster', 3)
+histogramme.add('Poisson', 2)
+histogramme.add('Serpent', 1)
+histogramme.render()
   
-piechart2 = pygal.Pie()
-barchart2 = pygal.Bar()
+camembert2 = Pygal.Pie()
+histogramme2 = pygal.Bar()
 
-file = open('pets.txt', 'r')
+fichier = open('pets.txt', 'r')
 
-for line in file.read().splitlines():
-  if line:
-    label, value = line.split(' ')
-    piechart2.add(label, int(value))
-    barchart2.add(label, int(value))
+for ligne in fichier.read().splitlines():
+  if ligne:
+    libelle, value = line.split(' ')
+    camembert2.add(libelle, int(value))
+    histogramme2.add(libelle, int(value))
     
-file.close()
+fichier.close()
 
-#piechart2.render()
-#barchart2.render()
+#camembert2.render()
+# histogramme2.render()
 
-butterflies = pygal.Bar()
-butterflies.title = 'Butterfly Count'
+papillons = pygal.Bar()
+papillons.title = 'Comptage des papillons'
 
-file = open('butterflies.txt', 'r')
+fichier = open('butterflies.txt', 'r')
 
-for line in file.read().splitlines():
-  if line:
-    label, value = line.split(': ')
-    butterflies.add(label, int(value))
-file.close()
+for ligne in fichier.read().splitlines():
+  if ligne:
+    libelle, value = line.split(': ')
+    papillons.add(libelle, int(value))
+fichier.close()
 
-butterflies.render()
+papillons.render()
 
 pn = pygal.Bar()
 pn.title = 'Pirates vs Ninjas'
 
-file = open('piratesninjas.txt', 'r')
+fichier = open('piratesninjas.txt', 'r')
 
-for line in file.read().splitlines():
-  if line:
-    label, value = line.split(' ')
-    pn.add(label, int(value))
-file.close()
+for ligne in fichier.read().splitlines():
+  if ligne:
+    libelle, value = line.split(' ')
+    pn.add(libelle, int(value))
+fichier.close()
 
 pn.render()

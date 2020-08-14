@@ -25,11 +25,11 @@ grafico_a_barre2 = pygal.Bar()
 
 file = open('animalidomestici.txt', 'r')
 
-for line in file.read().splitlines():
-  if line:
-    label,value = line.split(' ')
-    diagramma_a_torta2.add(label, int(value))
-    grafico_a_barre2.add(label, int(value))
+for linea in file.read().splitlines():
+  if linea:
+    etichetta, valore = line.split(' ')
+    diagramma_a_torta2.add(etichetta, int(valore))
+    grafico_a_barre2.add(etichetta, int(valore))
     
 file.close()
 
@@ -41,10 +41,10 @@ farfalle.title = 'Calcolo farfalle'
 
 file = open('farfalle.txt', 'r')
 
-for line in file.read().splitlines():
-  if line:
-    label, value = line.split(': ')
-    farfalle.add(label, int(value))
+for linea in file.read().splitlines():
+  if linea:
+    etichetta, valore = line.split(': ')
+    farfalle.add(etichetta, int(valore))
 file.close()
 
 farfalle.render()
@@ -54,10 +54,10 @@ pn.title = 'Pirati vs Ninja'
 
 file = open('piratininja.txt', 'r')
 
-for line in file.read().splitlines():
-  if line:
-    label, value = line.split(' ')
-    pn.add(label, int(value))
+for linea in file.read().splitlines():
+  if linea:
+    etichetta, valore = line.split(' ')
+    pn.add(etichetta, int(valore))
 file.close()
 
 pn.render()

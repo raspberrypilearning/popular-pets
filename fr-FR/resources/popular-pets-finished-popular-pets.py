@@ -27,7 +27,7 @@ fichier = open('pets.txt', 'r')
 
 for ligne in fichier.read().splitlines():
   if ligne:
-    libelle, value = line.split(' ')
+    libelle, value = ligne.split(' ')
     camembert2.add(libelle, int(value))
     histogramme2.add(libelle, int(value))
     
@@ -43,7 +43,7 @@ fichier = open('butterflies.txt', 'r')
 
 for ligne in fichier.read().splitlines():
   if ligne:
-    libelle, value = line.split(': ')
+    libelle, value = ligne.split(': ')
     papillons.add(libelle, int(value))
 fichier.close()
 
@@ -56,7 +56,7 @@ fichier = open('piratesninjas.txt', 'r')
 
 for ligne in fichier.read().splitlines():
   if ligne:
-    libelle, value = line.split(' ')
+    libelle, value = ligne.split(' ')
     pn.add(libelle, int(value))
 fichier.close()
 

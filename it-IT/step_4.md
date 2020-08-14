@@ -1,49 +1,25 @@
-## Leggi i dati di un file
+--- challenge ---
 
-Se possibile, è meglio salvare i dati in un file piuttosto che dovere includerli nel tuo codice.
+## Sfida: crea il tuo grafico a barre
 
-+ Aggiungi un nuovo file al tuo progetto e chiamalo 'pets.txt':
+Puoi creare grafici a barre in modo simile. Basta usare `grafico_a_barre = pygal.Bar()` per creare un nuovo grafico a barre, quindi aggiungere dati e renderizzarli allo stesso modo di un grafico a torta.
 
-  ![screenshot](images/pets-file.png)
+Raccogli i dati dai membri del tuo Code Club per creare il tuo grafico a barre.
 
-+ Ora aggiungi i dati al file. Puoi usare i dati raccolti sugli animali preferiti o i dati in esempio.
+Assicurati di scegliere un argomento che conoscono tutti!
 
-  ![screenshot](images/pets-data.png)
+Ecco alcune idee:
 
-+ Torna a 'main.py' e commenta le linee che rappresentano grafici e tabelle (così che non vengono visualizzati):
++ Qual è il tuo sport preferito?
++ Qual è il tuo gusto di gelato preferito?
++ Con che mezzo vai a scuola?
++ In quale mese è il tuo compleanno?
++ Giochi a Minecraft? (sì/no)
 
-  ![screenshot](images/pets-comment.png)
+Non fare domande che possono contenere dati personali come dove abitano le persone. Chiedi al tuo capo club se non sei sicuro.
 
-+ Ora leggiamo i dati dal file.
+Esempi:
 
-  ![screenshot](images/pets-read.png)
+![screenshot](images/pets-bar-examples.png)
 
-  Il loop 'for' girerà sulle linee del file. `splitlines()` elimina il carattere della nuova linea dalla fine della linea.
-
-+ Ogni linea deve essere separata in un'etichetta e un valore:
-
-  ![screenshot](images/pets-split.png)
-
-  Questo dividerà la linea agli spazi, per cui non includere gli spazi nelle etichette. (Puoi aggiungere in un secondo momento supporto per gli spazi nelle etichette.)
-
-+ Potresti ottenere un errore così:
-
-  ![screenshot](images/pets-error.png)
-
-  Questo succede se hai una linea vuota alla fine del tuo file.
-
-  Puoi risolvere l'errore semplicemente ottenendo l'etichetta e il valore se la linea non è vuota.
-
-  Per fare ciò, fai rientrare il codice dentro il tuo loop 'for' e aggiungi su di esso il codice 'if line:' :
-
-  ![screenshot](images/pets-fix.png)
-
-+ Puoi rimuovere la linea 'print(label, value), ora funziona tutto.
-
-+ Ora aggiungiamo l'etichetta e il valore al nostro nuovo grafico circolare e rappresentiamoli;
-
-  ![screenshot](images/pets-pie2.png)
-
-  Nota che 'add' prevede che il valore sia un numero, 'int(value) trasforma il valore da una sequenza a un numero intero.
-
-  Se vuoi usare i decimali come 3,5 (numeri a virgola mobile), potresti invece utilizzare 'float(value)'.
+--- /challenge ---

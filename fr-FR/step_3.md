@@ -4,7 +4,7 @@ Les camemberts sont un moyen utile d’afficher des données. Faisons une enquê
 
 + Demande à ton responsable de club de t'aider à organiser une enquête. Tu peux enregistrer les résultats sur un ordinateur connecté à un projecteur ou à un tableau blanc visible par tout le monde.
     
-    Rédige une liste d'animaux de compagnie et assures-toi que les animaux préférés de tout le monde sont inclus.
+    Rédige une liste d'animaux de compagnie et assures-toi que les animaux préférés de tout le monde soient inclus.
     
     Demande ensuite à chacun de voter pour son favori en levant la main au moment de l'appel. Un seul vote chacun !
     

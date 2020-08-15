@@ -38,7 +38,7 @@ Il est utile de pouvoir stocker des données dans un fichier plutôt que de les 
     
     ![capture d'écran](images/pets-fix.png)
 
-+ Tu peux supprimer la ligne `print(label, value)` maintenant que tout fonctionne.
++ Tu peux supprimer la ligne `print(libelle, value)` maintenant que tout fonctionne.
 
 + Ajoutons maintenant le libellé et la valeur à un nouveau camembert et affichons-le :
     

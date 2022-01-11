@@ -17,10 +17,12 @@ software: python
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: Introduction
-  - title: Ce dont tu auras besoin
-  - title: Créer un camembert
-  - title: 'Défi : Crée ton histogramme'
-  - title: Lire les données à partir d'un fichier
-  - title: 'Défi : Créer un nouveau graphique à partir d''un fichier'
-  - title: 'Défi : Plus de tableaux et de graphiques !'
+- title: Introduction
+- title: Ce dont tu auras besoin
+  completion: engaged
+- title: Créer un camembert
+- title: 'Défi : Crée ton histogramme'
+- title: Lire les données à partir d'un fichier
+- title: 'Défi : Créer un nouveau graphique à partir d''un fichier'
+  completion: internal
+- title: 'Défi : Plus de tableaux et de graphiques !'

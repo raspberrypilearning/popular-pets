@@ -17,10 +17,12 @@ software: python
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: Introducere
-  - title: De ce vei avea nevoie
-  - title: Creează o diagramă circulară
-  - title: 'Provocare: Creează-ți propriul grafic de bare'
-  - title: Citește datele dintr-un fișier
-  - title: 'Provocare: Creează o diagramă nouă dintr-un fișier'
-  - title: 'Provocare: Mai multe diagrame și grafice!'
+- title: Introducere
+- title: De ce vei avea nevoie
+  completion: engaged
+- title: Creează o diagramă circulară
+- title: 'Provocare: Creează-ți propriul grafic de bare'
+- title: Citește datele dintr-un fișier
+- title: 'Provocare: Creează o diagramă nouă dintr-un fișier'
+  completion: internal
+- title: 'Provocare: Mai multe diagrame și grafice!'

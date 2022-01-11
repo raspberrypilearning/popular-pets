@@ -17,17 +17,12 @@ software: python
 version: 3
 last_tested: 2017-01-01
 steps:
-  - 
-    title: 소개
-  - 
-    title: 준비물
-  - 
-    title: 원형 차트 만들기
-  - 
-    title: '도전 과제: 자신만의 막대 차트 만들기'
-  - 
-    title: 파일에서 데이터 읽기
-  - 
-    title: '도전 과제: 파일에서 새 차트 만들기'
-  - 
-    title: '도전 과제: 더 많은 차트와 그래프!'
+- title: 소개
+- title: 준비물
+  completion: engaged
+- title: 원형 차트 만들기
+- title: '도전 과제: 자신만의 막대 차트 만들기'
+- title: 파일에서 데이터 읽기
+- title: '도전 과제: 파일에서 새 차트 만들기'
+  completion: internal
+- title: '도전 과제: 더 많은 차트와 그래프!'

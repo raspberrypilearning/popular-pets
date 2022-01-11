@@ -17,10 +17,12 @@ software: python
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: 前書き
-  - title: あなたが必要とするもの
-  - title: 円グラフを作る
-  - title: 'チャレンジ: 棒グラフを作りましょう'
-  - title: ファイルからデータを読み込む
-  - title: 'チャレンジ: ファイルから新規グラフをつくろう'
-  - title: 'チャレンジ: さらにグラフをつくろう！'
+- title: 前書き
+- title: あなたが必要とするもの
+  completion: engaged
+- title: 円グラフを作る
+- title: 'チャレンジ: 棒グラフを作りましょう'
+- title: ファイルからデータを読み込む
+- title: 'チャレンジ: ファイルから新規グラフをつくろう'
+  completion: internal
+- title: 'チャレンジ: さらにグラフをつくろう！'

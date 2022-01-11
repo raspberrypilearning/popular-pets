@@ -17,10 +17,12 @@ software: python
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: Wprowadzenie
-  - title: Co będzie potrzebne
-  - title: Utwórz wykres kołowy
-  - title: 'Wyzwanie: Stwórz własny wykres słupkowy'
-  - title: Wczytaj dane z pliku
-  - title: 'Wyzwanie: Utwórz nowy wykres z pliku'
-  - title: 'Wyzwanie: więcej wykresów i grafów!'
+- title: Wprowadzenie
+- title: Co będzie potrzebne
+  completion: engaged
+- title: Utwórz wykres kołowy
+- title: 'Wyzwanie: Stwórz własny wykres słupkowy'
+- title: Wczytaj dane z pliku
+- title: 'Wyzwanie: Utwórz nowy wykres z pliku'
+  completion: internal
+- title: 'Wyzwanie: więcej wykresów i grafów!'

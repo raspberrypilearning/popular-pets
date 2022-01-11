@@ -17,10 +17,12 @@ software: python
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: Inleiding
-  - title: Wat heb je nodig
-  - title: Maak een taartdiagram
-  - title: 'Uitdaging: maak je eigen staafdiagram'
-  - title: Gegevens uit een bestand lezen
-  - title: 'Uitdaging: maak nieuw een bestand een nieuw diagram'
-  - title: 'Uitdaging: meer grafieken en diagrammen!'
+- title: Inleiding
+- title: Wat heb je nodig
+  completion: engaged
+- title: Maak een taartdiagram
+- title: 'Uitdaging: maak je eigen staafdiagram'
+- title: Gegevens uit een bestand lezen
+- title: 'Uitdaging: maak nieuw een bestand een nieuw diagram'
+  completion: internal
+- title: 'Uitdaging: meer grafieken en diagrammen!'

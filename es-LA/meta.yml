@@ -17,10 +17,12 @@ software: python
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: Introducción
-  - title: Lo que necesitarás
-  - title: Crea un Gráfico Circular
-  - title: 'Reto: Crea tu propio gráfico de barras'
-  - title: Leer los datos desde un archivo
-  - title: 'Reto: Crea un nuevo gráfico a partir de un archivo'
-  - title: 'Reto: ¡Más cuadros y gráficos!'
+- title: Introducción
+- title: Lo que necesitarás
+  completion: engaged
+- title: Crea un Gráfico Circular
+- title: 'Reto: Crea tu propio gráfico de barras'
+- title: Leer los datos desde un archivo
+- title: 'Reto: Crea un nuevo gráfico a partir de un archivo'
+  completion: internal
+- title: 'Reto: ¡Más cuadros y gráficos!'

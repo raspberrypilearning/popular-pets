@@ -1,3 +1,4 @@
+---
 hero_image: images/popular-pets.png
 theme: yellow
 duration: 2
@@ -15,11 +16,13 @@ hardware: ''
 software: python
 version: 3
 last_tested: 2017-01-01
-steps: 
+steps:
 - title: Introduction
 - title: What you will need
+  completion: engaged
 - title: Create a Pie Chart
 - title: 'Challenge: Create your own bar chart'
 - title: Read data from a file
 - title: 'Challenge: Create a new chart from a file'
+  completion: internal
 - title: 'Challenge: More charts and graphs!'

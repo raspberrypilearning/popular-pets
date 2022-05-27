@@ -19,10 +19,11 @@ last_tested: 2017-01-01
 steps:
 - title: परिचय
 - title: तुम्हाला काय लागेल
-  completion: engaged
 - title: एक पाय चार्ट तयार करा
 - title: 'आव्हान: आपला स्वतःचा बार चार्ट तयार करा'
 - title: फाईलमधील डेटा वाचा
+  completion:
+  - engaged
+  - internal
 - title: 'आव्हान: फाईलमधून एक नवीन चार्ट तयार करा'
-  completion: internal
 - title: 'आव्हान: अधिक चार्ट आणि आलेख!'

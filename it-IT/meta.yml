@@ -19,10 +19,11 @@ last_tested: 2017-01-01
 steps:
 - title: Introduzione
 - title: Di cosa avrai bisogno
-  completion: engaged
 - title: Crea un grafico a torta
 - title: 'Sfida: crea il tuo grafico a barre'
 - title: Carica i dati da un file
+  completion:
+  - engaged
+  - internal
 - title: 'Sfida: crea un nuovo grafico da un file'
-  completion: internal
 - title: 'Sfida: più grafici e diagrammi!'

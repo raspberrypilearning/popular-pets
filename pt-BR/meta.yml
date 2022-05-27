@@ -20,10 +20,11 @@ last_tested: 2017-01-01
 steps:
 - title: Introdução
 - title: O que você vai precisar
-  completion: engaged
 - title: Crie um gráfico de pizza
 - title: 'Desafio: crie seu próprio gráfico de barras'
 - title: Ler dados de um arquivo
+  completion:
+  - engaged
+  - internal
 - title: 'Desafio: crie um novo gráfico a partir de um arquivo'
-  completion: internal
 - title: 'Desafio: mais gráficos e tabelas!'

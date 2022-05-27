@@ -15,9 +15,10 @@ site_areas: codeclub, python
 steps:
 - title: 介绍
 - title: 创建一个饼图
-  completion: engaged
 - title: 挑战：创建你自己的条形图
 - title: 从文件读取数据
 - title: 挑战：从文件中创建新图表
+  completion:
+  - engaged
+  - internal
 - title: 挑战：更多图表和图形！
-  completion: internal

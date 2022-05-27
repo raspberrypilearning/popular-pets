@@ -19,10 +19,11 @@ last_tested: 2017-01-01
 steps:
 - title: Einleitung
 - title: Was du brauchen wirst
-  completion: engaged
 - title: Erstelle ein Kreisdiagramm
 - title: 'Herausforderung: Erstelle dein eigenes Balkendiagramm'
 - title: Daten aus einer Datei auslesen
+  completion:
+  - engaged
+  - internal
 - title: 'Herausforderung: Erstelle ein neues Diagramm aus einer Datei'
-  completion: internal
 - title: 'Herausforderung: Mehr Diagramme und Grafiken!'

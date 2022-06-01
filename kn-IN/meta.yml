@@ -20,10 +20,11 @@ last_tested: 2017-01-01
 steps:
 - title: ಪರಿಚಯ
 - title: ನಿಮಗೆ ಬೇಕಾದುದು
-  completion: engaged
 - title: ಪೈ ಚಾರ್ಟ್(Pie Chart) ತಯಾರಿಸಿ
 - title: 'ಸವಾಲು: ನಿಮ್ಮ ಸ್ವಂತ ಬಾರ್ ಚಾರ್ಟ್(bar chart) ರಚಿಸಿ'
 - title: file ‌ನಿಂದ ಡೇಟಾವನ್ನು ಓದಿ
+  completion:
+  - engaged
+  - internal
 - title: 'ಸವಾಲು: file ‌ನಿಂದ ಹೊಸ ಚಾರ್ಟ್ ರಚಿಸಿ'
-  completion: internal
 - title: 'ಸವಾಲು: ಹೆಚ್ಚಿನ ಚಾರ್ಟ್(chart) ‌ಗಳು ಮತ್ತು ಗ್ರಾಫ್(graph)‌ಗಳು!'

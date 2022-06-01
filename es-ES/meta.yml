@@ -19,10 +19,11 @@ last_tested: 2017-01-01
 steps:
 - title: Introducción
 - title: Lo que necesitarás
-  completion: engaged
 - title: Crea un Gráfico Circular
 - title: 'Desafío: Crea tu propio gráfico de barras'
 - title: Leer los datos desde un archivo
+  completion:
+  - engaged
+  - internal
 - title: 'Desafío: Crea un nuevo gráfico a partir de un archivo'
-  completion: internal
 - title: 'Desafío: ¡Más cuadros y gráficos!'

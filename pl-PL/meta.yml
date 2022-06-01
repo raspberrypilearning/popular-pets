@@ -19,10 +19,11 @@ last_tested: 2017-01-01
 steps:
 - title: Wprowadzenie
 - title: Co będzie potrzebne
-  completion: engaged
 - title: Utwórz wykres kołowy
 - title: 'Wyzwanie: Stwórz własny wykres słupkowy'
 - title: Wczytaj dane z pliku
+  completion:
+  - engaged
+  - internal
 - title: 'Wyzwanie: Utwórz nowy wykres z pliku'
-  completion: internal
 - title: 'Wyzwanie: więcej wykresów i grafów!'

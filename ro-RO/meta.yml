@@ -27,6 +27,9 @@ steps:
     title: 'Provocare: Creează-ți propriul grafic de bare'
   - 
     title: Citește datele dintr-un fișier
+    completion:
+      - engaged
+      - internal
   - 
     title: 'Provocare: Creează o diagramă nouă dintr-un fișier'
   - 

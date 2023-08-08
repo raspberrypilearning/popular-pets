@@ -27,6 +27,9 @@ steps:
     title: 'チャレンジ: 棒グラフを作りましょう'
   - 
     title: ファイルからデータを読み込む
+    completion:
+      - engaged
+      - internal
   - 
     title: 'チャレンジ: ファイルから新規グラフをつくろう'
   - 

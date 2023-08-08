@@ -27,6 +27,9 @@ steps:
     title: 'Kihívás: Készítsd el saját oszlopdiagramodat'
   - 
     title: Olvass adatot egy fájlból
+    completion:
+      - engaged
+      - internal
   - 
     title: 'Kihívás: Készíts új diagramot egy fájlból'
   - 

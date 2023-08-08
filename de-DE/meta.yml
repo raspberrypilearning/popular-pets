@@ -27,6 +27,9 @@ steps:
     title: 'Herausforderung: Erstelle dein eigenes Balkendiagramm'
   - 
     title: Daten aus einer Datei auslesen
+    completion:
+      - engaged
+      - internal
   - 
     title: 'Herausforderung: Erstelle ein neues Diagramm aus einer Datei'
   - 

@@ -27,6 +27,9 @@ steps:
     title: 'Reto: Crea tu propio gráfico de barras'
   - 
     title: Leer los datos desde un archivo
+    completion:
+      - engaged
+      - internal
   - 
     title: 'Reto: Crea un nuevo gráfico a partir de un archivo'
   - 

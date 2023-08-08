@@ -27,6 +27,9 @@ steps:
     title: 'ಸವಾಲು: ನಿಮ್ಮ ಸ್ವಂತ ಬಾರ್ ಚಾರ್ಟ್(bar chart) ರಚಿಸಿ'
   - 
     title: file ‌ನಿಂದ ಡೇಟಾವನ್ನು ಓದಿ
+    completion:
+      - engaged
+      - internal
   - 
     title: 'ಸವಾಲು: file ‌ನಿಂದ ಹೊಸ ಚಾರ್ಟ್ ರಚಿಸಿ'
   - 

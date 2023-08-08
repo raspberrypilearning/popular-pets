@@ -27,6 +27,9 @@ steps:
     title: 'Desafio: cria o teu próprio gráfico de barras'
   - 
     title: Ler dados de um ficheiro
+    completion:
+      - engaged
+      - internal
   - 
     title: 'Desafio: Cria um novo gráfico a partir de um ficheiro'
   - 

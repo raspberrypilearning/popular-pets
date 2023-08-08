@@ -27,6 +27,9 @@ steps:
     title: 'Challenge: Create your own bar chart'
   - 
     title: Read data from a file
+    completion:
+      - engaged
+      - internal
   - 
     title: 'Challenge: Create a new chart from a file'
   - 

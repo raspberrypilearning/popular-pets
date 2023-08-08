@@ -27,6 +27,9 @@ steps:
     title: 'Uitdaging: maak je eigen staafdiagram'
   - 
     title: Gegevens uit een bestand lezen
+    completion:
+      - engaged
+      - internal
   - 
     title: 'Uitdaging: maak een nieuw diagram vanuit een bestand'
   - 

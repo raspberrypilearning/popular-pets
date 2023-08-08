@@ -27,6 +27,9 @@ steps:
     title: 'Sfida: crea il tuo grafico a barre'
   - 
     title: Carica i dati da un file
+    completion:
+      - engaged
+      - internal
   - 
     title: 'Sfida: crea un nuovo grafico da un file'
   - 

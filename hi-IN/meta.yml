@@ -1,6 +1,6 @@
 ---
 hero_image: images/popular-pets.png
-theme: पीला
+theme: yellow
 duration: 2
 listed: true
 ingredient: false
@@ -9,25 +9,28 @@ curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 title: लोकप्रिय पालतू जानवर
 description: अपने एकत्रित किए गए डेटा से पाई चार्ट और बार ग्राफ बनाएँ।
 original_url: https://codeclubprojects.org/en-GB/python/popular-pets
-interests: पशु
+interests: animals
 technologies: python
-site_areas: प्रोजेक्ट
+site_areas: projects
 hardware: ''
-software: python (पायथन)
+software: python
 version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: परिचय
+    title: भूमिका
   - 
-    title: आपको किसकी ज़रूरत होगी
+    title: आपको किन चीज़ों की आवश्यकता होगी
   - 
     title: एक पाई चार्ट बनाएं
   - 
-    title: 'चुनौती: अपना खुद का बार ग्राफ बनाएँ'
+    title: 'चुनौती: अपना खुद का बार चार्ट बनाएँ'
   - 
-    title: फाइल से रोबोट डेटा पढ़ें
+    title: एक फ़ाइल से डेटा पढ़ें
+    completion:
+      - engaged
+      - internal
   - 
     title: 'चुनौती: एक फ़ाइल से एक नया चार्ट बनाएं'
   - 
-    title: 'चुनौती: अधिक चार्ट और रेखांकन!'
+    title: 'चुनौती: अधिक चार्ट और ग्राफ़!'

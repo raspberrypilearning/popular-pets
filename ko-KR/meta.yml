@@ -27,6 +27,9 @@ steps:
     title: '도전 과제: 자신만의 막대 차트 만들기'
   - 
     title: 파일에서 데이터 읽기
+    completion:
+      - engaged
+      - internal
   - 
     title: '도전 과제: 파일에서 새 차트 만들기'
   - 

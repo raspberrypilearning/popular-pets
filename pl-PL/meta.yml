@@ -27,6 +27,9 @@ steps:
     title: 'Wyzwanie: Stwórz własny wykres słupkowy'
   - 
     title: Wczytaj dane z pliku
+    completion:
+      - engaged
+      - internal
   - 
     title: 'Wyzwanie: Utwórz nowy wykres z pliku'
   - 

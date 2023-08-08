@@ -1,5 +1,5 @@
-लाल एडमिरल: 6
-दरबान: 4
-छोटा सफेद: 3
-होली नीली: 3
-मीडो भूरा: 5
+Red Admiral: 6
+Gatekeeper: 4
+Small White: 3
+Holly Blue: 3
+Meadow Brown: 5

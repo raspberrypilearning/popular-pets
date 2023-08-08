@@ -27,6 +27,9 @@ steps:
     title: 'Défi : Crée ton histogramme'
   - 
     title: Lire les données à partir d'un fichier
+    completion:
+      - engaged
+      - internal
   - 
     title: 'Défi : Créer un nouveau graphique à partir d''un fichier'
   - 

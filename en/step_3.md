@@ -1,43 +1,26 @@
-## Create a Pie Chart
+--- challenge ---
 
-Pie Charts are useful way of showing data. Let's do a survey of favourite pets in your Code Club and then present the data as a Pie Chart.
+## Challenge: Create your own bar chart
 
-+ Ask your club leader to help organise a survey. You could record the results on a computer connected to a projector or a whiteboard that everyone can see.
+You can create bar charts in a similar way. Just use `barchart = pygal.Bar()` to create a new barchart, and then add data and render in the same way as for a pie chart.
 
-    Write a list of pets and make sure everyone's favourite is included.
+Collect data from your Code Club members to create your own bar graph.
 
-    Then get everyone to vote for their favourite by putting their hand up when it gets called out. Only one vote each!
+Make sure that you choose a topic that everyone will know about!
 
-    For example:
+Here are some ideas:
 
-    ![screenshot](images/pets-favourite.png)
++ What is your favourite sport?
++ What is your favourite ice cream flavour?
++ How do you get to school?
++ What month is your birthday?
++ Do you play Minecraft? (yes/no)
 
-+ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
+Don't ask questions that give personal data such as where people live. Ask your club leader if you're not sure.
 
-+ Let's create a pie chart to show the results of your survey. You'll be using the PyGal library to do some of the hard work.
+Examples:
 
-    First import the Pygal library:
+![screenshot](images/pets-bar-examples.png)
 
-    ![screenshot](images/pets-pygal.png)
+--- /challenge ---
 
-+ Now let's create a Pie chart and render (display) it:
-
-    ![screenshot](images/pets-pie.png)
-
-    Don't worry, it gets more interesting when you add data!
-
-+ Let's add in the data for one of the pets. Use the data that you collected.
-
-    ![screenshot](images/pets-add.png)
-
-    There's only one piece of data so it takes up the whole pie chart.
-
-+ Now add the rest of the data in the same way.
-
-    For example:
-
-    ![screenshot](images/pets-add-all.png)
-
-+ And to finish off your chart, add a title:
-
-    ![screenshot](images/pets-title.png)

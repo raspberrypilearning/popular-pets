@@ -22,10 +22,10 @@ barchart2 = pygal.Bar()
 file = open('pets.txt', 'r')
 
 for line in file.read().splitlines():
-  if line:
-    label, value = line.split(' ')
-    piechart2.add(label, int(value))
-    barchart2.add(label, int(value))
+    if line:
+        label, value = line.split(' ')
+        piechart2.add(label, int(value))
+        barchart2.add(label, int(value))
     
 file.close()
 
@@ -38,9 +38,9 @@ butterflies.title = 'Butterfly Count'
 file = open('butterflies.txt', 'r')
 
 for line in file.read().splitlines():
-  if line:
-    label, value = line.split(': ')
-    butterflies.add(label, int(value))
+    if line:
+        label, value = line.split(': ')
+        butterflies.add(label, int(value))
 file.close()
 
 butterflies.render()
@@ -50,9 +50,9 @@ pn = pygal.Bar(title = 'Pirates vs Ninjas')
 file = open('piratesninjas.txt', 'r')
 
 for line in file.read().splitlines():
-  if line:
-    label, value = line.split(' ')
-    pn.add(label, int(value))
+    if line:
+        label, value = line.split(' ')
+        pn.add(label, int(value))
 file.close()
 
 pn.render()

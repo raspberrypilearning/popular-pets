@@ -1,7 +1,6 @@
 import pygal
 
-piechart = pygal.Pie()
-piechart.title = 'Favourite Pet'
+piechart = pygal.Pie(title = 'Favourite Pet')
 piechart.add('Dog', 6)
 piechart.add('Cat', 4)
 piechart.add('Hamster', 3)
@@ -9,8 +8,7 @@ piechart.add('Fish', 2)
 piechart.add('Snake', 1)
 piechart.render()
 
-barchart = pygal.Bar()
-barchart.title = 'Favourite Pet'
+barchart = pygal.Bar(title = 'Favourite Pet')
 barchart.add('Dog', 6)
 barchart.add('Cat', 4)
 barchart.add('Hamster', 3)
@@ -47,8 +45,7 @@ file.close()
 
 butterflies.render()
 
-pn = pygal.Bar()
-pn.title = 'Pirates vs Ninjas'
+pn = pygal.Bar(title = 'Pirates vs Ninjas')
 
 file = open('piratesninjas.txt', 'r')
 

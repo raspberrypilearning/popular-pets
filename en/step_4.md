@@ -15,7 +15,7 @@ Add a new file to your project and call it `pets.txt`:
 
 Now add data to the file. You can use the favourite pets data that you collected or the example data.
 
----- code ---
+--- code ---
 ---
 language: python
 filename: animals.txt

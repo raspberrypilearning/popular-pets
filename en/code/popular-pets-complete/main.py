@@ -6,7 +6,7 @@ piechart.add('Cat', 4)
 piechart.add('Hamster', 3)
 piechart.add('Fish', 2)
 piechart.add('Snake', 1)
-piechart.render()
+#piechart.render()
 
 barchart = pygal.Bar(title = 'Favourite Pet')
 barchart.add('Dog', 6)
@@ -14,7 +14,7 @@ barchart.add('Cat', 4)
 barchart.add('Hamster', 3)
 barchart.add('Fish', 2)
 barchart.add('Snake', 1)
-barchart.render()
+#barchart.render()
   
 piechart2 = pygal.Pie()
 barchart2 = pygal.Bar()
@@ -32,8 +32,7 @@ file.close()
 #piechart2.render()
 #barchart2.render()
 
-butterflies = pygal.Bar()
-butterflies.title = 'Butterfly Count'
+butterflies = pygal.Bar(title = 'Butterfly Count')
 
 file = open('butterflies.txt', 'r')
 
@@ -55,4 +54,4 @@ for line in file.read().splitlines():
         pn.add(label, int(value))
 file.close()
 
-pn.render()
+#pn.render()

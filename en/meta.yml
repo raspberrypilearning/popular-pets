@@ -21,9 +21,12 @@ steps:
 - title: What you will need
 - title: Create a Pie Chart
 - title: 'Challenge: Create your own bar chart'
+  challenge: true
 - title: Read data from a file
   completion:
   - engaged
   - internal
 - title: 'Challenge: Create a new chart from a file'
+  challenge: true
 - title: 'Challenge: More charts and graphs!'
+  challenge: true

@@ -30,3 +30,5 @@ steps:
   challenge: true
 - title: 'Challenge: More charts and graphs!'
   challenge: true
+  completion:
+  - external

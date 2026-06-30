@@ -24,7 +24,7 @@ Open the blank [starter project](https://editor.raspberrypi.org/en/projects/popu
 
 --- task ---
 
-Create a pie chart to show the results of your survey. You'll be using the PyGal library to do some of the hard work.
+Create a pie chart to show the results of your survey. You'll be using the `PyGal` library.
 
 First import the Pygal library:
 
